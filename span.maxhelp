@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 20.0, 49.0, 591.0, 236.0 ],
+		"rect" : [ 20.0, 49.0, 600.0, 281.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,20 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 456.0, 15.845169, 51.0, 27.0 ],
+					"text" : "span"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -441,7 +455,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 216.5, 20.517746, 334.0, 175.345154 ]
+					"patching_rect" : [ 208.0, 53.0, 299.0, 156.690338 ]
 				}
 
 			}
@@ -507,6 +521,214 @@
 				"patcherrelativepath" : "../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "span.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "temp_path.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span_print.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "datetimestamp.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "editorwindow.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multimapper.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scalemulticurv.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxf.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "multicurv.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span_build.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_filt.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/audio/processors/filt",
+				"patcherrelativepath" : "../span/modules/audio/processors/filt",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moduleinit.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_vol~.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/audio",
+				"patcherrelativepath" : "../span/library/audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "proc-randtransf0.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randtransf0.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomfR.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomR.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxi.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "odds.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makeparam.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linecurv.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scalecurv.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "proc-randtransf.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randtransf.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_fxmetersend.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/audio",
+				"patcherrelativepath" : "../span/library/audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_del.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/audio/processors/del",
+				"patcherrelativepath" : "../span/modules/audio/processors/del",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_oscsend.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
+				"patcherrelativepath" : "../span/modules/controls/oscsend",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loadproperties.js",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
+				"patcherrelativepath" : "../span/library/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "fscopy.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "bytecount.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "createfolder.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
