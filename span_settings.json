@@ -9,6 +9,12 @@
 		"interval" : 1
 	}
 ,
+	"preferences" : 	{
+		"loadprojectonstartup" : 1,
+		"autobuild" : 1,
+		"verbose" : 1
+	}
+,
 	"interface" : 	{
 		"colors-nodes" : 		{
 			"audio" : "blue",
@@ -77,6 +83,10 @@
 
 	}
 ,
+	"projects" : 	{
+		"last" : "none"
+	}
+,
 	"info" : 	{
 		"licence" : "GNU-LGPL",
 		"name" : "tapemovie",
@@ -87,8 +97,6 @@
 			"minor" : 0,
 			"revision" : 0
 		}
-,
-		"last-project" : "none"
 	}
 
 }
