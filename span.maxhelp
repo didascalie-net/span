@@ -106,8 +106,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 196.0, 93.0, 20.0 ],
-					"text" : "tm_path project"
+					"patching_rect" : [ 8.0, 196.0, 107.0, 20.0 ],
+					"text" : "span_path project"
 				}
 
 			}
@@ -457,16 +457,16 @@
 ,
 					"patching_rect" : [ 184.0, 298.690338, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p dicts"
@@ -702,99 +702,92 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.project.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
+				"patcherrelativepath" : "../span/library/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "var.maxpat",
 				"bootpath" : "/Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tm_path.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib",
+				"name" : "span_path.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tm_print.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib",
+				"name" : "span_print.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "datetimestamp.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/misc-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "editorwindow.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/ui-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/ui-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multimapper.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/mapping-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scalemulticurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/mapping-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/rand-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/rand-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multicurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/mapping-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "explinlog.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/mapping-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/mapping-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_builder.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib/common/common-lib/autoconfig",
-				"patcherrelativepath" : "../trunk/tapemovie-lib/common/common-lib/autoconfig",
+				"name" : "span_build.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadproperties.js",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/tapemovie/trunk/tapemovie-lib",
-				"patcherrelativepath" : "../trunk/tapemovie-lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
+				"patcherrelativepath" : "../span/library/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
