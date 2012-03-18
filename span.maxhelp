@@ -7,9 +7,9 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 31.0, 333.0, 272.0, 446.0 ],
+		"rect" : [ 31.0, 139.0, 466.0, 514.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -35,7 +35,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 309.0, 167.0, 138.0, 27.0 ],
+					"patching_rect" : [ 305.0, 2.845169, 50.0, 27.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 193.0, 5.111267, 56.0, 27.0 ],
 					"text" : "span"
@@ -50,9 +50,10 @@
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 235.0, 189.0, 106.0, 18.0 ],
-					"text" : "s /tapemovie/verbose"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 210.0, 135.0, 112.0, 18.0 ],
+					"text" : "var /tapemovie/verbose"
 				}
 
 			}
@@ -73,7 +74,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 235.0, 149.916901, 190.0, 28.690338 ],
+					"patching_rect" : [ 210.0, 91.0, 190.0, 28.690338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 204.214493, 171.0, 29.0 ],
 					"text" : "Verbose Off",
@@ -92,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 210.0, 269.0, 36.0, 20.0 ],
+					"patching_rect" : [ 210.0, 273.0, 36.0, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -106,7 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 196.0, 107.0, 20.0 ],
+					"patching_rect" : [ 8.0, 200.0, 107.0, 20.0 ],
 					"text" : "span_path project"
 				}
 
@@ -127,7 +128,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 256.845154, 190.0, 28.690338 ],
+					"patching_rect" : [ 8.0, 260.845154, 190.0, 28.690338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 172.363281, 171.0, 29.0 ],
 					"text" : "database"
@@ -143,7 +144,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 230.0, 161.0, 19.0 ],
+					"patching_rect" : [ 8.0, 234.0, 161.0, 19.0 ],
 					"text" : "s /tapemovie/project/path"
 				}
 
@@ -164,7 +165,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 157.845154, 190.0, 28.690338 ],
+					"patching_rect" : [ 8.0, 161.845154, 190.0, 28.690338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 140.512085, 171.0, 29.0 ],
 					"text" : "Reload-project"
@@ -469,18 +470,18 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 184.0, 298.690338, 45.0, 20.0 ],
+					"patching_rect" : [ 184.0, 302.690338, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"digest" : "",
+						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
-						"default_fontsize" : 10.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p dicts"
@@ -503,7 +504,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 3.845169, 190.0, 28.690338 ],
+					"patching_rect" : [ 8.0, 7.845169, 190.0, 28.690338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 76.809662, 171.0, 29.0 ],
 					"text" : "Project-manager"
@@ -519,7 +520,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 246.0, 95.0, 20.0 ],
+					"patching_rect" : [ 210.0, 250.0, 95.0, 20.0 ],
 					"text" : "r /tapemovie/init"
 				}
 
@@ -534,7 +535,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 8.0, 131.0, 112.0, 19.0 ],
+					"patching_rect" : [ 8.0, 135.0, 112.0, 19.0 ],
 					"text" : "var /tapemovie/init"
 				}
 
@@ -556,7 +557,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 87.0, 190.0, 28.690338 ],
+					"patching_rect" : [ 8.0, 91.0, 190.0, 28.690338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.0, 108.660873, 171.0, 29.0 ],
 					"text" : "Initialisation",
@@ -576,7 +577,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 44.345169, 190.0, 33.0 ],
+					"patching_rect" : [ 8.0, 48.345169, 190.0, 33.0 ],
 					"text" : ";\r/tapemovie/project/path none"
 				}
 
@@ -591,7 +592,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 203.0, 45.845169, 149.5, 34.0 ],
+					"patching_rect" : [ 203.0, 49.845169, 149.5, 34.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 8.0, 47.912872, 241.0, 20.0 ],
 					"text" : "environment for realtime media instruments",
@@ -604,11 +605,10 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-4",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 265.5, 29.845169, 87.0, 34.0 ],
+					"patching_rect" : [ 249.5, 29.845169, 103.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 146.0, 32.111267, 103.0, 20.0 ],
 					"text" : "http://span.smthg"
@@ -623,7 +623,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 354.0, 446.0, 165.0 ],
+					"patching_rect" : [ 8.0, 330.0, 238.0, 166.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.5, 244.809662, 232.0, 168.0 ]
 				}
@@ -641,10 +641,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 219.5, 153.0, 205.0, 153.0, 205.0, 87.0, 219.5, 87.0 ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 17.5, 150.0, 3.0, 150.0, 3.0, 84.0, 17.5, 84.0 ],
+					"midpoints" : [ 17.5, 154.0, 3.0, 154.0, 3.0, 88.0, 17.5, 88.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -681,7 +691,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 17.5, 291.612915, 193.5, 291.612915 ],
+					"midpoints" : [ 17.5, 295.612915, 193.5, 295.612915 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -751,15 +761,15 @@
 			}
 , 			{
 				"name" : "datetimestamp.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "editorwindow.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -779,15 +789,15 @@
 			}
 , 			{
 				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multicurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -795,6 +805,55 @@
 				"name" : "span_build.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_mouse.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/devices/mouse",
+				"patcherrelativepath" : "../span/modules/devices/mouse",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makecontrol.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moduleinit.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "makeparam.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
+				"patcherrelativepath" : "../span/library",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "linecurv.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "scalecurv.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
+				"patcherrelativepath" : "../span/library/mapping",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_oscsend.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
+				"patcherrelativepath" : "../span/modules/controls/oscsend",
 				"type" : "JSON",
 				"implicit" : 1
 			}
