@@ -5936,54 +5936,6 @@
 								"type" : "JSON",
 								"implicit" : 1
 							}
-, 							{
-								"name" : "tm_mouse.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/devices/mouse",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "makecontrol.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "moduleinit.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "makeparam.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "linecurv.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "scalecurv.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "minmaxf.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
-, 							{
-								"name" : "tm_oscsend.maxpat",
-								"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
@@ -7422,7 +7374,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 99.25, 84.5, 109.0, 20.0 ],
-													"text" : "span_path span"
+													"text" : "temp_path span"
 												}
 
 											}
@@ -7711,7 +7663,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "span_path.maxpat",
+												"name" : "temp_path.maxpat",
 												"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 												"type" : "JSON",
 												"implicit" : 1
@@ -9361,7 +9313,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 295.1875, 363.143738, 99.0, 18.0 ],
-									"text" : "span_path modules"
+									"text" : "temp_path modules"
 								}
 
 							}
@@ -10408,7 +10360,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 116.0, 400.5, 78.0, 32.0 ],
-													"text" : "span_path temp-project"
+													"text" : "temp_path temp-project"
 												}
 
 											}
@@ -10965,7 +10917,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 533.0, 235.5, 65.0, 20.0 ],
-													"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+													"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 410, 175, 790, 322, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 													"text" : "thispatcher"
 												}
 
@@ -11374,7 +11326,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "span_path.maxpat",
+												"name" : "temp_path.maxpat",
 												"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 												"type" : "JSON",
 												"implicit" : 1
@@ -13010,8 +12962,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 130.0, 49.0, 136.0, 19.0 ],
-																	"text" : "span_path templates"
+																	"patching_rect" : [ 130.0, 49.0, 113.0, 19.0 ],
+																	"text" : "temp_path templates"
 																}
 
 															}
@@ -13604,7 +13556,7 @@
 															}
  ],
 														"dependency_cache" : [ 															{
-																"name" : "span_path.maxpat",
+																"name" : "temp_path.maxpat",
 																"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 																"type" : "JSON",
 																"implicit" : 1
@@ -13907,7 +13859,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "span_path.maxpat",
+												"name" : "temp_path.maxpat",
 												"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 												"type" : "JSON",
 												"implicit" : 1
@@ -15849,7 +15801,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 246.0, 340.0, 83.0, 17.0 ],
-																	"text" : "span_path project"
+																	"text" : "temp_path project"
 																}
 
 															}
@@ -16143,7 +16095,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 232.0, 124.0, 83.0, 17.0 ],
-																	"text" : "span_path project"
+																	"text" : "temp_path project"
 																}
 
 															}
@@ -16517,7 +16469,7 @@
 															}
  ],
 														"dependency_cache" : [ 															{
-																"name" : "span_path.maxpat",
+																"name" : "temp_path.maxpat",
 																"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 																"type" : "JSON",
 																"implicit" : 1
@@ -16634,7 +16586,7 @@
 											}
  ],
 										"dependency_cache" : [ 											{
-												"name" : "span_path.maxpat",
+												"name" : "temp_path.maxpat",
 												"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 												"type" : "JSON",
 												"implicit" : 1
@@ -17462,7 +17414,7 @@
 							}
  ],
 						"dependency_cache" : [ 							{
-								"name" : "span_path.maxpat",
+								"name" : "temp_path.maxpat",
 								"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 								"type" : "JSON",
 								"implicit" : 1
@@ -17543,7 +17495,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "span_path.maxpat",
+				"name" : "temp_path.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
@@ -17602,55 +17554,6 @@
 				"name" : "span_build.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_mouse.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/devices/mouse",
-				"patcherrelativepath" : "../span/modules/devices/mouse",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makecontrol.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moduleinit.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makeparam.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_oscsend.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
-				"patcherrelativepath" : "../span/modules/controls/oscsend",
 				"type" : "JSON",
 				"implicit" : 1
 			}

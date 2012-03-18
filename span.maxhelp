@@ -108,7 +108,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 200.0, 107.0, 20.0 ],
-					"text" : "span_path project"
+					"text" : "temp_path project"
 				}
 
 			}
@@ -739,7 +739,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span_path.maxpat",
+				"name" : "temp_path.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 				"patcherrelativepath" : "../span/library",
 				"type" : "JSON",
@@ -805,55 +805,6 @@
 				"name" : "span_build.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
 				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_mouse.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/devices/mouse",
-				"patcherrelativepath" : "../span/modules/devices/mouse",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makecontrol.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moduleinit.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makeparam.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_oscsend.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
-				"patcherrelativepath" : "../span/modules/controls/oscsend",
 				"type" : "JSON",
 				"implicit" : 1
 			}
