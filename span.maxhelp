@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 20.0, 49.0, 487.0, 306.0 ],
+		"rect" : [ 20.0, 49.0, 591.0, 236.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,20 +28,6 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"color" : [ 0.074129, 0.486744, 0.790227, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 411.5, 4.845169, 50.0, 27.0 ],
-					"text" : "span"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-1",
@@ -49,7 +35,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 45.0, 219.535492, 32.5, 18.0 ],
+					"patching_rect" : [ 43.0, 150.535492, 32.5, 18.0 ],
 					"text" : "sel 0"
 				}
 
@@ -70,7 +56,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 162.845154, 190.0, 28.690338 ],
+					"patching_rect" : [ 11.0, 93.845154, 190.0, 28.690338 ],
 					"text" : "database"
 				}
 
@@ -374,7 +360,7 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 245.690338, 51.0, 23.0 ],
+					"patching_rect" : [ 11.0, 176.690338, 51.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"digest" : "",
 						"default_fontname" : "Arial",
@@ -394,27 +380,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
-					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"bordercolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"id" : "obj-56",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 9.845169, 190.0, 28.690338 ],
-					"text" : "Project-manager"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.62499, 0.779718, 0.779554, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -423,7 +388,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 194.535492, 81.0, 18.0 ],
+					"patching_rect" : [ 43.0, 125.535492, 81.0, 18.0 ],
 					"text" : "r /tapemovie/init"
 				}
 
@@ -438,7 +403,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 122.0, 92.0, 18.0 ],
+					"patching_rect" : [ 11.0, 53.0, 92.0, 18.0 ],
 					"text" : "var /tapemovie/init"
 				}
 
@@ -460,54 +425,11 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 84.0, 190.0, 28.690338 ],
+					"patching_rect" : [ 11.0, 15.0, 190.0, 28.690338 ],
 					"text" : "Initialisation",
 					"texton" : "INITING",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
 					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-9",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 45.345169, 190.0, 33.0 ],
-					"text" : ";\r/tapemovie/project/path none"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 220.5, 51.845169, 241.0, 20.0 ],
-					"text" : "environment for realtime media instruments",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 358.5, 31.845169, 103.0, 20.0 ],
-					"text" : "http://span.smthg"
 				}
 
 			}
@@ -519,7 +441,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.5, 77.0, 227.0, 206.345154 ]
+					"patching_rect" : [ 216.5, 20.517746, 334.0, 175.345154 ]
 				}
 
 			}
@@ -538,7 +460,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 147.0, 8.0, 147.0, 8.0, 81.0, 22.5, 81.0 ],
+					"midpoints" : [ 20.5, 78.0, 6.0, 78.0, 6.0, 12.0, 20.5, 12.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -557,7 +479,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 22.5, 197.612915, 22.5, 197.612915 ],
+					"midpoints" : [ 20.5, 128.612915, 20.5, 128.612915 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -568,15 +490,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-34", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-56", 0 ]
 				}
 
 			}
@@ -594,130 +507,6 @@
 				"patcherrelativepath" : "../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "span.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span",
-				"patcherrelativepath" : "",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "temp_path.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span_print.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "datetimestamp.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "editorwindow.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multimapper.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalemulticurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
-				"patcherrelativepath" : "../span/library/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multicurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span_build.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_oscsend.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
-				"patcherrelativepath" : "../span/modules/controls/oscsend",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "makeparam.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "linecurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalecurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "moduleinit.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loadproperties.js",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
-				"patcherrelativepath" : "../span/library/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "fscopy.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bytecount.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "createfolder.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
