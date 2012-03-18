@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 31.0, 139.0, 466.0, 514.0 ],
+		"rect" : [ 31.0, 139.0, 475.0, 377.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -93,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 210.0, 273.0, 36.0, 20.0 ],
+					"patching_rect" : [ 34.0, 315.535492, 36.0, 20.0 ],
 					"text" : "sel 0"
 				}
 
@@ -470,7 +470,7 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 184.0, 302.690338, 45.0, 20.0 ],
+					"patching_rect" : [ 8.0, 340.690338, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"digest" : "",
 						"default_fontname" : "Arial",
@@ -520,7 +520,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 210.0, 250.0, 95.0, 20.0 ],
+					"patching_rect" : [ 34.0, 292.535492, 95.0, 20.0 ],
 					"text" : "r /tapemovie/init"
 				}
 
@@ -623,7 +623,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 330.0, 238.0, 166.0 ],
+					"patching_rect" : [ 210.0, 169.535492, 238.0, 166.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.5, 244.809662, 232.0, 168.0 ]
 				}
@@ -691,7 +691,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 17.5, 295.612915, 193.5, 295.612915 ],
+					"midpoints" : [ 17.5, 295.612915, 17.5, 295.612915 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
