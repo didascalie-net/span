@@ -13,7 +13,7 @@
 	"preferences" : 	{
 		"autoload" : 1,
 		"autobuild" : 1,
-		"verbose" : 0
+		"verbose" : 1
 	}
 ,
 	"windows" : 	{
