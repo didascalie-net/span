@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 41.0, 57.0, 155.0, 162.0 ],
+		"rect" : [ 555.0, 124.0, 129.0, 145.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -62,7 +62,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 465.0, 44.0, 410.0, 443.0 ],
+						"rect" : [ 465.0, 44.0, 403.0, 419.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -236,8 +236,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 113.625, 346.0, 104.0, 17.0 ],
-									"text" : "s /tapemovie/init/reset"
+									"patching_rect" : [ 89.0, 346.0, 76.0, 17.0 ],
+									"text" : "s /span/init/reset"
 								}
 
 							}
@@ -252,7 +252,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 55.5, 133.0, 104.0, 17.0 ],
-									"text" : "r /tapemovie/init/reset"
+									"text" : "r /span/init/reset"
 								}
 
 							}
@@ -461,8 +461,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 146.333344, 707.5, 90.0, 18.0 ],
-													"text" : "dict tm_config-old"
+													"patching_rect" : [ 146.333344, 707.5, 99.0, 18.0 ],
+													"text" : "dict span_config-old"
 												}
 
 											}
@@ -489,8 +489,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 133.5, 650.0, 77.0, 18.0 ],
-													"text" : "dict tm_project"
+													"patching_rect" : [ 133.5, 650.0, 87.0, 18.0 ],
+													"text" : "dict span_project"
 												}
 
 											}
@@ -504,7 +504,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 106.0, 70.5, 145.0, 17.0 ],
-													"text" : "s /tapemovie/windows/store"
+													"text" : "s /span/windows/store"
 												}
 
 											}
@@ -611,7 +611,7 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "dictionary", "", "", "" ],
 																	"patching_rect" : [ 7.0, 84.0, 90.0, 17.0 ],
-																	"text" : "dict tm_project"
+																	"text" : "dict span_project"
 																}
 
 															}
@@ -829,8 +829,8 @@
 																	"numinlets" : 2,
 																	"numoutlets" : 4,
 																	"outlettype" : [ "dictionary", "", "", "" ],
-																	"patching_rect" : [ 139.5, 187.0, 100.0, 18.0 ],
-																	"text" : "dict tm_namespace"
+																	"patching_rect" : [ 139.5, 187.0, 109.0, 18.0 ],
+																	"text" : "dict span_namespace"
 																}
 
 															}
@@ -1071,8 +1071,8 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 166.833344, 595.0, 135.0, 17.0 ],
-													"text" : "span_print tapemovie-modules"
+													"patching_rect" : [ 166.833344, 602.0, 135.0, 17.0 ],
+													"text" : "span_print modules"
 												}
 
 											}
@@ -2038,8 +2038,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 250.0, 391.0, 91.0, 17.0 ],
-													"text" : "dict tm_namespace"
+													"patching_rect" : [ 250.0, 391.0, 99.0, 17.0 ],
+													"text" : "dict span_namespace"
 												}
 
 											}
@@ -3144,7 +3144,7 @@
 																	"numoutlets" : 4,
 																	"outlettype" : [ "dictionary", "", "", "" ],
 																	"patching_rect" : [ 50.0, 127.0, 90.0, 17.0 ],
-																	"text" : "dict tm_project"
+																	"text" : "dict span_project"
 																}
 
 															}
@@ -3447,8 +3447,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 361.5, 127.0, 79.0, 17.0 ],
-													"text" : "dict tm_config-old"
+													"patching_rect" : [ 361.5, 127.0, 92.0, 17.0 ],
+													"text" : "dict span_config-old"
 												}
 
 											}
@@ -3864,8 +3864,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 13.0, 405.0, 98.0, 17.0 ],
-									"text" : "span_print tapemovie"
+									"patching_rect" : [ 13.0, 388.0, 75.0, 17.0 ],
+									"text" : "span_print span"
 								}
 
 							}
@@ -3878,8 +3878,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 25.75, 346.0, 88.0, 17.0 ],
-									"text" : "s /tapemovie/init"
+									"patching_rect" : [ 25.75, 346.0, 54.0, 17.0 ],
+									"text" : "s /span/init"
 								}
 
 							}
@@ -3888,13 +3888,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
 									"id" : "obj-33",
-									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 13.0, 366.0, 86.0, 36.0 ],
-									"text" : "------------------------- tapemovie READY -------------------------"
+									"patching_rect" : [ 13.0, 366.0, 244.0, 15.0 ],
+									"text" : "------------------------- SPAN IS READY -------------------------"
 								}
 
 							}
@@ -4007,7 +4006,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 63.0, 100.0, 111.0, 17.0 ],
-																	"text" : "s /tapemovie/project/write"
+																	"text" : "s /span/project/write"
 																}
 
 															}
@@ -4049,7 +4048,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 63.0, 55.0, 145.0, 17.0 ],
-																	"text" : "s /tapemovie/windows/store"
+																	"text" : "s /span/windows/store"
 																}
 
 															}
@@ -4206,7 +4205,7 @@
 															"revision" : 4
 														}
 ,
-														"rect" : [ 348.0, 44.0, 722.0, 806.0 ],
+														"rect" : [ 348.0, 44.0, 801.0, 806.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 10.0,
@@ -4226,31 +4225,6 @@
 														"digest" : "",
 														"tags" : "",
 														"boxes" : [ 															{
-																"box" : 																{
-																	"fontname" : "Arial",
-																	"fontsize" : 10.0,
-																	"id" : "obj-27",
-																	"maxclass" : "message",
-																	"numinlets" : 2,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 491.0, 809.0, 99.0, 16.0 ],
-																	"text" : "send /oscsend.5/init"
-																}
-
-															}
-, 															{
-																"box" : 																{
-																	"id" : "obj-24",
-																	"maxclass" : "button",
-																	"numinlets" : 1,
-																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
-																	"patching_rect" : [ 424.5, 741.0, 20.0, 20.0 ]
-																}
-
-															}
-, 															{
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 10.0,
@@ -4371,7 +4345,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 237.25, 575.0, 135.0, 17.0 ],
-																	"text" : "span_print tapemovie-modules"
+																	"text" : "span_print modules"
 																}
 
 															}
@@ -5053,15 +5027,6 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-27", 1 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-13", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
 																	"destination" : [ "obj-13", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -5509,15 +5474,6 @@
 															}
 , 															{
 																"patchline" : 																{
-																	"destination" : [ "obj-24", 0 ],
-																	"disabled" : 0,
-																	"hidden" : 0,
-																	"source" : [ "obj-7", 0 ]
-																}
-
-															}
-, 															{
-																"patchline" : 																{
 																	"destination" : [ "obj-35", 3 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -5782,7 +5738,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 13.0, 11.0, 74.0, 17.0 ],
-									"text" : "r /tapemovie/init"
+									"text" : "r /span/init"
 								}
 
 							}
@@ -5795,7 +5751,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 3.520813, 2.543762, 394.479187, 432.456238 ]
+									"patching_rect" : [ 3.520813, 2.543762, 393.479187, 409.456238 ]
 								}
 
 							}
@@ -5888,7 +5844,7 @@
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 22.5, 323.0, 69.0, 323.0, 69.0, 332.0, 123.125, 332.0 ],
+									"midpoints" : [ 22.5, 323.0, 69.0, 323.0, 69.0, 323.0, 98.5, 323.0 ],
 									"source" : [ "obj-19", 0 ]
 								}
 
@@ -6014,31 +5970,16 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.811765, 0.372549, 0.372549, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-21",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 127.846497, 129.0, 20.0 ],
-					"text" : "multimapper /common"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.156863, 0.8, 0.54902, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 8.0,
 					"id" : "obj-23",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.5, 10.190338, 87.0, 25.0 ],
-					"text" : "editorwindow /tapemovie/patchers"
+					"patching_rect" : [ 11.5, 16.190338, 101.0, 16.0 ],
+					"text" : "editorwindow /span/patch"
 				}
 
 			}
@@ -6074,7 +6015,7 @@
 							"revision" : 4
 						}
 ,
-						"rect" : [ 378.0, 44.0, 668.0, 525.0 ],
+						"rect" : [ 727.0, 44.0, 668.0, 525.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -7118,7 +7059,7 @@
 											"revision" : 4
 										}
 ,
-										"rect" : [ 324.0, 119.0, 460.0, 501.0 ],
+										"rect" : [ 324.0, 119.0, 455.0, 473.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 10.0,
@@ -7144,7 +7085,7 @@
 													"maxclass" : "outlet",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 367.738098, 453.5, 25.0, 25.0 ]
+													"patching_rect" : [ 363.738098, 432.5, 25.0, 25.0 ]
 												}
 
 											}
@@ -7156,7 +7097,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 355.104156, 357.5, 76.0, 17.0 ],
+													"patching_rect" : [ 351.104156, 336.5, 76.0, 17.0 ],
 													"text" : "read information"
 												}
 
@@ -7171,7 +7112,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 19.0, 327.5, 429.0, 25.0 ],
+													"patching_rect" : [ 15.0, 306.5, 429.0, 25.0 ],
 													"text" : "get info::appversion::revision, get info::appversion::minor, get info::appversion::major, get info::name, get info::licence, get info::credits, get projects::last"
 												}
 
@@ -7185,7 +7126,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 46.023773, 459.5, 67.0, 19.0 ],
+													"patching_rect" : [ 42.023773, 438.5, 67.0, 19.0 ],
 													"text" : "print legacy"
 												}
 
@@ -7199,7 +7140,7 @@
 													"numinlets" : 4,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 99.595215, 423.0, 179.90477, 17.0 ],
+													"patching_rect" : [ 95.595215, 402.0, 179.90477, 17.0 ],
 													"text" : "sprintf %s %ld.%ld.%ld"
 												}
 
@@ -7214,22 +7155,8 @@
 													"numinlets" : 8,
 													"numoutlets" : 8,
 													"outlettype" : [ "", "", "", "", "", "", "", "" ],
-													"patching_rect" : [ 46.023773, 378.0, 394.333374, 27.0 ],
+													"patching_rect" : [ 42.023773, 357.0, 394.333374, 27.0 ],
 													"text" : "route info::credits info::name info::appversion::major info::appversion::minor info::appversion::revision info::licence projects::last"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 9.0,
-													"id" : "obj-44",
-													"maxclass" : "newobj",
-													"numinlets" : 2,
-													"numoutlets" : 4,
-													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 18.69043, 355.5, 102.0, 17.0 ],
-													"text" : "dict tm_settings"
 												}
 
 											}
@@ -7241,7 +7168,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 19.0, 16.5, 25.0, 25.0 ]
+													"patching_rect" : [ 15.0, 10.5, 25.0, 25.0 ]
 												}
 
 											}
@@ -7254,7 +7181,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 34.5, 108.5, 52.25, 64.0 ],
+													"patching_rect" : [ 30.5, 102.5, 52.25, 64.0 ],
 													"text" : "deferlow becasue access disk on first bang"
 												}
 
@@ -7268,7 +7195,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 19.0, 80.5, 50.0, 18.0 ],
+													"patching_rect" : [ 15.0, 74.5, 50.0, 18.0 ],
 													"text" : "deferlow"
 												}
 
@@ -7281,7 +7208,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 136.25, 52.5, 36.0, 20.0 ],
+													"patching_rect" : [ 132.25, 46.5, 36.0, 20.0 ],
 													"text" : "load"
 												}
 
@@ -7294,7 +7221,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 42.625, 191.5, 36.0, 20.0 ],
+													"patching_rect" : [ 38.625, 185.5, 36.0, 20.0 ],
 													"text" : "write"
 												}
 
@@ -7306,7 +7233,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 80.25, 191.5, 20.0, 20.0 ]
+													"patching_rect" : [ 76.25, 185.5, 20.0, 20.0 ]
 												}
 
 											}
@@ -7317,7 +7244,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 49.0, 19.0, 20.0, 20.0 ]
+													"patching_rect" : [ 45.0, 13.0, 20.0, 20.0 ]
 												}
 
 											}
@@ -7328,7 +7255,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "bang" ],
-													"patching_rect" : [ 117.75, 52.5, 20.0, 20.0 ]
+													"patching_rect" : [ 113.75, 46.5, 20.0, 20.0 ]
 												}
 
 											}
@@ -7341,7 +7268,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "bang", "bang" ],
-													"patching_rect" : [ 19.0, 52.5, 99.25, 18.0 ],
+													"patching_rect" : [ 15.0, 46.5, 99.25, 18.0 ],
 													"text" : "b 2"
 												}
 
@@ -7355,7 +7282,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 114.25, 214.5, 132.0, 18.0 ],
+													"patching_rect" : [ 110.25, 208.5, 132.0, 18.0 ],
 													"text" : "zl reg"
 												}
 
@@ -7369,7 +7296,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.25, 235.5, 57.0, 18.0 ],
+													"patching_rect" : [ 110.25, 229.5, 57.0, 18.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -7383,7 +7310,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.25, 254.5, 80.0, 18.0 ],
+													"patching_rect" : [ 110.25, 248.5, 80.0, 18.0 ],
 													"text" : "prepend export"
 												}
 
@@ -7398,8 +7325,8 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 114.25, 191.5, 128.0, 18.0 ],
-													"text" : "r /tapemovie/settings/write"
+													"patching_rect" : [ 110.25, 185.5, 128.0, 18.0 ],
+													"text" : "r /span/settings/write"
 												}
 
 											}
@@ -7413,8 +7340,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 99.25, 288.0, 130.0, 18.0 ],
-													"text" : "dict tm_settings"
+													"patching_rect" : [ 95.25, 282.0, 130.0, 18.0 ],
+													"text" : "dict span_settings"
 												}
 
 											}
@@ -7428,7 +7355,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 99.25, 84.5, 109.0, 20.0 ],
+													"patching_rect" : [ 95.25, 78.5, 109.0, 20.0 ],
 													"text" : "temp_path span"
 												}
 
@@ -7442,7 +7369,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 99.25, 168.5, 80.0, 18.0 ],
+													"patching_rect" : [ 95.25, 162.5, 80.0, 18.0 ],
 													"text" : "prepend import"
 												}
 
@@ -7456,7 +7383,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 99.25, 141.5, 57.0, 18.0 ],
+													"patching_rect" : [ 95.25, 130.5, 57.0, 18.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -7471,7 +7398,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 99.25, 116.5, 138.0, 18.0 ],
+													"patching_rect" : [ 95.25, 105.5, 138.0, 18.0 ],
 													"text" : "sprintf %sspan_settings.json"
 												}
 
@@ -7483,6 +7410,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-1", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-39", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-12", 1 ]
 												}
 
 											}
@@ -7509,7 +7445,7 @@
 													"destination" : [ "obj-27", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 109.095215, 448.5, 55.523773, 448.5 ],
+													"midpoints" : [ 105.095215, 427.5, 51.523773, 427.5 ],
 													"source" : [ "obj-18", 0 ]
 												}
 
@@ -7528,7 +7464,7 @@
 													"destination" : [ "obj-33", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 108.75, 113.0, 108.75, 113.0 ],
+													"midpoints" : [ 104.75, 107.0, 104.75, 107.0 ],
 													"source" : [ "obj-22", 0 ]
 												}
 
@@ -7556,7 +7492,7 @@
 													"destination" : [ "obj-6", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 108.75, 164.0, 236.75, 164.0 ],
+													"midpoints" : [ 104.75, 158.0, 232.75, 158.0 ],
 													"source" : [ "obj-32", 0 ]
 												}
 
@@ -7638,7 +7574,7 @@
 													"destination" : [ "obj-27", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 323.619049, 454.25, 55.523773, 454.25 ],
+													"midpoints" : [ 319.619049, 433.25, 51.523773, 433.25 ],
 													"source" : [ "obj-39", 5 ]
 												}
 
@@ -7648,7 +7584,7 @@
 													"destination" : [ "obj-27", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 55.523773, 433.25, 55.523773, 433.25 ],
+													"midpoints" : [ 51.523773, 412.25, 51.523773, 412.25 ],
 													"source" : [ "obj-39", 0 ]
 												}
 
@@ -7673,19 +7609,10 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-44", 0 ],
+													"destination" : [ "obj-12", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-43", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-39", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-44", 1 ]
 												}
 
 											}
@@ -7795,7 +7722,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 199.9375, 481.143738, 83.0, 18.0 ],
-									"text" : "s /tapemovie/init"
+									"text" : "s /span/init"
 								}
 
 							}
@@ -7897,8 +7824,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 11.166672, 62.5, 74.0, 17.0 ],
-													"text" : "dict tm_project"
+													"patching_rect" : [ 11.166672, 62.5, 80.0, 17.0 ],
+													"text" : "dict span_project"
 												}
 
 											}
@@ -7912,7 +7839,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 84.5, 157.0, 128.0, 17.0 ],
-													"text" : "span_print tapemovie-project"
+													"text" : "span_print project"
 												}
 
 											}
@@ -8050,7 +7977,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 43.6875, 110.5, 121.0, 18.0 ],
-									"text" : "r /tapemovie/project/path"
+									"text" : "r /span/project/path"
 								}
 
 							}
@@ -8876,7 +8803,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 140.000015, 501.727295, 162.0, 28.0 ],
-													"text" : ";\r/tapemovie/modules/update bang"
+													"text" : ";\r/span/modules/update bang"
 												}
 
 											}
@@ -8917,7 +8844,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 132.166687, 96.363586, 126.0, 26.0 ],
-													"text" : ";\r/tapemovie/project/write bang"
+													"text" : ";\r/span/project/write bang"
 												}
 
 											}
@@ -9029,7 +8956,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
 													"patching_rect" : [ 12.166687, 99.363586, 116.0, 20.0 ],
-													"text" : "dict tm_project"
+													"text" : "dict span_project"
 												}
 
 											}
@@ -9097,8 +9024,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 12.166687, 559.727295, 116.0, 20.0 ],
-													"text" : "dict tm_namespace"
+													"patching_rect" : [ 12.166687, 559.727295, 128.0, 20.0 ],
+													"text" : "dict span_namespace"
 												}
 
 											}
@@ -9631,8 +9558,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 217.0, 323.78125, 98.0, 18.0 ],
-													"text" : "dict tm_namespace"
+													"patching_rect" : [ 217.0, 323.78125, 109.0, 18.0 ],
+													"text" : "dict span_namespace"
 												}
 
 											}
@@ -10349,8 +10276,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 771.0, 272.0, 125.0, 16.0 ],
-													"text" : "set new tm project, bang"
+													"patching_rect" : [ 771.0, 272.0, 131.0, 16.0 ],
+													"text" : "set new span-project, bang"
 												}
 
 											}
@@ -10382,8 +10309,7 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 18.0, 60.0, 258.0, 28.0 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 52.0, 87.5, 193.0, 23.0 ],
-													"text" : "new tm project"
+													"presentation_rect" : [ 52.0, 87.5, 193.0, 23.0 ]
 												}
 
 											}
@@ -10996,7 +10922,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 798.0, 235.5, 65.0, 20.0 ],
-													"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 410, 175, 775, 330, ";", "#Q", "window", "notitle", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+													"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 410, 175, 775, 330, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 													"text" : "thispatcher"
 												}
 
@@ -11684,8 +11610,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 13.0, 124.0, 86.0, 18.0 ],
-													"text" : "dict tm_settings"
+													"patching_rect" : [ 13.0, 124.0, 92.0, 18.0 ],
+													"text" : "dict span_settings"
 												}
 
 											}
@@ -11699,7 +11625,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
 													"patching_rect" : [ 103.75, 124.0, 86.0, 18.0 ],
-													"text" : "dict tm_project"
+													"text" : "dict span_project"
 												}
 
 											}
@@ -11979,7 +11905,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
 													"patching_rect" : [ 33.53334, 400.0, 96.0, 20.0 ],
-													"text" : "dict tm_temp"
+													"text" : "dict span_temp"
 												}
 
 											}
@@ -14221,8 +14147,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 382.333313, 112.5, 79.0, 20.0 ],
-													"text" : "dict tm_temp"
+													"patching_rect" : [ 382.333313, 112.5, 93.0, 20.0 ],
+													"text" : "dict span_temp"
 												}
 
 											}
@@ -14250,7 +14176,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 431.78125, 487.5, 127.0, 18.0 ],
-													"text" : "s /tapemovie/project/write"
+													"text" : "s /span/project/write"
 												}
 
 											}
@@ -14307,8 +14233,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 510.072937, 457.5, 91.0, 20.0 ],
-													"text" : "dict tm_project"
+													"patching_rect" : [ 510.072937, 457.5, 102.0, 20.0 ],
+													"text" : "dict span_project"
 												}
 
 											}
@@ -14336,8 +14262,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 638.142395, 287.5, 96.0, 20.0 ],
-													"text" : "dict tm_settings"
+													"patching_rect" : [ 638.142395, 287.5, 108.0, 20.0 ],
+													"text" : "dict span_settings"
 												}
 
 											}
@@ -14365,7 +14291,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 39.33334, 183.5, 127.0, 18.0 ],
-													"text" : "s /tapemovie/settings/write"
+													"text" : "s /span/settings/write"
 												}
 
 											}
@@ -14404,8 +14330,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 98.666672, 94.5, 79.0, 20.0 ],
-													"text" : "dict tm_temp"
+													"patching_rect" : [ 98.666672, 94.5, 93.0, 20.0 ],
+													"text" : "dict span_temp"
 												}
 
 											}
@@ -14518,8 +14444,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
-													"patching_rect" : [ 69.000008, 159.5, 96.0, 20.0 ],
-													"text" : "dict tm_settings"
+													"patching_rect" : [ 69.000008, 159.5, 108.0, 20.0 ],
+													"text" : "dict span_settings"
 												}
 
 											}
@@ -14624,7 +14550,7 @@
 													"destination" : [ "obj-53", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 673.718811, 399.75, 519.572937, 399.75 ],
+													"midpoints" : [ 673.718811, 431.75, 519.572937, 431.75 ],
 													"source" : [ "obj-2", 0 ]
 												}
 
@@ -15430,7 +15356,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 63.0, 56.0, 141.0, 18.0 ],
-													"text" : "span_print tapemovie-project"
+													"text" : "span_print project"
 												}
 
 											}
@@ -16929,7 +16855,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 281.25, 167.0, 124.0, 18.0 ],
-													"text" : "r /tapemovie/project/write"
+													"text" : "r /span/project/write"
 												}
 
 											}
@@ -16944,7 +16870,7 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "dictionary", "", "", "" ],
 													"patching_rect" : [ 266.25, 262.0, 130.0, 18.0 ],
-													"text" : "dict tm_project"
+													"text" : "dict span_project"
 												}
 
 											}
@@ -17588,7 +17514,7 @@
 					"destination" : [ "obj-23", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 21.0, 59.080902, 6.0, 59.080902, 6.0, 5.080902, 21.0, 5.080902 ],
+					"midpoints" : [ 21.0, 59.080902, 6.0, 59.080902, 6.0, 8.080902, 21.0, 8.080902 ],
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -17637,34 +17563,6 @@
 				"name" : "editorwindow.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
 				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multimapper.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "scalemulticurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "minmaxf.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
-				"patcherrelativepath" : "../span/library/rand-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "multicurv.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/mapping",
-				"patcherrelativepath" : "../span/library/mapping",
 				"type" : "JSON",
 				"implicit" : 1
 			}

@@ -93,7 +93,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 275.0, 313.75, 190.0, 33.0 ],
-					"text" : ";\r/tapemovie/project/path none"
+					"text" : ";\r/span/project/path none"
 				}
 
 			}
@@ -181,7 +181,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 225.0, 148.0, 117.0, 17.0 ],
-									"text" : "s /tapemovie/project/write"
+									"text" : "s /span/project/write"
 								}
 
 							}
@@ -223,8 +223,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 97.5, 148.0, 73.0, 17.0 ],
-									"text" : "dict tm_project"
+									"patching_rect" : [ 97.5, 148.0, 80.0, 17.0 ],
+									"text" : "dict span_project"
 								}
 
 							}
@@ -444,8 +444,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 16.0, 148.0, 73.0, 17.0 ],
-									"text" : "dict tm_project"
+									"patching_rect" : [ 16.0, 148.0, 80.0, 17.0 ],
+									"text" : "dict span_project"
 								}
 
 							}
@@ -1036,34 +1036,6 @@
 , 							{
 								"box" : 								{
 									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-46",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 204.0, 284.5, 138.0, 16.0 ],
-									"text" : "set config::mouse::number 2"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-45",
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 196.0, 258.0, 138.0, 16.0 ],
-									"text" : "set config::mouse"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-43",
 									"maxclass" : "newobj",
@@ -1217,6 +1189,7 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.765617, 0.822868, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-13",
@@ -1224,8 +1197,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 599.0, 156.5, 89.0, 20.0 ],
-									"text" : "dict tm_project"
+									"patching_rect" : [ 599.0, 156.5, 102.0, 20.0 ],
+									"text" : "dict span_project"
 								}
 
 							}
@@ -1287,15 +1260,16 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.765617, 0.822868, 0.0, 1.0 ],
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 270.0, 484.5, 90.0, 17.0 ],
-									"text" : "dict tm_namespace"
+									"patching_rect" : [ 270.0, 461.5, 129.0, 20.0 ],
+									"text" : "dict span_namespace"
 								}
 
 							}
@@ -1383,15 +1357,16 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.765617, 0.822868, 0.0, 1.0 ],
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 12.0,
 									"id" : "obj-28",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 351.0, 190.5, 90.0, 17.0 ],
-									"text" : "dict tm_namespace"
+									"patching_rect" : [ 351.0, 190.5, 129.0, 20.0 ],
+									"text" : "dict span_namespace"
 								}
 
 							}
@@ -1457,7 +1432,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 4.5, 382.5, 141.0, 18.0 ],
-									"text" : "s /tapemovie/project/update"
+									"text" : "s /span/project/update"
 								}
 
 							}
@@ -1519,19 +1494,21 @@
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.074129, 0.486744, 0.790227, 1.0 ],
 									"fontname" : "Arial",
-									"fontsize" : 9.0,
+									"fontsize" : 10.0,
 									"id" : "obj-57",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.0, 358.5, 138.0, 17.0 ],
-									"text" : "s /tapemovie/project/write"
+									"patching_rect" : [ 26.0, 358.5, 99.0, 18.0 ],
+									"text" : "s /span/project/write"
 								}
 
 							}
 , 							{
 								"box" : 								{
+									"color" : [ 0.765617, 0.822868, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-58",
@@ -1540,7 +1517,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 114.0, 309.5, 108.0, 20.0 ],
-									"text" : "dict tm_project"
+									"text" : "dict span_project"
 								}
 
 							}
@@ -1955,24 +1932,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-45", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-46", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-41", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2363,7 +2322,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 3.0, 12.5, 81.0, 18.0 ],
-					"text" : "r /tapemovie/init"
+					"text" : "r /span/init"
 				}
 
 			}
@@ -2653,7 +2612,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 147.0, 110.0, 99.333344, 17.0 ],
-									"text" : "dict tm_namespace"
+									"text" : "dict span_namespace"
 								}
 
 							}
@@ -3072,8 +3031,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 6.999996, 86.0, 90.0, 17.0 ],
-									"text" : "dict tm_namespace"
+									"patching_rect" : [ 6.999996, 86.0, 99.0, 17.0 ],
+									"text" : "dict span_namespace"
 								}
 
 							}
