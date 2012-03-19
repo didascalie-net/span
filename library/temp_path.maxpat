@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 653.0, 131.0, 269.0, 246.0 ],
+		"rect" : [ 653.0, 131.0, 244.0, 237.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,25 +30,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 127.0, 87.0, 20.0 ],
-					"text" : "last-project"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 105.0, 87.0, 20.0 ],
-					"text" : "temp-project"
+					"patching_rect" : [ 142.0, 105.0, 47.0, 20.0 ],
+					"text" : "project"
 				}
 
 			}
@@ -60,8 +47,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 85.0, 87.0, 20.0 ],
-					"text" : "default-project"
+					"patching_rect" : [ 142.0, 85.0, 63.0, 20.0 ],
+					"text" : "templates"
 				}
 
 			}
@@ -73,8 +60,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 65.0, 82.0, 20.0 ],
-					"text" : "tapemovie-lib"
+					"patching_rect" : [ 142.0, 65.0, 37.0, 20.0 ],
+					"text" : "span"
 				}
 
 			}
@@ -86,8 +73,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 142.0, 46.0, 43.0, 20.0 ],
-					"text" : "config"
+					"patching_rect" : [ 142.0, 46.0, 56.0, 20.0 ],
+					"text" : "modules"
 				}
 
 			}
@@ -102,7 +89,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 7.0, 98.0, 129.0, 18.0 ],
-					"text" : "dict tm_temp"
+					"text" : "dict span_temp"
 				}
 
 			}
