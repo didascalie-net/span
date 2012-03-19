@@ -9,12 +9,6 @@
 		"interval" : 1
 	}
 ,
-	"preferences" : 	{
-		"autoload" : 1,
-		"autobuild" : 1,
-		"verbose" : 1
-	}
-,
 	"interface" : 	{
 		"colors-nodes" : 		{
 			"audio" : "blue",
