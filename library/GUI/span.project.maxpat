@@ -708,16 +708,16 @@
 ,
 					"patching_rect" : [ 234.75, 138.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p manage-prefs"
@@ -2215,16 +2215,16 @@
 ,
 					"patching_rect" : [ 20.5, 301.75, 223.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p properties"
@@ -2828,16 +2828,16 @@
 ,
 					"patching_rect" : [ 106.0, 233.75, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p get-modules"
@@ -3223,16 +3223,16 @@
 ,
 					"patching_rect" : [ 3.0, 138.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p get-categories"
