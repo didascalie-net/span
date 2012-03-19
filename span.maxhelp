@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 20.0, 71.0, 533.0, 236.0 ],
+		"rect" : [ 9.0, 44.0, 591.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,118 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 312.5, 275.345154, 76.0, 20.0 ],
+					"presentation_rect" : [ 331.0, 358.345154, 0.0, 0.0 ],
+					"text" : "span.project",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 312.5, 165.999985, 103.0, 20.0 ],
+					"presentation_rect" : [ 335.0, 301.345154, 0.0, 0.0 ],
+					"text" : "span.preferences",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 312.5, 430.345154, 72.0, 20.0 ],
+					"presentation_rect" : [ 314.0, 186.345169, 0.0, 0.0 ],
+					"text" : "span.config",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1,
+					"id" : "obj-12",
+					"maxclass" : "bpatcher",
+					"name" : "span.project.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 190.0, 300.0, 190.690338 ],
+					"presentation_rect" : [ 5.0, 322.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"border" : 1,
+					"id" : "obj-11",
+					"maxclass" : "bpatcher",
+					"name" : "span.preferences.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 160.654816, 300.0, 30.690338 ],
+					"presentation_rect" : [ 5.0, 291.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-7",
+					"linecount" : 6,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 59.345169, 229.0, 90.0 ],
+					"presentation_rect" : [ 6.0, 64.345169, 0.0, 0.0 ],
+					"text" : "It will notify when a project is loaded : \n/span/init 0\nIt will build it you send : \n/span/init 1\nAnd when it's over : \n/span/init 0",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 5.0, 19.345169, 275.0, 35.0 ],
+					"text" : "This is the SPAN environnement.\nYou need it one time (and only one) in your patch.",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
@@ -35,7 +147,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 15.845169, 51.0, 27.0 ],
+					"patching_rect" : [ 315.0, 19.345169, 51.0, 27.0 ],
 					"text" : "span"
 				}
 
@@ -49,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 83.0, 153.345169, 32.5, 18.0 ],
+					"patching_rect" : [ 459.0, 103.345154, 32.5, 18.0 ],
 					"text" : "sel 0"
 				}
 
@@ -70,7 +182,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 93.845154, 190.0, 28.690338 ],
+					"patching_rect" : [ 387.0, 43.845154, 190.0, 28.690338 ],
 					"text" : "database"
 				}
 
@@ -360,7 +472,7 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 11.0, 176.690338, 91.0, 23.0 ],
+					"patching_rect" : [ 387.0, 126.690308, 91.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"digest" : "",
 						"default_fontname" : "Arial",
@@ -388,7 +500,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 128.345169, 81.0, 18.0 ],
+					"patching_rect" : [ 459.0, 78.345154, 81.0, 18.0 ],
 					"text" : "r /span/init"
 				}
 
@@ -403,7 +515,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 11.0, 53.0, 92.0, 18.0 ],
+					"patching_rect" : [ 245.0, 108.345169, 67.0, 18.0 ],
 					"text" : "var /span/init"
 				}
 
@@ -425,7 +537,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 11.0, 15.0, 190.0, 28.690338 ],
+					"patching_rect" : [ 245.0, 77.345169, 121.0, 25.690338 ],
 					"text" : "Initialisation",
 					"texton" : "INITING",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
@@ -438,10 +550,10 @@
 					"border" : 1,
 					"id" : "obj-29",
 					"maxclass" : "bpatcher",
-					"name" : "span.project.maxpat",
+					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.0, 53.0, 299.0, 156.690338 ]
+					"patching_rect" : [ 5.0, 380.345154, 300.0, 120.0 ]
 				}
 
 			}
@@ -460,7 +572,7 @@
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 78.0, 6.0, 78.0, 6.0, 12.0, 20.5, 12.0 ],
+					"midpoints" : [ 254.5, 135.345154, 240.0, 135.345154, 240.0, 68.345154, 254.5, 68.345154 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -479,7 +591,7 @@
 					"destination" : [ "obj-21", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 20.5, 128.612915, 20.5, 128.612915 ],
+					"midpoints" : [ 396.5, 78.6129, 396.5, 78.6129 ],
 					"source" : [ "obj-30", 0 ]
 				}
 
@@ -495,7 +607,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "span.project.maxpat",
+				"name" : "span.config.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
 				"patcherrelativepath" : "../span/library/GUI",
 				"type" : "JSON",
@@ -544,9 +656,65 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "tm_oscsend.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
-				"patcherrelativepath" : "../span/modules/controls/oscsend",
+				"name" : "t_del.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/audio/processors/del",
+				"patcherrelativepath" : "../span/modules/audio/processors/del",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "moduleinit.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../span/library/misc",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_vol~.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/audio",
+				"patcherrelativepath" : "../span/library/audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "proc-randtransf0.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randtransf0.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomfR.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randomR.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "minmaxi.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "odds.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -579,9 +747,30 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "moduleinit.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
+				"name" : "proc-randtransf.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "randtransf.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/rand-lib",
+				"patcherrelativepath" : "../span/library/rand-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_fxmetersend.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/audio",
+				"patcherrelativepath" : "../span/library/audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm_oscsend.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend",
+				"patcherrelativepath" : "../span/modules/controls/oscsend",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -590,6 +779,20 @@
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
 				"patcherrelativepath" : "../span/library/js",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.preferences.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
+				"patcherrelativepath" : "../span/library/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.project.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
+				"patcherrelativepath" : "../span/library/GUI",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
