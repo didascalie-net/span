@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 191.0, 114.0, 365.0, 229.0 ],
+		"rect" : [ 191.0, 114.0, 380.0, 229.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -78,7 +78,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 115.0, 91.0, 100.0, 18.0 ],
-					"text" : "dict tm_settings"
+					"text" : "dict tm_project"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.5, 182.0, 162.0, 17.0 ],
+					"patching_rect" : [ 182.5, 188.0, 162.0, 17.0 ],
 					"text" : "print #1"
 				}
 

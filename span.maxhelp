@@ -376,16 +376,16 @@
 ,
 					"patching_rect" : [ 11.0, 176.690338, 51.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"fontname" : "Arial",
 						"description" : "",
-						"fontsize" : 10.0,
 						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p dicts"

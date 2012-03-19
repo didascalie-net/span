@@ -35,7 +35,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 190.0, 128.0, 128.0 ],
+					"patching_rect" : [ 40.125, 36.5, 43.875, 4.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 31.023682, 288.0, 4.0 ],
 					"rounded" : 222
@@ -121,7 +121,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-26",
-					"items" : [ "loadprojectonstartup", ",", "autobuild", ",", "verbose" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -181,7 +181,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 225.0, 148.0, 117.0, 17.0 ],
-									"text" : "s /tapemovie/settings/write"
+									"text" : "s /tapemovie/project/write"
 								}
 
 							}
@@ -224,7 +224,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 97.5, 148.0, 73.0, 17.0 ],
-									"text" : "dict tm_settings"
+									"text" : "dict tm_project"
 								}
 
 							}
@@ -445,7 +445,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 16.0, 148.0, 73.0, 17.0 ],
-									"text" : "dict tm_settings"
+									"text" : "dict tm_project"
 								}
 
 							}
@@ -708,16 +708,16 @@
 ,
 					"patching_rect" : [ 234.75, 138.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"fontname" : "Arial",
 						"description" : "",
-						"fontsize" : 10.0,
 						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p manage-prefs"
@@ -2256,16 +2256,16 @@
 ,
 					"patching_rect" : [ 20.5, 301.75, 223.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"fontname" : "Arial",
 						"description" : "",
-						"fontsize" : 10.0,
 						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p properties"
@@ -2277,7 +2277,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"items" : [ "number", ",", "tags", "osc", ",", "address", "oscsend", ",", "filename", "tm_oscsend", ",", "description", "envoi osc", ",", "elements", "dictionary", "u126000840", ",", "filepath", "work:/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2420,7 +2420,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
-					"items" : [ "osc", ",", "device", ",", "controls" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2438,7 +2438,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"items" : "oscsend",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2869,16 +2869,16 @@
 ,
 					"patching_rect" : [ 106.0, 233.75, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"fontname" : "Arial",
 						"description" : "",
-						"fontsize" : 10.0,
 						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p get-modules"
@@ -3264,16 +3264,16 @@
 ,
 					"patching_rect" : [ 3.0, 138.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
-						"digest" : "",
-						"default_fontname" : "Arial",
-						"globalpatchername" : "",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
+						"fontname" : "Arial",
 						"description" : "",
-						"fontsize" : 10.0,
 						"tags" : "",
-						"default_fontface" : 0
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p get-categories"
