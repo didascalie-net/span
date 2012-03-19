@@ -530,13 +530,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "datetimestamp.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "editorwindow.maxpat",
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
 				"patcherrelativepath" : "../span/library/misc",
