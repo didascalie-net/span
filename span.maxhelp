@@ -36,6 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 4.5, 552.332031, 107.0, 23.0 ],
+					"presentation_rect" : [ -7.5, 645.61676, 0.0, 0.0 ],
 					"text" : "Build and/or init",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
 				}
@@ -500,6 +501,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.5, 244.61676, 93.0, 23.0 ],
+					"presentation_rect" : [ 11.5, 275.345154, 0.0, 0.0 ],
 					"text" : "Load Project ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
 				}
