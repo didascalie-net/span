@@ -10,7 +10,7 @@
 	}
 ,
 	"preferences" : 	{
-		"loadprojectonstartup" : 1,
+		"autoload" : 1,
 		"autobuild" : 1,
 		"verbose" : 1
 	}
@@ -89,14 +89,15 @@
 ,
 	"info" : 	{
 		"licence" : "GNU-LGPL",
-		"name" : "tapemovie",
+		"name" : "span",
 		"appstatus" : "beta",
 		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 		"appversion" : 		{
-			"major" : 2,
+			"major" : 0,
 			"minor" : 0,
 			"revision" : 0
 		}
+
 	}
 
 }

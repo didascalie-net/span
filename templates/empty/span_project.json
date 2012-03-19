@@ -10,7 +10,7 @@
 	}
 ,
 	"preferences" : 	{
-		"loadprojectonstartup" : 1,
+		"autoload" : 1,
 		"autobuild" : 1,
 		"verbose" : 0
 	}
