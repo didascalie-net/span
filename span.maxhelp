@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 13.0, 44.0, 433.0, 739.0 ],
+		"rect" : [ 53.0, 44.0, 448.0, 739.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 4.5, 552.332031, 107.0, 23.0 ],
+					"patching_rect" : [ 15.5, 553.332031, 107.0, 23.0 ],
 					"text" : "Build and/or init",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
 				}
@@ -53,7 +53,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.5, 657.423767, 23.0, 65.274216 ],
+					"patching_rect" : [ 57.5, 658.423767, 23.0, 65.274216 ],
 					"shape" : 3
 				}
 
@@ -70,7 +70,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.5, 423.139709, 23.0, 65.274216 ],
+					"patching_rect" : [ 57.5, 424.139709, 23.0, 65.274216 ],
 					"shape" : 3
 				}
 
@@ -85,7 +85,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.5, 675.312256, 176.0, 19.0 ],
+					"patching_rect" : [ 135.5, 676.312256, 176.0, 19.0 ],
 					"text" : "Manage your initialisation process",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -102,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 351.0, 675.312256, 60.0, 20.0 ],
+					"patching_rect" : [ 365.0, 676.312256, 60.0, 20.0 ],
 					"text" : "span.init",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -117,7 +117,7 @@
 					"name" : "span.init.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 117.5, 696.697998, 293.5, 26.0 ]
+					"patching_rect" : [ 135.5, 697.697998, 293.5, 26.0 ]
 				}
 
 			}
@@ -133,7 +133,7 @@
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.5, 118.093857, 23.0, 65.274216 ],
+					"patching_rect" : [ 57.5, 119.093857, 23.0, 65.274216 ],
 					"shape" : 3
 				}
 
@@ -148,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 370.083862, 270.0, 41.0 ],
+					"patching_rect" : [ 135.5, 353.083862, 270.0, 41.0 ],
 					"text" : "Only in RAM, the namespace, comin from all the json files\nfound in Modules folder (and subfolders)\nAll the folders found are a tag. A node is a key… ",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -156,7 +156,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
 					"bubblepoint" : 0.0,
 					"bubbleside" : 2,
 					"fontface" : 3,
@@ -167,8 +166,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.5, 348.083862, 154.0, 39.0 ],
-					"text" : "Dict span_namespace",
+					"patching_rect" : [ 1.5, 351.083862, 135.0, 20.0 ],
+					"text" : "dict span_namespace",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -183,7 +182,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.5, 416.139709, 135.0, 19.0 ],
+					"patching_rect" : [ 135.5, 417.139709, 135.0, 19.0 ],
 					"text" : "Manage your namespace",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -199,7 +198,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.5, 111.093857, 192.0, 19.0 ],
+					"patching_rect" : [ 135.5, 112.093857, 192.0, 19.0 ],
 					"text" : "Manage your project files on your HD",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -215,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 575.845154, 172.0, 19.0 ],
+					"patching_rect" : [ 135.5, 576.845154, 172.0, 19.0 ],
 					"text" : "Manage your project preferences",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -227,11 +226,10 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
 					"id" : "obj-31",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.5, 322.083862, 128.0, 29.0 ],
+					"patching_rect" : [ 135.5, 326.083862, 239.0, 18.0 ],
 					"text" : "This is SPAN project file with all your customisaions",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -246,7 +244,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 42.345154, 73.0, 23.0 ],
+					"patching_rect" : [ 32.5, 43.345154, 73.0, 23.0 ],
 					"text" : "Loadbang",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
 				}
@@ -254,7 +252,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -264,15 +261,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 43.345154, 139.0, 24.0 ],
-					"text" : "Dict span_temp ",
+					"patching_rect" : [ 18.0, 66.809662, 102.0, 20.0 ],
+					"text" : "dict span_temp ",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -282,15 +278,14 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 79.809662, 139.0, 24.0 ],
-					"text" : "Dict span_settings ",
+					"patching_rect" : [ 8.5, 87.809662, 121.0, 20.0 ],
+					"text" : "dict span_settings ",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bubble" : 1,
 					"bubbleside" : 3,
 					"fontface" : 3,
 					"fontname" : "Arial",
@@ -300,8 +295,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.5, 322.083862, 134.0, 24.0 ],
-					"text" : "Dict span_project ",
+					"patching_rect" : [ 12.5, 325.083862, 113.0, 20.0 ],
+					"text" : "dict span_project ",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -312,11 +307,10 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
 					"id" : "obj-27",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 43.345154, 150.0, 29.0 ],
+					"patching_rect" : [ 135.5, 67.809662, 258.0, 18.0 ],
 					"text" : "Only in Ram, it's information about OS, patch or runtime",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -331,7 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 82.809662, 175.0, 18.0 ],
+					"patching_rect" : [ 135.5, 88.809662, 175.0, 18.0 ],
 					"text" : "This is SPAN application settings file.",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -348,7 +342,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 641.312256, 293.5, 34.0 ],
+					"patching_rect" : [ 18.5, 624.423767, 405.0, 34.0 ],
 					"text" : "All patches wich are in the modules folder can be load in a poly~object for instances.\n",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -365,7 +359,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.5, 244.61676, 307.0, 75.0 ],
+					"patching_rect" : [ 135.5, 245.61676, 307.0, 75.0 ],
 					"text" : "A project is an organisation of your osc namespace (inside or outside Max).\nYou can create snapshots of this namespace state, create some dynamic events and complex one to many mappings.",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -381,7 +375,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 111.093857, 82.0, 20.0 ],
+					"patching_rect" : [ 341.0, 112.093857, 82.0, 20.0 ],
 					"text" : "span.project",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -398,7 +392,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 577.312256, 110.0, 20.0 ],
+					"patching_rect" : [ 311.0, 578.312256, 110.0, 20.0 ],
 					"text" : "span.preferences",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -414,7 +408,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 327.0, 416.139709, 78.0, 20.0 ],
+					"patching_rect" : [ 341.0, 417.139709, 78.0, 20.0 ],
 					"text" : "span.config",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -429,7 +423,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 115.5, 128.093857, 293.5, 110.345184 ]
+					"patching_rect" : [ 135.5, 129.093857, 293.5, 110.345184 ]
 				}
 
 			}
@@ -442,7 +436,7 @@
 					"name" : "span.preferences.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 113.5, 594.312256, 293.5, 26.0 ]
+					"patching_rect" : [ 135.5, 595.312256, 293.5, 26.0 ]
 				}
 
 			}
@@ -457,7 +451,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 81.5, 7.345154, 171.0, 27.0 ],
+					"patching_rect" : [ 94.0, 8.345154, 171.0, 27.0 ],
 					"text" : "This is the SPAN brain.",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -472,7 +466,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 7.345154, 50.0, 27.0 ],
+					"patching_rect" : [ 44.0, 8.345154, 50.0, 27.0 ],
 					"text" : "span"
 				}
 
@@ -486,7 +480,7 @@
 					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 111.5, 434.258972, 293.5, 116.0 ]
+					"patching_rect" : [ 135.5, 435.258972, 293.5, 116.0 ]
 				}
 
 			}
@@ -499,7 +493,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 244.61676, 93.0, 23.0 ],
+					"patching_rect" : [ 22.5, 245.61676, 93.0, 23.0 ],
 					"text" : "Load Project ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
 				}
