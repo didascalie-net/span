@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 835.0, 44.0, 541.0, 493.0 ],
+		"rect" : [ 219.0, 214.0, 541.0, 493.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -48,21 +48,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 157.0, 150.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 106.0, 157.0, 150.0, 18.0 ],
-					"text" : "co"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -84,7 +69,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 194.5, 373.75, 30.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 82.047363, 30.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 77.047363, 30.0, 20.0 ],
 					"text" : "edit",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -101,7 +86,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.0, 332.75, 59.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 55.547363, 59.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 51.547363, 59.0, 20.0 ],
 					"text" : "elements",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -1552,10 +1537,10 @@
 					"saved_object_attributes" : 					{
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
@@ -1571,7 +1556,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
-					"items" : [ "number", ",", "tags", "osc", ",", "address", "oscsend", ",", "filename", "tm_oscsend", ",", "description", "envoi osc", ",", "elements", "dictionary", "u321003884", ",", "number", "2", ",", "filepath", "work:/Users/Renaud/Documents/SVNs/span/modules/controls/oscsend" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1579,7 +1564,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 20.5, 332.75, 131.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 55.547363, 231.0, 20.0 ],
+					"presentation_rect" : [ 61.0, 51.547363, 226.0, 20.0 ],
 					"varname" : "modules[1]"
 				}
 
@@ -1598,8 +1583,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 224.5, 368.75, 123.5, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 33.0, 81.047363, 259.0, 35.0 ],
-					"text" : "2"
+					"presentation_rect" : [ 33.0, 76.047363, 254.0, 35.0 ]
 				}
 
 			}
@@ -1673,7 +1657,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.5, 265.75, 56.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 31.71402, 56.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 27.71402, 56.0, 20.0 ],
 					"text" : "modules",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -1715,7 +1699,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
-					"items" : [ "osc", ",", "device", ",", "controls", ",", "audio", ",", "audio" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1723,7 +1707,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 3.0, 198.75, 225.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 4.368851, 119.0, 20.0 ],
+					"presentation_rect" : [ 173.0, 4.368851, 114.0, 20.0 ],
 					"varname" : "categories"
 				}
 
@@ -1733,7 +1717,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
-					"items" : "oscsend",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1741,7 +1725,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.5, 265.75, 138.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 31.71402, 231.0, 20.0 ],
+					"presentation_rect" : [ 61.0, 27.71402, 226.0, 20.0 ],
 					"varname" : "modules"
 				}
 
@@ -2166,10 +2150,10 @@
 					"saved_object_attributes" : 					{
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
@@ -2561,10 +2545,10 @@
 					"saved_object_attributes" : 					{
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,

@@ -52,7 +52,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 27.25, 185.75, 76.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -2.0, 5.023682, 76.0, 20.0 ],
+					"presentation_rect" : [ -2.0, 3.023682, 76.0, 20.0 ],
 					"text" : "preferences",
 					"textcolor" : [ 0.0, 0.40859, 0.581194, 1.0 ]
 				}
@@ -77,7 +77,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.0, 185.75, 72.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 238.0, 4.023682, 54.0, 23.0 ],
+					"presentation_rect" : [ 238.0, 2.023682, 51.0, 23.0 ],
 					"text" : "OFF",
 					"textcolor" : [ 0.684197, 0.261857, 0.201654, 1.0 ],
 					"texton" : "ON",
@@ -100,7 +100,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.0, 214.75, 225.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 66.0, 4.023682, 170.0, 23.0 ],
+					"presentation_rect" : [ 66.0, 2.023682, 170.0, 23.0 ],
 					"varname" : "categories[1]"
 				}
 
@@ -679,16 +679,16 @@
 ,
 					"patching_rect" : [ 18.0, 154.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : "",
-						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"tags" : "",
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p manage-prefs"
