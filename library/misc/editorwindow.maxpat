@@ -509,7 +509,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 96.0, 359.0, 77.0, 17.0 ],
-					"text" : "dict tm_project"
+					"text" : "dict span_project"
 				}
 
 			}
