@@ -113,20 +113,6 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 4,
-									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 307.0, 140.809662, 100.0, 20.0 ],
-									"text" : "dict span_project"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"comment" : "",
 									"id" : "obj-5",
 									"maxclass" : "inlet",
@@ -218,8 +204,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.5, 162.0, 118.0, 20.0 ],
-									"text" : "sprintf name tm_%s"
+									"patching_rect" : [ 113.5, 162.0, 137.0, 20.0 ],
+									"text" : "sprintf name span_%s"
 								}
 
 							}
@@ -250,7 +236,7 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 50.0, 223.809662, 100.0, 20.0 ],
-									"text" : "dict tm_temp"
+									"text" : "dict span_temp"
 								}
 
 							}
@@ -376,16 +362,16 @@
 ,
 					"patching_rect" : [ 11.0, 176.690338, 51.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Arial",
-						"description" : "",
-						"tags" : "",
-						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
+						"tags" : "",
 						"default_fontface" : 0,
-						"digest" : "",
-						"default_fontname" : "Arial"
+						"globalpatchername" : "",
+						"digest" : ""
 					}
 ,
 					"text" : "p dicts"
