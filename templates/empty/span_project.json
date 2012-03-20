@@ -37,6 +37,9 @@
 	"media" : 	{
     }
 ,
+	"scheduler" : 	{
+}
+,
 	"interface" : 	{
 		"colors-nodes" : 		{
 			"audio" : "blue",
