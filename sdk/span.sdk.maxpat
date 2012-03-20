@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 546.0, 65.0, 742.0, 398.0 ],
+		"rect" : [ 0.0, 44.0, 948.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,14 +28,261 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-33",
-					"maxclass" : "bpatcher",
-					"name" : "span.media.maxpat",
-					"numinlets" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 0.48 ],
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 407.0, 9.827408, 293.5, 110.345184 ]
+					"patching_rect" : [ 18.5, 527.522339, 107.0, 23.0 ],
+					"text" : "Build and/or init",
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrow_orientation" : 2,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.43 ],
+					"border" : 1,
+					"grad2" : [ 0.028114, 0.0, 0.0, 1.0 ],
+					"id" : "obj-8",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 60.5, 632.614136, 23.0, 65.274216 ],
+					"shape" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrow_orientation" : 2,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.43 ],
+					"border" : 1,
+					"grad2" : [ 0.028114, 0.0, 0.0, 1.0 ],
+					"id" : "obj-10",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 60.5, 398.330048, 23.0, 65.274216 ],
+					"shape" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"arrow_orientation" : 2,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 0.43 ],
+					"border" : 1,
+					"grad2" : [ 0.028114, 0.0, 0.0, 1.0 ],
+					"id" : "obj-52",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 60.5, 93.284195, 23.0, 65.274216 ],
+					"shape" : 3
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-47",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.5, 327.2742, 270.0, 41.0 ],
+					"text" : "Only in RAM, the namespace, comin from all the json files\nfound in Modules folder (and subfolders)\nAll the folders found are a tag. A node is a key… ",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubblepoint" : 0.0,
+					"bubbleside" : 2,
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4.5, 325.2742, 135.0, 20.0 ],
+					"text" : "dict span_namespace",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-31",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.5, 300.2742, 239.0, 18.0 ],
+					"text" : "This is SPAN project file with all your customisaions",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 0.48 ],
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 35.5, 17.535492, 73.0, 23.0 ],
+					"text" : "Loadbang",
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubbleside" : 3,
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-35",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.0, 41.0, 102.0, 20.0 ],
+					"text" : "dict span_temp ",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubbleside" : 3,
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-33",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 11.5, 62.0, 121.0, 20.0 ],
+					"text" : "dict span_settings ",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubbleside" : 3,
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 15.5, 299.2742, 113.0, 20.0 ],
+					"text" : "dict span_project ",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-27",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 137.5, 42.0, 258.0, 18.0 ],
+					"text" : "Only in Ram, it's information about OS, patch or runtime",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.5, 63.0, 175.0, 18.0 ],
+					"text" : "This is SPAN application settings file.",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-16",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 21.5, 598.614136, 405.0, 34.0 ],
+					"text" : "All patches wich are in the modules folder can be load in a poly~object for instances.\n",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-19",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 138.5, 219.807098, 307.0, 75.0 ],
+					"text" : "A project is an organisation of your osc namespace (inside or outside Max).\nYou can create snapshots of this namespace state, create some dynamic events and complex one to many mappings.",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 0.48 ],
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 25.5, 219.807098, 93.0, 23.0 ],
+					"text" : "Load Project ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
 				}
 
 			}
@@ -48,7 +295,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 268.0, 202.0, 100.0, 18.0 ],
+					"patching_rect" : [ 788.0, 321.2742, 100.0, 18.0 ],
 					"text" : "dict span_project"
 				}
 
@@ -62,22 +309,21 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.5, 12.0, 83.0, 16.0 ],
-					"presentation_rect" : [ 245.0, 155.0, 0.0, 0.0 ],
+					"patching_rect" : [ 652.5, 131.2742, 83.0, 16.0 ],
 					"text" : "control"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.796078, 1.0, 0.678431, 1.0 ],
+					"bgcolor" : [ 0.956863, 0.956863, 0.956863, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-20",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 98.0, 57.0, 18.0 ],
+					"patching_rect" : [ 527.0, 217.2742, 57.0, 18.0 ],
 					"text" : "something"
 				}
 
@@ -90,7 +336,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.0, 132.0, 102.0, 18.0 ],
+					"patching_rect" : [ 788.0, 251.2742, 102.0, 18.0 ],
 					"text" : "print tags @popup 1"
 				}
 
@@ -104,7 +350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 75.0, 50.0, 16.0 ],
+					"patching_rect" : [ 761.0, 194.2742, 50.0, 16.0 ],
 					"text" : "get tags"
 				}
 
@@ -118,7 +364,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 241.0, 101.0, 100.0, 18.0 ],
+					"patching_rect" : [ 761.0, 220.2742, 100.0, 18.0 ],
 					"text" : "dict span_temp"
 				}
 
@@ -131,19 +377,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 64.0, 28.0, 20.0, 20.0 ]
+					"patching_rect" : [ 584.0, 147.2742, 20.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.796078, 1.0, 0.678431, 1.0 ],
+					"bgcolor" : [ 0.956863, 0.956863, 0.956863, 1.0 ],
 					"id" : "obj-12",
 					"ignoreclick" : 1,
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 64.0, 98.0, 128.0, 128.0 ]
+					"patching_rect" : [ 584.0, 217.2742, 128.0, 128.0 ]
 				}
 
 			}
@@ -156,7 +402,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 32.0, 83.0, 16.0 ],
+					"patching_rect" : [ 684.0, 151.2742, 83.0, 16.0 ],
 					"text" : "audio"
 				}
 
@@ -171,7 +417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.0, 63.0, 119.0, 20.0 ],
+					"patching_rect" : [ 584.0, 182.2742, 119.0, 20.0 ],
 					"text" : "tagtocolor control"
 				}
 
@@ -185,7 +431,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 265.0, 327.0, 100.0, 18.0 ],
+					"patching_rect" : [ 785.0, 446.2742, 100.0, 18.0 ],
 					"text" : "dict span_project"
 				}
 
@@ -199,7 +445,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 144.0, 299.0, 140.0, 18.0 ],
+					"patching_rect" : [ 664.0, 418.2742, 140.0, 18.0 ],
 					"text" : "t b l"
 				}
 
@@ -213,7 +459,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 144.0, 331.0, 100.0, 18.0 ],
+					"patching_rect" : [ 664.0, 450.2742, 100.0, 18.0 ],
 					"text" : "s /span/project/write"
 				}
 
@@ -226,8 +472,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 327.0, 73.0, 18.0 ],
-					"presentation_rect" : [ 31.0, 63.0, 0.0, 0.0 ],
+					"patching_rect" : [ 572.0, 446.2742, 73.0, 18.0 ],
 					"text" : "and save it"
 				}
 
@@ -240,7 +485,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 52.0, 293.0, 73.0, 18.0 ],
+					"patching_rect" : [ 572.0, 412.2742, 73.0, 18.0 ],
 					"text" : "modify project"
 				}
 
@@ -330,15 +575,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "tagtocolor.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../library",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.media.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../library/GUI",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
+				"patcherrelativepath" : "../library/misc",
 				"type" : "JSON",
 				"implicit" : 1
 			}

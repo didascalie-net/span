@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 25.0, 69.0, 449.0, 751.0 ],
+		"rect" : [ 25.0, 69.0, 324.0, 590.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -28,50 +28,48 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 0.48 ],
-					"id" : "obj-6",
+					"fontsize" : 11.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
+					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 553.332031, 107.0, 23.0 ],
-					"text" : "Build and/or init",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
+					"patching_rect" : [ 11.5, 325.241211, 132.0, 19.0 ],
+					"presentation_rect" : [ 492.5, 87.093857, 0.0, 0.0 ],
+					"text" : "Manage your media pool",
+					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"arrow_orientation" : 2,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.43 ],
-					"border" : 1,
-					"grad2" : [ 0.028114, 0.0, 0.0, 1.0 ],
-					"id" : "obj-2",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"mode" : 1,
+					"fontface" : 3,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
+					"id" : "obj-16",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.5, 658.423767, 23.0, 65.274216 ],
-					"shape" : 3
+					"patching_rect" : [ 223.0, 325.241211, 82.0, 20.0 ],
+					"presentation_rect" : [ 698.0, 87.093857, 0.0, 0.0 ],
+					"text" : "span.media",
+					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"arrow_orientation" : 2,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.43 ],
+					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 					"border" : 1,
-					"grad2" : [ 0.028114, 0.0, 0.0, 1.0 ],
-					"id" : "obj-1",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
+					"id" : "obj-7",
+					"maxclass" : "bpatcher",
+					"name" : "span.media.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 60.5, 424.139709, 23.0, 65.274216 ],
-					"shape" : 3
+					"patching_rect" : [ 11.5, 343.258972, 293.5, 110.345184 ]
 				}
 
 			}
@@ -85,7 +83,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 676.312256, 176.0, 19.0 ],
+					"patching_rect" : [ 11.5, 531.312256, 176.0, 19.0 ],
 					"text" : "Manage your initialisation process",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -102,7 +100,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 368.0, 676.312256, 60.0, 20.0 ],
+					"patching_rect" : [ 245.0, 531.312256, 60.0, 20.0 ],
 					"text" : "span.init",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -117,58 +115,7 @@
 					"name" : "span.init.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 697.697998, 293.5, 26.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"arrow_orientation" : 2,
-					"bgcolor" : [ 0.0, 0.0, 0.0, 0.43 ],
-					"border" : 1,
-					"grad2" : [ 0.028114, 0.0, 0.0, 1.0 ],
-					"id" : "obj-52",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 60.5, 119.093857, 23.0, 65.274216 ],
-					"shape" : 3
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
-					"id" : "obj-47",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 353.083862, 270.0, 41.0 ],
-					"text" : "Only in RAM, the namespace, comin from all the json files\nfound in Modules folder (and subfolders)\nAll the folders found are a tag. A node is a key… ",
-					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubblepoint" : 0.0,
-					"bubbleside" : 2,
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-44",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 4.5, 351.083862, 135.0, 20.0 ],
-					"text" : "dict span_namespace",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+					"patching_rect" : [ 11.5, 548.697998, 293.5, 26.0 ]
 				}
 
 			}
@@ -182,7 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 417.139709, 135.0, 19.0 ],
+					"patching_rect" : [ 11.5, 180.139709, 135.0, 19.0 ],
 					"text" : "Manage your namespace",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -198,7 +145,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 112.093857, 192.0, 19.0 ],
+					"patching_rect" : [ 11.5, 39.345154, 192.0, 19.0 ],
 					"text" : "Manage your project files on your HD",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -214,154 +161,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 576.845154, 172.0, 19.0 ],
+					"patching_rect" : [ 11.5, 472.845154, 172.0, 19.0 ],
 					"text" : "Manage your project preferences",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 326.083862, 239.0, 18.0 ],
-					"text" : "This is SPAN project file with all your customisaions",
-					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 0.48 ],
-					"id" : "obj-8",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 35.5, 43.345154, 73.0, 23.0 ],
-					"text" : "Loadbang",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 3,
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-35",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 66.809662, 102.0, 20.0 ],
-					"text" : "dict span_temp ",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 3,
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 87.809662, 121.0, 20.0 ],
-					"text" : "dict span_settings ",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 3,
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-32",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.5, 325.083862, 113.0, 20.0 ],
-					"text" : "dict span_project ",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 67.809662, 258.0, 18.0 ],
-					"text" : "Only in Ram, it's information about OS, patch or runtime",
-					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
-					"id" : "obj-26",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 88.809662, 175.0, 18.0 ],
-					"text" : "This is SPAN application settings file.",
-					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
-					"id" : "obj-20",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 21.5, 624.423767, 405.0, 34.0 ],
-					"text" : "All patches wich are in the modules folder can be load in a poly~object for instances.\n",
-					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
-					"id" : "obj-10",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 245.61676, 307.0, 75.0 ],
-					"text" : "A project is an organisation of your osc namespace (inside or outside Max).\nYou can create snapshots of this namespace state, create some dynamic events and complex one to many mappings.",
-					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
 
 			}
@@ -375,7 +177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 112.093857, 82.0, 20.0 ],
+					"patching_rect" : [ 223.0, 39.345154, 82.0, 20.0 ],
 					"text" : "span.project",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -392,7 +194,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 314.0, 578.312256, 110.0, 20.0 ],
+					"patching_rect" : [ 195.0, 474.312256, 110.0, 20.0 ],
 					"text" : "span.preferences",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -408,7 +210,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 344.0, 417.139709, 78.0, 20.0 ],
+					"patching_rect" : [ 227.0, 180.139709, 78.0, 20.0 ],
 					"text" : "span.config",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -423,7 +225,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 129.093857, 293.5, 110.345184 ]
+					"patching_rect" : [ 11.5, 56.345154, 293.5, 110.345184 ]
 				}
 
 			}
@@ -436,7 +238,7 @@
 					"name" : "span.preferences.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 595.312256, 293.5, 26.0 ]
+					"patching_rect" : [ 11.5, 491.312256, 293.5, 26.0 ]
 				}
 
 			}
@@ -480,22 +282,7 @@
 					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.5, 435.258972, 293.5, 116.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 0.48 ],
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 25.5, 245.61676, 93.0, 23.0 ],
-					"text" : "Load Project ",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.48 ]
+					"patching_rect" : [ 11.5, 198.258972, 293.5, 116.0 ]
 				}
 
 			}
@@ -575,6 +362,13 @@
 				"name" : "var.maxpat",
 				"bootpath" : "/Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
 				"patcherrelativepath" : "../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.media.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
+				"patcherrelativepath" : "../span/library/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
