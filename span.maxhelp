@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.5, 325.241211, 132.0, 19.0 ],
-					"presentation_rect" : [ 492.5, 87.093857, 0.0, 0.0 ],
 					"text" : "Manage your media pool",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -54,7 +53,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.0, 325.241211, 82.0, 20.0 ],
-					"presentation_rect" : [ 698.0, 87.093857, 0.0, 0.0 ],
 					"text" : "span.media",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
