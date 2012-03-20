@@ -1,0 +1,1 @@
+max v2;#N vpatcher 10 59 610 459;#P bpatcher 208 177 257 67 0 0 tm_enttec.edit.mxt 0 /enttec.1;#P window setfont "Sans Serif" 9.;#P window linecount 1;#P newex 72 101 102 196617 tm_enttec /enttec.1;#P pop;

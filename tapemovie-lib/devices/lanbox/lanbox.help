@@ -1,0 +1,1 @@
+max v2;#N vpatcher 65 195 523 323;#P bpatcher 19 24 259 63 0 0 lanbox.mxt 0 1mapper 1;#P window setfont Verdana 24.;#P comment 319 30 96 -1006632936 Lanbox;#P pop;

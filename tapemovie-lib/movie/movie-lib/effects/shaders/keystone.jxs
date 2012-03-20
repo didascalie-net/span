@@ -1,0 +1,33 @@
+<jittershader name="keystone">
+	<description>
+		effectue une deformation de l'image par attraction des bords
+	</description>
+	
+	// coefficient de déplacement entre -1 et 1 sur x et y
+	<param name="coeffHD" type="vec2" default="0 0" />
+	<param name="coeffHG" type="vec2" default="0 0" />
+	<param name="coeffBD" type="vec2" default="0 0" />
+	<param name="coeffBG" type="vec2" default="0 0" />
+	
+	<param name="outColor" type="vec4" default="0 1 0 1" />
+	
+	<param name="tex0" type="int" default="0" />
+	
+	<language name="glsl" version="1.0">
+
+		// vertex : ftransform + coord texture
+		<program name="vp" type="vertex" source="sh.passthrudim.vp.glsl" />
+
+		<bind param="tex0" program="fp" />
+		
+		<bind param="coeffHD" program="fp" />
+		<bind param="coeffHG" program="fp" />
+		<bind param="coeffBD" program="fp" />
+		<bind param="coeffBG" program="fp" />
+		
+		<bind param="outColor" program="fp" />
+		
+		<program name="fp" type="fragment" source="keystone.fp.glsl" />
+		
+	</language>
+</jittershader>

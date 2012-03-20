@@ -1,0 +1,1 @@
+max v2;#N vpatcher 10 59 563 364;#P bpatcher 16 29 512 187 0 0 tm_arduino.edit.mxt 0 /arduino.1;#P window setfont "Sans Serif" 9.;#P window linecount 1;#P newex 228 252 112 196617 tm_arduino /arduino.1;#P pop;

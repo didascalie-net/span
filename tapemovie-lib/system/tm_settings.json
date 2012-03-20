@@ -1,0 +1,94 @@
+{
+	"scheduler" : 	{
+		"preempt" : 0,
+		"pollthrottle" : 20,
+		"slop" : 25,
+		"queuethrottle" : 10,
+		"eventinterval" : 2,
+		"sleep" : 2,
+		"interval" : 1
+	}
+,
+	"interface" : 	{
+		"colors-nodes" : 		{
+			"audio" : "blue",
+			"device" : "purple",
+			"video" : "red",
+			"control" : "light-green"
+		}
+,
+		"colors-themes" : 		{
+			"light-green" : 			{
+				"off" : 				{
+					"bgcolor" : "0.941176 1 0.941176 1"
+				}
+,
+				"on" : 				{
+					"bgcolor" : "0.796078 1 0.678431 1"
+				}
+
+			}
+,
+			"generic" : 			{
+				"off" : 				{
+					"bgcolor" : "0.92 0.92 0.92 0.8"
+				}
+,
+				"on" : 				{
+					"bgcolor" : "0.82 0.82 0.82 0.8"
+				}
+
+			}
+,
+			"purple" : 			{
+				"off" : 				{
+					"bgcolor" : "0.976471 0.917647 1.039216 1"
+				}
+,
+				"on" : 				{
+					"bgcolor" : "0.862745 0.647059 1 1"
+				}
+
+			}
+,
+			"blue" : 			{
+				"off" : 				{
+					"bgcolor" : "0.956863 0.956863 0.956863 1"
+				}
+,
+				"on" : 				{
+					"bgcolor" : "0.619608 0.666667 0.776471 1"
+				}
+
+			}
+,
+			"red" : 			{
+				"off" : 				{
+					"bgcolor" : "0.956863 0.956863 0.956863 1"
+				}
+,
+				"on" : 				{
+					"bgcolor" : "0.811765 0.482353 0.494118 1"
+				}
+
+			}
+
+		}
+
+	}
+,
+	"info" : 	{
+		"licence" : "GNU-LGPL",
+		"name" : "tapemovie",
+		"appstatus" : "beta",
+		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+,
+		"last-project" : "none"
+	}
+
+}

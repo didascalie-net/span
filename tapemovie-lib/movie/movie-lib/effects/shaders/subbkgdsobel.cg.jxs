@@ -1,0 +1,70 @@
+<jittershader name="background subtraction with sobel ">
+	<description>Shader filter for background subtraction with sobel</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="size" type="float2" default="640.0 480.0" />
+	<param name="bypass" type="float" default="0.0" />
+	<param name="image" type="int" state="TEXUNIT0" default ="0" />
+	<param name="image1" type="int" state="TEXUNIT1" default ="1" />
+
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="size" program="fp" />
+		<bind param="bypass" program="fp" />
+		<bind param="image" program="fp" />
+		<bind param="image1" program="fp" />
+		<program name="vp" type="vertex"  entry="main" source="tllslo-vp2.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+//cg
+static const	float2 dir[5] = { {0,0},{1,1}, {1,-1}, {-1,-1}, {-1,1} };
+static const	float weight[5] = { 3, 0.5, 0.5, 0.5,0.5};
+void main(
+	in float4 decalCoords      : TEXCOORD0,
+	in float4 decalCoords1      : TEXCOORD1,
+	
+	uniform float bypass,
+	uniform samplerRECT image,
+	uniform samplerRECT image1,
+	uniform float2 size,
+	
+	out float4 color		: COLOR
+    )
+{
+ 
+	float2 texCoord = decalCoords.xy*size;
+	float2 texCoord1 = decalCoords1.xy*size;
+	float4 imageSob;
+	imageSob	= texRECT( image  	, texCoord	).rgba; 
+	
+	if (bypass == 1.0 ) 
+	{
+		color = imageSob;
+	}else{
+		float4 fondSob ; 
+		fondSob = texRECT( image1  , texCoord1	).rgba;
+		float4 textureIn;
+		float4 wallpaper;
+		for( int d = 0 ; d < 5 ; d++ ) 
+		{
+			textureIn  += texRECT( image  , texCoord.xy + dir[d] ).rgba * weight[d];
+			// image ref en capture dynamique de taille de l'ecran 
+			wallpaper  += texRECT( image1     , texCoord1.xy + dir[d] ).rgba * weight[d]; 
+		}
+		textureIn.rgb/=5.0;
+		textureIn.r = textureIn.r *0.3+ textureIn.g *0.59+ textureIn.b*0.11;
+
+		wallpaper.rgb/=5.0;	
+		wallpaper.r = wallpaper.r *0.3+ wallpaper.g *0.59+ wallpaper.b *0.11;
+		
+		float diff = abs(textureIn.r - wallpaper.r);	
+		color = float4(diff,diff,diff,1.0);
+	}	
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

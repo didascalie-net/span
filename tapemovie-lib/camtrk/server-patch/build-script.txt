@@ -1,0 +1,1 @@
+open thispatcherinclude "espaces:/Applications/MaxMSP 4.5/jitlib"include "espaces:/Applications/MaxMSP 4.5/softVideoCarbon.lib"

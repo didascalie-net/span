@@ -1,0 +1,1 @@
+max v2;#N vpatcher 64 86 622 382;#P origin -310 -297;#P window setfont "Sans Serif" 36.;#P window linecount 1;#P comment 121 89 263 196644 coming soon...;#B frgb 200 0 0;#P bpatcher 0 0 512 248 0 0 bkgnd42.mxt 0 $1 0 3;#P objectname background;#P pop;

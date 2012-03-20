@@ -1,0 +1,56 @@
+<jittershader name="deinterlace">
+	<description>Shader for video deinterlacing</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="size" type="float2" default="640.0 480.0" />
+	<param name="bypass" type="float" default="0.0" />
+	<param name="image" type="int" state="TEXUNIT0" default ="0" />
+	
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="size" program="fp" />
+		<bind param="image" program="fp" />
+		<bind param="bypass" program="fp" />
+	<program name="vp" type="vertex"  entry="main" source="tllslo-vp.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+
+void main(
+
+	in float4 decalCoords      : TEXCOORD0,//ssmap coor
+    uniform samplerRECT  decal : TEXUNIT0,     // echo FB capture
+	//uniform samplerRECT  MaVideo   : TEXUNIT0,     // echo FB capture
+	uniform float bypass,
+	uniform samplerRECT image,
+	uniform float2 size,
+	out float4 color		: COLOR
+    )
+{
+	// flip vertical
+	// decalCoords.y = 1.0 - decalCoords.y;
+	float2 CoordsTmp=decalCoords.xy* size;
+	if (bypass == 1.0) 
+	{
+		color = texRECT(image, CoordsTmp);//*0.5  + 0.5 * float4(0.0, 0.5, 1.0 , 1.0);
+	}else{
+		float4 deinterlace ;
+		//int tmp = mod(int(decalCoords.y*size.y) ,2);
+		int partieEntiere = int(decalCoords.y*size.y)/2;
+		int tmp = int(decalCoords.y*size.y)-(partieEntiere*2);
+		if (tmp !=0)
+		{
+			deinterlace =  
+			0.5 * texRECT(image, float2( decalCoords.x*size.x , (decalCoords.y*size.y)-1.0 )).rgba
+			+ 0.5 * texRECT(image, float2( decalCoords.x*size.x , (decalCoords.y*size.y)+1.0 )).rgba;//+ 0.5 * float4 (1.0 ,0.0,0.0,1) ;
+			color = deinterlace;
+		}else{
+			deinterlace = texRECT(image, float2( decalCoords.x*size.x , decalCoords.y*size.y )).rgba;
+			color = deinterlace ;//* 0.05 + texRECT(lookupTable1, decalCoords.xy*cg_fs_2fv_size).rgba*0.95;		
+		}	
+	}
+	
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

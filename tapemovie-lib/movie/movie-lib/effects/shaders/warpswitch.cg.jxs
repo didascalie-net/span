@@ -1,0 +1,57 @@
+<jittershader name="warpswitch">
+	<description>Shader filter for radial distortion correction</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="image"  	type="int" state="TEXUNIT0" default ="0" />
+	<param name="image1" 	type="int" state="TEXUNIT1" default ="1" />
+	<param name="size"   	type="float2" default="640.0 480.0" />
+	<param name="warpsave" 	type="float"  default="0." />
+	<param name="warpclean" 	type="float"  default="0." />
+	
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="image" 		program="fp" />
+		<bind param="image1" 		program="fp" />
+		<bind param="size" 			program="fp" />		
+		<bind param="warpsave" 		program="fp" />	
+		<bind param="warpclean" 	program="fp" />	
+
+		<program name="vp" type="vertex"  entry="main" source="tllslo-vp.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+//cg
+
+void main(
+	in float4 decalCoords      : TEXCOORD0,
+	uniform samplerRECT image,
+	uniform samplerRECT image1,
+	uniform float2 size,
+	uniform float warpsave,
+	uniform float warpclean,
+
+	out float4 color		: COLOR
+    )
+{
+	float2 coordTmp = decalCoords.xy * size;
+	
+	float2 distorsion = texRECT (image,coordTmp).rg;
+	
+	// distorsion *=2.;
+	// distorsion = distorsion - 1;
+	if (warpclean == 0 ){
+		if (warpsave==1){
+			color = texRECT (image1, distorsion * size	); 
+		}else{
+			color = texRECT (image1, coordTmp	); 
+		}
+	}else{
+		color = float4(float2(decalCoords.xy),0,1.0);
+	}
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

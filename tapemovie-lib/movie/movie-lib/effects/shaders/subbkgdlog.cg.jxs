@@ -1,0 +1,68 @@
+<jittershader name="bilateral">
+	<description>Shader filter the video noise of bilateral method</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="size" type="float2" default="640.0 480.0" />
+	<param name="bypass" type="float" default="0.0" />
+	<param name="image" type="int" state="TEXUNIT0" default ="0" />
+	<param name="image1" type="int" state="TEXUNIT1" default ="1" />
+	<param name="image2" type="int" state="TEXUNIT2" default ="2" />
+	
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="size" program="fp" />
+		<bind param="bypass" program="fp" />
+		<bind param="image" program="fp" />
+		<bind param="image1" program="fp" />
+		<bind param="image2" program="fp" />
+		<program name="vp" type="vertex"  entry="main" source="tllslo-vp2.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+//cg
+void main(
+	in float4 decalCoords      : TEXCOORD0,
+	in float4 decalCoords1      : TEXCOORD1,
+	
+	uniform float bypass,
+	uniform samplerRECT image,
+	uniform samplerRECT image1,
+	uniform samplerRECT image2,
+	uniform float2 size,
+	
+	out float4 color		: COLOR
+    )
+{
+	float2 texCoord = decalCoords.xy*size;
+	float2 texCoord1 = decalCoords1.xy*size;
+	float4 img; 
+	img	= texRECT( image  	, texCoord	).rgba;
+
+	if (bypass == 1.0 ) 
+	{
+		color = img;
+	}else{
+		float4 fond ; 
+		fond = texRECT( image1  	, texCoord1	).rgba; 
+		//convertir en log
+		img.r = img.r * 0.3 +img.g * 0.59 +img.b * 0.11;
+		img.r = log(img.r * 255.0);
+		fond.r = fond.r * 0.3 +fond.g * 0.59 +fond.b * 0.11;
+		fond.r = log(fond.r * 255.0);
+		float diff = abs(img.r - fond.r);
+		float4 ssFondPlusSobel; 
+		ssFondPlusSobel	= texRECT( image2  	, texCoord	).rgba; 
+		
+		ssFondPlusSobel.r = ssFondPlusSobel.r * 0.3 +ssFondPlusSobel.g * 0.59 +ssFondPlusSobel.b * 0.11;
+		//soustraction de fond consiste a la fois de :
+		//difference entre 2 images, mais aussi difference entre les contours des 2 images
+		color =  float4 (float3(diff+ssFondPlusSobel.r),1.0);
+		//color =  float4 (float3(diff),1.0);
+	}
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

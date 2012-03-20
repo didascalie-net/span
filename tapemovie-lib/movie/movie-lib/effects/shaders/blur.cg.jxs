@@ -1,0 +1,72 @@
+<jittershader name="gaussian blur">
+	<description>
+	A simple 2-pass gaussian filter
+	</description>
+	
+	<param name="width" type="vec2" default="1. 0.">
+		<description>Width of filter</description>
+	</param>
+	<param name="bypass" type="float" default="0."/>	
+
+	<language name="glsl" version="1.0">
+		<bind param="width" program="vp" />
+		<bind param="bypass" program="fp" />
+		<program name="vp" type="vertex">
+<![CDATA[
+//shader
+//author : wai kit
+uniform vec2 width;
+
+varying vec2 texcoordM;
+varying vec2 texcoordB0;
+varying vec2 texcoordF0;
+varying vec2 texcoordB1;
+varying vec2 texcoordF1;
+
+void main()
+{
+	// perform standard transform on vertex
+	gl_Position = ftransform();
+
+	// transform texcoord	
+	vec2 texcoord = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+	
+	// get sample positions
+    texcoordM = texcoord;
+    texcoordB0 = texcoord - width;
+    texcoordF0 = texcoord + width;
+    texcoordB1 = texcoord - width * 2.0;
+    texcoordF1 = texcoord + width * 2.0;
+}
+]]>
+		</program>
+		<program name="fp" type="fragment">
+<![CDATA[
+uniform sampler2DRect image;
+uniform float bypass;
+varying vec2 texcoordM;
+varying vec2 texcoordB0;
+varying vec2 texcoordF0;
+varying vec2 texcoordB1;
+varying vec2 texcoordF1;
+
+void main(){
+    vec4 sampleM  = texture2DRect(image, texcoordM);
+	vec4 result ;
+	if (bypass == 1.0 ) 
+	{
+		result = sampleM;
+	}else {
+		vec4 sampleB0 = texture2DRect(image, texcoordB0);
+		vec4 sampleF0 = texture2DRect(image, texcoordF0);
+		vec4 sampleB1 = texture2DRect(image, texcoordB1);
+		vec4 sampleF1 = texture2DRect(image, texcoordF1);
+
+		result = 0.4 * sampleM + 0.2 * (sampleB0 + sampleF0) + 0.1 * (sampleB1 + sampleF1);
+	}
+	gl_FragColor = result;
+} 
+]]>
+		</program>
+	</language>
+</jittershader>

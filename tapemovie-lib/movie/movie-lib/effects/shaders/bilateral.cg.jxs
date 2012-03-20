@@ -1,0 +1,92 @@
+<jittershader name="bilateral">
+	<description>Shader filter the video noise of bilateral method</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="size" type="float2" default="640.0 480.0" />
+	<param name="bypass" type="float" default="0.0" />
+	<param name="image" type="int" state="TEXUNIT0" default ="0" />
+
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="size" program="fp" />
+		<bind param="image" program="fp" />
+		<bind param="bypass" program="fp" />
+		<program name="vp" type="vertex"  entry="main" source="tllslo-vp.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+//cg
+
+static const int dim = 3;
+static const int d1 = dim*dim;
+static const int d2 = dim*dim-1;
+static const float d3 = (dim*dim)/2;
+static float data[dim*dim];
+//the pair of value used by the filter 
+//4,0.025 ... 8,0.05 ... 16,0.1 ...32,0.2 ... 46,0.4
+static float sigS = 8;//pixel
+static float sigR = 0.05;//intensite 0 - 32 
+static float road[8];
+static float uY[8];
+static float wS[8];
+static float wR[8];
+static float wI[8];
+static float tabJ[8];
+static float wXY[8];
+
+static float denominateur = 0 ;
+static float numerateur = 0;
+
+
+float Ws(float x,float y){
+	float dist = (abs(x-1) + abs(y-1))*(abs(x-1) + abs(y-1));
+	return exp(-dist/(2.0 * sigS * sigS ));
+}
+float Wr(float x,float y){
+	return exp(-(abs(x-y)*abs(x-y))/(2.0 * sigR * sigR ));
+}
+
+void main(
+	in float4 decalCoords      : TEXCOORD0,//ssmap coor
+	
+	uniform float bypass,
+	uniform samplerRECT image,
+	uniform float2 size,
+	
+	out float4 color		: COLOR
+    )
+{
+	//at first decalCoords is between 0 and 1, after the multiplication it's between 0 and video size
+	float2 CoordsTmp=decalCoords.xy*size;
+	float4 uX = texRECT(image, CoordsTmp).rgba;
+	if (bypass == 1.0)
+	{
+		//return the pixel value without processing
+		color =  uX; //* 0.5  + 0.5 * float4(0.0, 0.5, 1.0 , 1.0)
+	}else{
+		float2 CoordsTmpBis;
+		int tmp = 0;
+		for( int i=0; i<dim; ++i) {
+			for( int j=0; j<dim; ++j) {
+				if (!((i==1)&&(j==1))){
+					CoordsTmpBis = float2( CoordsTmp.x+i-1 , CoordsTmp.y+j-1 );
+					wS  [tmp] = Ws(j, i);
+					uY  [tmp] = texRECT(image, CoordsTmpBis).bgra;
+					wR  [tmp] = Wr( uX.r, uY  [tmp]);
+					wXY [tmp] = wS  [tmp]* wR[tmp];
+					numerateur    +=wXY [tmp] * uY  [tmp] ; 
+					denominateur  +=wXY [tmp] ; 
+					tmp++;
+				}
+			}
+		}
+		//return bilateral value
+		color =  float4(float3(numerateur/denominateur),1.0);
+	}
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

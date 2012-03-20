@@ -1,0 +1,116 @@
+<jittershader name="plasma">
+	<description>Shader filter for radial distortion correction</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="size"   		type="float2" default="640.0 480.0" />
+	<param name="bypass" 		type="float"  default="0." />
+	<param name="pos1"   		type="float2" default="0. 0." />
+	<param name="postmp"		type="float2" default="0. 0. " />
+	<param name="warpclean" 	type="float"  default="0." />
+	<param name="distorcoef" 	type="float"  default="8." />
+	<param name="image"  		type="int" state="TEXUNIT0" default ="0" />
+
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="size" 			program="fp" />
+		<bind param="bypass" 		program="fp" />
+		<bind param="pos1" 			program="fp" />		
+		<bind param="postmp" 		program="fp" />
+		<bind param="warpclean" 	program="fp" />
+		<bind param="distorcoef" 	program="fp" />
+		
+		<bind param="image" 		program="fp" />
+		
+		<program name="vp" type="vertex"  entry="main" source="tllslo-vp.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+//cg
+float PntToSegmentDistance( float Px, float Py,  float x1,  float y1, float x2, float y2)
+{ 
+ float Ratio;
+ float Dx;
+float  Dy;
+
+  if ((x1==x2) && (y1== y2)){
+
+   return distance(float2(Px, Py),float2( x1, y1));
+
+  }else{
+  
+    Dx    = x2 - x1;
+    Dy    = y2 - y1;
+    Ratio = ((Px - x1) * Dx + (Py - y1) * Dy) / (Dx * Dx + Dy * Dy);
+    if (Ratio < 0) 
+		return  distance(float2(Px, Py), float2(x1, y1));
+    else 
+		if (Ratio > 1) 
+			return  distance(float2(Px, Py),float2( x2, y2));
+		else
+			return distance(float2(Px, Py),float2( (1 - Ratio) * x1 + Ratio * x2,(1 - Ratio) * y1 + Ratio * y2));
+	}	
+}
+float RATIO( float Px, float Py,  float x1,  float y1, float x2, float y2)
+{ 
+ float Ratio;
+ float Dx;
+float  Dy;
+
+  
+  
+    Dx    = x2 - x1;
+    Dy    = y2 - y1;
+    return  ((Px - x1) * Dx + (Py - y1) * Dy) / (Dx * Dx + Dy * Dy);
+  
+}
+void main(
+
+	in float4 decalCoords      : TEXCOORD0,
+
+	uniform samplerRECT image,
+	uniform float bypass,
+	uniform float2 size,
+	uniform float2 pos1,
+	uniform float2 postmp,
+	uniform float warpclean,
+	uniform float distorcoef,
+	out float4 color		: COLOR
+    )
+{
+
+	
+	if (warpclean>0.85){
+		color = float4 (decalCoords.xy , 0 ,1);
+	}else{
+		float dd;
+		dd	= PntToSegmentDistance(decalCoords.x,decalCoords.y,
+		pos1.x, pos1.y,
+		postmp.x,  postmp.y );
+		  
+		float ratio= RATIO(decalCoords.x,decalCoords.y,
+		pos1.x, pos1.y,
+		postmp.x,  postmp.y );
+
+		dd = exp(-pow((distorcoef*dd),2.));
+
+		
+		float2 v =  postmp.xy - pos1.xy;
+		
+		float2 newCoord =decalCoords.xy; 
+		
+		newCoord = decalCoords.xy - dd * v * ratio;	
+		//newCoord = decalCoords.xy - dd * v;	
+		newCoord = saturate (newCoord);
+		color = float4 (newCoord.xy,0,1);
+		if ((postmp.x== pos1.x)||(postmp.y== pos1.y)){
+			color = float4 (decalCoords.xy,0,1);
+		}
+	}
+	
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

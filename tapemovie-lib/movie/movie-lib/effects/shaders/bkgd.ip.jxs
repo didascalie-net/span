@@ -1,0 +1,52 @@
+<jittershader name="bkgd">
+	<description>Shader for bkgd</description>
+	<param name="image"  type="int"  default="0" />
+	<param name="image1"  type="int"  default="1" />
+	<param name="capture"  type="float" default="0.0" />
+	<language name="glsl" version="1.0">
+		<bind param="image"  program="fp" />
+		<bind param="image1" program="fp" /> 
+		<bind param="capture"  program="fp" />
+		<program name="vp" type="vertex">
+<![CDATA[
+//
+// Vertex shader 
+// Author: wai kit chan
+
+varying vec2 texcoord;
+varying vec2 texcoord1;
+void main (void)
+{
+    gl_Position = ftransform();
+    texcoord    = vec2(gl_TextureMatrix[0] * gl_MultiTexCoord0);
+	texcoord1    = vec2(gl_TextureMatrix[1] * gl_MultiTexCoord1);
+}
+]]>		
+		</program>
+		<program name="fp" type="fragment">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+
+varying vec2 texcoord;
+varying vec2 texcoord1;
+
+uniform sampler2DRect image;
+uniform sampler2DRect image1;
+uniform float capture; 
+
+void main (void)//ligne 30
+{
+	// if onOff equals true : use figement effect
+	if (capture== 0.0){
+		gl_FragColor = texture2DRect( image,texcoord );
+	}else{
+		//
+		gl_FragColor = texture2DRect( image1,texcoord1 );
+	}
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>

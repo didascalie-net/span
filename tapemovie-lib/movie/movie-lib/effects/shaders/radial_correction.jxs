@@ -1,0 +1,30 @@
+<jittershader name="radial">
+	<description>
+		effectue une correction radiale polynomiale de 4e degré
+	</description>
+	
+	
+	<param name="k1" type="float" default="-7.785885" />
+	<param name="k2" type="float" default="6.204277" />
+	<param name="k1p" type="int" default="-7" />
+	<param name="k2p" type="int" default="-12" />
+
+	
+	<param name="tex0" type="int" default="0" />
+	
+	<language name="glsl" version="1.0">
+
+		// vertex : ftransform + coord texture
+		<program name="vp" type="vertex" source="sh.passthrudim.vp.glsl" />
+
+		<bind param="tex0" program="fp" />
+		
+		<bind param="k1" program="fp" />
+		<bind param="k2" program="fp" />
+		<bind param="k1p" program="fp" />
+		<bind param="k2p" program="fp" />
+		
+		<program name="fp" type="fragment" source="radial_correction.fp.glsl" />
+		
+	</language>
+</jittershader>

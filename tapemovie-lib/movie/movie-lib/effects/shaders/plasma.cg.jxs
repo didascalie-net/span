@@ -1,0 +1,87 @@
+<jittershader name="plasma">
+	<description>Shader filter for radial distortion correction</description>
+	<param name="ModelViewProj" type="float4x4" state="MODELVIEW_PROJECTION_MATRIX" transform="IDENTITY"/> 
+	<param name="size"   type="float2" default="640.0 480.0" />
+	<param name="bypass" type="float"  default="0.0" />
+	<param name="start" type="float"  default="0.0" />
+	<param name="plasmacolor"   type="float" default="0." />
+	<param name="image" type="int" state="TEXUNIT0" default ="0" />
+	<param name="image1" type="int" state="TEXUNIT1" default ="1" />
+	<param name="image2" type="int" state="TEXUNIT2" default ="2" />
+
+	<language name="cg" version="1.0">
+		<bind param="ModelViewProj" program="vp" />
+		<bind param="size" 			program="fp" />
+		<bind param="image" 		program="fp" />
+		<bind param="image1" 		program="fp" />
+		<bind param="image2" 		program="fp" />
+		<bind param="bypass" 		program="fp" />
+		<bind param="start" 		program="fp" />		
+		<bind param="plasmacolor" 			program="fp" />
+		
+		<program name="vp" type="vertex"  entry="main" source="tllslo-vp.cg">
+		</program>
+		<program name="fp" type="fragment" entry="main">
+<![CDATA[
+//
+// Fragment shader 
+// Author: wai kit chan
+//cg
+
+void main(
+
+	in float4 decalCoords      : TEXCOORD0,
+	uniform float bypass,
+	uniform samplerRECT image,
+	uniform samplerRECT image1,
+	uniform samplerRECT image2,
+	uniform float2 size,
+	uniform float plasmacolor,
+	uniform float start,
+	out float4 color		: COLOR
+    )
+{
+	//at first decalCoords is between 0 and 1, after the multiplication it's between 0 and video size
+	// decalCoords.y = 1. - decalCoords.y;
+	float4 img = texRECT(image,decalCoords*size).rgba ;
+
+	if (start>=0.5){
+		color = texRECT(image, decalCoords.xy).bgra * 0.5 + 0.5 * texRECT(image1, decalCoords.xy*float(512));		
+	}else{
+		if (bypass ==1){
+			color = img;
+		}else{
+			float R = 
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0, 0)+float2(cos(start*0.51),sin(start*0.04+5.5))*float(512)).xy*2.0-1.0))*size).r*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0, 5)+float2(cos(start*0.51),sin(start*0.04+5.5))*float(512)).xy*2.0-1.0))*size).r*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0,-5)+float2(cos(start*0.51),sin(start*0.04+5.5))*float(512)).xy*2.0-1.0))*size).r*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 5, 0)+float2(cos(start*0.51),sin(start*0.04+5.5))*float(512)).xy*2.0-1.0))*size).r*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2(-5, 0)+float2(cos(start*0.51),sin(start*0.04+5.5))*float(512)).xy*2.0-1.0))*size).r*0.2;	
+				
+			float G = 
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0, 0)+float2(cos(start*0.31),sin(start*0.02+4.7))*float(512)).xy*2.0-1.0))*size).g*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0, 5)+float2(cos(start*0.31),sin(start*0.02+4.7))*float(512)).xy*2.0-1.0))*size).g*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0,-5)+float2(cos(start*0.31),sin(start*0.02+4.7))*float(512)).xy*2.0-1.0))*size).g*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 5, 0)+float2(cos(start*0.31),sin(start*0.02+4.7))*float(512)).xy*2.0-1.0))*size).g*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2(-5, 0)+float2(cos(start*0.31),sin(start*0.02+4.7))*float(512)).xy*2.0-1.0))*size).g*0.2;	
+			
+			float B = 
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0, 0)+float2(cos(start*0.21),sin(start*0.03+2.4))*float(512)).xy*2.0-1.0))*size).b*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0, 5)+float2(cos(start*0.21),sin(start*0.03+2.4))*float(512)).xy*2.0-1.0))*size).b*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 0,-5)+float2(cos(start*0.21),sin(start*0.03+2.4))*float(512)).xy*2.0-1.0))*size).b*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2( 5, 0)+float2(cos(start*0.21),sin(start*0.03+2.4))*float(512)).xy*2.0-1.0))*size).b*0.2+
+				texRECT(image2, (decalCoords.xy+0.01*(texRECT(image1,decalCoords+float2(-5, 0)+float2(cos(start*0.21),sin(start*0.03+2.4))*float(512)).xy*2.0-1.0))*size).b*0.2;	
+
+			float3 colorTmp = texRECT(image, (decalCoords.xy*size)).bgr*0.2 + float3(R,G,B)*0.79 ;
+			float3 grey = float3(colorTmp.r *0.3 + colorTmp.g * 0.59+  colorTmp.b *0.11) ;
+			
+			color.rgb = grey  * (1.- plasmacolor) + colorTmp *  plasmacolor;
+			//color.rgb =  colorTmp;
+			color.a = img.a;
+		}
+	}
+}
+]]>		
+		</program>		
+	</language>
+</jittershader>
