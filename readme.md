@@ -9,9 +9,9 @@
 This first (alpha) version is designed with Max 6 from Cycling74.
 
 ## Installation : 
-#1 Add library folder to your Max Search paths (Max 6 - Menu 'Options' item 'Files Preferences')
-#2 Launch span.maxhelp
+*1 Add library folder to your Max Search paths (Max 6 - Menu 'Options' item 'Files Preferences')
+*2 Launch span.maxhelp
 
 ## Change Log : 
 
-#1 Version 0.0.0 : 
+*1 Version 0.0.0 : 
