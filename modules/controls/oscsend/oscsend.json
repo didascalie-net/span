@@ -25,7 +25,7 @@
 			"description" : "alias"
 		}
 ,
-        		"print" : 		{
+        "print" : 		{
 			"class" : "parameter",
 			"type" : "boolean",
 			"description" : "active une copie des envois dans la fenetre max"

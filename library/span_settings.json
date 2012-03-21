@@ -6,7 +6,7 @@
 	"info" : 	{
 		"licence" : "GNU-LGPL",
 		"name" : "span",
-		"appstatus" : "beta",
+		"appstatus" : "alpha",
 		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 		"appversion" : 		{
 			"major" : 0,
