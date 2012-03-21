@@ -7,7 +7,8 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 25.0, 69.0, 324.0, 590.0 ],
+		"rect" : [ 25.0, 69.0, 604.0, 614.0 ],
+		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -27,6 +28,100 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-8",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 540.197998, 284.0, 43.0 ],
+					"presentation_rect" : [ 305.0, 537.812256, 0.0, 0.0 ],
+					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 482.812256, 284.0, 43.0 ],
+					"presentation_rect" : [ 305.0, 483.93158, 0.0, 0.0 ],
+					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-4",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 376.93158, 284.0, 43.0 ],
+					"presentation_rect" : [ 301.0, 375.758972, 0.0, 0.0 ],
+					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-2",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 226.758972, 284.0, 43.0 ],
+					"presentation_rect" : [ 326.0, 233.017746, 0.0, 0.0 ],
+					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 90.017746, 284.0, 27.0 ],
+					"presentation_rect" : [ 326.0, 75.345154, 0.0, 0.0 ],
+					"text" : "Use this panel to create or open projects",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -217,7 +312,6 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
 					"id" : "obj-12",
 					"maxclass" : "bpatcher",
 					"name" : "span.project.maxpat",
@@ -284,6 +378,80 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 1,
+					"id" : "obj-17",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 35.345154, 303.0, 138.345184 ],
+					"rounded" : 22
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 1,
+					"id" : "obj-19",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 180.139709, 303.0, 138.345184 ],
+					"presentation_rect" : [ 7.0, 179.345154, 0.0, 0.0 ],
+					"rounded" : 22
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 1,
+					"id" : "obj-20",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 325.241211, 303.0, 138.345184 ],
+					"presentation_rect" : [ 7.0, 322.139709, 0.0, 0.0 ],
+					"rounded" : 22
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 1,
+					"id" : "obj-21",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 472.845154, 303.0, 52.967102 ],
+					"presentation_rect" : [ 7.0, 475.241211, 0.0, 0.0 ],
+					"rounded" : 22
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 1,
+					"id" : "obj-22",
+					"ignoreclick" : 1,
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.0, 529.312256, 303.0, 52.967102 ],
+					"presentation_rect" : [ 7.0, 526.845154, 0.0, 0.0 ],
+					"rounded" : 22
+				}
+
+			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
@@ -312,6 +480,13 @@
 				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
 				"patcherrelativepath" : "../span/library/misc",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filecopy.js",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
+				"patcherrelativepath" : "../span/library/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -369,18 +544,6 @@
 				"patcherrelativepath" : "../span/library/GUI",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "fscopy.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "bytecount.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "createfolder.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
