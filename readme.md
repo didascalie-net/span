@@ -1,4 +1,4 @@
-# SPAN - Special aces And Nodes
+# SPAN - Spaces And Nodes
 ## Environnement for real time media controls and organisation
 ## Media Data Management Software 
 
