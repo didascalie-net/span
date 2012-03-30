@@ -2,7 +2,7 @@
 ## Environnement for real time media controls and organisation
 ## Media Data Management Software 
 
-The SPAN project is designed around a JSON file, with : 
+The SPAN project is designed around a JSON file, with :    
 *    namespace organisation and discovery
 *    event/cues management and sequencement
 *    dynamic patch builder
