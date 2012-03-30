@@ -3,9 +3,9 @@
 ## Media Data Management Software 
 
 The SPAN project is designed around a JSON file, with : 
-* *namespace organisation and discovery
-* *event/cues management and sequencement
-* *dynamic patch builder
+*    namespace organisation and discovery
+*    event/cues management and sequencement
+*    dynamic patch builder
 This will work with MIDI, OSC, DMX, ARTNET, PJ-LINK, SERIAL, VISCA and more with the dynamic patch builder.
 
 Even if this first (alpha) version is designed to work with Max 6 from Cycling74, this could/should/must be implemented in more environnements.
