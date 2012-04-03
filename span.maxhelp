@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 25.0, 69.0, 604.0, 614.0 ],
+		"rect" : [ 36.0, 44.0, 604.0, 587.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -40,7 +40,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 540.197998, 284.0, 43.0 ],
-					"presentation_rect" : [ 305.0, 537.812256, 0.0, 0.0 ],
 					"text" : "Use this panel to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -59,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 482.812256, 284.0, 43.0 ],
-					"presentation_rect" : [ 305.0, 483.93158, 0.0, 0.0 ],
 					"text" : "Use this panel to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -78,7 +76,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 376.93158, 284.0, 43.0 ],
-					"presentation_rect" : [ 301.0, 375.758972, 0.0, 0.0 ],
 					"text" : "Use this panel to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -97,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 226.758972, 284.0, 43.0 ],
-					"presentation_rect" : [ 326.0, 233.017746, 0.0, 0.0 ],
 					"text" : "Use this panel to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -115,7 +111,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 90.017746, 284.0, 27.0 ],
-					"presentation_rect" : [ 326.0, 75.345154, 0.0, 0.0 ],
 					"text" : "Use this panel to create or open projects",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -402,7 +397,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 180.139709, 303.0, 138.345184 ],
-					"presentation_rect" : [ 7.0, 179.345154, 0.0, 0.0 ],
 					"rounded" : 22
 				}
 
@@ -417,7 +411,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 325.241211, 303.0, 138.345184 ],
-					"presentation_rect" : [ 7.0, 322.139709, 0.0, 0.0 ],
 					"rounded" : 22
 				}
 
@@ -432,7 +425,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 472.845154, 303.0, 52.967102 ],
-					"presentation_rect" : [ 7.0, 475.241211, 0.0, 0.0 ],
 					"rounded" : 22
 				}
 
@@ -447,7 +439,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 529.312256, 303.0, 52.967102 ],
-					"presentation_rect" : [ 7.0, 526.845154, 0.0, 0.0 ],
 					"rounded" : 22
 				}
 
@@ -469,38 +460,10 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "temp_path.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span_print.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "filecopy.js",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
-				"patcherrelativepath" : "../span/library/js",
+				"name" : "jsfiletester.js",
+				"bootpath" : "/Applications/Max6/examples/javascript/file",
+				"patcherrelativepath" : "../../../../../Applications/Max6/examples/javascript/file",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "editorwindow.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span_build.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/misc",
-				"patcherrelativepath" : "../span/library/misc",
-				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
