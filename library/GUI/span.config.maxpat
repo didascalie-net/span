@@ -7,7 +7,7 @@
 			"revision" : 4
 		}
 ,
-		"rect" : [ 653.0, 179.0, 562.0, 519.0 ],
+		"rect" : [ 209.0, 170.0, 562.0, 519.0 ],
 		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -28,20 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-5",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 3.0, 29.5, 32.0, 18.0 ],
-					"text" : "sel 0"
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -1563,16 +1549,16 @@
 ,
 					"patching_rect" : [ 20.5, 301.75, 223.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"tags" : "",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p properties"
@@ -1619,6 +1605,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 3.0, 36.5, 32.5, 18.0 ],
+					"text" : "sel 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
 					"hidden" : 1,
 					"id" : "obj-6",
 					"maxclass" : "message",
@@ -1655,7 +1655,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 5.5, 81.0, 18.0 ],
+					"patching_rect" : [ 3.0, 12.5, 81.0, 18.0 ],
 					"text" : "r /span/init"
 				}
 
@@ -1713,7 +1713,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
-					"items" : [ "controls", ",", "events", ",", "osc", ",", "device", ",", "audio", ",", "devices", ",", "processors" ],
+					"items" : [ "tags", ",", "controls", ",", "events", ",", "osc", ",", "device", ",", "audio" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2162,16 +2162,16 @@
 ,
 					"patching_rect" : [ 106.0, 233.75, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"tags" : "",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-modules"
@@ -2378,16 +2378,16 @@
 ,
 					"patching_rect" : [ 3.0, 156.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"tags" : "",
+						"globalpatchername" : "",
 						"default_fontface" : 0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"tags" : "",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-categories"
