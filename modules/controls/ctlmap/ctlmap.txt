@@ -1,0 +1,210 @@
+address ctlmap
+tags control
+inputs 0
+outputs 0
+filename span_map
+description "controller mapper"
+element sw
+	address sw
+	description "on/off switch"
+ 	class parameter
+	type boolean
+	unit none
+	initval 0
+	range "0 1"
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+element speedlim
+	address speedlim
+	description "speedlim"
+ 	class parameter
+	type integer
+	unit ms
+	initval 0
+	range "0 99999"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element rampup
+	address rampup
+	description "ramp up time"
+ 	class parameter
+	type dicimal
+	unit ms
+	initval 0
+	range "0 99999"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element rampdown
+	address rampdown
+	description "ramp down time"
+ 	class parameter
+	type dicimal
+	unit ms
+	initval 0
+	range "0 99999"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element coef
+	address coef
+	description "value coefficient"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 1
+	range "0 999"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element in1
+	address in1
+	description "scale value in1"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 0
+	range none
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element in2
+	address in2
+	description "scale value in2"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 1
+	range none
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element out1
+	address out1
+	description "scale value out1"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 0
+	range none
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element out2
+	address out2
+	description "scale value out2"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 1
+	range none
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element type
+	address type
+	description "curve type"
+ 	class parameter
+	type enum
+	unit none
+	initval norm
+	range "norm sym updwn trig direct"
+	repetition 0
+	clipmode none
+	ramp 0
+	rampfunction none
+element curve
+	address curve
+	description "curve value"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 0
+	range "-1 1"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element fliph
+	address fliph
+	description "flip horizontal"
+ 	class parameter
+	type boolean
+	unit none
+	initval 0
+	range "0 1"
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+element flipv
+	address flipv
+	description "flip vertical"
+ 	class parameter
+	type boolean
+	unit none
+	initval 0
+	range "0 1"
+	repetition 0
+	clipmode both
+	ramp 0
+	rampfunction none
+element offseth
+	address offseth
+	description "offset horizontal"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 0
+	range "-1 1"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element offsetv
+	address offsetv
+	description "offset vertical"
+ 	class parameter
+	type dicimal
+	unit none
+	initval 0
+	range "-1 1"
+	repetition 0
+	clipmode both
+	ramp 1
+	rampfunction linear
+element trigmess
+	address trigmess
+	description "trigger message"
+ 	class parameter
+	type string
+	unit none
+	initval none
+	range none
+	repetition 0
+	clipmode none
+	ramp 0
+	rampfunction none
+element dest
+	address dest
+	description "destination"
+ 	class parameter
+	type string
+	unit none
+	initval none
+	range none
+	repetition 0
+	clipmode none
+	ramp 0
+	rampfunction none
