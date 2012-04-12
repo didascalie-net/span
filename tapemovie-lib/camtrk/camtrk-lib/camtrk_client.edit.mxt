@@ -1,1 +1,0 @@
-max v2;#N vpatcher 617 236 892 503;#P origin 0 -21;#P bpatcher 0 186 256 62 0 0 udpsender-.edit.mxt 1 $1/to 2;#P bpatcher 0 124 256 62 0 0 udpreceiver-.edit.mxt 1 $1/from 2;#P bpatcher 0 0 256 124 0 0 camtrkclientmap.edit.mxt 1 $1 2;#P pop;

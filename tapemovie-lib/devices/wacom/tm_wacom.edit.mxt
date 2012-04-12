@@ -1,1 +1,0 @@
-max v2;#N vpatcher 214 549 1012 825;#P origin -30 -104;#P bpatcher 0 62 512 124 0 0 multimapsendu.edit.mxt 0 $1 /tapemovie;#P bpatcher 0 0 512 62 0 0 bkgnd12.mxt 0 $1 0 3;#P objectname background;#P pop;

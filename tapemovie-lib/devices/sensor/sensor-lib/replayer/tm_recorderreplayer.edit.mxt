@@ -1,1 +1,0 @@
-max v2;#N vpatcher 50 119 581 262;#P origin 0 136;#P bpatcher 258 1 255 124 0 0 s_replayer.edit.mxt 0 /sensorReplayer;#P bpatcher 2 1 255 124 0 0 s_recorder.edit.mxt 0 /sensorRecorder;#P pop;

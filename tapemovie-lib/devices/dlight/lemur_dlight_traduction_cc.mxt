@@ -1,1 +1,0 @@
-max v2;#N vpatcher 20 74 472 349;#P window setfont "Sans Serif" 9.;#P window linecount 1;#P newex 71 110 100 196617 r /dlight/midi/type;#P number 19 87 35 9 0 127 3 3 0 0 0 221 221 221 222 222 222 0 0 0;#P newex 19 154 68 196617 ctlout $2 $3;#P newex 19 48 265 196617 r $1;#P connect 0 0 2 0;#P connect 2 0 1 0;#P connect 3 0 1 0;#P pop;
