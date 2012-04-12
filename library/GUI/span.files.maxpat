@@ -29,12 +29,54 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 522.0, 223.333313, 39.0, 29.0 ],
+					"presentation_rect" : [ 520.472229, 225.333313, 0.0, 0.0 ],
+					"text" : "or use tags"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 464.472229, 223.333313, 39.0, 18.0 ],
+					"presentation_rect" : [ 465.5, 223.5, 0.0, 0.0 ],
+					"text" : "TODO"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-5",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 422.5, 26.5, 150.0, 18.0 ],
+					"text" : "TODO"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "dropfile",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 181.0, 22.0, 169.0, 59.0 ],
+					"patching_rect" : [ 422.5, 87.5, 169.0, 59.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 176.0, 20.0, 114.0, 20.0 ]
 				}
@@ -48,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.5, 14.5, 150.0, 18.0 ],
+					"patching_rect" : [ 440.5, 44.5, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 199.5, 1.0, 64.0, 18.0 ],
 					"text" : "tag it as "
@@ -122,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 199.0, 25.0, 150.0, 18.0 ],
+					"patching_rect" : [ 440.5, 62.5, 150.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 199.5, 43.5, 64.0, 18.0 ],
 					"text" : "filter by type"
@@ -383,7 +425,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.5, 131.333328, 115.0, 18.0 ],
-					"text" : "sprintf media::%s"
+					"text" : "sprintf files::%s"
 				}
 
 			}
@@ -803,6 +845,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-50", 0 ]
 				}
 
 			}
