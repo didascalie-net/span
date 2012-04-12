@@ -29,6 +29,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "dropfile",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 181.0, 22.0, 169.0, 59.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 176.0, 20.0, 114.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 200.5, 14.5, 150.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 199.5, 1.0, 64.0, 18.0 ],
+					"text" : "tag it as "
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-2",
@@ -74,7 +102,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-70",
-					"items" : "<empty>",
+					"items" : "all-types",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -428,7 +456,7 @@
 					"patching_rect" : [ 8.5, 8.0, 76.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 0.0, 47.0, 20.0 ],
-					"text" : "media",
+					"text" : "files",
 					"textcolor" : [ 0.0, 0.40859, 0.581194, 1.0 ]
 				}
 
