@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
-		"rect" : [ 36.0, 44.0, 630.0, 806.0 ],
+		"rect" : [ 36.0, 44.0, 589.0, 806.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,41 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.190206, 0.467832, 0.518714, 1.0 ],
+					"id" : "obj-28",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 322.0, 35.345154, 211.0, 62.0 ],
+					"presentation_rect" : [ 327.0, 44.345154, 0.0, 0.0 ],
+					"text" : "• Works with a single JSON file.\n• Highly customzable database\n• Manage local or distant namespace\n• Manage all type of files",
+					"textcolor" : [ 0.190206, 0.467832, 0.518714, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"id" : "obj-26",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 292.0, 8.345154, 277.0, 27.0 ],
+					"presentation_rect" : [ 367.0, 9.345154, 0.0, 0.0 ],
+					"text" : "Namespace and project manager",
+					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontface" : 2,
 					"fontname" : "Arial",
@@ -40,8 +75,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 654.241211, 259.0, 59.0 ],
-					"presentation_rect" : [ 310.0, 654.241211, 0.0, 0.0 ],
-					"text" : "Use this panel to add files to your project (media, json namespace, texts, events etc…",
+					"text" : "Use this exemple to manage namespace-state (events) make/edit/rename/delete",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -57,7 +91,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.5, 654.241211, 132.0, 19.0 ],
-					"presentation_rect" : [ 11.5, 654.241211, 0.0, 0.0 ],
 					"text" : "Manage your events",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -74,7 +107,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.0, 654.241211, 82.0, 20.0 ],
-					"presentation_rect" : [ 223.0, 654.241211, 0.0, 0.0 ],
 					"text" : "span.events",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -89,8 +121,7 @@
 					"name" : "span.events.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 672.258972, 293.5, 110.345184 ],
-					"presentation_rect" : [ 11.5, 672.258972, 0.0, 0.0 ]
+					"patching_rect" : [ 11.5, 672.258972, 293.5, 110.345184 ]
 				}
 
 			}
@@ -104,7 +135,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 7.0, 654.241211, 303.0, 138.345184 ],
-					"presentation_rect" : [ 7.0, 654.241211, 0.0, 0.0 ],
 					"rounded" : 22
 				}
 
@@ -122,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 583.312256, 259.0, 43.0 ],
-					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"text" : "Use this exemple to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -140,7 +170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 511.845154, 259.0, 43.0 ],
-					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"text" : "Use this exemple to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -158,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 310.0, 352.241211, 259.0, 59.0 ],
-					"text" : "Use this panel to add files to your project (media, json namespace, texts, events etc…",
+					"text" : "Use this exemple to add files to your project (media, json namespace, texts, events etc…",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -175,8 +205,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 193.139709, 259.0, 43.0 ],
-					"text" : "Use this panel to customize your namespace (write span_project.json)",
+					"patching_rect" : [ 310.0, 229.139709, 259.0, 43.0 ],
+					"text" : "Use this exemple to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -193,8 +223,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 35.345154, 259.0, 43.0 ],
-					"text" : "Use this panel to create or open projects",
+					"patching_rect" : [ 310.0, 123.690338, 259.0, 43.0 ],
+					"text" : "Use this exemple to create or open projects",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
