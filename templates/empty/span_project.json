@@ -34,14 +34,7 @@
 	}
 ,
 	"files" : 	{
-		"media" : {
-			}
-,
-		"events" : {
-			}
-,		"namespace" : {
-			}
-    }
+	}
 ,
 	"scheduler" : 	{
 }
