@@ -1,24 +1,28 @@
 {
-	"info" : 		{
-			"licence" : "GNU-LGPL",
-			"name" : "span",
-			"appstatus" : "alpha",
-			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
-			"appversion" :	{
-					"major" : 0,
-					"minor" : 0,
-					"revision" : 1
-						}
-				}
+	"info" : 	{
+		"licence" : "GNU-LGPL",
+		"name" : "span",
+		"appstatus" : "alpha",
+		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+		"appversion" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+		}
+
+	}
 ,
 	"paths" : 	{
-			"/work/Users/Renaud/Documents/SVNs/span/preferences/settings.json" : {
-													"type" : "file",
-													"name" : "span-settings"
-													}
-			"/work/Users/Renaud/Documents/SVNs/span/preferences/preferences.json" : {
-													"type" : "file",
-													"name" : "span-preferences"
-													}
-				}
+		"/work/Users/Renaud/Documents/SVNs/span/preferences/settings.json" : 		{
+			"type" : "file",
+			"name" : "span-settings"
+		}
+,
+		"/work/Users/Renaud/Documents/SVNs/span/preferences/preferences.json" : 		{
+			"type" : "file",
+			"name" : "span-preferences"
+		}
+
+	}
+
 }
