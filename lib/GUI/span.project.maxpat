@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 5
 		}
 ,
 		"rect" : [ 247.0, 144.0, 1101.0, 714.0 ],
@@ -139,7 +139,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.25, 44.5, 90.5, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 33.0, 285.0, 28.0 ],
+					"presentation_rect" : [ 5.0, 39.0, 285.0, 22.0 ],
 					"tabs" : [ "Reload", "Open", "New" ]
 				}
 
@@ -176,13 +176,16 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-43",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 316.5, 165.0, 19.0 ],
+					"patching_rect" : [ 720.0, 316.5, 165.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 0.5, 238.0, 19.0 ]
+					"presentation_rect" : [ 52.0, 0.5, 238.0, 19.0 ],
+					"text" : "Current Project Name is : empty.json"
 				}
 
 			}
@@ -220,12 +223,15 @@
 					"fontsize" : 9.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 0.68 ],
 					"id" : "obj-22",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.0, 316.5, 149.0, 17.0 ],
+					"patching_rect" : [ 558.0, 316.5, 149.0, 38.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 16.0, 285.0, 17.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 5.0, 16.0, 285.0, 27.0 ],
+					"text" : "here:/there/projects1/Environments/didascalie-net/span/temp/empty.json",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.68 ]
 				}
 
@@ -245,7 +251,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 183.0, 200.0 ],
@@ -399,16 +405,16 @@
 ,
 					"patching_rect" : [ 558.0, 227.0, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"tags" : ""
 					}
 ,
 					"text" : "p temp_path project"
@@ -519,7 +525,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 183.0, 200.0 ],
@@ -673,16 +679,16 @@
 ,
 					"patching_rect" : [ 434.5, 227.0, 134.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"tags" : ""
 					}
 ,
 					"text" : "p temp_path templates"
@@ -704,7 +710,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 5
 						}
 ,
 						"rect" : [ 25.0, 69.0, 183.0, 200.0 ],
@@ -858,16 +864,16 @@
 ,
 					"patching_rect" : [ 18.25, 218.5, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"default_fontface" : 0,
+						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0
+						"tags" : ""
 					}
 ,
 					"text" : "p temp_path project"
@@ -933,7 +939,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"items" : "<empty>",
+					"items" : "current",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
