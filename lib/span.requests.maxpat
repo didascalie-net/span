@@ -50,7 +50,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 219.5, 204.0, 107.5, 18.0 ],
-					"text" : "1050"
+					"text" : "1029"
 				}
 
 			}
@@ -126,7 +126,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "getval, getvallist, getkeylist",
 					"id" : "obj-14",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
