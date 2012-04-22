@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 562.0, 44.0, 366.0, 414.0 ],
+		"rect" : [ 562.0, 44.0, 420.0, 410.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.75, 223.0, 63.0, 20.0 ],
+					"patching_rect" : [ 287.75, 209.0, 63.0, 20.0 ],
 					"text" : "current ID"
 				}
 
@@ -49,8 +49,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 219.5, 204.0, 107.5, 18.0 ],
-					"text" : "1024"
+					"patching_rect" : [ 274.5, 191.0, 107.5, 18.0 ],
+					"text" : "1079"
 				}
 
 			}
@@ -166,13 +166,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.0, 264.0, 160.0, 34.0 ],
-					"text" : "combine /span/answer/ ID @triggers 1"
+					"patching_rect" : [ 48.0, 264.0, 226.0, 20.0 ],
+					"text" : "combine /span/response/ ID @triggers 1"
 				}
 
 			}
