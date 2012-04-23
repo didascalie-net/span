@@ -28,17 +28,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.0, 0.501961, 1.0, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-31",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"fontsize" : 24.0,
+					"id" : "obj-30",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 10.0, 224.0, 27.0 ],
-					"presentation_rect" : [ 28.5, 11.0, 0.0, 0.0 ],
-					"text" : "must open span.maxhelp !",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+					"patching_rect" : [ 36.0, 22.0, 118.0, 34.0 ],
+					"text" : "span.core"
 				}
 
 			}
@@ -10367,6 +10365,34 @@
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
 				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.core.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
+				"patcherrelativepath" : "../../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.request.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
+				"patcherrelativepath" : "../../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "jsfiletester.js",
+				"bootpath" : "/Applications/Max6/examples/javascript/file",
+				"patcherrelativepath" : "../../../../../../../Applications/Max6/examples/javascript/file",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "loadproperties.js",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib/js",
+				"patcherrelativepath" : "../../lib/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
  ]
