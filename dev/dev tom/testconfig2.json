@@ -1,10 +1,10 @@
 {
 	"del" : 	{
-		"quantity" : 3
+		"quantity" : 2
 	}
 ,
 	"filt" : 	{
-		"quantity" : 4
+		"quantity" : 2
 	}
 ,
 	"ctlmap" : 	{
@@ -12,7 +12,7 @@
 	}
 ,
 	"events" : 	{
-		"quantity" : 1
+		"quantity" : 2
 	}
 ,
 	"oscsend" : 	{
@@ -20,7 +20,7 @@
 	}
 ,
 	"mouse" : 	{
-		"quantity" : 1
+		"quantity" : 2
 	}
 
 }
