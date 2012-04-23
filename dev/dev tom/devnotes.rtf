@@ -1,0 +1,118 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13480\viewh15160\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\fs24 \cf0 span notes\
+\
+how to get app path, patch path and span path\
+	when in max\
+	when in standalone\
+\
+\
+how to get span folder\
+\
+	max\
+		get span.core path with loadproperties.js from within span.core\
+			remove /lib/span.core.maxpat\
+\
+	standalone\
+		get app name with loadproperties.js on top level patch\
+		get app path with "max sendapppath"\
+		build span folder path with \
+			apppath/appname.app/Contents/support/span\
+\
+\
+---\
+what to do at load:\
+\
+- get system info and location of span folder\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	clear span dict\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	copy system info to span dict\
+	get list of files in span folder\
+		copy to span dict as "spanfiles"\
+- load span_info and print to max window\
+	copy to span dict\
+	\
+\
+\
+\
+\
+\
+---\
+\
+settings, preferences, etc...\
+\
+What's in the preferences\
+What's in the settings\
+What's in a project\
+\
+\
+\
+preferences:\
+there should be user preferences stored in span folder or in project folder\
+there should be a default preferences in the span folder that is used to generate a new user preferences\
+\
+	content\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 		verbose\
+		recentprojects (number of recent projects)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 		projects\
+			current (only last created or loaded project)\
+			recent (all recent projects = recentprojects)\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 		shortcuts\
+		scheduler\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 		interface\
+			colors\
+				nodes\
+					audio\
+					device\
+					video\
+					control\
+				themes\
+					lightgreen\
+					generic\
+					purple\
+					blue\
+					red\
+\
+\
+make span_defaultproject.json\
+\
+\
+When you save a project, you could check which "keys" to save with the preferences key of it (i.e. shortcuts, scheduler).\
+\
+\
+\
+projects:\
+\
+	content\
+		projectinfo\
+			name\
+			creation\
+				date\
+				appversion\
+		config\
+		paths\
+		files\
+		windows\
+\
+	maybe:	\
+		scheduler\
+		shortcuts\
+\
+\
+---\
+questions, thoughts\
+\
+should modules path be in preferences or project?\
+\
+need to load modules jsons into files key of modules dict.\
+\
+}

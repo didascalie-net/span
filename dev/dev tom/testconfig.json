@@ -1,0 +1,26 @@
+{
+	"del" : 	{
+		"quantity" : [ 3 ]
+	}
+,
+	"filt" : 	{
+		"quantity" : [ 4 ]
+	}
+,
+	"ctlmap" : 	{
+		"quantity" : [ 2 ]
+	}
+,
+	"events" : 	{
+		"quantity" : [ 1 ]
+	}
+,
+	"oscsend" : 	{
+		"quantity" : [ 2 ]
+	}
+,
+	"mouse" : 	{
+		"quantity" : [ 1 ]
+	}
+
+}
