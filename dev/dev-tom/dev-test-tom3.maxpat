@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 451.0, 44.0, 932.0, 790.0 ],
+		"rect" : [ 20.0, 44.0, 932.0, 790.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 476.75, 86.606262, 118.0, 20.0 ],
+					"presentation_rect" : [ 481.75, 90.0, 0.0, 0.0 ],
+					"text" : "select key to display"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -176,12 +191,11 @@
 					"fontsize" : 12.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-19",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 198.25, 376.0, 145.0, 34.0 ],
-					"text" : "/instancenum instead of .instancenum"
+					"patching_rect" : [ 53.0, 347.0, 306.0, 20.0 ],
+					"text" : "build namespace /instancenum instead of .instancenum"
 				}
 
 			}
@@ -2220,7 +2234,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-57",
-					"items" : "<empty>",
+					"items" : [ "system", ",", "info", ",", "preferences", ",", "paths", ",", "modules", ",", "config", ",", "namespace" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2521,7 +2535,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 17.25, 278.5, 105.0, 20.0 ],
-									"presentation_rect" : [ 14.0, 278.5, 0.0, 0.0 ],
 									"text" : "s /span/load/done"
 								}
 
@@ -4074,7 +4087,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 255.0, 67.0, 876.0, 738.0 ],
+						"rect" : [ 92.0, 44.0, 876.0, 738.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
