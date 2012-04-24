@@ -1,0 +1,167 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red38\green38\blue38;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww9540\viewh12960\viewkind0
+\deftab720
+\pard\pardeftab720\ql\qnatural
+
+\f0\b\fs40 \cf2 preferences, info, projects and span dict
+\b0\fs24 \cf0 \
+\
+\
+I've been working the last several days on going over the ideas of preferences, info, projects and span dict, trying out things and mocking up in order to get an idea of what makes sense, is easy to use and understand, etc.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 \
+\
+To start, I created a copy of span.maxpat and called it span.core.maxpat. This allowed me to work on it freely without breaking anything that exists, and without creating a new git branch...\
+\
+I also think that this low-level abstraction should not be called just "span" since it would be nice to have a complete span application, and the span abstaction as it is cannot become an application as it has no user interface. In order to keep this abstraction low-level, we need another one in which to put this low-level abstraction AND the user interface(s). For this higher-level patch to be called "span", the low-level abstraction needs to be something else - and this is where my proposal of "span.core" comes from.\
+\
+If you put span.maxpat in another patch that you make into a standalone, It will not correctly identify the app name nore will it get the actual app path. So, to solve this, in span.core I send a bang to "getappname" which goes to the parent patcher and bangs a "js loadproperties.js" in order to get "name". It combines this with the app path determined with a message to mas "max sendapppath".\
+\
+\
+I looked very closely at the startup sequence proposed in span.maxpat, and, based on these ideas as a "point de d\'e9part" wanted to try and clarify them further.\
+\
+I also wanted to, as we said, reduce the number of dictionaries we use even further, by making everything be written to the main database "dict span".\
+\
+\
+---\
+STARTUP - Step by step\
+---\
+\
+
+\b system:
+\b0 \
+When span.core loads it performs a "loadproperties.js" in order to create the first dictionary key of the span dictionary, "system". This key contains "isruntime", "os", "osversion", "maxversion" and "paths", which contains paths to the span folder and the lib and templates folders within it (for standalones, this path will be "apppath/appname.app/Contents/support/span/"\
+\
+There is also a "files" subdictionary key which contins all of the files found on all levels of the span folder, with their extension as the data value. This list is useful for verifying the existence of certain files. for example, check to see if "span_preferences.json" exists, and if it doesn't open "span_defaultpreferences.json". It is much better to check for the existence of files like this than the way we did it in tapemovie were we tried to open a file to see if it exists - which cuses errors in some obects.\
+\
+The system keys should never be edited as there are NO variables. It can only be generated automatically.\
+\
+This replaces the "dict span_temp".\
+\
+\
+
+\b info:
+\b0 \
+Once the system dictionary key i set to the span dict, it goes on the the info section. The info section first asks for the span path in the system key of span dict (getval system::paths::span to span.requests) and uses that to import span_info.json. \
+\
+This key should also never be edited. The developers of span are the only ones that will modify the span_info.json file when new versions are to be releases.\
+\
+This information was previously a part of "settings", but none of this information is to be "set", so I think it is better on its own in a file that we can go to simply and modify when we need to change versions.\
+\
+\
+\
+
+\b preferences:
+\b0 \
+After info comes "preferences". This should be a point of discussion. In the previous proposal, there was a "settings" file, which seemed to work like preferences. I'm not sre what the difference is, accept that in general "settings" are parameter values that you change and "preferences" is what the file that holds these settings values is called. There is room for negotiation here, but I just felt that having a preferences file would be appropriate.\
+\
+This preferences file will also be imported into the main span dict.\
+\
+It should contain (at least):\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	verbose\
+	recentprojects (number of recent projects)\
+	projects\
+		current (only last created or loaded project)\
+		recent (all recent projects according to recentprojects number)\
+	shortcuts\
+	scheduler\
+	interface\
+		colors\
+			nodes\
+				audio\
+				device\
+				video\
+				control\
+			themes\
+				lightgreen\
+				generic\
+				purple\
+				blue\
+				red\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	\
+\
+The interface key, I propose to re-organize. Before it contained "colors-nodes" and "colors-themes", but a normal dictionary/database logic would probably be more like a color subkey that contains the subkeys nodes and themes.\
+\
+\
+The idea of teh preferences file is that it sould contain the basic environment definitions that a user would want to share accross projects. \
+\
+I think I would want to also add "paths" to the preferences because I think the modules path should be a part of preferences.\
+\
+We need to think about the relationship of projects to preferences. I think that when we save (or re-save) a project it should probably save (or re-save) the current state of the preferences.\
+\
+There could be an option when loading (or saving) a project that can include or not certain categories. If one would like to keep their own shortcuts when opening a project, they could "uncheck" shortcuts in the project opening choices - or something like that. Same goes for "scheduler" which probably has more to do with a machine than with a project...\
+\
+I defined a "span_defaultpreferences.json" file inside of lib that would not be changed by the user. In span.core, the preferences load routine checks for a span_preferences file (getval system::files::span_preferences.json) and if there is one it opens it, if not, it opens the /lib/span_defaultpreferences.json file. At this point is should automatically write span_preferences to the span folder. This doesn't happen yet.\
+\
+The preferences dict is then set to the span dict, as is everything else.\
+\
+\
+
+\b projects:
+\b0 \
+I haven't done anything with projects yet. So the project section of span.core is exactly the same as in span.maxpat, just disconnected from the startup.\
+\
+\
+
+\b maquette - dev-test-tom3:
+\b0 \
+I started a patch using "span.core" called dev-test-tom3, in order to develop and work with tools for the span database. \
+\
+
+\b span.requests:
+\b0 \
+The first thing is to have developed the beginning of a syntaxe for span-requests (found in span AND span.core, accessible via the abstraction span.requests. There is a help patch, but it is not complete.\
+\
+You can request getval (or get), getvalues, ketkeys, and setval, for now.\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	"getval" : just a "get" to a dictionary. You can use "get" or "getval".\
+	"getvalues" : get a list of values of a certain key at a certain node (i.e. get all tags within first key level of keys of modules = "getvalues modules tags";\
+	"getkeys" : get all the keys at a certain node OR get all keys at a certain note with a certain key at a certain value (i.e. get all modules with tags audio = "getkeys modules tags audio", get all keys within namespace = "get keylist namespace";\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 	"setval" : write to dictionary. Same syntaxe as "set" but "set" is a complicated message to use in max...\
+\
+There are four outlets:\
+\
+	1: normal list output\
+	2: iterated output ("iter")\
+	3: iterated output with clear and append to be used with umenu\
+	4: bang if no answer\
+\
+\
+
+\b add modules:
+\b0 \
+I made a routine that reads a modules folder and loads all the json files into a modules key of the span dict. I also created a new key within the json module file called "active". json files that contain "active 0" will not be loaded. This makes it easy to not include certain modules in a configuration, without having to physically move them t another folder.\
+\
+This routine also extracts the relative path (relative to /modules/) and writes it to the dictionary as "path". I think this would be useful directly inside the modules key to know where to open up files. \
+\
+\
+
+\b config file:
+\b0 \
+I implemented a simple config file just for testing purposes. This will actually be saved with the project. I have two example configs in \
+\
+\
+
+\b building the namespace:
+\b0 \
+I advanced a "new" idea about the namespace, that changes a bit from the old "/module.instance/param" namespace. I would like to go back to a "traditional" osc namespace with "module/instance/param".\
+\
+This allows us to have the common keys of a module only once in the namespace, and all the "elements" after the /number. this is easier to read and more logical, I think. I've also included the "quantity" value from the config as a key in namespace for the module so that we can easily know how many instances there are without having to count keys.\
+\
+look at the example in dev-test-tom3 and see what it looks like\
+\
+\
+\
+\
+\
+\
+\
+\
+}

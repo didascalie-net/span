@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 100.0, 100.0, 1269.0, 792.0 ],
+		"rect" : [ 41.0, 44.0, 1269.0, 792.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,6 +29,216 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-64",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1057.833252, 589.0, 190.0, 27.0 ],
+					"text" : "Write to span dict too !"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-63",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 333.0, 145.166687, 540.0, 39.0 ],
+					"text" : "setval : write to dictionary. Same syntaxe as \"set\" but \"set\" is a complicated message to use in max..."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-62",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 971.833313, 567.0, 189.0, 18.0 ],
+					"text" : "setval namespace::whatever zero"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-61",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
+					"patching_rect" : [ 971.833313, 595.0, 86.0, 20.0 ],
+					"text" : "span.requests"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-60",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 920.5, 383.0, 257.0, 18.0 ],
+					"text" : "getkeys namespace::mouse::1 class controller"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-59",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1053.0, 467.0, 116.0, 20.0 ],
+					"text" : "bang if no response"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-58",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1088.5, 494.0, 87.0, 20.0 ],
+					"text" : "menu output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-57",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1032.416748, 467.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-55",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1007.5, 529.0, 87.0, 20.0 ],
+					"text" : "iterated output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-54",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 884.5, 460.0, 62.0, 20.0 ],
+					"text" : "list output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-51",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 971.833313, 529.0, 34.0, 20.0 ],
+					"text" : "print"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-50",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 756.5, 487.0, 212.0, 18.0 ],
+					"text" : "sw time fb vol volrand delrand fbrand"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"items" : [ "sw", ",", "time", ",", "fb", ",", "vol", ",", "volrand", ",", "delrand", ",", "fbrand" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 994.166687, 494.0, 96.5, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-45",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 949.5, 415.0, 212.0, 18.0 ],
+					"text" : "getkeys modules::del class parameter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.0, 1.0, 0.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-48",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
+					"patching_rect" : [ 949.5, 440.0, 86.0, 20.0 ],
+					"text" : "span.requests"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-44",
@@ -37,7 +247,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1088.5, 667.0, 100.0, 75.0 ],
-					"presentation_rect" : [ 903.5, 605.0, 0.0, 0.0 ],
 					"text" : "all keys in namespace mouse.1 that contain anything as a class..."
 				}
 
@@ -52,7 +261,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 860.5, 647.0, 236.0, 20.0 ],
-					"presentation_rect" : [ 866.0, 613.0, 0.0, 0.0 ],
 					"text" : "or use a * wildcard to chack for any value. "
 				}
 
@@ -94,8 +302,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 860.5, 667.0, 209.0, 18.0 ],
-					"text" : "getkeys namespace::mouse.1 class *"
+					"patching_rect" : [ 860.5, 667.0, 212.0, 18.0 ],
+					"text" : "getkeys namespace::mouse::1 class *"
 				}
 
 			}
@@ -107,8 +315,8 @@
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 860.5, 694.0, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
@@ -124,7 +332,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 1020.75, 367.0, 59.5, 20.0 ],
+					"patching_rect" : [ 994.166687, 346.0, 59.5, 20.0 ],
 					"text" : "dict span"
 				}
 
@@ -194,8 +402,8 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 496.5, 676.0, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
@@ -308,8 +516,8 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 496.5, 549.0, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
@@ -339,7 +547,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 717.5, 258.5, 150.0, 75.0 ],
+					"patching_rect" : [ 705.0, 224.5, 150.0, 75.0 ],
 					"text" : "get a list of tags for all modules keys and fill a menu that can be used to get all keys with certain tags..."
 				}
 
@@ -354,7 +562,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.5, 67.333313, 539.0, 55.0 ],
+					"patching_rect" : [ 333.0, 53.0, 539.0, 55.0 ],
 					"text" : "getkeys : get all the keys at a certain node OR get all keys at a certain note with a certain key at a certain value (i.e. get all modules with tags audio = \"getkeys modules tags audio\", get all keys within namespace = \"get keylist namespace\";"
 				}
 
@@ -369,7 +577,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.5, 126.5, 536.0, 39.0 ],
+					"patching_rect" : [ 333.0, 106.166687, 536.0, 39.0 ],
 					"text" : "getvalues : get a list of values of a certain key at a certain node (i.e. get all tags within first key level of keys of modules = \"getvalues modules tags\";"
 				}
 
@@ -397,7 +605,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.5, 42.0, 536.0, 23.0 ],
+					"patching_rect" : [ 333.0, 32.0, 536.0, 23.0 ],
 					"text" : "get : simple get message to \"dict span\";"
 				}
 
@@ -425,8 +633,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 125.0, 632.0, 179.0, 18.0 ],
-					"text" : "getkeys history::creation::date"
+					"patching_rect" : [ 125.0, 632.0, 167.0, 18.0 ],
+					"text" : "getkeys preferences::projects"
 				}
 
 			}
@@ -439,8 +647,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 99.5, 604.0, 191.0, 18.0 ],
-					"text" : "get history::creation::date::year"
+					"patching_rect" : [ 99.5, 604.0, 107.0, 18.0 ],
+					"text" : "getval info::credits"
 				}
 
 			}
@@ -453,8 +661,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 332.5, 21.0, 373.0, 23.0 ],
-					"text" : "current messages accepted: get, getvalues, getkeys"
+					"patching_rect" : [ 333.0, 11.0, 396.0, 23.0 ],
+					"text" : "current messages accepted: getval, getvalues, getkeys, setval"
 				}
 
 			}
@@ -467,8 +675,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 577.0, 142.0, 18.0 ],
-					"text" : "get info::project-name"
+					"patching_rect" : [ 45.0, 577.0, 109.0, 18.0 ],
+					"text" : "getval info::licence"
 				}
 
 			}
@@ -482,7 +690,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 62.0, 731.0, 370.0, 18.0 ],
-					"text" : "year month day hour minutes seconds"
+					"text" : "current recent"
 				}
 
 			}
@@ -494,8 +702,8 @@
 					"id" : "obj-24",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 105.75, 693.0, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
@@ -510,7 +718,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 672.5, 441.0, 240.0, 18.0 ],
+					"patching_rect" : [ 615.0, 367.0, 240.0, 18.0 ],
 					"text" : "del filt"
 				}
 
@@ -523,9 +731,9 @@
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 701.0, 401.0, 86.0, 20.0 ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
+					"patching_rect" : [ 643.5, 327.0, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
 
@@ -539,50 +747,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 701.0, 375.0, 183.0, 20.0 ],
+					"patching_rect" : [ 643.5, 301.0, 183.0, 20.0 ],
 					"text" : "prepend getkeys modules tags"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-149",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 315.0, 98.0, 20.0 ],
-					"text" : "prepend append"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-148",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 287.0, 27.0, 20.0 ],
-					"text" : "iter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-147",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "clear" ],
-					"patching_rect" : [ 615.0, 258.5, 49.0, 20.0 ],
-					"text" : "t l clear"
 				}
 
 			}
@@ -597,7 +763,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 662.25, 346.0, 96.5, 20.0 ]
+					"patching_rect" : [ 604.75, 272.0, 96.5, 20.0 ]
 				}
 
 			}
@@ -623,8 +789,8 @@
 					"id" : "obj-131",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 615.0, 231.5, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
@@ -667,8 +833,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 413.5, 394.0, 110.0, 18.0 ],
-					"text" : "getkeys interface"
+					"patching_rect" : [ 413.5, 394.0, 210.0, 18.0 ],
+					"text" : "getkeys preferences::interface::colors"
 				}
 
 			}
@@ -681,8 +847,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 397.5, 367.0, 105.0, 18.0 ],
-					"text" : "getkeys settings"
+					"patching_rect" : [ 397.5, 367.0, 119.0, 18.0 ],
+					"text" : "getkeys preferences"
 				}
 
 			}
@@ -794,7 +960,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 503.0, 370.0, 18.0 ],
-					"text" : "del filt ctlmap events oscsend mouse"
+					"text" : "audio control event osc device"
 				}
 
 			}
@@ -820,8 +986,8 @@
 					"id" : "obj-118",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 116.0, 473.0, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
@@ -1124,10 +1290,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-147", 0 ],
+					"destination" : [ "obj-146", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-131", 0 ]
+					"source" : [ "obj-131", 2 ]
 				}
 
 			}
@@ -1155,42 +1321,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-146", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-147", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-148", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-147", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-149", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-148", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-149", 0 ]
 				}
 
 			}
@@ -1322,10 +1452,73 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-51", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-48", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-60", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -1341,7 +1534,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
+				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
