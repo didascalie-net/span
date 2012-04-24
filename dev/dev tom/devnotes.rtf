@@ -6,6 +6,10 @@
 
 \f0\fs24 \cf0 span notes\
 \
+--------------------------------------------------\
+23 april 2012\
+\
+\
 how to get app path, patch path and span path\
 	when in max\
 	when in standalone\
@@ -28,10 +32,8 @@ how to get span folder\
 what to do at load:\
 \
 - get system info and location of span folder\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 	clear span dict\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 	copy system info to span dict\
+	clear span dict\
+	copy system info to span dict\
 	get list of files in span folder\
 		copy to span dict as "spanfiles"\
 - load span_info and print to max window\
@@ -57,18 +59,14 @@ there should be user preferences stored in span folder or in project folder\
 there should be a default preferences in the span folder that is used to generate a new user preferences\
 \
 	content\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 		verbose\
+		verbose\
 		recentprojects (number of recent projects)\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 		projects\
+		projects\
 			current (only last created or loaded project)\
 			recent (all recent projects = recentprojects)\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 		shortcuts\
+		shortcuts\
 		scheduler\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
-\cf0 		interface\
+		interface\
 			colors\
 				nodes\
 					audio\
@@ -115,4 +113,15 @@ should modules path be in preferences or project?\
 \
 need to load modules jsons into files key of modules dict.\
 \
-}
+\
+\
+--------------------------------------------------\
+24 april 2012\
+\
+try namespace with /modulename/instance/param instead of /modulename.instance/param\
+\
+modify span-requests to send "null" whenever there is no response, then route to bang out right outlet if "null".\
+\
+when adding modules to database, it not only adds modules to path key, but adds a relative path to each json in the modules key...\
+\
+	this way you can know exactly where the files are for a particular module, if you need to}
