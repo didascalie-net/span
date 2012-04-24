@@ -118,13 +118,47 @@ need to load modules jsons into files key of modules dict.\
 --------------------------------------------------\
 24 april 2012\
 \
-try namespace with /modulename/instance/param instead of /modulename.instance/param\
+-done- try namespace with /modulename/instance/param instead of /modulename.instance/param\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li1160\fi-1160\ql\qnatural\pardirnatural
+\cf0 	this is really the way it should be. This makes the namespace much easier to look at because all of the instances of a module can be collapsed under the module name. Also, all of the common keys of a module can be written only once at the level of the module. We can also write the "quantity" key a the module level. In this way we can easily know how many instances there are by questioning the namspace.\
 \
-modify span-requests to send "null" whenever there is no response, then route to bang out right outlet if "null".\
+	i.e:\
+	del\
+		quantity: 2\
+		active: 1\
+		address: del\
+		tags: audio\
+		inputs: 1\
+		outputs: 1\
+		filename: t_del\
+		description: "standard delay"\
+		1\
+			sw\
+				address: sw\
+				description: "on/off switch"\
+				...\
+				value: 0\
+			...\
+		2\
+				address: sw\
+				description: "on/off switch"\
+				...\
+				value: 0\
+			...\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+\cf0 		...\
 \
-when adding modules to database, it not only adds modules to path key, but adds a relative path to each json in the modules key...\
+\
+-done- modify span-requests to send "null" whenever there is no response, then route to bang out right outlet if "null".\
+\
+-done- when adding modules to database, it not only adds modules to path key, but adds a relative path to each json in the modules key...\
 \
 	this way you can know exactly where the files are for a particular module, if you need to\
 \
+\
+Try saving a project:\
+	decide wht keys to save with it.\
+\
+What's the difference between preferences and a project?\
 \
 }
