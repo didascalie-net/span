@@ -37,7 +37,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 323.0, 384.0, 75.0, 48.0 ],
-					"presentation_rect" : [ 336.75, 384.0, 0.0, 0.0 ],
 					"text" : "erase menu then send null bang"
 				}
 
@@ -72,7 +71,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "bang if \"null\" output",
+					"comment" : "bang if no output",
 					"id" : "obj-20",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -225,7 +224,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.5, 191.0, 107.5, 18.0 ],
-					"text" : "1471"
+					"text" : "1607"
 				}
 
 			}
