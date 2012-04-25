@@ -31,7 +31,7 @@
 				}
 			}
 ,
-		"file" :	""
+		"file" :	"here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tm.settings.json"
 		}
 ,
 	"preferences" : {
@@ -55,13 +55,13 @@
 			}
 		}
 ,
-		"file" :	""
+		"file" :	"here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tm.preferences.json"
 	}
 ,
 	"project" : {
 		"default" : 	{
 			"info" : 		{
-				"name" : "projectname",
+				"name" : "defaultproject",
 				"creation" : 	{
 					"appname" : "span",
 					"appversion" : 	{
@@ -101,6 +101,6 @@
 			}
 		}
 ,
-		"file" :	""
+		"file" :	"here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tm.project.json"
 		}
 }
