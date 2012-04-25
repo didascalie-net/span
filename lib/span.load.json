@@ -24,17 +24,13 @@
 							}
 					}
 	,
-		"interface" : "qdsdsq",
-		"verbose" : 1
+		"verbose" : 1,
 		"paths" : {
-				"./../../tapemovie2/nodes" : {
-				"tags" : "nodes",
 				}
 			}
+,
+		"file" :	""
 		}
-	"file" :	"",
-
-	}
 ,
 	"preferences" : {
 		"recentprojects" : 10,
@@ -57,6 +53,7 @@
 		"scheduler" : 		{
 
 		}
+,
 		"file" :	""
 		}
 ,
@@ -68,16 +65,28 @@
 			"shortcuts" : 		{
 
 		}
-			,
-			"scheduler" : 		{
-
+,
+	"info" : 	{
+			"creation" : 		{
+		"date" : 		{
+        }
+,
+		"appversion" : 		{
+        }
 		}
+	}
+,
+	"windows" : 	{
+
+	}
+,
+	"paths" : 	{
+	}
+,
 			"namespace" : 		{
 			}
 		}
-			"file" :	""
-		}
 ,
-	"project" : {	
+			"file" :	""
 		}
 }
