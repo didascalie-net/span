@@ -1,0 +1,83 @@
+{	
+	"info" : {
+		"licence" : "GNU-LGPL",
+		"status" : "alpha",
+		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+		"version" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+				}
+	}
+,
+	"settings" : {
+		"default" : {
+			"info" : {
+				"licence" : "",
+				"status" : "",
+				"name" : "",
+				"credits" : "",
+				"version" : 		{
+					"major" : 0,
+					"minor" : 0,
+					"revision" : 1
+							}
+					}
+	,
+		"interface" : "qdsdsq",
+		"verbose" : 1
+		"paths" : {
+				"./../../tapemovie2/nodes" : {
+				"tags" : "nodes",
+				}
+			}
+		}
+	"file" :	"",
+
+	}
+,
+	"preferences" : {
+		"recentprojects" : 10,
+			"projects" : 		{
+			"recent-quantity" : 10,
+			"current" : 			{
+
+			}
+,
+			"recent" : 			{
+
+			}
+
+		}
+			,
+		"shortcuts" : 		{
+
+		}
+,
+		"scheduler" : 		{
+
+		}
+		"file" :	""
+		}
+,
+	"project" : {
+		"default" : {
+			"nodes" : 		{
+				}
+,
+			"shortcuts" : 		{
+
+		}
+			,
+			"scheduler" : 		{
+
+		}
+			"namespace" : 		{
+			}
+		}
+			"file" :	""
+		}
+,
+	"project" : {	
+		}
+}
