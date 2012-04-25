@@ -189,16 +189,17 @@ what should be in projects:\
 \
 projects:\
 \
-	projectinfo\
+project (key in span dict)\
+	info\
 		name\
 		creation\
 			date\
 			appversion\
-	projectprefs\
+	preferences\
 		scheduler\
-			active 0\
+			override 0\
 		shortcuts\
-			active 0\
+			override 0\
 	config\
 		module\
 			quantity\
@@ -215,7 +216,6 @@ projects:\
 		\
 	windows\
 \
-	maybe:	\
 \
 \
 \
@@ -226,4 +226,44 @@ certain prefs can be in project, called projectprefs, and they are either copied
 \
 ---\
 There could be a templates folder, a modules folder and a defaultproject folder in the span folder. These would be saved in the new "system" key of span dict. If one wanted to, they could define other templates, modules or defaultproject folders in the "paths" section. When needed, span would first look to see if there is a path (project), and if not, would go to the system path for the default.\
+\
+\
+--------------------------------------------------\
+25 april 2012\
+\
+\
+\
+a 
+\b modules
+\b0  folder should be in the span folder, but it should NOT be included in system files. \
+by default, this will be the modules folder defined in span/paths\
+the same could be true of the defaultproject that should be in the span folder.\
+it will also be pointed to in span/paths\
+Also, a temp folder that could contain anything from a temp project to module temp stores...\
+\
+should the defaultproject be a folder or just a file? Maybe it should be a file, and then it looks within the same folder to find the other folders like media and data\
+\
+I think that the project should be loaded as a project dictionary (key) within the span dict. \
+Certain keys that could override span preferences would have subkey: override (1/0).\
+\
+\
+There could be a "properties" (find good name) dict, probably in span_preferences, that defines things like path types, file types, etc with tags or whatever. This could also be in the project::preferences. This way, project::paths could contain subkeys for each type, and then just list the different paths, without having to clutter things with tags and other keys.\
+\
+There should be a way to establish what system folders are needed, so that if somebody doesn't want to use "temp" they don't have to, or if somebody wants to make some other needed span folder that we didn't plan on, they can.\
+\
+\
+\
+\'96 make system folder definitions \
+	this should be done in span_info.json\
+	maybe span_info.json should be called "setup"\
+		or span-config (example wordpress)\
+		or span-load (example wordpress)\
+\
+\
+\
+\
+\
+\
+\
+\
 }
