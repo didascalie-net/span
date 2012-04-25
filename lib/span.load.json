@@ -1,32 +1,33 @@
 {	
 	"info" : {
-		"licence" : "GNU-LGPL",
 		"name" : "span",
+		"licence" : "GNU-LGPL",
 		"status" : "alpha",
 		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 		"version" : 		{
 			"major" : 0,
 			"minor" : 0,
 			"revision" : 1
-				}
+				}		
+
 	}
 ,
 	"settings" : {
 		"default" : {
 			"info" : {
-				"licence" : "",
-				"status" : "",
-				"name" : "",
-				"credits" : "",
+				"name" : "span",
+				"licence" : "GNU-LGPL",
+				"status" : "alpha",
+				"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 				"version" : 		{
 					"major" : 0,
 					"minor" : 0,
 					"revision" : 1
 							}
 					}
-	,
-		"verbose" : 1,
-		"paths" : {
+,
+			"verbose" : 1,
+			"paths" : {
 				}
 			}
 ,
@@ -34,60 +35,72 @@
 		}
 ,
 	"preferences" : {
-		"recentprojects" : 10,
-			"projects" : 		{
-			"recent-quantity" : 10,
-			"current" : 			{
+		"default" : 	{
+			"projects" : 	{
+				"current" : 	{
 
-			}
-,
-			"recent" : 			{
-
-			}
-
-		}
-			,
-		"shortcuts" : 		{
-
-		}
-,
-		"scheduler" : 		{
-
-		}
-,
-		"file" :	""
-		}
-,
-	"project" : {
-		"default" : {
-			"nodes" : 		{
 				}
+,
+				"recent" : 		{
+
+				}
+			}
 ,
 			"shortcuts" : 		{
 
-		}
+			}
 ,
-	"info" : 	{
-			"creation" : 		{
-		"date" : 		{
-        }
-,
-		"appversion" : 		{
-        }
-		}
-	}
-,
-	"windows" : 	{
+			"scheduler" : 		{
 
+			}
+		}
+,
+		"file" :	""
 	}
 ,
-	"paths" : 	{
-	}
+	"project" : {
+		"default" : 	{
+			"info" : 		{
+				"name" : "projectname",
+				"creation" : 	{
+					"appname" : "span",
+					"appversion" : 	{
+						"major" : 0,
+						"minor" : 0,
+						"revision" : 1
+						
+       			 	}
+,
+					"date" : 		{
+						"year" : 0,
+						"month" : 0,
+						"day" : 0,
+						"hours" : 0,
+						"minutes" : 0,
+						"seconds" : 0
+					}							
+        		}
+        	}
+,
+			"paths" : 	{
+			}
+,
+			"nodes" : 		{
+			
+			}
+,
+			"shortcuts" : 		{
+
+			}
+,
+			"windows" : 	{
+
+			}
 ,
 			"namespace" : 		{
 			}
 		}
 ,
-			"file" :	""
+		"file" :	""
 		}
 }
