@@ -342,8 +342,9 @@ fichier span-preferences.json\
 \
 \
 **************************************************\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\b span-load\
+\b \cf0 span-load\
 	info\
 	settings\
 		file\
@@ -357,8 +358,9 @@ fichier span-preferences.json\
 \
 	init2 ?\
 	events ?\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
-\b0 \
+\b0 \cf0 \
 \
 \
 \
@@ -400,4 +402,14 @@ nodes discovery ....\
 \
 \
 --------\
-project file should place in project/info key the "path" where it was loaded. This way, the paths defined in it could be defined relative to it  (?)}
+project file should place in project/info key the "path" where it was loaded. This way, the paths defined in it could be defined relative to it  (?)\
+\
+\
+--------------------------------------------------\
+26 april 2012\
+\
+\
+Salut...  J'ai propos\'e9 une solution pour la confusion des span.load - redirect. (issue 14). Je l'ai mis en place. Je pense que c'est le bon compromis. Maintenant, je voudrais modifier la structure des keys dans span.load, pour qu'ils soient structur\'e9s exactement comme dans span dict. donc, "settings" est \'e9gale \'e0 "span::settings". J'avais dit de mettre "settings::file" et "settings::default", mais c'est compliqu\'e9 \'e0 copier et r\'e9utiliser. \'c7a veux dire qu'il faut des keys dans span.laod "settingsfile", "preferencesfile" et "projectfile" si on veux ouvrir d'autres fichiers. Ceci dit, avec la fonction "redirect" que j'ai impl\'e9ment\'e9, chacun pourrait avoir son span.load perso, et ne pas forec\'e9ment ouvrir d'autres fichiers...\
+\
+\
+}

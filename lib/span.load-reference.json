@@ -12,10 +12,10 @@
 
 	}
 ,
-	"settingsfile" :	"here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tm.settings.json",
+	"settingsfile" :	"       ",
 	"settings" : {
 		"info" : 	{
-			"name" : "span",
+			"name" : "environment_name",
 			"licence" : "GNU-LGPL",
 			"status" : "alpha",
 			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
@@ -31,7 +31,7 @@
 		}
 	}
 ,
-	"preferencesfile" :	"here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tm.preferences.json",
+	"preferencesfile" :	"",
 	"preferences" : {
 		"projects" : 	{
 			"current" : 	{
@@ -52,7 +52,7 @@
 		}
 	}
 ,
-	"projectfile" :	"here:/there/projects1/Environ ments/didascalie-net/tapemovie2/tm.project.json",
+	"projectfile" :	"",
 	"project" : {
 		"info" : 		{
 			"name" : "defaultproject",
