@@ -1,35 +1,4 @@
 {	
-	"info" : {
-		"name" : "span",
-		"license" : "GNU-LGPL",
-		"status" : "alpha",
-		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
-		"version" : 		{
-			"major" : 0,
-			"minor" : 0,
-			"revision" : 1
-		}		
-
-	}
-,
-	"settings" : {
-		"info" : 	{
-			"name" : "patch_or_app_name",
-			"license" : "GNU-LGPL",
-			"status" : "alpha",
-			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
-			"version" : 	{
-				"major" : 0,
-				"minor" : 0,
-				"revision" : 1
-			}
-		}
-,
-		"verbose" : 1,
-		"paths" : {
-		}
-	}
-,
 	"preferences" : {
 		"projects" : 	{
 			"current" : 	{
@@ -48,7 +17,7 @@
 		"scheduler" : 		{
 
 		}
-	}
+}
 ,
 	"project" : {
 		"info" : 		{
