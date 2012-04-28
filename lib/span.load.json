@@ -1,13 +1,8 @@
 {	
 	"preferences" : {
-		"projects" : 	{
-			"current" : 	{
+		"verbose" : 1,
+		"recentprojects" : 	{
 
-			}
-,
-			"recent" : 		{
-
-			}
 		}
 ,
 		"shortcuts" : 		{
@@ -17,13 +12,13 @@
 		"scheduler" : 		{
 
 		}
-}
+	}
 ,
 	"project" : {
 		"info" : 		{
 			"name" : "newproject",
 			"appname" : "span",
-			"appversion" : 	"0.0.1",
+			"appversion" : "0.0.1",
 			"created" : 		{
 				"year" : 0,
 				"month" : 0,

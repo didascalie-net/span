@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 385.0, 44.0, 1023.0, 792.0 ],
+		"rect" : [ 390.0, 44.0, 1023.0, 792.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -28,6 +28,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 36.5, 104.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "button",
 					"numinlets" : 1,
@@ -44,9 +55,9 @@
 					"fontsize" : 24.0,
 					"id" : "obj-35",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 36.5, 74.0, 96.0, 34.0 ],
+					"patching_rect" : [ 36.5, 132.303528, 96.0, 34.0 ],
 					"text" : "tm.span"
 				}
 
@@ -60,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 36.5, 137.532959, 103.0, 20.0 ],
+					"patching_rect" : [ 36.5, 74.0, 103.0, 20.0 ],
 					"text" : "r /span/load/done"
 				}
 
@@ -2945,7 +2956,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-57",
-					"items" : [ "system", ",", "preferences", ",", "projects", ",", "scheduler", ",", "project", ",", "info", ",", "paths", ",", "nodes", ",", "shortcuts", ",", "windows", ",", "namespace" ],
+					"items" : [ "system", ",", "preferences", ",", "project", ",", "scheduler", ",", "paths", ",", "nodes", ",", "shortcuts", ",", "windows", ",", "namespace" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -7237,6 +7248,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-54", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -7358,6 +7378,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
