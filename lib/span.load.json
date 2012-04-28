@@ -1,7 +1,7 @@
 {	
 	"info" : {
 		"name" : "span",
-		"licence" : "GNU-LGPL",
+		"license" : "GNU-LGPL",
 		"status" : "alpha",
 		"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 		"version" : 		{
@@ -15,7 +15,7 @@
 	"settings" : {
 		"info" : 	{
 			"name" : "patch_or_app_name",
-			"licence" : "GNU-LGPL",
+			"license" : "GNU-LGPL",
 			"status" : "alpha",
 			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 			"version" : 	{
