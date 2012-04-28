@@ -21,24 +21,27 @@
 ,
 	"project" : {
 		"info" : 		{
-			"name" : "spanproject",
-			"creation" : 	{
-				"appname" : "span",
-				"appversion" : 	{
-					"major" : 0,
-					"minor" : 0,
-					"revision" : 1
-						
-       			 }
+			"name" : "newproject",
+			"appname" : "span",
+			"appversion" : 	"0.0.1",
+			"created" : 		{
+				"year" : 0,
+				"month" : 0,
+				"day" : 0,
+				"hours" : 0,
+				"minutes" : 0,
+				"seconds" : 0
+											
+        	}
 ,
-				"date" : 		{
-					"year" : 0,
-					"month" : 0,
-					"day" : 0,
-					"hours" : 0,
-					"minutes" : 0,
-					"seconds" : 0
-				}							
+			"lastopened" : 		{
+				"year" : 0,
+				"month" : 0,
+				"day" : 0,
+				"hours" : 0,
+				"minutes" : 0,
+				"seconds" : 0
+											
         	}
         }
 ,
