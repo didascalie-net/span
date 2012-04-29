@@ -5,6 +5,10 @@
 
 		}
 ,
+		"shortcuts" : 		{
+
+		}
+,
 		"scheduler" : 		{
 
 		}
@@ -14,12 +18,7 @@
 		"info" : 		{
 			"name" : "newproject",
 			"appname" : "span",
-			"appversion" : 		{
-				"major" : 0,
-				"minor" : 0,
-				"revision" : 1
-			}
-,
+			"appversion" : "0.0.1",
 			"created" : 		{
 				"year" : 0,
 				"month" : 0,
@@ -49,9 +48,6 @@
 			
 		}
 ,
-		"namespace" : 		{
-		}
-,
 		"shortcuts" : 		{
 
 		}
@@ -59,6 +55,8 @@
 		"windows" : 	{
 
 		}
+,
+		"namespace" : 		{
+		}
 	}
-
 }
