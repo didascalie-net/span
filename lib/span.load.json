@@ -1,8 +1,20 @@
 {	
 	"preferences" : {
 		"verbose" : 1,
-		"recentprojects" : 	{
-
+		"projects" : 	{
+			"current" : "",
+			"recent" :  {
+				"1" : "",
+				"2" : "",
+				"3" : "",
+				"4" : "",
+				"5" : "",
+				"6" : "",
+				"7" : "",
+				"8" : "",
+				"9" : "",
+				"10" : ""
+			}
 		}
 ,
 		"scheduler" : 		{
