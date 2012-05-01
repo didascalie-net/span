@@ -3232,7 +3232,7 @@
 					"maxclass" : "dict.view",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 386.75, 172.75, 506.0, 586.5 ]
+					"patching_rect" : [ 387.75, 172.75, 506.0, 586.5 ]
 				}
 
 			}
