@@ -241,16 +241,16 @@
 ,
 					"patching_rect" : [ 190.0, 117.530853, 64.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p tm_print"
@@ -1122,16 +1122,16 @@
 ,
 					"patching_rect" : [ 33.25, 627.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p creating_a_project"
@@ -1837,16 +1837,16 @@
 ,
 									"patching_rect" : [ 415.0, 331.5, 98.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"globalpatchername" : "",
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p initval-to-val"
@@ -2909,16 +2909,16 @@
 ,
 					"patching_rect" : [ 33.25, 553.0, 161.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p building_the_namespace3"
@@ -3108,16 +3108,16 @@
 ,
 					"patching_rect" : [ 634.0, 35.959656, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p listtomenu"
@@ -3187,7 +3187,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-57",
-					"items" : [ "system", ",", "preferences", ",", "project", ",", "paths", ",", "nodes", ",", "namespace", ",", "shortcuts", ",", "windows" ],
+					"items" : [ "system", ",", "preferences", ",", "project", ",", "scheduler", ",", "paths", ",", "nodes", ",", "namespace", ",", "shortcuts", ",", "windows" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4916,16 +4916,16 @@
 ,
 					"patching_rect" : [ 33.25, 483.0, 258.75, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p creating_a_config_file"
@@ -5262,16 +5262,16 @@
 ,
 									"patching_rect" : [ 416.5, 463.5, 132.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"description" : "",
-										"tags" : "",
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"globalpatchername" : "",
-										"default_fontface" : 0,
 										"digest" : "",
 										"default_fontname" : "Arial",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"tags" : "",
+										"default_fontsize" : 12.0,
+										"description" : "",
 										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p extract_relative_path"
@@ -6710,16 +6710,16 @@
 ,
 					"patching_rect" : [ 33.0, 321.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p add_modules"
@@ -7388,16 +7388,16 @@
 ,
 					"patching_rect" : [ 634.0, 8.959656, 155.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"description" : "",
-						"tags" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0,
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"tags" : "",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p database_requests-ideas"
