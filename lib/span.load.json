@@ -22,7 +22,7 @@
 		}
 	}
 ,
-	"project" : {
+	"projectfile" : {
 		"info" : 		{
 			"name" : "newproject",
 			"appname" : "span",
