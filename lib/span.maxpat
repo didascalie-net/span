@@ -232,7 +232,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "span.requests.maxpat",
-								"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+								"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -241,16 +241,16 @@
 ,
 					"patching_rect" : [ 408.479187, 160.530853, 78.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p span_print"
@@ -407,7 +407,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-43",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -421,7 +420,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-42",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -435,7 +433,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-41",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -449,7 +446,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-40",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -463,7 +459,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -477,7 +472,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-37",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -492,7 +486,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-35",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -507,7 +500,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-36",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -521,7 +513,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-34",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -536,7 +527,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-33",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -550,7 +540,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-32",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -564,7 +553,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-31",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -578,7 +566,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-27",
 									"linecount" : 4,
 									"maxclass" : "comment",
@@ -593,7 +580,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -849,7 +835,6 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
-																	"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"id" : "obj-155",
 																	"linecount" : 4,
 																	"maxclass" : "comment",
@@ -962,7 +947,6 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
-																	"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"id" : "obj-116",
 																	"linecount" : 3,
 																	"maxclass" : "comment",
@@ -1019,7 +1003,6 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
-																	"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"id" : "obj-45",
 																	"linecount" : 4,
 																	"maxclass" : "comment",
@@ -1464,7 +1447,6 @@
 																"box" : 																{
 																	"fontname" : "Arial",
 																	"fontsize" : 12.0,
-																	"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 																	"id" : "obj-79",
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
@@ -2367,16 +2349,16 @@
 ,
 													"patching_rect" : [ 38.0, 86.0, 182.0, 27.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 12.0,
-														"tags" : "",
 														"default_fontsize" : 12.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p getvalues_getkeys"
@@ -2593,16 +2575,16 @@
 ,
 									"patching_rect" : [ 143.0, 117.666672, 85.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p get_answer"
@@ -2730,16 +2712,16 @@
 ,
 					"patching_rect" : [ 375.979187, 729.446472, 101.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p span-requests"
@@ -2801,7 +2783,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-47",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2818,16 +2799,16 @@
 ,
 					"patching_rect" : [ 208.239594, 729.446472, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p evman"
@@ -2874,7 +2855,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-47",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2891,16 +2871,16 @@
 ,
 					"patching_rect" : [ 54.229172, 729.446472, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p map"
@@ -2983,7 +2963,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-8",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -2998,7 +2977,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-7",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3013,7 +2991,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-6",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3028,7 +3005,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -3043,7 +3019,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3057,7 +3032,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3085,16 +3059,16 @@
 ,
 					"patching_rect" : [ 339.979187, 597.446472, 162.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p poly-osc-send-and-receive"
@@ -3437,16 +3411,16 @@
 ,
 					"patching_rect" : [ 16.229156, 581.737061, 107.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p files-namespace"
@@ -3743,7 +3717,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "span.requests.maxpat",
-												"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+												"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -3752,16 +3726,16 @@
 ,
 									"patching_rect" : [ 84.5, 157.0, 78.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p span_print"
@@ -3866,7 +3840,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "span.requests.maxpat",
-								"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+								"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -3875,16 +3849,16 @@
 ,
 					"patching_rect" : [ 261.979187, 493.946472, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p end-print"
@@ -3910,7 +3884,6 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 8.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -4200,16 +4173,16 @@
 ,
 					"patching_rect" : [ 19.229172, 425.946472, 107.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p temp_path span"
@@ -4379,7 +4352,6 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4428,7 +4400,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-2",
 													"linecount" : 18,
 													"maxclass" : "comment",
@@ -4446,16 +4417,16 @@
 ,
 									"patching_rect" : [ 276.229126, 418.0, 71.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 12.0,
-										"tags" : "",
 										"default_fontsize" : 12.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p info-backup"
@@ -4466,7 +4437,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-37",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4481,7 +4451,6 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-22",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4495,7 +4464,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4523,7 +4491,7 @@
 											"path" : "~/Library/Application Support/span"
 										}
 ,
-										"path" : "here:/there/projects1/Environ ments/didascalie-net/span/lib/"
+										"path" : "work:/Users/Renaud/Documents/SVNs/span/lib/"
 									}
 ,
 									"fontname" : "Arial",
@@ -4556,7 +4524,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4628,7 +4595,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4786,7 +4752,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-52",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -5493,16 +5458,16 @@
 ,
 					"patching_rect" : [ 19.229172, 95.802734, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p system"
@@ -5558,7 +5523,6 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 8.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-21",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -5572,7 +5536,6 @@
 				"box" : 				{
 					"fontname" : "Verdana",
 					"fontsize" : 8.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-24",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -5639,7 +5602,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-29",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patcher" : 					{
@@ -5650,7 +5613,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 52.0, 60.0, 708.0, 768.0 ],
+						"rect" : [ 117.0, 44.0, 888.0, 743.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -5673,14 +5636,195 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-69",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 696.0, 456.0, 50.0, 16.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-67",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 654.208374, 422.5, 63.0, 18.0 ],
+									"presentation_rect" : [ 654.25, 419.5, 0.0, 0.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 668.25, 550.5, 63.0, 18.0 ],
+									"text" : "prepend set"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-61",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 668.25, 526.5, 90.0, 18.0 ],
+									"text" : "routepass system"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-60",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 507.416626, 356.0, 60.0, 16.0 ],
+									"presentation_rect" : [ 509.708374, 359.0, 0.0, 0.0 ],
+									"text" : "get system"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-59",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 640.708374, 342.0, 60.0, 16.0 ],
+									"text" : "get system"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-48",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 536.0, 285.5, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-39",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "clear", "bang" ],
+									"patching_rect" : [ 503.208313, 316.0, 156.500031, 18.0 ],
+									"text" : "t b clear b"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 1.0, 0.4, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-37",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 654.208374, 502.5, 59.5, 20.0 ],
+									"presentation_rect" : [ 516.708313, 473.5, 0.0, 0.0 ],
+									"text" : "dict"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-31",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 654.208374, 397.5, 90.0, 18.0 ],
+									"text" : "routepass system"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 1.0, 1.0, 0.4, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-18",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 4,
+									"outlettype" : [ "dictionary", "", "", "" ],
+									"patching_rect" : [ 640.708374, 368.0, 59.5, 20.0 ],
+									"text" : "dict span"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "path or a json file to load a project",
+									"id" : "obj-12",
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 524.916626, 32.0, 25.0, 25.0 ],
+									"presentation_rect" : [ 524.916626, 12.5, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 18.0,
+									"id" : "obj-10",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 544.25, 52.5, 336.0, 89.0 ],
+									"presentation_rect" : [ 544.25, 32.5, 0.0, 0.0 ],
+									"text" : "each time a project is load, it clear dict-span and load span.load then dump projectfile and create/merge keys and contents"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
 									"id" : "obj-16",
 									"linecount" : 5,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 431.75, 262.0, 225.0, 64.0 ],
-									"presentation_rect" : [ 436.75, 265.0, 0.0, 0.0 ],
+									"patching_rect" : [ 299.75, 238.0, 225.0, 64.0 ],
 									"text" : "-When info key is found in project, instead of copying it to the root level of span, stamp \"created\" and \"lastopened\" with date and time.;\n- Normally, when an existing project is loaded, it will only be stamped in \"lastopened\"."
 								}
 
@@ -5694,8 +5838,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 165.416565, 429.0, 143.0, 18.0 ],
-									"text" : "routepass preferences project"
+									"patching_rect" : [ 62.416565, 444.0, 157.0, 18.0 ],
+									"text" : "routepass preferences projectfile"
 								}
 
 							}
@@ -5708,7 +5852,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 26.083374, 332.0, 48.0, 18.0 ],
+									"patching_rect" : [ 23.083374, 356.0, 48.0, 18.0 ],
 									"text" : "deferlow"
 								}
 
@@ -5717,13 +5861,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-54",
 									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 408.25, 418.5, 109.5, 41.0 ],
+									"patching_rect" : [ 305.25, 433.5, 109.5, 41.0 ],
 									"text" : "stamp info with created and las opened date and time"
 								}
 
@@ -5737,7 +5880,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 346.25, 673.5, 185.0, 18.0 ],
+									"patching_rect" : [ 243.25, 688.5, 185.0, 18.0 ],
 									"text" : "prepend setval project::info::lastopened"
 								}
 
@@ -5752,7 +5895,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 346.25, 701.0, 86.0, 20.0 ],
+									"patching_rect" : [ 243.25, 716.0, 86.0, 20.0 ],
 									"text" : "span.requests"
 								}
 
@@ -5766,7 +5909,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 374.25, 651.5, 170.0, 18.0 ],
+									"patching_rect" : [ 271.25, 666.5, 170.0, 18.0 ],
 									"text" : "prepend setval project::info::created"
 								}
 
@@ -5778,7 +5921,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 374.25, 429.0, 20.0, 20.0 ]
+									"patching_rect" : [ 271.25, 444.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -5791,7 +5934,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 374.25, 454.5, 32.5, 18.0 ],
+									"patching_rect" : [ 271.25, 469.5, 32.5, 18.0 ],
 									"text" : "t b b"
 								}
 
@@ -5805,7 +5948,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 387.75, 525.5, 32.5, 18.0 ],
+									"patching_rect" : [ 284.75, 540.5, 32.5, 18.0 ],
 									"text" : "join"
 								}
 
@@ -5820,7 +5963,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 387.75, 549.5, 130.0, 39.0 ],
+									"patching_rect" : [ 284.75, 564.5, 130.0, 39.0 ],
 									"text" : "year $3, month $1, day $2, hours $4, minutes $5, seconds $6"
 								}
 
@@ -5834,7 +5977,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "list", "list", "int" ],
-									"patching_rect" : [ 387.75, 501.5, 46.0, 18.0 ],
+									"patching_rect" : [ 284.75, 516.5, 46.0, 18.0 ],
 									"text" : "date"
 								}
 
@@ -5848,7 +5991,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 387.75, 593.5, 63.0, 18.0 ],
+									"patching_rect" : [ 284.75, 608.5, 63.0, 18.0 ],
 									"text" : "prepend set"
 								}
 
@@ -5863,7 +6006,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 374.25, 617.0, 59.5, 20.0 ],
+									"patching_rect" : [ 271.25, 632.0, 59.5, 20.0 ],
 									"text" : "dict"
 								}
 
@@ -5877,7 +6020,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 387.75, 478.839844, 54.0, 16.0 ],
+									"patching_rect" : [ 284.75, 493.839844, 54.0, 16.0 ],
 									"text" : "time, date"
 								}
 
@@ -5891,7 +6034,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 239.416656, 595.339844, 52.0, 18.0 ],
+									"patching_rect" : [ 136.416656, 610.339844, 52.0, 18.0 ],
 									"text" : "route info"
 								}
 
@@ -5905,7 +6048,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.416565, 392.5, 24.0, 18.0 ],
+									"patching_rect" : [ 62.416565, 407.5, 24.0, 18.0 ],
 									"text" : "iter"
 								}
 
@@ -5914,13 +6057,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-35",
 									"linecount" : 8,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 431.75, 155.0, 216.0, 99.0 ],
+									"patching_rect" : [ 299.75, 131.0, 216.0, 99.0 ],
 									"text" : "- import span.load;\n- get each key of span load and copy to span;\n- extract sub keys of project key of span.load and copy them to span (except info). Do not recopy preferences keys to span. Scheduler is found in pareferences and ALSO on the root level of span because it could be shared between preferences and project."
 								}
 
@@ -5934,7 +6076,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 179.416656, 624.339844, 76.0, 18.0 ],
+									"patching_rect" : [ 76.416656, 639.339844, 76.0, 18.0 ],
 									"text" : "prepend setval"
 								}
 
@@ -5949,7 +6091,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 179.416656, 647.839844, 86.0, 20.0 ],
+									"patching_rect" : [ 76.416656, 662.839844, 86.0, 20.0 ],
 									"text" : "span.requests"
 								}
 
@@ -5963,7 +6105,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 106.333282, 539.839844, 51.0, 18.0 ],
+									"patching_rect" : [ 3.333282, 554.839844, 51.0, 18.0 ],
 									"text" : "t getkeys"
 								}
 
@@ -5977,7 +6119,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.333282, 462.5, 77.0, 18.0 ],
+									"patching_rect" : [ 62.333282, 477.5, 77.0, 18.0 ],
 									"text" : "prepend getval"
 								}
 
@@ -5992,7 +6134,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 165.333282, 497.5, 86.0, 20.0 ],
+									"patching_rect" : [ 62.333282, 512.5, 86.0, 20.0 ],
 									"text" : "span.requests"
 								}
 
@@ -6006,7 +6148,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 165.416565, 371.0, 211.833466, 18.0 ],
+									"patching_rect" : [ 62.416565, 386.0, 211.833466, 18.0 ],
 									"text" : "zl reg"
 								}
 
@@ -6020,7 +6162,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 239.416656, 570.839844, 24.0, 18.0 ],
+									"patching_rect" : [ 136.416656, 585.839844, 24.0, 18.0 ],
 									"text" : "iter"
 								}
 
@@ -6034,7 +6176,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 272.166687, 624.339844, 64.0, 18.0 ],
+									"patching_rect" : [ 169.166687, 639.339844, 64.0, 18.0 ],
 									"text" : "prepend get"
 								}
 
@@ -6048,7 +6190,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 165.333282, 539.839844, 127.0, 18.0 ],
+									"patching_rect" : [ 62.333282, 554.839844, 127.0, 18.0 ],
 									"text" : "substitute dictionary name"
 								}
 
@@ -6063,7 +6205,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 165.499908, 570.839844, 59.5, 18.0 ],
+									"patching_rect" : [ 62.499908, 585.839844, 59.5, 18.0 ],
 									"text" : "dict"
 								}
 
@@ -6078,7 +6220,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 216.416656, 341.0, 86.0, 20.0 ],
+									"patching_rect" : [ 113.416656, 356.0, 86.0, 20.0 ],
 									"text" : "span.requests"
 								}
 
@@ -6092,7 +6234,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "", "" ],
-									"patching_rect" : [ 303.250031, 270.5, 74.0, 18.0 ],
+									"patching_rect" : [ 200.250031, 285.5, 74.0, 18.0 ],
 									"text" : "t b l l"
 								}
 
@@ -6104,7 +6246,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 26.083374, 357.5, 20.0, 20.0 ]
+									"patching_rect" : [ 23.083374, 381.5, 20.0, 20.0 ]
 								}
 
 							}
@@ -6117,7 +6259,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 216.416656, 316.5, 76.0, 18.0 ],
+									"patching_rect" : [ 113.416656, 331.5, 76.0, 18.0 ],
 									"text" : "prepend setval"
 								}
 
@@ -6131,7 +6273,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 363.416687, 193.0, 32.5, 16.0 ],
+									"patching_rect" : [ 260.416687, 208.0, 32.5, 16.0 ],
 									"text" : "clear"
 								}
 
@@ -6145,7 +6287,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.416565, 193.0, 48.0, 18.0 ],
+									"patching_rect" : [ 62.416565, 208.0, 48.0, 18.0 ],
 									"text" : "deferlow"
 								}
 
@@ -6159,7 +6301,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
-									"patching_rect" : [ 165.416565, 214.5, 59.0, 18.0 ],
+									"patching_rect" : [ 62.416565, 229.5, 59.0, 18.0 ],
 									"text" : "t b getkeys"
 								}
 
@@ -6173,7 +6315,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.750031, 316.5, 64.0, 18.0 ],
+									"patching_rect" : [ 227.750031, 331.5, 64.0, 18.0 ],
 									"text" : "prepend get"
 								}
 
@@ -6187,7 +6329,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.750031, 292.0, 24.0, 18.0 ],
+									"patching_rect" : [ 227.750031, 307.0, 24.0, 18.0 ],
 									"text" : "iter"
 								}
 
@@ -6202,7 +6344,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 225.916656, 246.0, 134.0, 18.0 ],
+									"patching_rect" : [ 122.916656, 261.0, 134.0, 18.0 ],
 									"text" : "dict span.load"
 								}
 
@@ -6211,13 +6353,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 18.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-52",
 									"linecount" : 2,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 429.25, 76.5, 220.0, 48.0 ],
+									"patching_rect" : [ 297.25, 52.5, 220.0, 48.0 ],
 									"text" : "read span.load.json et do what needs to be done"
 								}
 
@@ -6231,7 +6372,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.916656, 71.5, 124.0, 16.0 ],
+									"patching_rect" : [ 122.916656, 86.5, 124.0, 16.0 ],
 									"text" : "getval system::span::path"
 								}
 
@@ -6246,7 +6387,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 225.916656, 90.5, 86.0, 20.0 ],
+									"patching_rect" : [ 122.916656, 105.5, 86.0, 20.0 ],
 									"text" : "span.requests"
 								}
 
@@ -6260,7 +6401,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.916656, 166.5, 80.0, 18.0 ],
+									"patching_rect" : [ 122.916656, 181.5, 80.0, 18.0 ],
 									"text" : "prepend import"
 								}
 
@@ -6274,7 +6415,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.916656, 141.0, 57.0, 18.0 ],
+									"patching_rect" : [ 122.916656, 156.0, 57.0, 18.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -6289,7 +6430,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 225.916656, 117.0, 119.0, 18.0 ],
+									"patching_rect" : [ 122.916656, 132.0, 119.0, 18.0 ],
 									"text" : "sprintf %sspan.load.json"
 								}
 
@@ -6301,19 +6442,19 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 26.083374, 385.5, 25.0, 25.0 ]
+									"patching_rect" : [ 23.083374, 409.5, 25.0, 25.0 ]
 								}
 
 							}
 , 							{
 								"box" : 								{
-									"comment" : "",
+									"comment" : "bang to load span.load",
 									"id" : "obj-1",
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 225.916656, 14.5, 25.0, 25.0 ]
+									"patching_rect" : [ 122.916656, 29.5, 25.0, 25.0 ]
 								}
 
 							}
@@ -6321,12 +6462,11 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-21",
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.916687, 17.0, 36.0, 20.0 ],
+									"patching_rect" : [ 172.916687, 32.0, 36.0, 20.0 ],
 									"text" : "load"
 								}
 
@@ -6338,7 +6478,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 255.916687, 17.0, 20.0, 20.0 ]
+									"patching_rect" : [ 152.916687, 32.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -6351,7 +6491,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "bang" ],
-									"patching_rect" : [ 225.916656, 47.5, 156.500031, 18.0 ],
+									"patching_rect" : [ 122.916656, 62.5, 156.500031, 18.0 ],
 									"text" : "t b b"
 								}
 
@@ -6444,6 +6584,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-17", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-31", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-18", 1 ]
 								}
 
 							}
@@ -6557,6 +6706,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-67", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-31", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-34", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6593,10 +6751,46 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-61", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-37", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-59", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-39", 0 ]
 								}
 
 							}
@@ -6674,6 +6868,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-47", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6728,10 +6931,37 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-59", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-66", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-6", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-60", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-61", 0 ]
 								}
 
 							}
@@ -6755,6 +6985,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 677.75, 570.0, 627.0, 570.0, 627.0, 363.0, 650.208374, 363.0 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-43", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -6768,6 +7008,24 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-69", 1 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-67", 0 ]
 								}
 
 							}
@@ -6829,7 +7087,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "span.requests.maxpat",
-								"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+								"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -6838,16 +7096,16 @@
 ,
 					"patching_rect" : [ 19.229172, 123.302734, 44.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p load"
@@ -7435,16 +7693,16 @@
 ,
 									"patching_rect" : [ 120.972237, 198.0, 74.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p temp-tags"
@@ -7497,7 +7755,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-38",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -7694,7 +7951,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -7708,7 +7964,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -8040,16 +8295,16 @@
 ,
 					"patching_rect" : [ 16.229156, 643.946472, 177.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p config_overwrite_namespace"
@@ -8111,7 +8366,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -8125,7 +8379,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-26",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -8140,7 +8393,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-25",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -8155,7 +8407,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-24",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -8169,7 +8420,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -8351,7 +8601,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-47",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -8366,7 +8615,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-4",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -8693,16 +8941,16 @@
 ,
 					"patching_rect" : [ 16.229156, 608.446472, 161.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p create_global_namespace"
@@ -8821,7 +9069,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-28",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -8835,7 +9082,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -9169,16 +9415,16 @@
 ,
 					"patching_rect" : [ 194.979172, 377.732941, 136.000015, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p compare-version"
@@ -9347,7 +9593,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-38",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -9679,16 +9924,16 @@
 ,
 									"patching_rect" : [ 110.666672, 246.0, 336.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p create_files"
@@ -9872,7 +10117,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "span.requests.maxpat",
-												"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+												"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -9881,16 +10126,16 @@
 ,
 									"patching_rect" : [ 355.666687, 141.0, 78.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p span_print"
@@ -9939,7 +10184,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-9",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -10182,16 +10426,16 @@
 ,
 									"patching_rect" : [ 216.333344, 161.0, 48.0, 48.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p create-folders"
@@ -10404,16 +10648,16 @@
 ,
 													"patching_rect" : [ 4.5, 78.0, 117.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p temp_path project"
@@ -10724,16 +10968,16 @@
 ,
 													"patching_rect" : [ 126.0, 78.0, 134.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p temp_path templates"
@@ -10767,7 +11011,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-6",
 													"linecount" : 2,
 													"maxclass" : "comment",
@@ -10782,7 +11025,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-5",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -11407,16 +11649,16 @@
 ,
 									"patching_rect" : [ 110.666664, 125.5, 124.666672, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p scan-default-project"
@@ -11660,7 +11902,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "span.requests.maxpat",
-								"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+								"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -11675,16 +11917,16 @@
 ,
 					"patching_rect" : [ 51.479172, 285.367706, 69.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p new_proj"
@@ -11952,16 +12194,16 @@
 ,
 									"patching_rect" : [ 437.461761, 224.0, 101.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p datetimestamp"
@@ -12228,7 +12470,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-39",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -12242,7 +12483,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-38",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -12256,7 +12496,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -12354,7 +12593,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-15",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -12368,7 +12606,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -12632,16 +12869,16 @@
 ,
 					"patching_rect" : [ 194.979187, 436.748566, 136.000015, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p stamp_projects"
@@ -12717,7 +12954,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-24",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -12735,7 +12971,6 @@
 									"bubbleside" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-25",
 									"linecount" : 4,
 									"maxclass" : "comment",
@@ -13045,16 +13280,16 @@
 ,
 					"patching_rect" : [ 19.229172, 314.732941, 194.75, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p valid_project_path"
@@ -13102,7 +13337,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13116,7 +13350,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-6",
 									"linecount" : 5,
 									"maxclass" : "comment",
@@ -13318,7 +13551,7 @@
  ],
 										"dependency_cache" : [ 											{
 												"name" : "span.requests.maxpat",
-												"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+												"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 												"type" : "JSON",
 												"implicit" : 1
 											}
@@ -13327,16 +13560,16 @@
 ,
 									"patching_rect" : [ 63.0, 56.0, 78.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p span_print"
@@ -13386,7 +13619,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -13448,7 +13680,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-73",
 													"linecount" : 4,
 													"maxclass" : "comment",
@@ -13498,16 +13729,16 @@
 ,
 									"patching_rect" : [ 128.0, 240.5, 166.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p add_update_to_history"
@@ -13555,7 +13786,6 @@
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 14.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-2",
 													"linecount" : 11,
 													"maxclass" : "comment",
@@ -13769,16 +13999,16 @@
 ,
 													"patching_rect" : [ 246.0, 515.0, 78.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p span_print"
@@ -14195,16 +14425,16 @@
 ,
 													"patching_rect" : [ 246.0, 340.0, 118.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p temp_path project"
@@ -14659,16 +14889,16 @@
 ,
 													"patching_rect" : [ 232.0, 124.0, 118.0, 20.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p temp_path project"
@@ -14741,16 +14971,16 @@
 ,
 													"patching_rect" : [ 246.0, 383.0, 45.0, 17.0 ],
 													"saved_object_attributes" : 													{
-														"globalpatchername" : "",
-														"digest" : "",
 														"default_fontname" : "Arial",
 														"fontface" : 0,
 														"fontsize" : 10.0,
-														"tags" : "",
 														"default_fontsize" : 10.0,
 														"description" : "",
+														"tags" : "",
 														"fontname" : "Arial",
-														"default_fontface" : 0
+														"default_fontface" : 0,
+														"digest" : "",
+														"globalpatchername" : ""
 													}
 ,
 													"text" : "p fscopy"
@@ -15117,16 +15347,16 @@
 ,
 									"patching_rect" : [ 128.0, 209.5, 66.0, 23.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"digest" : "",
 										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"tags" : "",
 										"default_fontsize" : 10.0,
 										"description" : "",
+										"tags" : "",
 										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p update"
@@ -15215,7 +15445,7 @@
  ],
 						"dependency_cache" : [ 							{
 								"name" : "span.requests.maxpat",
-								"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+								"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 								"type" : "JSON",
 								"implicit" : 1
 							}
@@ -15224,16 +15454,16 @@
 ,
 					"patching_rect" : [ 311.979187, 407.232941, 98.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p update_project"
@@ -15435,7 +15665,6 @@
 									"bubbleside" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -15451,7 +15680,6 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-25",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -15819,16 +16047,16 @@
 ,
 					"patching_rect" : [ 194.979172, 348.732941, 86.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"digest" : "",
 						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"tags" : "",
 						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p load_project"
@@ -16208,7 +16436,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
@@ -16222,7 +16450,7 @@
 			}
 , 			{
 				"name" : "loadproperties.js",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib/js",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib/js",
 				"patcherrelativepath" : "../lib/js",
 				"type" : "TEXT",
 				"implicit" : 1
