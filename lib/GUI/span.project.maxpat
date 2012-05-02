@@ -30,6 +30,125 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 0.68 ],
+					"id" : "obj-49",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 631.0, 439.5, 149.0, 17.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.0, 18.0, 104.0, 17.0 ],
+					"text" : "Current Project Path is : ",
+					"textcolor" : [ 0.0, 0.0, 0.0, 0.68 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-48",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 735.0, 363.0, 165.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 51.0, 0.0, 134.0, 19.0 ],
+					"text" : "Current Project Name is :"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-47",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 886.0, 287.0, 63.0, 18.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-41",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 886.0, 227.0, 152.0, 16.0 ],
+					"presentation_rect" : [ 886.0, 228.0, 0.0, 0.0 ],
+					"text" : "getval preferences::lastproject"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-45",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
+					"patching_rect" : [ 886.0, 257.0, 73.0, 18.0 ],
+					"presentation_rect" : [ 886.0, 258.0, 0.0, 0.0 ],
+					"text" : "span.requests"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.265236, 0.618493, 0.031451, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-35",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
+					"patching_rect" : [ 698.0, 121.0, 117.0, 20.0 ],
+					"text" : "dict span"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-34",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 720.0, 227.0, 152.0, 16.0 ],
+					"text" : "getval projectfile::info::name"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "clear", "bang" ],
+					"patching_rect" : [ 720.0, 257.0, 73.0, 18.0 ],
+					"text" : "span.requests"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
 					"maxclass" : "newobj",
@@ -167,8 +286,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 287.0, 179.0, 18.0 ],
-					"text" : "prepend set Current Project Name is :"
+					"patching_rect" : [ 720.0, 287.0, 63.0, 18.0 ],
+					"text" : "prepend set"
 				}
 
 			}
@@ -176,30 +295,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-43",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 720.0, 316.5, 165.0, 32.0 ],
+					"patching_rect" : [ 720.0, 316.5, 165.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 52.0, 0.5, 238.0, 19.0 ],
-					"text" : "Current Project Name is : empty.json"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-41",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 720.0, 257.0, 73.0, 18.0 ],
-					"text" : "strippath"
+					"presentation_rect" : [ 185.0, 0.0, 106.0, 19.0 ]
 				}
 
 			}
@@ -223,15 +325,12 @@
 					"fontsize" : 9.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 0.68 ],
 					"id" : "obj-22",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 558.0, 316.5, 149.0, 38.0 ],
+					"patching_rect" : [ 558.0, 316.5, 149.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 5.0, 16.0, 285.0, 27.0 ],
-					"text" : "here:/there/projects1/Environments/didascalie-net/span/temp/empty.json",
+					"presentation_rect" : [ 108.0, 18.0, 182.0, 17.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.68 ]
 				}
 
@@ -405,16 +504,16 @@
 ,
 					"patching_rect" : [ 558.0, 227.0, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p temp_path project"
@@ -679,16 +778,16 @@
 ,
 					"patching_rect" : [ 434.5, 227.0, 134.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p temp_path templates"
@@ -864,16 +963,16 @@
 ,
 					"patching_rect" : [ 18.25, 218.5, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 10.0,
-						"description" : "",
-						"tags" : ""
+						"description" : ""
 					}
 ,
 					"text" : "p temp_path project"
@@ -939,7 +1038,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"items" : "current",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1174,15 +1273,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-41", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1309,6 +1399,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-44", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1403,6 +1502,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1439,7 +1547,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
+					"destination" : [ "obj-45", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-41", 0 ]
@@ -1466,6 +1574,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-45", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1481,6 +1598,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 679.5, 307.75, 729.5, 307.75 ],
 					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -1539,7 +1665,14 @@
 
 			}
  ],
-		"dependency_cache" : [  ]
+		"dependency_cache" : [ 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ]
 	}
 
 }
