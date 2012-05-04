@@ -11,7 +11,7 @@
 		}
 	}
 ,
-	"projectfile" : {
+	"project" : {
 		"info" : 		{
 			"name" : "newproject",
 			"appname" : "span",
@@ -45,8 +45,5 @@
 ,
 		"nodes" : 		{		
 		}
-	}
-,
-	"scheduler" : 	{
 	}
 }
