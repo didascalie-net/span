@@ -38,7 +38,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 631.0, 439.5, 149.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 18.0, 104.0, 17.0 ],
+					"presentation_rect" : [ 4.0, 18.0, 107.0, 17.0 ],
 					"text" : "Current Project Path is : ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.68 ]
 				}
@@ -83,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 886.0, 227.0, 152.0, 16.0 ],
-					"presentation_rect" : [ 886.0, 228.0, 0.0, 0.0 ],
 					"text" : "getval preferences::lastproject"
 				}
 
@@ -98,7 +97,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 886.0, 257.0, 73.0, 18.0 ],
-					"presentation_rect" : [ 886.0, 258.0, 0.0, 0.0 ],
 					"text" : "span.requests"
 				}
 
@@ -504,16 +502,16 @@
 ,
 					"patching_rect" : [ 558.0, 227.0, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p temp_path project"
@@ -778,16 +776,16 @@
 ,
 					"patching_rect" : [ 434.5, 227.0, 134.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p temp_path templates"
@@ -963,16 +961,16 @@
 ,
 					"patching_rect" : [ 18.25, 218.5, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"fontname" : "Arial",
 						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
-						"description" : ""
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p temp_path project"
@@ -1215,13 +1213,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-39",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 122.583336, 218.5, 63.0, 29.0 ],
-					"text" : "opendialog fold"
+					"patching_rect" : [ 122.583336, 218.5, 63.0, 18.0 ],
+					"text" : "opendialog"
 				}
 
 			}
