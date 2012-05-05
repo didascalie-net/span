@@ -3475,7 +3475,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 14.0, 121.160126, 48.0, 18.0 ],
+													"patching_rect" : [ 14.0, 395.499939, 48.0, 18.0 ],
 													"text" : "deferlow"
 												}
 
@@ -3488,9 +3488,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "bang", "" ],
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 14.0, 98.5, 107.000031, 18.0 ],
-													"text" : "t b getkeys"
+													"text" : "t s getkeys"
 												}
 
 											}
