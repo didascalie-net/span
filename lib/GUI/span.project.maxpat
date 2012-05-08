@@ -30,6 +30,20 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-40",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 62.0, 298.0, 80.0, 18.0 ],
+					"text" : "prepend project"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 0.68 ],
 					"id" : "obj-49",
@@ -502,14 +516,14 @@
 ,
 					"patching_rect" : [ 558.0, 227.0, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -776,14 +790,14 @@
 ,
 					"patching_rect" : [ 434.5, 227.0, 134.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -959,16 +973,16 @@
 						"dependency_cache" : [  ]
 					}
 ,
-					"patching_rect" : [ 18.25, 218.5, 117.0, 20.0 ],
+					"patching_rect" : [ 18.25, 250.5, 117.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
 						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"tags" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"tags" : "",
+						"default_fontsize" : 10.0,
+						"description" : "",
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -987,7 +1001,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.25, 357.0, 122.0, 18.0 ],
-					"text" : "s /span/project/path"
+					"text" : "s /span/file/merge"
 				}
 
 			}
@@ -1526,7 +1540,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-33", 0 ],
+					"destination" : [ "obj-40", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-39", 0 ]
@@ -1539,6 +1553,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
 				}
 
 			}
@@ -1664,7 +1687,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
