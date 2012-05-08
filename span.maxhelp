@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 36.0, 44.0, 589.0, 806.0 ],
+		"rect" : [ 36.0, 44.0, 643.0, 809.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -39,7 +39,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 322.0, 35.345154, 211.0, 62.0 ],
-					"presentation_rect" : [ 327.0, 44.345154, 0.0, 0.0 ],
 					"text" : "• Works with a single JSON file.\n• Highly customzable database\n• Manage local or distant namespace\n• Manage all type of files",
 					"textcolor" : [ 0.190206, 0.467832, 0.518714, 1.0 ]
 				}
@@ -56,26 +55,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.0, 8.345154, 277.0, 27.0 ],
-					"presentation_rect" : [ 367.0, 9.345154, 0.0, 0.0 ],
 					"text" : "Namespace and project manager",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-10",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 654.241211, 259.0, 59.0 ],
-					"text" : "Use this exemple to manage namespace-state (events) make/edit/rename/delete",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -122,56 +102,6 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.5, 672.258972, 293.5, 110.345184 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1,
-					"id" : "obj-25",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 654.241211, 303.0, 138.345184 ],
-					"rounded" : 22
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-8",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 583.312256, 259.0, 43.0 ],
-					"text" : "Use this exemple to customize your namespace (write span_project.json)",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
-					"id" : "obj-6",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 511.845154, 259.0, 43.0 ],
-					"text" : "Use this exemple to customize your namespace (write span_project.json)",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
 			}
@@ -356,13 +286,13 @@
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 11.0,
+					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.117385, 0.166972, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 511.845154, 172.0, 19.0 ],
+					"patching_rect" : [ 322.0, 474.845154, 157.0, 18.0 ],
 					"text" : "Manage your project preferences",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -395,7 +325,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 513.312256, 110.0, 20.0 ],
+					"patching_rect" : [ 478.5, 473.845154, 110.0, 20.0 ],
 					"text" : "span.preferences",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -439,7 +369,7 @@
 					"name" : "span.preferences.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 530.312256, 293.5, 26.0 ]
+					"patching_rect" : [ 322.0, 492.312256, 266.5, 113.0 ]
 				}
 
 			}
@@ -487,125 +417,41 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1,
-					"id" : "obj-17",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 35.345154, 303.0, 138.345184 ],
-					"rounded" : 22
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1,
-					"id" : "obj-19",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 193.139709, 303.0, 138.345184 ],
-					"rounded" : 22
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1,
-					"id" : "obj-20",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 352.241211, 303.0, 138.345184 ],
-					"rounded" : 22
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1,
-					"id" : "obj-21",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 511.845154, 303.0, 52.967102 ],
-					"rounded" : 22
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"border" : 1,
-					"id" : "obj-22",
-					"ignoreclick" : 1,
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 583.312256, 303.0, 52.967102 ],
-					"rounded" : 22
-				}
-
-			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.config.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../span/library/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
+				"patcherrelativepath" : "../span/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library",
-				"patcherrelativepath" : "../span/library",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
+				"patcherrelativepath" : "../span/lib",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jsfiletester.js",
-				"bootpath" : "/Applications/Max6/examples/javascript/file",
-				"patcherrelativepath" : "../../../../../Applications/Max6/examples/javascript/file",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadproperties.js",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/js",
-				"patcherrelativepath" : "../span/library/js",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/js",
+				"patcherrelativepath" : "../span/lib/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../span/library/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.project.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../span/library/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../span/library/GUI",
-				"type" : "JSON",
+				"name" : "checkpath.js",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/js",
+				"patcherrelativepath" : "../span/lib/js",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -616,18 +462,47 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "span.preferences.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.project.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.init.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "span.files.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../span/library/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.events.maxpat",
-				"bootpath" : "/Users/Renaud/Documents/SVNs/span/library/GUI",
-				"patcherrelativepath" : "../span/library/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "getpaths.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "createfolder.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
