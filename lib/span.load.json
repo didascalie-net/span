@@ -6,12 +6,8 @@
 		"recentprojects" :  {
 
 		}
-,
-		"scheduler" : 		{
-		}
 	}
 ,
-	"project" : {
 		"info" : 		{
 			"name" : "newproject",
 			"appname" : "span",
@@ -40,4 +36,3 @@
         	}
         }
 	}
-}
