@@ -329,7 +329,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 483.0, 297.0, 476.0, 429.0 ],
+						"rect" : [ 168.0, 367.0, 476.0, 429.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1519,21 +1519,6 @@
 , 											{
 												"box" : 												{
 													"fontname" : "Arial",
-													"fontsize" : 10.0,
-													"id" : "obj-31",
-													"linecount" : 2,
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 635.0, 207.274567, 108.0, 27.0 ],
-													"text" : "system::span::project dictionary empty"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
 													"fontsize" : 14.0,
 													"id" : "obj-17",
 													"maxclass" : "comment",
@@ -2193,15 +2178,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-21", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-31", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -2233,15 +2209,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-41", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-31", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-42", 1 ]
 												}
 
 											}
@@ -8719,7 +8686,10 @@
 											"path" : "~/Library/Application Support/span/"
 										}
 ,
-										"path" : "work base:/Users/renaudrubiano/Documents/SVN/span/lib/"
+										"project" : 										{
+
+										}
+
 									}
 ,
 									"fontname" : "Arial",
