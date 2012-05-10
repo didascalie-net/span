@@ -241,16 +241,16 @@
 ,
 					"patching_rect" : [ 190.0, 117.530853, 64.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"tags" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p tm_print"
@@ -1122,16 +1122,16 @@
 ,
 					"patching_rect" : [ 33.25, 627.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p creating_a_project"
@@ -1837,16 +1837,16 @@
 ,
 									"patching_rect" : [ 415.0, 331.5, 98.0, 23.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
 										"globalpatchername" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"tags" : "",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p initval-to-val"
@@ -2909,16 +2909,16 @@
 ,
 					"patching_rect" : [ 33.25, 553.0, 161.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p building_the_namespace3"
@@ -3108,16 +3108,16 @@
 ,
 					"patching_rect" : [ 634.0, 35.959656, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p listtomenu"
@@ -4916,16 +4916,16 @@
 ,
 					"patching_rect" : [ 33.25, 483.0, 258.75, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p creating_a_config_file"
@@ -5262,16 +5262,16 @@
 ,
 									"patching_rect" : [ 416.5, 463.5, 132.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
+										"description" : "",
 										"globalpatchername" : "",
-										"digest" : "",
-										"default_fontname" : "Arial",
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"tags" : "",
-										"default_fontsize" : 12.0,
-										"description" : "",
-										"fontname" : "Arial",
-										"default_fontface" : 0
+										"default_fontface" : 0,
+										"digest" : "",
+										"default_fontname" : "Arial"
 									}
 ,
 									"text" : "p extract_relative_path"
@@ -6710,16 +6710,16 @@
 ,
 					"patching_rect" : [ 33.0, 321.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p add_modules"
@@ -7388,16 +7388,16 @@
 ,
 					"patching_rect" : [ 634.0, 8.959656, 155.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"description" : "",
 						"globalpatchername" : "",
-						"digest" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"tags" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontname" : "Arial",
-						"default_fontface" : 0
+						"default_fontface" : 0,
+						"digest" : "",
+						"default_fontname" : "Arial"
 					}
 ,
 					"text" : "p database_requests-ideas"
@@ -7709,14 +7709,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "jsfiletester.js",
-				"bootpath" : "/Applications/Max6/examples/javascript/file",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/examples/javascript/file",
+				"name" : "loadproperties.js",
+				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib/js",
+				"patcherrelativepath" : "../../lib/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "loadproperties.js",
+				"name" : "checkpath.js",
 				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib/js",
 				"patcherrelativepath" : "../../lib/js",
 				"type" : "TEXT",
@@ -7728,6 +7728,14 @@
 				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
 				"type" : "JSON",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "getpaths.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "createfolder.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
