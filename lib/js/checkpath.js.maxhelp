@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 7
 		}
 ,
 		"rect" : [ 93.0, 186.0, 277.0, 238.0 ],
@@ -44,12 +44,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 67.0, 189.0, 183.0, 18.0 ],
-					"presentation_rect" : [ 75.0, 177.0, 0.0, 0.0 ],
 					"text" : "I will add a way to check folder too"
 				}
 
@@ -58,6 +58,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -99,12 +100,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 140.049713, 95.0, 17.0 ],
+					"patching_rect" : [ 33.0, 139.049713, 95.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"filename" : "checkpath.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js filetester.js"
+					"text" : "js checkpath.js"
 				}
 
 			}
@@ -138,7 +140,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "filetester.js",
+				"name" : "checkpath.js",
 				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/js",
 				"patcherrelativepath" : "",
 				"type" : "TEXT",

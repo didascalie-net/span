@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 7
 		}
 ,
 		"rect" : [ 455.0, 167.0, 433.0, 288.0 ],
@@ -74,7 +74,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 193.0, 84.0, 50.0, 16.0 ],
-					"presentation_rect" : [ 196.0, 81.0, 0.0, 0.0 ],
 					"text" : "set"
 				}
 
@@ -98,7 +97,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : [ 0.0, 0.40859, 0.581194, 1.0 ],
+					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -115,6 +114,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
+					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "textedit",
 					"numinlets" : 1,
@@ -132,15 +132,15 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-26",
-					"items" : "<empty>",
+					"items" : [ "verbose", ",", "autoload", ",", "lastproject", ",", "recentprojects" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 18.0, 214.75, 225.0, 23.0 ],
+					"patching_rect" : [ 18.0, 214.75, 225.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 4.023682, 190.5, 23.0 ],
+					"presentation_rect" : [ 70.0, 4.023682, 190.5, 22.0 ],
 					"varname" : "categories[1]"
 				}
 
@@ -160,10 +160,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 5
+							"revision" : 7
 						}
 ,
-						"rect" : [ 65.0, 372.0, 584.0, 370.0 ],
+						"rect" : [ 1205.0, 133.0, 584.0, 370.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -260,8 +260,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 420.5, 12.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 420.5, 11.0, 0.0, 0.0 ]
+									"patching_rect" : [ 420.5, 12.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -317,7 +316,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 206.0, 71.0, 63.0, 18.0 ],
-									"presentation_rect" : [ 243.0, 214.0, 0.0, 0.0 ],
 									"text" : "prepend set"
 								}
 
@@ -431,6 +429,11 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
 									"patching_rect" : [ 313.5, 212.0, 67.0, 17.0 ],
+									"saved_object_attributes" : 									{
+										"embed" : 0,
+										"parameter_enable" : 0
+									}
+,
 									"text" : "dict span"
 								}
 
@@ -827,28 +830,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "span.requests.maxpat",
-								"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
-								"type" : "JSON",
-								"implicit" : 1
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 18.0, 154.0, 103.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 10.0,
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontname" : "Arial",
+						"fontsize" : 10.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p manage-prefs"
@@ -908,8 +904,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 27.5, 63.0, 18.0 ],
-					"text" : "r /span/load"
+					"patching_rect" : [ 18.0, 27.5, 98.0, 18.0 ],
+					"text" : "r /span/load/working"
 				}
 
 			}
@@ -982,7 +978,7 @@
 					"destination" : [ "obj-29", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 111.5, 211.75, 226.5, 211.75, 226.5, 144.0, 111.5, 144.0 ],
+					"midpoints" : [ 111.5, 211.75, 226.5, 211.75, 226.5, 144.0, 83.5, 144.0 ],
 					"source" : [ "obj-22", 0 ]
 				}
 
@@ -992,7 +988,7 @@
 					"destination" : [ "obj-29", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 130.5, 242.0, 253.0, 242.0, 253.0, 139.0, 69.5, 139.0 ],
+					"midpoints" : [ 130.5, 242.0, 253.0, 242.0, 253.0, 139.0, 55.5, 139.0 ],
 					"source" : [ "obj-26", 1 ]
 				}
 

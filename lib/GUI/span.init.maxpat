@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
-		"rect" : [ 260.0, 448.0, 401.0, 285.0 ],
+		"rect" : [ 948.0, 193.0, 401.0, 285.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -28,16 +28,44 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.5, 46.0, 100.0, 18.0 ],
+					"text" : "prepend set"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.074129, 0.486744, 0.790227, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 26.5, 16.845154, 98.0, 18.0 ],
+					"text" : "r /span/load/working"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 33.5, 45.845154, 67.0, 18.0 ],
-					"text" : "var /span/init"
+					"numoutlets" : 0,
+					"patching_rect" : [ 26.5, 107.845154, 74.0, 18.0 ],
+					"text" : "s /span/load"
 				}
 
 			}
@@ -58,7 +86,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 33.5, 14.845154, 121.0, 25.690338 ],
+					"patching_rect" : [ 26.5, 76.845154, 121.0, 25.690338 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.5, 2.845154, 121.0, 22.690338 ],
 					"text" : "Initialisation",
@@ -71,11 +99,19 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 43.0, 72.845123, 28.5, 72.845123, 28.5, 5.845123, 43.0, 5.845123 ],
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -89,14 +125,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "var.maxpat",
-				"bootpath" : "/Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../../Applications/Max6/examples/max-tricks/send-receive-tricks/lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ]
+		"dependency_cache" : [  ]
 	}
 
 }
