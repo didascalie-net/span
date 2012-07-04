@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 46.0, 59.0, 613.0, 630.0 ],
+		"rect" : [ 204.0, 116.0, 613.0, 630.0 ],
 		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -374,16 +374,16 @@
 ,
 					"patching_rect" : [ 180.312561, 564.0, 201.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p need to make relatoive2project filespaths"
@@ -398,8 +398,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 391.812561, 571.126953, 150.0, 18.0 ],
-					"text" : "creer dossier qiu n'existene pas"
+					"patching_rect" : [ 391.812561, 571.126953, 148.0, 18.0 ],
+					"text" : "creer dossier qiu n'existent pas"
 				}
 
 			}
@@ -463,10 +463,10 @@
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "fold" ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "fold" ],
 					"patching_rect" : [ 441.812561, 278.235657, 47.5, 18.0 ],
-					"text" : "t s fold"
+					"text" : "t s s fold"
 				}
 
 			}
@@ -1117,16 +1117,16 @@
 ,
 									"patching_rect" : [ 247.25, 329.798828, 93.25, 20.0 ],
 									"saved_object_attributes" : 									{
-										"globalpatchername" : "",
-										"default_fontsize" : 10.0,
-										"description" : "",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"tags" : "",
 										"default_fontface" : 0,
 										"digest" : "",
-										"fontname" : "Arial",
 										"default_fontname" : "Arial",
-										"tags" : ""
+										"fontname" : "Arial",
+										"default_fontsize" : 10.0,
+										"globalpatchername" : "",
+										"description" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p names_types"
@@ -1636,16 +1636,16 @@
 ,
 					"patching_rect" : [ 19.5, 176.0, 98.020844, 18.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p"
@@ -1671,7 +1671,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-107",
-					"items" : "<empty>",
+					"items" : [ "all", ",", "MOV" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1763,7 +1763,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-54",
-					"items" : "<empty>",
+					"items" : [ "feuilles-besancon.MOV", ",", "set table thai.MOV" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1868,7 +1868,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 25.0, 69.0, 347.0, 445.0 ],
+						"rect" : [ 755.0, 174.0, 347.0, 445.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1908,10 +1908,10 @@
 									"id" : "obj-1",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "" ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 77.75, 45.0, 52.0, 18.0 ],
-									"text" : "t s s"
+									"text" : "t s s s"
 								}
 
 							}
@@ -2106,6 +2106,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-127", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-73", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -2275,16 +2284,16 @@
 ,
 					"patching_rect" : [ 246.812561, 185.946411, 214.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p list_sub-directories"
@@ -2632,7 +2641,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "fold" ],
 									"patching_rect" : [ 189.993042, 11.0, 25.0, 25.0 ]
 								}
 
@@ -2904,16 +2913,16 @@
 ,
 					"patching_rect" : [ 231.062561, 411.226135, 199.5, 23.0 ],
 					"saved_object_attributes" : 					{
-						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
-						"description" : "",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"tags" : "",
 						"default_fontface" : 0,
 						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : ""
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"description" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p AddPaths2SpanDict"
@@ -3226,7 +3235,7 @@
 					"destination" : [ "obj-102", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -3235,13 +3244,13 @@
 					"destination" : [ "obj-103", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 1 ]
+					"source" : [ "obj-2", 2 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-103", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]

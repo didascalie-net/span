@@ -459,13 +459,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "checkpath.js",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
-				"patcherrelativepath" : "../span/lib/js",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "loadproperties.js",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
 				"patcherrelativepath" : "../span/lib/js",
