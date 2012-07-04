@@ -64,6 +64,22 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : [ 1.0, 0.308973, 0.525018, 1.0 ],
+									"id" : "obj-10",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 233.604126, 271.753662, 178.0, 34.0 ],
+									"text" : "we need to write preferences on the hard drive.",
+									"textcolor" : [ 1.0, 0.308973, 0.525018, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.964706, 0.964706, 0.964706, 1.0 ],
 									"bubble" : 1,
 									"fontname" : "Arial",
