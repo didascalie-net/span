@@ -188,7 +188,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.5, 557.139709, 132.0, 19.0 ],
-					"text" : "Manage your file pool",
+					"text" : "Manage your paths",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
 
@@ -204,7 +204,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 223.0, 557.139709, 82.0, 20.0 ],
-					"text" : "span.files",
+					"text" : "span.paths",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
 
@@ -215,7 +215,7 @@
 					"border" : 1,
 					"id" : "obj-7",
 					"maxclass" : "bpatcher",
-					"name" : "span.files.maxpat",
+					"name" : "span.paths.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"patching_rect" : [ 11.5, 576.139709, 293.5, 110.345184 ]
@@ -374,7 +374,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 165.345154, 293.5, 110.345184 ]
+					"patching_rect" : [ 11.5, 166.345154, 293.5, 110.345184 ]
 				}
 
 			}
@@ -459,14 +459,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "loadproperties.js",
+				"name" : "checkpath.js",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
 				"patcherrelativepath" : "../span/lib/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "checkpath.js",
+				"name" : "loadproperties.js",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
 				"patcherrelativepath" : "../span/lib/js",
 				"type" : "TEXT",
@@ -488,13 +488,6 @@
 			}
 , 			{
 				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.files.maxpat",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
