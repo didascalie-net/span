@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 5
 		}
 ,
 		"rect" : [ 36.0, 44.0, 587.0, 835.0 ],
@@ -34,13 +34,12 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.25, 96.345154, 270.0, 41.0 ],
-					"presentation_rect" : [ 313.0, 116.690338, 0.0, 0.0 ],
+					"patching_rect" : [ 23.25, 96.345154, 270.0, 42.0 ],
 					"text" : "This is automatically done on loadbang",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -51,13 +50,13 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.190206, 0.467832, 0.518714, 1.0 ],
 					"id" : "obj-28",
 					"linecount" : 4,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 35.345154, 211.0, 61.0 ],
+					"patching_rect" : [ 322.0, 35.345154, 211.0, 62.0 ],
 					"text" : "• Works with a single JSON file.\n• Highly customzable database\n• Manage local or distant namespace\n• Manage all type of files",
 					"textcolor" : [ 0.190206, 0.467832, 0.518714, 1.0 ]
 				}
@@ -68,7 +67,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -84,7 +83,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
 					"id" : "obj-18",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -100,7 +99,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
 					"id" : "obj-23",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -130,13 +129,13 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-4",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 557.139709, 259.0, 57.0 ],
+					"patching_rect" : [ 310.0, 557.139709, 259.0, 59.0 ],
 					"text" : "Use this exemple to add files to your project (media, json namespace, texts, events etc…",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -148,13 +147,13 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-2",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 451.139709, 259.0, 42.0 ],
+					"patching_rect" : [ 310.0, 451.139709, 259.0, 43.0 ],
 					"text" : "Use this exemple to customize your namespace (write span_project.json)",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -166,13 +165,13 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 233.690338, 259.0, 42.0 ],
+					"patching_rect" : [ 310.0, 233.690338, 259.0, 43.0 ],
 					"text" : "Use this exemple to create or open projects",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -183,7 +182,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -199,7 +198,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -228,7 +227,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.117385, 0.166972, 1.0 ],
 					"id" : "obj-70",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -245,7 +244,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
 					"id" : "obj-71",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -265,7 +264,7 @@
 					"name" : "span.init.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 65.312256, 293.5, 31.032898 ]
+					"patching_rect" : [ 11.5, 66.312256, 293.5, 31.032898 ]
 				}
 
 			}
@@ -274,7 +273,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -290,7 +289,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.173966, 0.175966, 0.175966, 1.0 ],
 					"id" : "obj-41",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -306,7 +305,7 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.117385, 0.166972, 1.0 ],
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -322,7 +321,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -339,7 +338,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
 					"id" : "obj-14",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -355,7 +354,7 @@
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.090161, 0.128249, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -398,12 +397,12 @@
 					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
-					"frgb" : 0.0,
+					"frgb" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-5",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 8.345154, 171.0, 26.0 ],
+					"patching_rect" : [ 97.0, 8.345154, 171.0, 27.0 ],
 					"text" : "This is the SPAN brain.",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -440,70 +439,70 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.config.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
 				"patcherrelativepath" : "../span/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
 				"patcherrelativepath" : "../span/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "loadproperties.js",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/js",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
 				"patcherrelativepath" : "../span/lib/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "checkpath.js",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/js",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
 				"patcherrelativepath" : "../span/lib/js",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.project.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.files.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.events.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib/GUI",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
 				"implicit" : 1
