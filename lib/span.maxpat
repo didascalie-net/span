@@ -64,6 +64,17 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 166.0, 66.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"color" : [ 0.155211, 0.426466, 0.0, 1.0 ],
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -684,6 +695,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-19", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -2210,8 +2230,8 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 49.0, 322.454529, 133.0, 18.0 ],
-																	"text" : "prepend set system::project"
+																	"patching_rect" : [ 49.0, 322.454529, 109.0, 18.0 ],
+																	"text" : "prepend set projectfile"
 																}
 
 															}
@@ -2491,7 +2511,7 @@
 														"dependency_cache" : [  ]
 													}
 ,
-													"patching_rect" : [ 922.75, 112.775635, 100.0, 20.0 ],
+													"patching_rect" : [ 829.75, 107.515594, 100.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"fontname" : "Arial",
 														"tags" : "",
@@ -2517,7 +2537,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 758.916687, 51.775635, 25.0, 25.0 ]
+													"patching_rect" : [ 665.916687, 46.515594, 25.0, 25.0 ]
 												}
 
 											}
@@ -2531,8 +2551,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 758.916687, 207.274567, 91.0, 41.0 ],
-													"text" : "prepend system::span::project::include"
+													"patching_rect" : [ 665.916687, 202.014526, 78.0, 41.0 ],
+													"text" : "prepend preferences::project::include"
 												}
 
 											}
@@ -2559,7 +2579,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 792.166687, 144.775635, 210.0, 55.0 ],
+													"patching_rect" : [ 699.166687, 139.515594, 210.0, 55.0 ],
 													"text" : "add all rootkey of project-file  to include key in system::span::project dict"
 												}
 
@@ -2634,13 +2654,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 10.0,
 													"id" : "obj-23",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 145.25, 178.015625, 113.0, 29.0 ],
-													"text" : "prepend preferences::lastproject"
+													"patching_rect" : [ 145.25, 178.015625, 113.0, 41.0 ],
+													"text" : "prepend preferences::project::path"
 												}
 
 											}
@@ -2878,8 +2898,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 282.5, 79.515594, 95.0, 16.0 ],
-													"text" : "get info::name"
+													"patching_rect" : [ 282.5, 79.515594, 147.0, 16.0 ],
+													"text" : "get preferences::project::name"
 												}
 
 											}
@@ -3008,8 +3028,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 546.916687, 200.274567, 74.0, 41.0 ],
-													"text" : "prepend system::span::project::name"
+													"patching_rect" : [ 546.916687, 200.274567, 71.0, 41.0 ],
+													"text" : "prepend preferences::project::name"
 												}
 
 											}
@@ -3023,8 +3043,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 471.166687, 200.274567, 73.0, 41.0 ],
-													"text" : "prepend system::span::project::path"
+													"patching_rect" : [ 471.166687, 200.274567, 70.0, 41.0 ],
+													"text" : "prepend preferences::project::path"
 												}
 
 											}
@@ -3051,7 +3071,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 758.916687, 90.015594, 182.833313, 18.0 ],
+													"patching_rect" : [ 665.916687, 84.755554, 182.833313, 18.0 ],
 													"text" : "t s b"
 												}
 
@@ -5403,8 +5423,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 19.229156, 157.0, 144.0, 16.0 ],
-									"text" : "getval preferences::lastproject"
+									"patching_rect" : [ 19.229156, 157.0, 154.0, 16.0 ],
+									"text" : "getval preferences::project::path"
 								}
 
 							}
@@ -5609,7 +5629,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 679.0, 44.0, 281.0, 257.0 ],
+						"rect" : [ 679.0, 44.0, 471.0, 279.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
