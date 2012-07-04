@@ -494,6 +494,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "span.paths.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "span.events.maxpat",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",

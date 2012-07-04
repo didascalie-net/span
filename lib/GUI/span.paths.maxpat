@@ -43,7 +43,7 @@
 							"revision" : 5
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 195.0, 547.126953, 100.0, 18.0 ],
+									"patching_rect" : [ 154.0, 473.126953, 100.0, 18.0 ],
 									"text" : "zl compare"
 								}
 
@@ -85,7 +85,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 313.5, 484.126953, 224.0, 16.0 ],
+									"patching_rect" : [ 272.5, 410.126953, 224.0, 16.0 ],
 									"text" : "Users renaudrubiano Documents GITs span dev"
 								}
 
@@ -99,7 +99,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 458.06897, 143.0, 16.0 ],
+									"patching_rect" : [ 9.0, 384.06897, 143.0, 16.0 ],
 									"text" : "Users renaudrubiano Desktop"
 								}
 
@@ -113,7 +113,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 328.312561, 339.710632, 117.0, 18.0 ],
+									"patching_rect" : [ 287.312561, 265.710632, 117.0, 18.0 ],
 									"text" : "regexp / @substitute \" \""
 								}
 
@@ -127,7 +127,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 208.5, 177.0, 108.0, 18.0 ],
+									"patching_rect" : [ 167.5, 103.0, 108.0, 18.0 ],
 									"text" : "conformpath max boot"
 								}
 
@@ -141,7 +141,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 176.5, 325.710632, 117.0, 18.0 ],
+									"patching_rect" : [ 135.5, 251.710632, 117.0, 18.0 ],
 									"text" : "regexp / @substitute \" \""
 								}
 
@@ -154,7 +154,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 313.5, 432.710632, 39.0, 18.0 ],
+									"patching_rect" : [ 272.5, 358.710632, 39.0, 18.0 ],
 									"text" : "print B"
 								}
 
@@ -167,7 +167,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 220.5, 426.710632, 39.0, 18.0 ],
+									"patching_rect" : [ 179.5, 352.710632, 39.0, 18.0 ],
 									"text" : "print A"
 								}
 
@@ -181,7 +181,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 220.5, 383.710632, 100.0, 18.0 ],
+									"patching_rect" : [ 179.5, 309.710632, 100.0, 18.0 ],
 									"text" : "zl compare"
 								}
 
@@ -193,7 +193,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 314.5, 154.0, 20.0, 20.0 ]
+									"patching_rect" : [ 273.5, 80.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -206,7 +206,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 54.5, 255.946411, 173.0, 16.0 ],
+									"patching_rect" : [ 13.5, 181.946411, 173.0, 16.0 ],
 									"text" : "/Users/renaudrubiano/Desktop/"
 								}
 
@@ -220,7 +220,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 208.5, 100.0, 154.0, 16.0 ],
+									"patching_rect" : [ 167.5, 26.0, 154.0, 16.0 ],
 									"text" : "getval preferences::project::path"
 								}
 
@@ -234,7 +234,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 208.5, 124.0, 73.0, 18.0 ],
+									"patching_rect" : [ 167.5, 50.0, 73.0, 18.0 ],
 									"text" : "span.requests"
 								}
 
@@ -248,7 +248,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 279.312561, 241.946411, 228.0, 16.0 ],
+									"patching_rect" : [ 238.312561, 167.946411, 228.0, 16.0 ],
 									"text" : "Users/renaudrubiano/Documents/GITs/span/dev/"
 								}
 
@@ -399,7 +399,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 391.812561, 571.126953, 150.0, 18.0 ],
-					"presentation_rect" : [ 387.812561, 576.126953, 0.0, 0.0 ],
 					"text" : "creer dossier qiu n'existene pas"
 				}
 
@@ -413,7 +412,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 391.812561, 553.126953, 150.0, 18.0 ],
-					"presentation_rect" : [ 391.812561, 553.126953, 0.0, 0.0 ],
 					"text" : "creer check de tous les fichiers"
 				}
 
@@ -441,7 +439,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 364.812561, 245.946411, 96.0, 23.0 ],
-					"presentation_rect" : [ 375.062561, 356.841003, 0.0, 0.0 ],
 					"text" : "output folders"
 				}
 
@@ -2635,7 +2632,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "fold" ],
+									"outlettype" : [ "" ],
 									"patching_rect" : [ 189.993042, 11.0, 25.0, 25.0 ]
 								}
 
