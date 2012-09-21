@@ -1,0 +1,74 @@
+{
+	"system" : 	{
+		"isruntime" : 0,
+		"os" : "macintosh",
+		"osversion" : "68",
+		"maxversion" : "607",
+		"span" : 		{
+			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+			"license" : "GNU-LGPL",
+			"status" : "alpha",
+			"version" : 			{
+				"major" : 0,
+				"minor" : 0,
+				"revision" : 1
+			}
+,
+			"path" : "here:/there/projects1/Environ ments/didascalie-net/span/lib/"
+		}
+,
+		"preferences" : 		{
+			"path" : "~/Library/Application Support/span/span.preferences.json"
+		}
+,
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+
+		}
+
+	}
+,
+	"preferences" : 	{
+		"verbose" : 1,
+		"autoload" : 0,
+		"project" : 		{
+			"path" : ""
+		}
+
+	}
+,
+	"projectinfo" : 	{
+		"created" : "",
+		"lastopened" : "",
+		"appname" : "span",
+		"appversion" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"namespace" : 	{
+
+	}
+,
+	"events" : 	{
+
+	}
+
+}
