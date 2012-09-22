@@ -81,16 +81,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-40",
-					"maxclass" : "dict.view",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 399.75, 187.75, 506.0, 586.5 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.6, 0.6, 1.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -150,8 +140,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 178.0, 16.0, 110.0, 18.0 ],
-									"text" : "r /tapemovie/forceprint"
+									"patching_rect" : [ 178.0, 16.0, 75.0, 18.0 ],
+									"text" : "r /tm/forceprint"
 								}
 
 							}
@@ -165,8 +155,8 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 12.0, 16.0, 88.0, 18.0 ],
-									"text" : "r /tapemovie/print"
+									"patching_rect" : [ 12.0, 16.0, 53.0, 18.0 ],
+									"text" : "r /tm/print"
 								}
 
 							}
@@ -7664,13 +7654,6 @@
 				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib",
 				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "loadproperties.js",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib/js",
-				"patcherrelativepath" : "../../lib/js",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{

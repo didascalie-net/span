@@ -1,0 +1,78 @@
+{
+	"system" : 	{
+		"isruntime" : "",
+		"os" : "",
+		"osversion" : "",
+		"maxversion" : "",
+		"span" : 		{
+			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+			"license" : "GNU-LGPL",
+			"status" : "alpha",
+			"version" : 			{
+				"major" : 0,
+				"minor" : 0,
+				"revision" : 1
+			}
+,
+			"path" : ""
+		}
+,
+		"preferences" : 		{
+			"path" : "~/Library/Application Support/span/span.preferences.json"
+		}
+,
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+
+		}
+
+	}
+,
+	"preferences" : 	{
+		"verbose" : 1,
+		"autoload" : 0,
+		"project" : 		{
+			"path" : ""
+		}
+
+	}
+,
+	"projectinfo" : 	{
+		"created" : "",
+		"lastopened" : "",
+		"appname" : "span",
+		"appversion" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"namespace" : 	{
+
+	}
+,
+	"events" : 	{
+
+	}
+
+}
