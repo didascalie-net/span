@@ -1,7 +1,7 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww13800\viewh17120\viewkind0
+\paperw11900\paperh16840\margl1440\margr1440\vieww8400\viewh17120\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
 
 \f0\fs24 \cf0 span notes\
@@ -435,5 +435,22 @@ added span/print to preferences subpatch for span load done and for creating pre
 added span/load/working 0 to preferences subpatch\
 \
 working on tm.span insertion into the load process...\
+\
+---\
+working on span loading sequence. when preferences done loading or writing, bang goes to project file patch. if preferences::loadinsert it 1, span/insert/load is sent 1 to load insert environment (such as tapemovoe). when that is done loading it comes back and checks for autoload to see if it must autoload project. The insert load has to run before opening project because the insert load might change project contents.\
+\
+\
+installed aumatic /span/insert/load system to be able to create tm.span before loading project. STILL IN PROGRESS\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
 \
 }
