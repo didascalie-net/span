@@ -36,7 +36,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 314.979156, 446.228119, 92.0, 28.0 ],
-					"text" : "fonctions",
+					"text" : "functions",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -7627,20 +7627,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Verdana",
-					"fontsize" : 11.0,
-					"frgb" : 0.0,
-					"id" : "obj-4",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.979156, 405.93866, 100.0, 20.0 ],
-					"text" : "and preferences"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Verdana Gras",
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
@@ -7648,8 +7634,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.479187, 385.43866, 143.0, 28.0 ],
-					"text" : "loading project",
+					"patching_rect" : [ 336.979126, 385.228119, 72.0, 28.0 ],
+					"text" : "project",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -7663,8 +7649,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 268.479187, 174.198578, 143.0, 28.0 ],
-					"text" : "loading system",
+					"patching_rect" : [ 336.979126, 174.198578, 72.0, 28.0 ],
+					"text" : "system",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 

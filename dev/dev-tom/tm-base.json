@@ -13,6 +13,7 @@
 			"paths" : 			{
 
 			}
+
 		}
 ,
 		"preferences" : 		{
@@ -28,10 +29,7 @@
 
 			}
 ,
-			"namespace" : 			{
-
-			}
-,
+			"modules" : "quantity",
 			"events" : 			{
 
 			}
@@ -62,6 +60,10 @@
 	}
 ,
 	"paths" : 	{
+
+	}
+,
+	"modules" : 	{
 
 	}
 ,
