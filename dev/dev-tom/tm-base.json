@@ -1,0 +1,76 @@
+{
+	"system" : 	{
+		"tapemovie" : 		{
+			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+			"license" : "GNU-LGPL",
+			"status" : "alpha",
+			"version" : 			{
+				"major" : 2,
+				"minor" : 0,
+				"revision" : 0
+			}
+,
+			"paths" : 			{
+
+			}
+		}
+,
+		"preferences" : 		{
+			"path" : "~/Library/Application Support/tapemovie/tapemovie.preferences.json"
+		}
+,
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+
+		}
+
+	}
+,
+	"preferences" : 	{
+		"verbose" : 1,
+		"autoload" : 0,
+		"project" : 		{
+			"path" : ""
+		}
+
+	}
+,
+	"projectinfo" : 	{
+		"created" : "",
+		"lastopened" : "",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"namespace" : 	{
+
+	}
+,
+	"events" : 	{
+
+	}
+
+}
