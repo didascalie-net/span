@@ -1,0 +1,1088 @@
+{
+	"projectinfo" : 	{
+		"created" : "",
+		"lastopened" : "",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"whatever" : 	{
+		"works" : 1,
+		"ohyeah" : 2
+	}
+,
+	"nodes" : 	{
+
+	}
+,
+	"namespace" : 	{
+		"del" : 		{
+			"quantity" : 7,
+			"active" : 1,
+			"tags" : "audio",
+			"inputs" : 1,
+			"outputs" : 1,
+			"filename" : "t_del",
+			"description" : "standard delay",
+			"path" : "audio/processing/del/del.json",
+			"1" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"2" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"3" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"4" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"5" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"6" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"7" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"fb" : 				{
+					"address" : "fb",
+					"description" : "feedback amount",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "factor",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"delrand" : 				{
+					"address" : "delrand",
+					"description" : "random delay time process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"fbrand" : 				{
+					"address" : "fbrand",
+					"description" : "random feedback process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+
+		}
+,
+		"filt" : 		{
+			"quantity" : 2,
+			"active" : 1,
+			"tags" : "audio",
+			"inputs" : 1,
+			"outputs" : 1,
+			"filename" : "t_filt",
+			"description" : "standard filter",
+			"path" : "audio/processing/filt/filt.json",
+			"1" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"mode" : 				{
+					"address" : "mode",
+					"description" : "filter mode (type)",
+					"class" : "parameter",
+					"type" : "enum",
+					"unit" : "none",
+					"initval" : "lowpass",
+					"range" : [ "display", "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : "lowpass"
+				}
+,
+				"gainenable" : 				{
+					"address" : "gainenable",
+					"description" : "filter gain enble",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"freq" : 				{
+					"address" : "freq",
+					"description" : "filter frequency",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "Hz",
+					"initval" : 22050,
+					"range" : [ 20, 22050 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 22050
+				}
+,
+				"gain" : 				{
+					"address" : "gain",
+					"description" : "filter gain",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "dB",
+					"initval" : 0,
+					"range" : [ -24, 24 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "linear",
+					"value" : 0
+				}
+,
+				"q" : 				{
+					"address" : "q",
+					"description" : "filter q",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0.707,
+					"range" : [ 0.01, 25 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 0.707
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"freqrand" : 				{
+					"address" : "freqrand",
+					"description" : "random frequency process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"2" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"mode" : 				{
+					"address" : "mode",
+					"description" : "filter mode (type)",
+					"class" : "parameter",
+					"type" : "enum",
+					"unit" : "none",
+					"initval" : "lowpass",
+					"range" : [ "display", "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : "lowpass"
+				}
+,
+				"gainenable" : 				{
+					"address" : "gainenable",
+					"description" : "filter gain enble",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"freq" : 				{
+					"address" : "freq",
+					"description" : "filter frequency",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "Hz",
+					"initval" : 22050,
+					"range" : [ 20, 22050 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 22050
+				}
+,
+				"gain" : 				{
+					"address" : "gain",
+					"description" : "filter gain",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "dB",
+					"initval" : 0,
+					"range" : [ -24, 24 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "linear",
+					"value" : 0
+				}
+,
+				"q" : 				{
+					"address" : "q",
+					"description" : "filter q",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0.707,
+					"range" : [ 0.01, 25 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 0.707
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"freqrand" : 				{
+					"address" : "freqrand",
+					"description" : "random frequency process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+
+		}
+
+	}
+,
+	"events" : 	{
+
+	}
+
+}

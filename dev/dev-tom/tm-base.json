@@ -29,7 +29,7 @@
 
 			}
 ,
-			"namespace" : "quantity",
+			"nodes" : "quantity",
 			"events" : 			{
 
 			}
@@ -60,6 +60,10 @@
 	}
 ,
 	"paths" : 	{
+
+	}
+,
+	"nodes" : 	{
 
 	}
 ,
