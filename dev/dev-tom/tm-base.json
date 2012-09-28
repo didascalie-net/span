@@ -29,7 +29,51 @@
 
 			}
 ,
-			"nodes" : "quantity",
+			"nodes" : 			{
+				"*" : [ "quantity", "tags" ],
+				"filt" : [ "active" ],
+				"del" : 				{
+
+				}
+
+			}
+,
+			"namespace" : 			{
+				"ctlmap" : 				{
+					"1" : 					{
+						"sw" : "value"
+					}
+
+				}
+,
+				"filt" : "2",
+				"mouse" : [ "2", "3" ],
+				"del" : 				{
+					"1" : 					{
+						"time" : 						{
+
+						}
+
+					}
+
+				}
+
+,
+
+				"oscsend" : 			{
+
+					"1" : 					{
+
+					}
+
+				}
+,
+				"events" : 				{
+					"1" : [ "sw", "type" ]
+				}
+
+			}
+,
 			"events" : 			{
 
 			}

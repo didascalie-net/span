@@ -1,0 +1,588 @@
+{
+	"projectinfo" : 	{
+		"created" : "2012-09-27T22:55:33",
+		"lastopened" : "2012-09-27T22:55:33",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"nodes" : 	{
+		"del" : 		{
+			"active" : 1,
+			"tags" : "audio",
+			"inputs" : 1,
+			"outputs" : 1,
+			"filename" : "t_del",
+			"description" : "standard delay",
+			"sw" : 			{
+				"address" : "sw",
+				"description" : "on/off switch",
+				"class" : "parameter",
+				"type" : "boolean",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : 0
+			}
+,
+			"time" : 			{
+				"address" : "time",
+				"description" : "delay time",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "ms",
+				"initval" : 0,
+				"range" : [ 0, 30000 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 2,
+				"rampfunction" : "exponential",
+				"value" : 0
+			}
+,
+			"fb" : 			{
+				"address" : "fb",
+				"description" : "feedback amount",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "factor",
+				"initval" : 0,
+				"range" : [ 0, 1 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 2,
+				"rampfunction" : "exponential",
+				"value" : 0
+			}
+,
+			"vol" : 			{
+				"address" : "vol",
+				"description" : "output volume",
+				"class" : "parameter",
+				"type" : "decimal",
+				"unit" : "none",
+				"initval" : 1,
+				"range" : [ 0, 2 ],
+				"repetition" : 0,
+				"clipmode" : "both",
+				"ramp" : 1,
+				"rampfunction" : "exponential",
+				"value" : 1
+			}
+,
+			"volrand" : 			{
+				"address" : "volrand",
+				"description" : "random volume process",
+				"class" : "parameter",
+				"type" : "array",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : "none",
+				"repetition" : 0,
+				"clipmode" : "none",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : 0
+			}
+,
+			"delrand" : 			{
+				"address" : "delrand",
+				"description" : "random delay time process",
+				"class" : "parameter",
+				"type" : "array",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : "none",
+				"repetition" : 0,
+				"clipmode" : "none",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : 0
+			}
+,
+			"fbrand" : 			{
+				"address" : "fbrand",
+				"description" : "random feedback process",
+				"class" : "parameter",
+				"type" : "array",
+				"unit" : "none",
+				"initval" : 0,
+				"range" : "none",
+				"repetition" : 0,
+				"clipmode" : "none",
+				"ramp" : 0,
+				"rampfunction" : "none",
+				"value" : 0
+			}
+,
+			"path" : "audio/processing/del/del.json",
+			"quantity" : 2
+		}
+,
+		"filt" : 		{
+			"quantity" : 3,
+			"tags" : "audio",
+			"active" : 1
+		}
+,
+		"ctlmap" : 		{
+			"quantity" : 4,
+			"tags" : "control"
+		}
+,
+		"events" : 		{
+			"quantity" : 2,
+			"tags" : [ "control", "event" ]
+		}
+,
+		"oscsend" : 		{
+			"quantity" : 3,
+			"tags" : "osc"
+		}
+,
+		"mouse" : 		{
+			"quantity" : 4,
+			"tags" : [ "device", "control" ]
+		}
+
+	}
+,
+	"namespace" : 	{
+		"filt" : 		{
+			"2" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"mode" : 				{
+					"address" : "mode",
+					"description" : "filter mode (type)",
+					"class" : "parameter",
+					"type" : "enum",
+					"unit" : "none",
+					"initval" : "lowpass",
+					"range" : [ "display", "lowpass", "highpass", "bandpass", "bandstop", "peaknotch", "lowshelf", "highshelf", "resonant", "allpass" ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : "lowpass"
+				}
+,
+				"gainenable" : 				{
+					"address" : "gainenable",
+					"description" : "filter gain enble",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"freq" : 				{
+					"address" : "freq",
+					"description" : "filter frequency",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "Hz",
+					"initval" : 22050,
+					"range" : [ 20, 22050 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 22050
+				}
+,
+				"gain" : 				{
+					"address" : "gain",
+					"description" : "filter gain",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "dB",
+					"initval" : 0,
+					"range" : [ -24, 24 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "linear",
+					"value" : 0
+				}
+,
+				"q" : 				{
+					"address" : "q",
+					"description" : "filter q",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0.707,
+					"range" : [ 0.01, 25 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 0.707
+				}
+,
+				"vol" : 				{
+					"address" : "vol",
+					"description" : "output volume",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 1,
+					"range" : [ 0, 2 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 1,
+					"rampfunction" : "exponential",
+					"value" : 1
+				}
+,
+				"volrand" : 				{
+					"address" : "volrand",
+					"description" : "random volume process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"freqrand" : 				{
+					"address" : "freqrand",
+					"description" : "random frequency process",
+					"class" : "parameter",
+					"type" : "array",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : "none",
+					"repetition" : 0,
+					"clipmode" : "none",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+
+		}
+,
+		"mouse" : 		{
+			"2" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"x" : 				{
+					"address" : "x",
+					"description" : "x axis mouse position",
+					"class" : "controller",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"y" : 				{
+					"address" : "y",
+					"description" : "y axis mouse position",
+					"class" : "controller",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"button" : 				{
+					"address" : "button",
+					"description" : "mouse button",
+					"class" : "controller",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+,
+			"3" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"x" : 				{
+					"address" : "x",
+					"description" : "x axis mouse position",
+					"class" : "controller",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"y" : 				{
+					"address" : "y",
+					"description" : "y axis mouse position",
+					"class" : "controller",
+					"type" : "decimal",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"button" : 				{
+					"address" : "button",
+					"description" : "mouse button",
+					"class" : "controller",
+					"type" : "boolean",
+					"unit" : "none",
+					"initval" : 0,
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+
+			}
+
+		}
+,
+		"oscsend" : 		{
+			"1" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"initval" : 0,
+					"unit" : "none",
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"host" : 				{
+					"address" : "host",
+					"description" : "IP target address",
+					"class" : "parameter",
+					"type" : "string",
+					"initval" : "127.0.0.1",
+					"unit" : "none",
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : "127.0.0.1"
+				}
+,
+				"alias" : 				{
+					"address" : "alias",
+					"description" : "oscsend alias name",
+					"class" : "parameter",
+					"type" : "string",
+					"initval" : "<none>",
+					"unit" : "none",
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : "<none>"
+				}
+,
+				"print" : 				{
+					"address" : "print",
+					"description" : "on/off print to Max window",
+					"class" : "parameter",
+					"type" : "boolean",
+					"initval" : 0,
+					"unit" : "none",
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"port" : 				{
+					"address" : "port",
+					"description" : "UDP port",
+					"class" : "parameter",
+					"type" : "decimal",
+					"initval" : 8000,
+					"unit" : "none",
+					"range" : [ 0, 99999 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 8000
+				}
+
+			}
+
+		}
+,
+		"events" : 		{
+			"1" : 			{
+				"sw" : 				{
+					"address" : "sw",
+					"description" : "on/off switch",
+					"class" : "parameter",
+					"type" : "boolean",
+					"initval" : 0,
+					"unit" : "none",
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : 0
+				}
+,
+				"type" : 				{
+					"address" : "type",
+					"description" : "type of event to create",
+					"class" : "parameter",
+					"type" : "string",
+					"initval" : "empty",
+					"unit" : "none",
+					"range" : [ 0, 1 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 0,
+					"rampfunction" : "none",
+					"value" : "empty"
+				}
+
+			}
+
+		}
+,
+		"ctlmap" : 		{
+			"1" : 			{
+				"sw" : 				{
+					"value" : 0
+				}
+
+			}
+
+		}
+,
+		"del" : 		{
+			"1" : 			{
+				"time" : 				{
+					"address" : "time",
+					"description" : "delay time",
+					"class" : "parameter",
+					"type" : "decimal",
+					"unit" : "ms",
+					"initval" : 0,
+					"range" : [ 0, 30000 ],
+					"repetition" : 0,
+					"clipmode" : "both",
+					"ramp" : 2,
+					"rampfunction" : "exponential",
+					"value" : 0
+				}
+
+			}
+
+		}
+
+	}
+,
+	"events" : 	{
+
+	}
+
+}
