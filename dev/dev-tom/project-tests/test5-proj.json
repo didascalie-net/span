@@ -1,0 +1,99 @@
+{
+	"projectinfo" : 	{
+		"created" : "2012-09-28T14:13:06",
+		"lastopened" : "2012-09-28T14:13:06",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"nodes" : 	{
+		"del" : 		{
+			"quantity" : 1,
+			"tags" : "audio",
+			"filename" : "t_del",
+			"description" : "standard delay"
+		}
+,
+		"filt" : 		{
+			"quantity" : 2,
+			"tags" : "audio",
+			"filename" : "t_filt",
+			"description" : "standard filter"
+		}
+,
+		"ctlmap" : 		{
+			"quantity" : 3,
+			"tags" : "control",
+			"filename" : "span_map",
+			"description" : "controller mapper"
+		}
+,
+		"events" : 		{
+			"quantity" : 4,
+			"tags" : [ "control", "event" ],
+			"filename" : "tm_events",
+			"description" : "Events Manager"
+		}
+,
+		"oscsend" : 		{
+			"quantity" : 5,
+			"tags" : "osc",
+			"filename" : "tm_oscsend",
+			"description" : "send OSC messages"
+		}
+,
+		"mouse" : 		{
+			"quantity" : 6,
+			"tags" : [ "device", "control" ],
+			"filename" : "tm_mouse",
+			"description" : "mouse as controller"
+		}
+
+	}
+,
+	"events" : 	{
+
+	}
+,
+	"system" : 	{
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"nodes" : 			{
+				"*" : [ "quantity", "tags", "filename", "description" ]
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+
+	}
+,
+	"one" : {
+		"two" : {
+			"three" : 4
+		}
+	}
+,
+	"extra" : {
+	}
+
+}

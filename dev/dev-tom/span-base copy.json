@@ -1,23 +1,25 @@
 {
 	"system" : 	{
-		"tapemovie" : 		{
+		"isruntime" : "",
+		"os" : "",
+		"osversion" : "",
+		"maxversion" : "",
+		"span" : 		{
 			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
 			"license" : "GNU-LGPL",
 			"status" : "alpha",
 			"version" : 			{
-				"major" : 2,
+				"major" : 0,
 				"minor" : 0,
-				"revision" : 0
+				"revision" : 1
 			}
 ,
-			"paths" : 			{
-
-			}
-
+			"path" : ""
 		}
 ,
+		"hardkeys" : [ "system", "preferences", "projectinfo" ],
 		"preferences" : 		{
-			"path" : "~/Library/Application Support/tapemovie/tapemovie.preferences.json"
+			"path" : "~/Library/Application Support/span/span.preferences.json"
 		}
 ,
 		"projectstructure" : 		{
@@ -29,8 +31,11 @@
 
 			}
 ,
+			"namespace" : 			{
+
+			}
+,
 			"nodes" : 			{
-				"*" : [ "quantity", "tags", "filename", "description" ]
 
 			}
 ,
@@ -48,8 +53,7 @@
 		"verbose" : 1,
 		"autoload" : 0,
 		"project" : 		{
-			"path" : "",
-			"name" : ""
+			"path" : ""
 		}
 
 	}
@@ -57,12 +61,11 @@
 	"projectinfo" : 	{
 		"created" : "",
 		"lastopened" : "",
-		"lastsaved" : "",
-		"appname" : "tapemovie",
+		"appname" : "span",
 		"appversion" : 		{
-			"major" : 2,
+			"major" : 0,
 			"minor" : 0,
-			"revision" : 0
+			"revision" : 1
 		}
 
 	}
@@ -71,11 +74,11 @@
 
 	}
 ,
-	"nodes" : 	{
+	"namespace" : 	{
 
 	}
 ,
-	"namespace" : 	{
+	"nodes" : 	{
 
 	}
 ,

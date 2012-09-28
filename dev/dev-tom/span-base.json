@@ -17,15 +17,44 @@
 			"path" : ""
 		}
 ,
+		"hardkeys" : [ "system", "preferences", "projectinfo" ],
+		"softkeys" : [ "paths", "namespace", "nodes", "events" ],
 		"preferences" : 		{
-			"name" : "span.preferences.json",
-			"include" : "preferences",
-			"path" : "~/Library/Application Support/span/"
+			"path" : "~/Library/Application Support/span/span.preferences.json"
 		}
 ,
-		"project" : 		{
-			"include" : [ "preferences", "projectinfo", "paths", "namespace" ]
+		"projectstructure" : 		{
+			"projectinfo" : 			{
 
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+,
+			"nodes" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+
+	}
+,
+	"preferences" : 	{
+		"verbose" : 1,
+		"autoload" : 0,
+		"project" : 		{
+			"path" : "",
+			"name" : ""
 		}
 
 	}
@@ -33,29 +62,13 @@
 	"projectinfo" : 	{
 		"created" : "",
 		"lastopened" : "",
-		"appname" : "",
-		"version" : 		{
+		"lastsaved" : "",
+		"appname" : "span",
+		"appversion" : 		{
 			"major" : 0,
 			"minor" : 0,
 			"revision" : 1
-			}
-
 		}
-,
-	"preferences" : 	{
-		"project" : 		{
-			"include" : [ "preferences", "projectinfo", "paths", "namespace" ],
-			"name" : "",
-			"path" : ""
-			}
-
-		}
-,
-	"paths" : 	{
-
-	}
-,
-	"namespace" : 	{
 
 	}
 

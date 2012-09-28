@@ -30,15 +30,53 @@
 			}
 ,
 			"nodes" : 			{
-				"*" : [ "quantity", "tags", "filename", "description" ]
+				"*" : [ "quantity", "tags" ],
+				"filt" : [ "active" ],
+				"del" : 				{
+
+				}
+
+			}
+,
+			"namespace" : 			{
+				"ctlmap" : 				{
+					"1" : 					{
+						"sw" : "value"
+					}
+
+				}
+,
+				"filt" : "2",
+				"mouse" : [ "2", "3" ],
+				"del" : 				{
+					"1" : 					{
+						"time" : 						{
+
+						}
+
+					}
+
+				}
+
+,
+
+				"oscsend" : 			{
+
+					"1" : 					{
+
+					}
+
+				}
+,
+				"events" : 				{
+					"1" : [ "sw", "type" ]
+				}
 
 			}
 ,
 			"events" : 			{
 
 			}
-,
-			"system" :	"projectstructure"
 
 		}
 
@@ -48,8 +86,7 @@
 		"verbose" : 1,
 		"autoload" : 0,
 		"project" : 		{
-			"path" : "",
-			"name" : ""
+			"path" : ""
 		}
 
 	}
@@ -57,7 +94,6 @@
 	"projectinfo" : 	{
 		"created" : "",
 		"lastopened" : "",
-		"lastsaved" : "",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,

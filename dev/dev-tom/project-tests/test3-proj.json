@@ -1,0 +1,61 @@
+{
+	"projectinfo" : 	{
+		"created" : "2012-09-28T10:32:49",
+		"lastopened" : "2012-09-28T10:32:49",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"nodes" : 	{
+		"del" : 		{
+			"quantity" : 1,
+			"tags" : "audio",
+			"description" : "standard delay"
+		}
+,
+		"filt" : 		{
+			"quantity" : 2,
+			"tags" : "audio",
+			"description" : "standard filter"
+		}
+,
+		"ctlmap" : 		{
+			"quantity" : 3,
+			"tags" : "control",
+			"description" : "controller mapper"
+		}
+,
+		"events" : 		{
+			"quantity" : 4,
+			"tags" : [ "control", "event" ],
+			"description" : "Events Manager"
+		}
+,
+		"oscsend" : 		{
+			"quantity" : 54,
+			"tags" : "osc",
+			"description" : "send OSC messages"
+		}
+,
+		"mouse" : 		{
+			"quantity" : 5,
+			"tags" : [ "device", "control" ],
+			"description" : "mouse as controller"
+		}
+
+	}
+,
+	"events" : 	{
+
+	}
+
+}
