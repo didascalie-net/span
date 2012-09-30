@@ -16,6 +16,8 @@
 
 		}
 ,
+		"hardkeys" : [ "system", "preferences", "projectinfo" ],
+		"softkeys" : [ "paths", "namespace", "nodes", "events" ],
 		"preferences" : 		{
 			"path" : "~/Library/Application Support/tapemovie/tapemovie.preferences.json"
 		}
@@ -66,21 +68,4 @@
 		}
 
 	}
-,
-	"paths" : 	{
-
-	}
-,
-	"nodes" : 	{
-
-	}
-,
-	"namespace" : 	{
-
-	}
-,
-	"events" : 	{
-
-	}
-
 }
