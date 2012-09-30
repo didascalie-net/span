@@ -1,7 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-28T14:13:06",
-		"lastopened" : "2012-09-28T14:13:06",
+		"lastopened" : "2012-09-30T21:35:53",
+		"lastsaved" : "2012-09-30T21:35:57",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -85,15 +86,6 @@
 			"system" : "projectstructure"
 		}
 
-	}
-,
-	"one" : {
-		"two" : {
-			"three" : 4
-		}
-	}
-,
-	"extra" : {
 	}
 
 }
