@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2012-09-30T21:38:33",
-		"lastsaved" : "2012-09-30T21:38:53",
+		"lastopened" : "2012-10-03T11:47:41",
+		"lastsaved" : "2012-10-03T11:48:19",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -2381,42 +2381,42 @@
 ,
 	"nodes" : 	{
 		"del" : 		{
-			"quantity" : 2,
+			"quantity" : 11,
 			"tags" : "audio",
 			"filename" : "t_del",
 			"description" : "standard delay"
 		}
 ,
 		"filt" : 		{
-			"quantity" : 2,
+			"quantity" : 12,
 			"tags" : "audio",
 			"filename" : "t_filt",
 			"description" : "standard filter"
 		}
 ,
 		"ctlmap" : 		{
-			"quantity" : 3,
+			"quantity" : 13,
 			"tags" : "control",
 			"filename" : "span_map",
 			"description" : "controller mapper"
 		}
 ,
 		"events" : 		{
-			"quantity" : 4,
+			"quantity" : 14,
 			"tags" : [ "control", "event" ],
 			"filename" : "tm_events",
 			"description" : "Events Manager"
 		}
 ,
 		"oscsend" : 		{
-			"quantity" : 5,
+			"quantity" : 15,
 			"tags" : "osc",
 			"filename" : "tm_oscsend",
 			"description" : "send OSC messages"
 		}
 ,
 		"mouse" : 		{
-			"quantity" : 6,
+			"quantity" : 16,
 			"tags" : [ "device", "control" ],
 			"filename" : "tm_mouse",
 			"description" : "mouse as controller"
