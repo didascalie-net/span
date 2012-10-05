@@ -1261,7 +1261,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.937439, 518.0, 554.479126, 18.0 ],
-									"text" : "/project-tests-/test4-proj"
+									"text" : "no project"
 								}
 
 							}
@@ -14886,7 +14886,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 1089.5, 214.0, 87.0, 20.0 ],
-													"presentation_rect" : [ 1089.5, 215.0, 0.0, 0.0 ],
 													"text" : "setsendparam"
 												}
 
@@ -14901,7 +14900,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 743.0, 234.0, 57.0, 20.0 ],
-													"presentation_rect" : [ 741.0, 237.0, 0.0, 0.0 ],
 													"text" : "zl slice 1"
 												}
 
@@ -14916,7 +14914,6 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 912.0, 234.0, 57.0, 20.0 ],
-													"presentation_rect" : [ 911.5, 206.0, 0.0, 0.0 ],
 													"text" : "zl slice 1"
 												}
 
@@ -14931,7 +14928,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 925.5, 214.0, 71.0, 20.0 ],
-													"presentation_rect" : [ 905.5, 291.0, 0.0, 0.0 ],
 													"text" : "sendparam"
 												}
 
@@ -15177,7 +15173,6 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 756.5, 214.0, 61.0, 20.0 ],
-													"presentation_rect" : [ 826.5, 247.0, 0.0, 0.0 ],
 													"text" : "getparam"
 												}
 
@@ -19957,6 +19952,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-37", 0 ]
