@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 4
+			"revision" : 7
 		}
 ,
 		"rect" : [ 50.0, 94.0, 313.0, 183.0 ],
@@ -28,8 +28,9 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"color" : [ 0.8, 1.0, 0.4, 1.0 ],
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 10.0,
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -40,7 +41,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 4
+							"revision" : 7
 						}
 ,
 						"rect" : [ 75.0, 119.0, 482.0, 461.0 ],
@@ -80,7 +81,7 @@
 								"box" : 								{
 									"fontname" : "Times Roman",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-117",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -94,7 +95,7 @@
 								"box" : 								{
 									"fontname" : "Times Roman",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -293,7 +294,7 @@
 								"box" : 								{
 									"fontname" : "Times Roman",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-26",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -307,7 +308,7 @@
 								"box" : 								{
 									"fontname" : "Times Roman",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-126",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -321,7 +322,7 @@
 								"box" : 								{
 									"fontname" : "Times Roman",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-127",
 									"linecount" : 3,
 									"maxclass" : "comment",
@@ -336,7 +337,7 @@
 								"box" : 								{
 									"fontname" : "Times Roman",
 									"fontsize" : 12.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"frgb" : 0.0,
 									"id" : "obj-29",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -571,22 +572,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [  ]
+ ]
 					}
 ,
-					"patching_rect" : [ 21.0, 24.5, 68.0, 20.0 ],
+					"patching_rect" : [ 21.0, 24.5, 58.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
-						"fontname" : "Arial",
 						"default_fontname" : "Arial",
-						"tags" : "",
-						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontname" : "Arial",
+						"fontsize" : 12.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p explinlog"
