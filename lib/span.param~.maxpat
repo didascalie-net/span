@@ -244,7 +244,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 481.130859, 274.434082, 221.333374, 33.0 ],
+					"patching_rect" : [ 481.130737, 265.532959, 221.333374, 33.0 ],
 					"text" : "combine namespace :: node :: instance :: param :: subparam @triggers 8"
 				}
 
@@ -2972,7 +2972,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 484.892792, 490.532959, 24.0, 20.0 ],
+					"patching_rect" : [ 484.892792, 493.532959, 24.0, 20.0 ],
 					"text" : "t 0"
 				}
 
@@ -2985,7 +2985,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 365.749939, 523.065918, 20.0, 20.0 ]
+					"patching_rect" : [ 365.749939, 526.065918, 20.0, 20.0 ]
 				}
 
 			}
@@ -3009,7 +3009,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 426.416595, 490.532959, 24.0, 20.0 ],
+					"patching_rect" : [ 426.416595, 493.532959, 24.0, 20.0 ],
 					"text" : "t 0"
 				}
 
@@ -3023,7 +3023,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 365.749939, 490.532959, 24.0, 20.0 ],
+					"patching_rect" : [ 365.749939, 493.532959, 24.0, 20.0 ],
 					"text" : "t 1"
 				}
 
@@ -3037,7 +3037,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 365.749939, 462.532959, 201.0, 20.0 ],
+					"patching_rect" : [ 365.749939, 465.532959, 201.0, 20.0 ],
 					"text" : "route parameter controller message"
 				}
 
@@ -3163,7 +3163,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 634.896973, 429.065918, 41.0, 20.0 ],
+					"patching_rect" : [ 615.535522, 429.065918, 41.0, 20.0 ],
 					"text" : "initval"
 				}
 
@@ -3177,7 +3177,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 634.896973, 449.065918, 123.678284, 18.0 ],
+					"patching_rect" : [ 615.535522, 449.065918, 123.678284, 18.0 ],
 					"text" : "0"
 				}
 
@@ -3893,7 +3893,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 484.892792, 429.065918, 143.0, 20.0 ],
+					"patching_rect" : [ 465.709717, 429.065918, 143.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -3920,7 +3920,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 8,
 					"outlettype" : [ "", "", "", "", "", "", "", "" ],
-					"patching_rect" : [ 405.464233, 386.532959, 297.0, 20.0 ],
+					"patching_rect" : [ 420.916443, 385.532959, 297.0, 20.0 ],
 					"text" : "route class type initval range repetition clipmode ramp"
 				}
 
@@ -3948,8 +3948,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.130859, 357.532959, 95.0, 20.0 ],
-					"text" : "join @triggers 1"
+					"patching_rect" : [ 420.916443, 354.631836, 79.214294, 20.0 ],
+					"text" : "join"
 				}
 
 			}
@@ -3963,7 +3963,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
-					"patching_rect" : [ 481.130859, 335.467041, 86.0, 20.0 ],
+					"patching_rect" : [ 481.130737, 326.565918, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
 
@@ -3977,7 +3977,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 481.130859, 312.0, 90.0, 20.0 ],
+					"patching_rect" : [ 481.130737, 303.098877, 90.0, 20.0 ],
 					"text" : "prepend getval"
 				}
 
@@ -4512,7 +4512,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-62", 1 ]
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -4521,7 +4521,7 @@
 					"destination" : [ "obj-63", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-62", 0 ]
+					"source" : [ "obj-62", 1 ]
 				}
 
 			}

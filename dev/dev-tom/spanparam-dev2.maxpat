@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 42.0, 152.0, 1129.0, 481.0 ],
+		"rect" : [ 281.0, 373.0, 1129.0, 481.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,12 +29,52 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"args" : [ "filt" ],
+					"id" : "obj-15",
+					"maxclass" : "bpatcher",
+					"name" : "t_filt.edit.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 813.0, 300.967041, 256.0, 124.032959 ],
+					"presentation_rect" : [ 815.0, 305.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "del" ],
+					"id" : "obj-46",
+					"maxclass" : "bpatcher",
+					"name" : "t_del.edit.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 813.0, 238.967041, 256.0, 62.0 ],
+					"presentation_rect" : [ 815.0, 243.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.4, 0.8, 1.0, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"id" : "obj-44",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 599.533569, 46.5, 182.0, 27.0 ],
+					"text" : "poly~ t_del 3 args del"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ "filt" ],
 					"id" : "obj-45",
 					"maxclass" : "bpatcher",
 					"name" : "t_filt.edit.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 804.0, 157.950562, 256.0, 124.032959 ]
+					"patching_rect" : [ 813.0, 91.0, 256.0, 124.032959 ]
 				}
 
 			}
@@ -46,7 +86,7 @@
 					"name" : "t_del.edit.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 804.0, 95.950562, 256.0, 62.0 ]
+					"patching_rect" : [ 813.0, 29.0, 256.0, 62.0 ]
 				}
 
 			}
@@ -57,10 +97,10 @@
 					"fontsize" : 18.0,
 					"id" : "obj-25",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.0, 176.967041, 67.0, 27.0 ],
-					"text" : "t_filt filt"
+					"patching_rect" : [ 599.533569, 139.516479, 170.0, 27.0 ],
+					"text" : "poly~ t_filt 3 args filt"
 				}
 
 			}
@@ -103,20 +143,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 171.533569, 260.967041, 90.0, 20.0 ],
 					"text" : "sprintf /%s/%ld"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.4, 0.8, 1.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"id" : "obj-15",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 673.0, 142.967041, 79.0, 27.0 ],
-					"text" : "t_del del"
 				}
 
 			}
@@ -955,9 +981,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "t_del.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/del",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/del",
+				"name" : "t_filt.maxpat",
+				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/filt",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/filt",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1018,13 +1044,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "t_filt.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/filt",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/filt",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "t_del.edit.maxpat",
 				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/del",
 				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/del",
@@ -1060,28 +1079,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "variedit.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/common/common-lib/vari-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/common/common-lib/vari-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tagtocolor.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "editvar.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm_editsetup.maxpat",
 				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib",
 				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib",
 				"type" : "JSON",
@@ -1091,6 +1089,13 @@
 				"name" : "t_filt.edit.maxpat",
 				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/filt",
 				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/filt",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "t_del.maxpat",
+				"bootpath" : "/there/projects1/Environ ments/didascalie-net/tapemovie2/tapemovie-lib/modules/audio/processing/del",
+				"patcherrelativepath" : "../../../tapemovie2/tapemovie-lib/modules/audio/processing/del",
 				"type" : "JSON",
 				"implicit" : 1
 			}

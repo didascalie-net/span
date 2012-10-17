@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 552.594788, 158.5, 70.087708, 20.0 ],
+					"patching_rect" : [ 570.206299, 162.5, 70.087708, 20.0 ],
 					"text" : "unpack s 0"
 				}
 
@@ -63,7 +63,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 533.094788, 136.0, 97.0, 20.0 ],
+					"patching_rect" : [ 550.706299, 140.0, 97.0, 20.0 ],
 					"text" : "regexp /(.+)/(\\\\d)"
 				}
 
@@ -808,7 +808,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 502.515808, 113.065918, 49.578979, 20.0 ],
+					"patching_rect" : [ 502.515808, 113.065918, 67.190491, 20.0 ],
 					"text" : "t b s"
 				}
 
@@ -7120,8 +7120,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 426.849182, 356.065918, 95.0, 20.0 ],
-					"text" : "join @triggers 1"
+					"patching_rect" : [ 502.515808, 356.065918, 36.611511, 20.0 ],
+					"text" : "join"
 				}
 
 			}
@@ -7135,7 +7135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
-					"patching_rect" : [ 502.515808, 325.934082, 86.0, 20.0 ],
+					"patching_rect" : [ 520.127319, 329.934082, 86.0, 20.0 ],
 					"text" : "span.requests"
 				}
 
@@ -7149,7 +7149,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 502.515808, 302.467041, 90.0, 20.0 ],
+					"patching_rect" : [ 520.127319, 306.467041, 90.0, 20.0 ],
 					"text" : "prepend getval"
 				}
 
@@ -7164,7 +7164,7 @@
 					"numinlets" : 9,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 502.515808, 260.434082, 221.333374, 33.0 ],
+					"patching_rect" : [ 520.127319, 264.434082, 221.333374, 33.0 ],
 					"text" : "combine namespace :: node :: instance :: param :: subparam @triggers 8"
 				}
 
@@ -7655,7 +7655,7 @@
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-18", 1 ]
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -7664,7 +7664,7 @@
 					"destination" : [ "obj-5", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-18", 0 ]
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
