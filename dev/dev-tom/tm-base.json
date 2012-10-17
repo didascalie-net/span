@@ -17,7 +17,7 @@
 		}
 ,
 		"hardkeys" : [ "system", "preferences", "projectinfo" ],
-		"softkeys" : [ "paths", "namespace", "nodes", "events" ],
+		"softkeys" : [ "paths", "namespace", "nodes", "temp", "events" ],
 		"preferences" : 		{
 			"path" : "~/Library/Application Support/tapemovie/tapemovie.preferences.json"
 		}
@@ -33,6 +33,9 @@
 ,
 			"nodes" : 			{
 				"*" : [ "quantity", "tags", "filename", "description" ]
+			}
+,
+			"temp" : 			{
 
 			}
 ,
@@ -40,8 +43,7 @@
 
 			}
 ,
-			"system" :	"projectstructure"
-
+			"system" : "projectstructure"
 		}
 
 	}
@@ -54,74 +56,74 @@
 			"name" : ""
 		}
 ,
-		"interface" : 	{
-			"tags" : 		{
+		"interface" : 		{
+			"tags" : 			{
 				"audio" : "blue",
 				"device" : "purple",
 				"video" : "red",
 				"control" : "lightgreen"
 			}
 ,
-			"themes" : 		{
-				"blue" : 			{
-					"off" : 				{
+			"themes" : 			{
+				"blue" : 				{
+					"off" : 					{
 						"bgcolor" : [ 0.956863, 0.956863, 0.956863, 1 ]
 					}
 ,
-					"on" : 				{
+					"on" : 					{
 						"bgcolor" : [ 0.619608, 0.666667, 0.776471, 1 ]
 					}
 
 				}
 ,
-				"purple" : 			{
-					"off" : 				{
+				"purple" : 				{
+					"off" : 					{
 						"bgcolor" : [ 0.976471, 0.917647, 1, 1 ]
 					}
 ,
-					"on" : 				{
+					"on" : 					{
 						"bgcolor" : [ 0.862745, 0.647059, 1, 1 ]
 					}
 
 				}
 ,
-				"red" : 			{
-					"off" : 				{
+				"red" : 				{
+					"off" : 					{
 						"bgcolor" : [ 0.956863, 0.956863, 0.956863, 1 ]
 					}
 ,
-					"on" : 				{
+					"on" : 					{
 						"bgcolor" : [ 0.811765, 0.482353, 0.494118, 1 ]
-
 					}
+
 				}
 ,
-				"lightgreen" : 			{
-					"off" : 				{
+				"lightgreen" : 				{
+					"off" : 					{
 						"bgcolor" : [ 0.941176, 1, 0.941176, 1 ]
 					}
 ,
-					"on" : 				{
+					"on" : 					{
 						"bgcolor" : [ 0.796078, 1, 0.678431, 1 ]
 					}
 
 				}
 ,
-				"generic" : 			{
-					"off" : 				{
+				"generic" : 				{
+					"off" : 					{
 						"bgcolor" : [ 0.92, 0.92, 0.92, 1 ]
 					}
 ,
-					"on" : 				{
+					"on" : 					{
 						"bgcolor" : [ 0.82, 0.82, 0.82, 1 ]
 					}
-
 
 				}
 
 			}
 
 		}
+
 	}
 ,
 	"projectinfo" : 	{
@@ -136,4 +138,5 @@
 		}
 
 	}
+
 }

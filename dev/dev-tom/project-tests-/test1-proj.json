@@ -1,3 +1,284 @@
 {
+	"projectinfo" : 	{
+		"created" : "2012-09-30T21:36:32",
+		"lastopened" : "2012-10-17T17:10:47",
+		"lastsaved" : "2012-10-17T21:25:58",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"nodes" : 	{
+		"del" : 		{
+			"quantity" : 2,
+			"tags" : "audio",
+			"filename" : "t_del",
+			"description" : "standard delay"
+		}
+,
+		"filt" : 		{
+			"quantity" : 2,
+			"tags" : "audio",
+			"filename" : "t_filt",
+			"description" : "standard filter"
+		}
+,
+		"ctlmap" : 		{
+			"quantity" : 0,
+			"tags" : "control",
+			"filename" : "span_map",
+			"description" : "controller mapper"
+		}
+,
+		"events" : 		{
+			"quantity" : 0,
+			"tags" : [ "control", "event" ],
+			"filename" : "tm_events",
+			"description" : "Events Manager"
+		}
+,
+		"oscsend" : 		{
+			"quantity" : 0,
+			"tags" : "osc",
+			"filename" : "tm_oscsend",
+			"description" : "send OSC messages"
+		}
+,
+		"mouse" : 		{
+			"quantity" : 0,
+			"tags" : [ "device", "control" ],
+			"filename" : "tm_mouse",
+			"description" : "mouse as controller"
+		}
+
+	}
+,
+	"events" : 	{
+		"temp" : 		{
+			"del" : 			{
+				"1" : 				{
+					"sw" : 1,
+					"time" : 281.0,
+					"fb" : 0.12,
+					"vol" : 0.996,
+					"volrand" : 0,
+					"delrand" : 0,
+					"fbrand" : 0
+				}
+,
+				"2" : 				{
+					"sw" : 1,
+					"time" : 653.0,
+					"fb" : 0.041,
+					"vol" : 0.74,
+					"volrand" : 0,
+					"delrand" : 0,
+					"fbrand" : 0
+				}
+
+			}
+,
+			"filt" : 			{
+				"1" : 				{
+					"sw" : 1,
+					"mode" : "highpass",
+					"gainenable" : 0,
+					"freq" : 290.130127,
+					"gain" : 0,
+					"q" : 1.570859,
+					"vol" : 1.0,
+					"volrand" : 0,
+					"freqrand" : 0
+				}
+,
+				"2" : 				{
+					"sw" : 1,
+					"mode" : "lowpass",
+					"gainenable" : 1,
+					"freq" : 1442.456665,
+					"gain" : 2.146266,
+					"q" : 1.954358,
+					"vol" : 1.0,
+					"volrand" : 0,
+					"freqrand" : 0
+				}
+
+			}
+
+		}
+,
+		"testevent1" : 		{
+			"del" : 			{
+				"1" : 				{
+					"sw" : 1,
+					"time" : 281.0,
+					"fb" : 0.12,
+					"vol" : 0.996,
+					"volrand" : 0,
+					"delrand" : 0,
+					"fbrand" : 0
+				}
+,
+				"2" : 				{
+					"sw" : 1,
+					"time" : 653.0,
+					"fb" : 0.041,
+					"vol" : 0.74,
+					"volrand" : 0,
+					"delrand" : 0,
+					"fbrand" : 0
+				}
+
+			}
+,
+			"filt" : 			{
+				"1" : 				{
+					"sw" : 1,
+					"mode" : "highpass",
+					"gainenable" : 0,
+					"freq" : 290.130127,
+					"gain" : 0,
+					"q" : 1.570859,
+					"vol" : 1.0,
+					"volrand" : 0,
+					"freqrand" : 0
+				}
+,
+				"2" : 				{
+					"sw" : 1,
+					"mode" : "lowpass",
+					"gainenable" : 1,
+					"freq" : 1442.456665,
+					"gain" : 2.146266,
+					"q" : 1.954358,
+					"vol" : 1.0,
+					"volrand" : 0,
+					"freqrand" : 0
+				}
+
+			}
+
+		}
+,
+		"testevent2" : 		{
+			"del" : 			{
+				"2" : 				{
+					"sw" : 1,
+					"time" : 653.0,
+					"fb" : 0.041,
+					"vol" : 0.74,
+					"volrand" : 0,
+					"delrand" : 0,
+					"fbrand" : 0
+				}
+
+			}
+,
+			"filt" : 			{
+				"1" : 				{
+					"sw" : 1,
+					"mode" : "highpass",
+					"gainenable" : 0,
+					"freq" : 290.130127,
+					"gain" : 0,
+					"q" : 1.570859,
+					"vol" : 1.0,
+					"volrand" : 0,
+					"freqrand" : 0
+				}
+
+			}
+
+		}
+
+	}
+,
+	"temp" : 	{
+		"filt" : 		{
+			"1" : 			{
+				"sw" : 1,
+				"mode" : "highpass",
+				"gainenable" : 0,
+				"freq" : 290.130127,
+				"gain" : 0,
+				"q" : 1.570859,
+				"vol" : 1,
+				"volrand" : 0,
+				"freqrand" : 0
+			}
+,
+			"2" : 			{
+				"sw" : 1,
+				"mode" : "lowpass",
+				"gainenable" : 1,
+				"freq" : 1442.456665,
+				"gain" : 2.146266,
+				"q" : 1.954358,
+				"vol" : 1,
+				"volrand" : 0,
+				"freqrand" : 0
+			}
+
+		}
+,
+		"del" : 		{
+			"1" : 			{
+				"sw" : 1,
+				"time" : 281.0,
+				"fb" : 0.12,
+				"vol" : 0.996,
+				"volrand" : 0,
+				"delrand" : 0,
+				"fbrand" : 0
+			}
+,
+			"2" : 			{
+				"sw" : 1,
+				"time" : 653.0,
+				"fb" : 0.041,
+				"vol" : 0.74,
+				"volrand" : 0,
+				"delrand" : 0,
+				"fbrand" : 0
+			}
+
+		}
+
+	}
+,
+	"system" : 	{
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"nodes" : 			{
+				"*" : [ "quantity", "tags", "filename", "description" ]
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"temp" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+
+	}
 
 }
