@@ -630,6 +630,13 @@ minor debugging of new tm functions\
 \
 worked on /span/events and implemented /span/events/saveedited\
 \
+-\
+worked on temp-store \
+\
+include tm/temp/open in temp-store patch and not in bkgndp, and make store into text object. Editing this text will have no effect, as before.\
+\
+fixed bug in temp-open because of "mode" message changing mode of zl slice. Fixed by making new clipping object "slice1" which uses unjoin.\
+\
 \
 \
 \
