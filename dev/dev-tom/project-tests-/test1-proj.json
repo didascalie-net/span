@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2012-10-17T17:10:47",
-		"lastsaved" : "2012-10-17T21:25:58",
+		"lastopened" : "2012-10-18T08:39:48",
+		"lastsaved" : "2012-10-18T08:41:03",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -53,7 +53,7 @@
 		}
 ,
 		"mouse" : 		{
-			"quantity" : 0,
+			"quantity" : 1,
 			"tags" : [ "device", "control" ],
 			"filename" : "tm_mouse",
 			"description" : "mouse as controller"
@@ -248,6 +248,13 @@
 				"volrand" : 0,
 				"delrand" : 0,
 				"fbrand" : 0
+			}
+
+		}
+,
+		"mouse" : 		{
+			"1" : 			{
+				"sw" : 1
 			}
 
 		}

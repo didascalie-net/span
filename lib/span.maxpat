@@ -17919,7 +17919,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 946.5, 91.0, 154.0, 32.0 ],
-									"presentation_rect" : [ 972.5, 98.5, 0.0, 0.0 ],
 									"text" : ";\r/span/event/edit testevent2"
 								}
 
@@ -17935,7 +17934,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 650.5, 91.0, 157.0, 32.0 ],
-									"presentation_rect" : [ 650.5, 98.0, 0.0, 0.0 ],
 									"text" : ";\r/span/event/play testevent2"
 								}
 
@@ -17951,7 +17949,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 335.5, 91.0, 168.0, 32.0 ],
-									"presentation_rect" : [ 335.5, 97.0, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create testevent2"
 								}
 
@@ -17980,7 +17977,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 834.5, 360.5, 37.0, 18.0 ],
-									"presentation_rect" : [ 813.5, 382.5, 0.0, 0.0 ],
 									"text" : "open"
 								}
 
@@ -18038,7 +18034,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 946.5, 56.5, 154.0, 32.0 ],
-									"presentation_rect" : [ 969.5, 63.0, 0.0, 0.0 ],
 									"text" : ";\r/span/event/edit testevent1"
 								}
 
@@ -18054,7 +18049,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 946.5, 21.5, 125.0, 32.0 ],
-									"presentation_rect" : [ 969.5, 24.0, 0.0, 0.0 ],
 									"text" : ";\r/span/event/edit bang"
 								}
 
@@ -18097,7 +18091,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 879.5, 270.5, 57.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 267.5, 0.0, 0.0 ],
 									"text" : "zl slice 1"
 								}
 
@@ -18112,7 +18105,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 879.5, 305.5, 138.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 302.5, 0.0, 0.0 ],
 									"text" : "combine / a @triggers 1"
 								}
 
@@ -18127,7 +18119,6 @@
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
 									"patching_rect" : [ 879.5, 244.5, 139.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 241.5, 0.0, 0.0 ],
 									"text" : "regexp (::) @substitute /"
 								}
 
@@ -25296,7 +25287,6 @@
 									}
 ,
 									"patching_rect" : [ 879.5, 217.5, 73.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 214.5, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -25324,7 +25314,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 879.5, 166.0, 141.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 163.0, 0.0, 0.0 ],
 									"text" : "sprintf getval events::%s"
 								}
 
@@ -25340,7 +25329,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
 									"patching_rect" : [ 879.5, 190.032959, 86.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 187.032959, 0.0, 0.0 ],
 									"text" : "span.requests"
 								}
 
@@ -25355,7 +25343,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 834.5, 114.5, 59.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 139.5, 0.0, 0.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -25370,7 +25357,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 834.5, 91.0, 37.0, 18.0 ],
-									"presentation_rect" : [ 849.5, 116.0, 0.0, 0.0 ],
 									"text" : "temp"
 								}
 
@@ -25385,7 +25371,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 834.5, 65.0, 68.0, 20.0 ],
-									"presentation_rect" : [ 849.5, 90.0, 0.0, 0.0 ],
 									"text" : "route bang"
 								}
 
@@ -32667,7 +32652,6 @@
 									}
 ,
 									"patching_rect" : [ 539.5, 187.5, 73.0, 20.0 ],
-									"presentation_rect" : [ 654.0, 208.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -32696,7 +32680,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 650.5, 56.5, 157.0, 32.0 ],
-									"presentation_rect" : [ 681.5, 48.0, 0.0, 0.0 ],
 									"text" : ";\r/span/event/play testevent1"
 								}
 
@@ -32712,7 +32695,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 650.5, 21.5, 128.0, 32.0 ],
-									"presentation_rect" : [ 681.5, 9.0, 0.0, 0.0 ],
 									"text" : ";\r/span/event/play bang"
 								}
 
@@ -32742,7 +32724,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
 									"patching_rect" : [ 539.5, 160.032959, 86.0, 20.0 ],
-									"presentation_rect" : [ 650.0, 202.532959, 0.0, 0.0 ],
 									"text" : "span.requests"
 								}
 
@@ -32757,7 +32738,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 539.5, 112.5, 59.0, 20.0 ],
-									"presentation_rect" : [ 651.0, 153.0, 0.0, 0.0 ],
 									"text" : "tosymbol"
 								}
 
@@ -32772,7 +32752,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 539.5, 89.0, 37.0, 18.0 ],
-									"presentation_rect" : [ 651.0, 114.5, 0.0, 0.0 ],
 									"text" : "temp"
 								}
 
@@ -32787,7 +32766,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 539.5, 63.0, 68.0, 20.0 ],
-									"presentation_rect" : [ 651.0, 83.5, 0.0, 0.0 ],
 									"text" : "route bang"
 								}
 
@@ -32888,7 +32866,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 309.0, 171.0, 131.0, 47.0 ],
-									"presentation_rect" : [ 301.0, 183.5, 0.0, 0.0 ],
 									"text" : "store all \"parameter\" values for all nodes whos \"sw\" = 1."
 								}
 
@@ -32904,7 +32881,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 335.5, 56.5, 168.0, 32.0 ],
-									"presentation_rect" : [ 459.0, 80.5, 0.0, 0.0 ],
 									"text" : ";\r/span/event/create testevent1"
 								}
 
@@ -32977,7 +32953,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 147.5, 23.5, 188.0, 33.0 ],
-									"presentation_rect" : [ 197.0, 37.0, 0.0, 0.0 ],
 									"text" : "name of event to create (if bang, store into events::temp)"
 								}
 
@@ -33022,7 +32997,6 @@
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
 									"patching_rect" : [ 90.0, 539.0, 86.0, 20.0 ],
-									"presentation_rect" : [ 55.0, 600.0, 0.0, 0.0 ],
 									"text" : "span.requests"
 								}
 
@@ -43181,6 +43155,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-71", 0 ]
 				}
 
 			}

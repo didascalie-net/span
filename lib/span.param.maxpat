@@ -2145,7 +2145,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "float" ],
+													"outlettype" : [ "" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -2726,7 +2726,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "float" ],
+													"outlettype" : [ "" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
