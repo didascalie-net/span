@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2012-10-18T08:39:48",
-		"lastsaved" : "2012-10-18T08:41:03",
+		"lastopened" : "2012-10-18T08:50:36",
+		"lastsaved" : "2012-10-18T09:34:33",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -119,7 +119,7 @@
 			"del" : 			{
 				"1" : 				{
 					"sw" : 1,
-					"time" : 281.0,
+					"time" : 300,
 					"fb" : 0.12,
 					"vol" : 0.996,
 					"volrand" : 0,
@@ -129,7 +129,7 @@
 ,
 				"2" : 				{
 					"sw" : 1,
-					"time" : 653.0,
+					"time" : 800,
 					"fb" : 0.041,
 					"vol" : 0.74,
 					"volrand" : 0,
@@ -144,9 +144,9 @@
 					"sw" : 1,
 					"mode" : "highpass",
 					"gainenable" : 0,
-					"freq" : 290.130127,
+					"freq" : 290.130005,
 					"gain" : 0,
-					"q" : 1.570859,
+					"q" : 1.571,
 					"vol" : 1.0,
 					"volrand" : 0,
 					"freqrand" : 0
@@ -156,9 +156,9 @@
 					"sw" : 1,
 					"mode" : "lowpass",
 					"gainenable" : 1,
-					"freq" : 1442.456665,
-					"gain" : 2.146266,
-					"q" : 1.954358,
+					"freq" : 1442.457031,
+					"gain" : 2.146,
+					"q" : 1.954,
 					"vol" : 1.0,
 					"volrand" : 0,
 					"freqrand" : 0
