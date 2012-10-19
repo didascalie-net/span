@@ -1244,8 +1244,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 503.710754, 131.0, 97.0, 20.0 ],
-					"text" : "regexp /(.+)/(\\\\d)"
+					"patching_rect" : [ 503.710754, 131.0, 104.0, 20.0 ],
+					"text" : "regexp /(.+)/(\\\\d+)"
 				}
 
 			}

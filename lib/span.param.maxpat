@@ -49,7 +49,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 570.206299, 162.5, 70.087708, 20.0 ],
+					"patching_rect" : [ 570.206299, 159.5, 70.087708, 20.0 ],
 					"text" : "unpack s 0"
 				}
 
@@ -63,8 +63,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 550.706299, 140.0, 97.0, 20.0 ],
-					"text" : "regexp /(.+)/(\\\\d)"
+					"patching_rect" : [ 550.706299, 137.0, 104.0, 20.0 ],
+					"text" : "regexp /(.+)/(\\\\d+)"
 				}
 
 			}
@@ -77,8 +77,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 221.103394, 130.0, 181.0, 20.0 ],
-					"text" : "regexp (/)(\\\\d) @substitute \\\\.%2"
+					"patching_rect" : [ 221.103394, 130.0, 188.0, 20.0 ],
+					"text" : "regexp (/)(\\\\d+) @substitute \\\\.%2"
 				}
 
 			}
@@ -2145,7 +2145,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "float" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -2726,7 +2726,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "float" ],
 													"patcher" : 													{
 														"fileversion" : 1,
 														"appversion" : 														{
@@ -5125,7 +5125,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 695.059814, 427.131836, 117.678284, 18.0 ],
-					"text" : "0"
+					"text" : "message"
 				}
 
 			}
