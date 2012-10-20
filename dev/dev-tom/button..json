@@ -1,0 +1,20 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "button",
+				"numinlets" : 1,
+				"numoutlets" : 1,
+				"outlettype" : [ "bang" ],
+				"patching_rect" : [ 235.0, 133.0, 20.0, 20.0 ],
+				"id" : "obj-2"
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 6,
+		"minor" : 0,
+		"revision" : 7
+	}
+
+}

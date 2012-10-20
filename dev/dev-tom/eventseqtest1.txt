@@ -1,0 +1,7 @@
+/del/1/sw 1
+/del/1/time 1000
+/del/1/fb 0.9
+/del/1/vol 1.0 1000
+wait 2000
+/del/1/vol 0.0 1000
+wait 1000
