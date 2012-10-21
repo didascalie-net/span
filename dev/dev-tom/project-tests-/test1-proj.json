@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2012-10-20T14:37:09",
-		"lastsaved" : "2012-10-20T23:50:22",
+		"lastopened" : "2012-10-21T08:36:03",
+		"lastsaved" : "2012-10-21T09:16:45",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -257,26 +257,32 @@
 
 			}
 ,
-			"4000" : 			{
-				"filt" : 				{
-					"4" : 					{
-						"vol" : [ 0, 3000 ],
-						"init" : [ 0, 3000 ]
+			"4005" : 			{
+				"del" : 				{
+					"1" : 					{
+						"init" : "bang"
 					}
 ,
-					"1" : 					{
-						"init" : [ 0, 3000 ]
+					"2" : 					{
+						"init" : "bang"
 					}
 
 				}
 ,
-				"del" : 				{
+				"filt" : 				{
 					"1" : 					{
-						"init" : [ 0, 3000 ]
+						"init" : "bang"
 					}
 ,
-					"2" : 					{
-						"init" : [ 0, 3000 ]
+					"4" : 					{
+						"init" : "bang"
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"init" : "bang"
 					}
 
 				}
@@ -365,19 +371,9 @@
 				"del" : 				{
 					"1" : 					{
 						"sw" : 1,
-						"time" : 151.0,
-						"fb" : 0.2,
-						"vol" : 0.5,
-						"volrand" : 0,
-						"delrand" : 0,
-						"fbrand" : 0
-					}
-,
-					"2" : 					{
-						"sw" : 1,
-						"time" : 585.0,
-						"fb" : 0.07,
-						"vol" : 0.6,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
 						"volrand" : 0,
 						"delrand" : 0,
 						"fbrand" : 0
@@ -386,59 +382,88 @@
 				}
 ,
 				"filt" : 				{
-					"1" : 					{
+					"2" : 					{
 						"sw" : 1,
 						"mode" : "lowpass",
-						"gainenable" : 1,
-						"freq" : 1139.947876,
-						"gain" : 2.146266,
-						"q" : 1.427256,
-						"vol" : 0.99,
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
 						"volrand" : 0,
 						"freqrand" : 0
 					}
 ,
 					"4" : 					{
 						"sw" : 1,
-						"mode" : "highpass",
-						"gainenable" : 1,
-						"freq" : 208.18364,
-						"gain" : 5.705505,
-						"q" : 1.717145,
-						"vol" : 0.992,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"6" : 					{
+						"sw" : 1,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
 						"volrand" : 0,
 						"freqrand" : 0
 					}
 ,
 					"8" : 					{
 						"sw" : 1,
-						"mode" : "bandpass",
-						"gainenable" : 1,
-						"freq" : 562.209839,
-						"gain" : 6.29858,
-						"q" : 1.57348,
-						"vol" : 1.0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
 						"volrand" : 0,
 						"freqrand" : 0
 					}
 ,
-					"11" : 					{
+					"10" : 					{
 						"sw" : 1,
-						"mode" : "highshelf",
+						"mode" : "lowpass",
 						"gainenable" : 0,
-						"freq" : 617.828552,
-						"gain" : -17.502279,
-						"q" : 2.214811,
-						"vol" : 1.0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
 						"volrand" : 0,
 						"freqrand" : 0
 					}
 
 				}
+
+			}
 ,
-				"mouse" : 				{
-					"1" : 					{
-						"sw" : 1
+			"1000" : 			{
+				"filt" : 				{
+					"2" : 					{
+						"vol" : [ 0, 1000 ]
+					}
+,
+					"8" : 					{
+						"vol" : [ 0, 1000 ]
+					}
+
+				}
+
+			}
+,
+			"3000" : 			{
+				"filt" : 				{
+					"2" : 					{
+						"init" : "bang"
 					}
 
 				}
