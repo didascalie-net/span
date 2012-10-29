@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 88.0, 44.0, 1269.0, 792.0 ],
+		"rect" : [ 100.0, 100.0, 1269.0, 792.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,13 +30,27 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-52",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 413.5, 192.5, 189.0, 18.0 ],
+					"presentation_rect" : [ 411.5, 197.0, 0.0, 0.0 ],
+					"text" : "getkeys nodes tags audio||control"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-56",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 587.0, 741.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 588.0, 750.0, 0.0, 0.0 ],
 					"text" : "set"
 				}
 
@@ -51,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 490.5, 770.0, 207.0, 18.0 ],
-					"presentation_rect" : [ 491.5, 790.0, 0.0, 0.0 ],
 					"text" : "sw time fb vol volrand delrand fbrand"
 				}
 
@@ -67,7 +80,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 490.5, 741.0, 86.0, 20.0 ],
-					"presentation_rect" : [ 491.5, 750.0, 0.0, 0.0 ],
 					"text" : "span.requests"
 				}
 
@@ -82,7 +94,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 490.5, 716.0, 149.0, 18.0 ],
-					"presentation_rect" : [ 491.5, 716.0, 0.0, 0.0 ],
 					"text" : "getkeys nodes::del class *"
 				}
 
@@ -785,7 +796,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 615.0, 367.0, 240.0, 18.0 ],
-					"text" : "del filt"
+					"text" : "mouse"
 				}
 
 			}
@@ -813,8 +824,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 643.5, 301.0, 183.0, 20.0 ],
-					"text" : "prepend getkeys modules tags"
+					"patching_rect" : [ 643.5, 301.0, 161.0, 20.0 ],
+					"text" : "prepend getkeys nodes tags"
 				}
 
 			}
@@ -842,8 +853,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 615.0, 206.5, 136.0, 18.0 ],
-					"text" : "getvalues modules tags"
+					"patching_rect" : [ 615.0, 206.5, 124.0, 18.0 ],
+					"text" : "getvalues nodes tags"
 				}
 
 			}
@@ -1012,7 +1023,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 54.0, 503.0, 370.0, 18.0 ],
-					"text" : "system preferences projectinfo paths namespace nodes events"
+					"text" : "del filt ctlmap events mouse"
 				}
 
 			}
@@ -1549,6 +1560,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1613,7 +1633,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/there/projects1/Environ ments/didascalie-net/span/lib",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
