@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2012-10-29T11:21:55",
-		"lastsaved" : "2012-10-29T16:36:27",
+		"lastopened" : "2012-10-29T16:50:40",
+		"lastsaved" : "2012-10-29T17:14:26",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -787,174 +787,7 @@
 		}
 ,
 		"newsyntaxtest1" : 		{
-			"0" : 			{
-				"del" : 				{
-					"1" : 					{
-						"vol" : 1,
-						"sw" : 1,
-						"time" : 0,
-						"fb" : 0,
-						"volrand" : 0,
-						"delrand" : 0,
-						"fbrand" : 0
-					}
-,
-					"2" : 					{
-						"sw" : 0,
-						"time" : 0,
-						"fb" : 0,
-						"vol" : 1,
-						"volrand" : 0,
-						"delrand" : 0,
-						"fbrand" : 0
-					}
-
-				}
-,
-				"filt" : 				{
-					"2" : 					{
-						"vol" : 1,
-						"sw" : 1,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"4" : 					{
-						"vol" : 1,
-						"sw" : 1,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"6" : 					{
-						"vol" : 1,
-						"sw" : 1,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"1" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"3" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"5" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"7" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"8" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"9" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"10" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-,
-					"11" : 					{
-						"sw" : 0,
-						"mode" : "lowpass",
-						"gainenable" : 0,
-						"freq" : 22050,
-						"gain" : 0,
-						"q" : 0.707,
-						"vol" : 1,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-
-				}
-,
-				"mouse" : 				{
-					"1" : 					{
-						"sw" : 1
-					}
-
-				}
-
-			}
-,
+			"0" : "",
 			"3000" : 			{
 				"del" : 				{
 					"1" : 					{
@@ -991,7 +824,10 @@
 
 	}
 ,
-	"temp" : 0,
+	"temp" : 	{
+
+	}
+,
 	"system" : 	{
 		"projectstructure" : 		{
 			"projectinfo" : 			{

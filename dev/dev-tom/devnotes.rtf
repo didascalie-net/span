@@ -659,4 +659,137 @@ debugged event creator and editor so that messages with "bang" function. Added n
 reworked span/event/create to use new better syntax. no more /type. The way the create happens depends on messages and arguments after create name. See github issues.\
 \
 \
+issue #46\
+\
+I had previously made an attempt at making an span/events patch, but ffter meeting with Renaud last week, I wanted to change it. I now have a new working version that is not complete, but I think it is in the right direction.\
+\
+How it works:\
+\
+----------------------------------------------------------------------------------------------------\
+/span/event/create\
+\
+The basic /span/event writes all parameter values of the namespace, that is all "values" for "class=parameter", to the events key of span. The hierarchy of the event key is as follows:\
+\
+ The first level of keys of any event is a number which is a TIMESTAMP. This way it is possible to have several actions with the same parameter in an event separated by time. It will also allow future optimizations of data such as "only what is different" and so forth.\
+\
+An event is saved by default to time 0.\
+\
+The next level is, in order of storing and therefore of sending, the name of each node (del, filt, etc). The next level is the instance number for each node. The next level is the parameter name and its value.\
+\
+----------\
+/span/event/create basic messages\
+\
+/span/event/create bang\
+This creates a full event containing all parameters at timestamp 0 of event "temp"\
+\
+/span/event/create eventname\
+This creates a full event containing all parameters at timestamp 0 of event "eventname"\
+\
+/span/event/create eventname timeinmillisecondes\
+This creates a full event containing all parameters at timestamp "timeinmillisecondes of event "eventname"\
+   ex. /span/event/create testevent 100\
+      creates or modifies event testevent at timestamp 100 ms\
+\
+\
+----------\
+/span/event/create advanced messages\
+\
+you can add the following messages with arguments after the name and or timestamp:\
+tags, only, except, ifvalue. They can be combined in any order.\
+\
+\
+-tags-\
+/span/event/create eventname tags audio\
+This creates an event containing only parameters nodes with tags "audio"\
+\
+/span/event/create eventname tags audio control\
+This creates an event containing only parameters nodes with tags "audio" and "control"\
+\
+\
+-only-\
+/span/event/create eventname only filt\
+This creates an event containing only parameters of nodes containing "filt" in their name\
+   (only filt parameters, but of all instances)\
+\
+/span/event/create eventname only vol\
+This creates an event containing only parameters of nodes containing "vol" in their name\
+   (i.e. only volumes of all nodes)\
+\
+/span/event/create eventname only filt/1\
+This creates an event containing only parameters of nodes containing "filt/1" in their name\
+   (only filt/1 parameters)\
+\
+/span/event/create eventname only filt/*/vol\
+This creates an event containing only vol parameters of nodes "filt"\
+   (the instance is a wildcard. only filt/vol parameters, but of all instances)\
+\
+/span/event/create eventname only filt del\
+This creates an event containing only parameters of nodes containing "filt" or "del" in their name\
+   (only filt and del parameters, but of all instances)\
+\
+\
+-except-\
+/span/event/create eventname except sw\
+This creates an event containing all parameters except those containing "sw" in the name.\
+   (i.e. all params except /sw)\
+\
+/span/event/create eventname except filt\
+This creates an event containing all parameters except those containing "filt" in the name.\
+   (i.e. all params of all nodes except "filt")\
+\
+/span/event/create eventname except rand\
+This creates an event containing all parameters except those containing "rand" in the name.\
+   (i.e. all params of all nodes except those that contain "rand" in their name)\
+\
+/span/event/create eventname except sw rev/1\
+This creates an event containing all parameters except those containing "sw" in the name or those having to do with rev/1.\
+\
+\
+-ifvalue-\
+This saves all parameters of a node if a particular param of that node is set to a particular value.\
+\
+/span/event/create eventname ifvalue sw=1\
+This is the famous "active" save from tapemovie. It saves all nodes which contain a sw param set to 1.\
+\
+This can be combined with all other messages in any order:\
+/span/event/create eventname ifvalue sw=1 except mtrx dac subb rev/1 tags audio\
+This saves all active nodes (modules) with tags audio, but NOT those that contain mtrx, dac, subb or rev/1\
+\
+\
+\
+----------------------------------------------------------------------------------------------------\
+/span/event/play\
+\
+send a bang to play "temp" or an eventname to play that event. Event is executed timestamp by timestamp.\
+As of the time of this entry, the event/play can only play one event at a time. This will be easy to fix with a poly~...\
+\
+\
+----------------------------------------------------------------------------------------------------\
+/span/event/edit\
+\
+send a bang to edit "temp" or an eventname to edit that event. \
+\
+Before editing, the event is converted to "good-old qlist" format in a text object. All params are listed as "/node/instance/param value", line by line. Timestamps are converted to relative time. One can edit as one likes, and all will be converted back to the span dict format for saving. If the converted sees that the same parameter is listed twice within the same timestamp, it should automatically insert 1 ms before the repeated param. This doesn't happen yet, but it will soon.\
+\
+\
+----------------------------------------------------------------------------------------------------\
+/span/event/saveedited\
+\
+send a bang to save the current edit. If the text window is still open it will be closed automatically and then saved back to span. The project will automatically be resaved.\
+\
+\
+----------------------------------------------------------------------------------------------------\
+/span/event/delete\
+\
+send an event name to delete that event. If it is "temp", the temp event will just be emptied and not completely deleted so that "temp" will not lose its place as the first event.\
+\
+\
+\
+\
+----------------------------------------------------------------------------------------------------\
+future events module in tapemovie\
+\
+There will be an events module (/events/1) very similar to the one in tapemovie. it will format its messages for the span/events patch and not do the work itself.\
+\
+\
 }
