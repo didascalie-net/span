@@ -52,6 +52,7 @@
 	"preferences" : 	{
 		"verbose" : 1,
 		"autoload" : 0,
+		"dynamicvars" : 1,
 		"project" : 		{
 			"path" : "",
 			"name" : ""
