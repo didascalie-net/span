@@ -7,7 +7,7 @@
 			"revision" : 7
 		}
 ,
-		"rect" : [ 403.0, 44.0, 1006.0, 807.0 ],
+		"rect" : [ 402.0, 44.0, 1006.0, 807.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 195.0, 76.0, 1123.0, 717.0 ],
+						"rect" : [ 385.0, 93.0, 1123.0, 717.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -75,6 +75,69 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 26.5, 453.532959, 173.0, 32.0 ],
+									"text" : ";\r/span/event/play event-series2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-11",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 192.0, 348.532959, 254.0, 32.0 ],
+									"presentation_rect" : [ 28.0, 361.532959, 0.0, 0.0 ],
+									"text" : ";\r/span/event/create event-series2 ifvalue sw=1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 26.5, 415.532959, 173.0, 32.0 ],
+									"presentation_rect" : [ 27.0, 378.532959, 0.0, 0.0 ],
+									"text" : ";\r/span/event/play event-series1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-4",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 192.0, 309.532959, 254.0, 32.0 ],
+									"presentation_rect" : [ 34.962524, 364.532959, 0.0, 0.0 ],
+									"text" : ";\r/span/event/create event-series1 ifvalue sw=1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"color" : [ 0.6, 0.6, 1.0, 1.0 ],
 									"fontname" : "Arial",
@@ -98,7 +161,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 116.5, 211.032959, 43.0, 20.0 ],
-									"presentation_rect" : [ 106.5, 218.0, 0.0, 0.0 ],
 									"text" : "delete"
 								}
 
@@ -113,7 +175,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 247.5, 117.0, 30.0, 20.0 ],
-									"presentation_rect" : [ 246.5, 117.0, 0.0, 0.0 ],
 									"text" : "edit"
 								}
 
@@ -137,14 +198,13 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-63",
-									"items" : [ "temp", ",", "testevent1", ",", "testevent2", ",", "testevent3", ",", "testevent4", ",", "testrenaud", ",", "newsyntaxtest1" ],
+									"items" : [ "temp", ",", "testevent1", ",", "testevent2", ",", "testevent3", ",", "testevent4", ",", "testrenaud", ",", "newsyntaxtest1", ",", "event-series1", ",", "event-series2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 116.5, 231.032959, 126.0, 20.0 ],
-									"presentation_rect" : [ 105.5, 246.0, 0.0, 0.0 ]
+									"patching_rect" : [ 116.5, 231.032959, 126.0, 20.0 ]
 								}
 
 							}
@@ -751,7 +811,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-8",
-									"items" : [ "temp", ",", "testevent1", ",", "testevent2", ",", "testevent3", ",", "testevent4", ",", "testrenaud", ",", "newsyntaxtest1" ],
+									"items" : [ "temp", ",", "testevent1", ",", "testevent2", ",", "testevent3", ",", "testevent4", ",", "testrenaud", ",", "newsyntaxtest1", ",", "event-series1", ",", "event-series2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -809,7 +869,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-1",
-									"items" : [ "temp", ",", "testevent1", ",", "testevent2", ",", "testevent3", ",", "testevent4", ",", "testrenaud", ",", "newsyntaxtest1" ],
+									"items" : [ "temp", ",", "testevent1", ",", "testevent2", ",", "testevent3", ",", "testevent4", ",", "testrenaud", ",", "newsyntaxtest1", ",", "event-series1", ",", "event-series2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7042,6 +7102,13 @@
 			}
 , 			{
 				"name" : "dict.dump.maxpat",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
+				"patcherrelativepath" : "../../lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.eventplay.maxpat",
 				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
 				"patcherrelativepath" : "../../lib",
 				"type" : "JSON",
