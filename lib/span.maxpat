@@ -17905,7 +17905,7 @@
 							"revision" : 7
 						}
 ,
-						"rect" : [ 283.0, 44.0, 771.0, 261.0 ],
+						"rect" : [ 283.0, 44.0, 762.0, 339.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -17925,6 +17925,22 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 225.416656, 254.0, 273.166687, 47.0 ],
+									"text" : "still need to do:\nsub \"folders\", allow use of commas in messages, auto 1ms when same message in one timestamp",
+									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"color" : [ 0.8, 1.0, 0.4, 1.0 ],
 									"fontname" : "Arial",
