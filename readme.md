@@ -20,7 +20,7 @@ Even if this first (alpha) version is designed to work with Max 6 from Cycling74
 
 # Licence
 ## Credits : 
-* *Written by Tom Mays & Renaud Rubiano - 2012*
+* *Written by Tom Mays & Renaud Rubiano - (2012-2013)*
 * *Produced by didascalie.net*
 * *Based on some part of tapemovie (2006-2012)*
 * Launch span.maxhelp
