@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 7
+			"revision" : 8
 		}
 ,
 		"rect" : [ 455.0, 167.0, 433.0, 288.0 ],
@@ -123,7 +123,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.0, 185.75, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 29.023682, 258.5, 54.0 ]
+					"presentation_rect" : [ 2.0, 29.023682, 258.5, 54.0 ],
+					"text" : "1"
 				}
 
 			}
@@ -132,7 +133,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-26",
-					"items" : [ "verbose", ",", "autoload", ",", "lastproject", ",", "recentprojects" ],
+					"items" : [ "verbose", ",", "autoload", ",", "dynamicvars", ",", "project" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -160,10 +161,10 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 0,
-							"revision" : 7
+							"revision" : 8
 						}
 ,
-						"rect" : [ 1205.0, 133.0, 584.0, 370.0 ],
+						"rect" : [ 1096.0, 133.0, 584.0, 370.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -216,11 +217,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-53",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 464.0, 212.0, 83.0, 18.0 ],
-									"text" : "s /span/file/write"
+									"patching_rect" : [ 464.0, 212.0, 118.0, 29.0 ],
+									"text" : "s /span/preferences/write"
 								}
 
 							}
@@ -1061,7 +1063,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/SVN/span/lib",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1

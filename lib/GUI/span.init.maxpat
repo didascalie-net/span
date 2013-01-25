@@ -4,10 +4,10 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 0,
-			"revision" : 5
+			"revision" : 8
 		}
 ,
-		"rect" : [ 948.0, 193.0, 401.0, 285.0 ],
+		"rect" : [ 1186.0, 57.0, 401.0, 285.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -30,12 +30,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-3",
+					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.5, 46.0, 100.0, 18.0 ],
+					"patching_rect" : [ 9.5, 46.0, 100.0, 18.0 ],
+					"presentation_rect" : [ 181.5, 46.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -45,12 +46,13 @@
 					"color" : [ 0.074129, 0.486744, 0.790227, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-1",
+					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.5, 16.845154, 98.0, 18.0 ],
+					"patching_rect" : [ 9.5, 16.845154, 98.0, 18.0 ],
+					"presentation_rect" : [ 181.5, 16.845154, 0.0, 0.0 ],
 					"text" : "r /span/load/working"
 				}
 
@@ -60,11 +62,11 @@
 					"color" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-2",
+					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.5, 107.845154, 74.0, 18.0 ],
+					"patching_rect" : [ 9.5, 116.845154, 64.0, 18.0 ],
 					"text" : "s /span/load"
 				}
 
@@ -79,18 +81,18 @@
 					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 18.0,
-					"id" : "obj-34",
+					"id" : "obj-7",
 					"maxclass" : "textbutton",
 					"mode" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 26.5, 76.845154, 121.0, 25.690338 ],
+					"patching_rect" : [ 9.5, 76.845154, 136.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 2.845154, 121.0, 22.690338 ],
-					"text" : "Initialisation",
-					"texton" : "INITING",
+					"presentation_rect" : [ 5.5, 5.499985, 133.0, 22.690338 ],
+					"text" : "Press To Load",
+					"texton" : "LOADING",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
 					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
 				}
@@ -99,28 +101,28 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 0 ]
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-4", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-34", 0 ]
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
