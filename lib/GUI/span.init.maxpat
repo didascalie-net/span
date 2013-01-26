@@ -36,7 +36,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.5, 46.0, 100.0, 18.0 ],
-					"presentation_rect" : [ 181.5, 46.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -52,7 +51,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.5, 16.845154, 98.0, 18.0 ],
-					"presentation_rect" : [ 181.5, 16.845154, 0.0, 0.0 ],
 					"text" : "r /span/load/working"
 				}
 
@@ -90,8 +88,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.5, 76.845154, 136.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.5, 5.499985, 133.0, 22.690338 ],
-					"text" : "Press To Load",
+					"presentation_rect" : [ 5.5, 5.499985, 142.0, 27.690338 ],
+					"text" : "Reload Project",
 					"texton" : "LOADING",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
 					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
