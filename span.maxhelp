@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 143.0, 71.0, 587.0, 835.0 ],
+		"rect" : [ 18.0, 44.0, 621.0, 467.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,19 +29,27 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bubble" : 1,
-					"bubbleside" : 0,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
+					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
+					"border" : 1,
+					"id" : "obj-12",
+					"maxclass" : "bpatcher",
+					"name" : "span.project.maxpat",
+					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 23.25, 96.345154, 270.0, 41.0 ],
-					"text" : "This is automatically done on loadbang",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+					"patching_rect" : [ 11.5, 34.345154, 293.5, 112.345184 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
+					"border" : 1,
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "span.init.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 356.5, 311.776764, 153.5, 37.345184 ]
 				}
 
 			}
@@ -56,7 +64,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 322.0, 35.345154, 211.0, 61.0 ],
+					"patching_rect" : [ 327.25, 381.139709, 212.0, 61.0 ],
 					"text" : "• Works with a single JSON file.\n• Highly customzable database\n• Manage local or distant namespace\n• Manage all type of files",
 					"textcolor" : [ 0.190206, 0.467832, 0.518714, 1.0 ]
 				}
@@ -72,8 +80,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 292.0, 8.345154, 277.0, 27.0 ],
-					"text" : "Namespace and project manager",
+					"patching_rect" : [ 327.25, 352.139709, 259.0, 27.0 ],
+					"text" : "Namespace & project manager",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -88,7 +96,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 689.139709, 132.0, 19.0 ],
+					"patching_rect" : [ 11.5, 311.776764, 132.0, 19.0 ],
 					"text" : "Manage your events",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -104,7 +112,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 689.139709, 82.0, 20.0 ],
+					"patching_rect" : [ 227.0, 311.776764, 80.0, 20.0 ],
 					"text" : "span.events",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -119,61 +127,7 @@
 					"name" : "span.events.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 707.157471, 293.5, 110.345184 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-4",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 557.139709, 259.0, 57.0 ],
-					"text" : "Use this exemple to add files to your project (media, json namespace, texts, events etc…",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 451.139709, 259.0, 42.0 ],
-					"text" : "Use this exemple to customize your namespace (write span_project.json)",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-1",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 233.690338, 259.0, 42.0 ],
-					"text" : "Use this exemple to create or open projects",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+					"patching_rect" : [ 11.5, 331.794525, 293.5, 110.345184 ]
 				}
 
 			}
@@ -187,7 +141,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 557.139709, 132.0, 19.0 ],
+					"patching_rect" : [ 310.0, 154.139709, 132.0, 19.0 ],
 					"text" : "Manage your paths",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -203,7 +157,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 557.139709, 82.0, 20.0 ],
+					"patching_rect" : [ 529.5, 154.139709, 74.0, 20.0 ],
 					"text" : "span.paths",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -218,53 +172,7 @@
 					"name" : "span.paths.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 576.139709, 293.5, 110.345184 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 11.0,
-					"frgb" : 0.0,
-					"id" : "obj-70",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 46.312256, 176.0, 19.0 ],
-					"text" : "Manage your initialisation process",
-					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubbleside" : 0,
-					"fontface" : 3,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-71",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 46.312256, 60.0, 20.0 ],
-					"text" : "span.init",
-					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-72",
-					"maxclass" : "bpatcher",
-					"name" : "span.init.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 66.312256, 293.5, 31.032898 ]
+					"patching_rect" : [ 310.0, 174.794525, 293.5, 116.345184 ]
 				}
 
 			}
@@ -278,7 +186,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 415.139709, 135.0, 19.0 ],
+					"patching_rect" : [ 11.5, 154.139709, 135.0, 19.0 ],
 					"text" : "Manage your namespace",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -294,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 149.345154, 192.0, 19.0 ],
+					"patching_rect" : [ 11.5, 13.345154, 192.0, 19.0 ],
 					"text" : "Manage your project files on your HD",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -304,13 +212,13 @@
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 11.0,
 					"frgb" : 0.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 281.672607, 157.0, 18.0 ],
+					"patching_rect" : [ 310.0, 12.878052, 173.0, 19.0 ],
 					"text" : "Manage your project preferences",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -326,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 223.0, 149.345154, 82.0, 20.0 ],
+					"patching_rect" : [ 223.0, 13.345154, 82.0, 20.0 ],
 					"text" : "span.project",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -343,7 +251,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 168.0, 280.672607, 110.0, 20.0 ],
+					"patching_rect" : [ 493.5, 12.878052, 110.0, 20.0 ],
 					"text" : "span.preferences",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -359,22 +267,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 227.0, 415.139709, 78.0, 20.0 ],
+					"patching_rect" : [ 227.0, 154.139709, 78.0, 20.0 ],
 					"text" : "span.config",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-12",
-					"maxclass" : "bpatcher",
-					"name" : "span.project.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 166.345154, 293.5, 110.345184 ]
 				}
 
 			}
@@ -387,24 +282,7 @@
 					"name" : "span.preferences.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 299.139709, 266.5, 113.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bubble" : 1,
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
-					"frgb" : 0.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 97.0, 8.345154, 171.0, 26.0 ],
-					"text" : "This is the SPAN brain.",
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
+					"patching_rect" : [ 310.0, 34.345154, 293.5, 112.345184 ]
 				}
 
 			}
@@ -417,7 +295,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 8.345154, 50.0, 27.0 ],
+					"patching_rect" : [ 541.5, 319.345154, 50.0, 27.0 ],
 					"text" : "span"
 				}
 
@@ -431,7 +309,34 @@
 					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.5, 434.139709, 293.5, 116.0 ]
+					"patching_rect" : [ 11.5, 175.139709, 293.5, 116.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 2,
+					"id" : "obj-2",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3.0, 6.0, 609.0, 295.776764 ],
+					"rounded" : 22
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"border" : 2,
+					"id" : "obj-4",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3.0, 302.776764, 609.0, 151.776764 ],
+					"presentation_rect" : [ 3.0, 304.0, 0.0, 0.0 ],
+					"rounded" : 22
 				}
 
 			}
@@ -487,7 +392,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.project.maxpat",
+				"name" : "span.paths.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.events.maxpat",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
@@ -501,14 +413,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.paths.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.events.maxpat",
+				"name" : "span.project.maxpat",
 				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
 				"patcherrelativepath" : "../span/lib/GUI",
 				"type" : "JSON",
