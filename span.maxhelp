@@ -29,6 +29,19 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 556.0, 357.568451, 46.0, 18.0 ],
+					"text" : "tm.span"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -38,7 +51,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 172.0, 315.241028, 60.0, 20.0 ],
-					"presentation_rect" : [ 171.0, 316.776764, 0.0, 0.0 ],
 					"text" : "span.init",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -53,8 +65,7 @@
 					"name" : "span.nodeseditor.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 628.0, 6.0, 571.0, 527.345215 ],
-					"presentation_rect" : [ 2.5, 504.794525, 0.0, 0.0 ]
+					"patching_rect" : [ 628.0, 6.0, 571.0, 527.345215 ]
 				}
 
 			}
@@ -373,7 +384,117 @@
 
 			}
  ],
-		"lines" : [  ]
+		"lines" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "span.config.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
+				"patcherrelativepath" : "../span/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
+				"patcherrelativepath" : "../span/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dict.dump.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
+				"patcherrelativepath" : "../span/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.eventplay.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
+				"patcherrelativepath" : "../span/lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "properties.js",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
+				"patcherrelativepath" : "../span/lib/js",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.preferences.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.paths.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.events.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "changesymbol.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"patcherrelativepath" : "../tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "datetimestamp.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"patcherrelativepath" : "../tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.init.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.project.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.nodeseditor.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
+				"patcherrelativepath" : "../span/lib/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "tm.span.maxpat",
+				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib",
+				"patcherrelativepath" : "../tapemovie2/tapemovie-lib",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "createfolder.mxo",
+				"type" : "iLaX"
+			}
+ ]
 	}
 
 }
