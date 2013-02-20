@@ -28,6 +28,22 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 14.0,
+					"frgb" : 0.0,
+					"id" : "obj-29",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 419.0, 17.0, 280.0, 132.0 ],
+					"text" : "need to;\n-find elegant way to create to \"subfolder\";\n-rename menu;\n-edit name for create;\n-add to existing events at timestamp other than 0;\n\n\n",
+					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 0.8, 1.0, 0.4, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -259,7 +275,6 @@
 					}
 ,
 					"patching_rect" : [ 121.5, 46.0, 86.0, 18.0 ],
-					"presentation_rect" : [ 119.5, 43.499969, 0.0, 0.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -1105,7 +1120,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-7",
@@ -1971,7 +1985,7 @@
 							"revision" : 8
 						}
 ,
-						"rect" : [ 786.0, 44.0, 738.0, 764.0 ],
+						"rect" : [ 670.0, 44.0, 720.0, 689.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2000,7 +2014,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 690.032959, 203.0, 47.0 ],
+									"patching_rect" : [ 28.0, 621.032959, 203.0, 47.0 ],
 									"text" : "get all params for tags \"audio\" if sw=1, except for names with \"mtrx\", \"dac\", \"subb\", or \"rev/1\""
 								}
 
@@ -2015,7 +2029,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 50.0, 650.532959, 203.0, 33.0 ],
+									"patching_rect" : [ 28.0, 581.532959, 203.0, 33.0 ],
 									"text" : "get all vol params for tags \"audio\" if sw=1, except for names with \"rand\""
 								}
 
@@ -2030,7 +2044,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 602.0, 172.0, 47.0 ],
+									"patching_rect" : [ 59.0, 533.0, 172.0, 47.0 ],
 									"text" : "get all params for tags \"audio\" and \"control\" if sw=1, except for filt/2"
 								}
 
@@ -2045,7 +2059,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 561.434082, 172.0, 47.0 ],
+									"patching_rect" : [ 59.0, 492.434082, 172.0, 47.0 ],
 									"text" : "get all params for tags \"audio\" and \"control\" if sw=1, except if \"filt\" is in name"
 								}
 
@@ -2060,7 +2074,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 81.0, 511.967041, 172.0, 47.0 ],
+									"patching_rect" : [ 59.0, 442.967041, 172.0, 47.0 ],
 									"text" : "get all params for tags \"audio\" and \"control\" if sw=1, except if \"rand\" is in name"
 								}
 
@@ -2075,7 +2089,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 90.0, 481.967041, 161.0, 33.0 ],
+									"patching_rect" : [ 68.0, 412.967041, 161.0, 33.0 ],
 									"text" : "get all params for tags \"audio\" and \"control\" if sw=1"
 								}
 
@@ -2090,7 +2104,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 109.0, 444.5, 142.0, 33.0 ],
+									"patching_rect" : [ 87.0, 375.5, 142.0, 33.0 ],
 									"text" : "get all params for tags \"audio\" and \"control\""
 								}
 
@@ -2105,7 +2119,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 109.0, 407.967041, 142.0, 33.0 ],
+									"patching_rect" : [ 87.0, 338.967041, 142.0, 33.0 ],
 									"text" : "get all params for tags \"control\""
 								}
 
@@ -2120,7 +2134,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 109.0, 368.967041, 142.0, 33.0 ],
+									"patching_rect" : [ 87.0, 299.967041, 142.0, 33.0 ],
 									"text" : "will get nothing because no tags are specified"
 								}
 
@@ -2135,7 +2149,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 109.0, 327.934082, 142.0, 33.0 ],
+									"patching_rect" : [ 87.0, 258.934082, 142.0, 33.0 ],
 									"text" : "get vol for all nodes, but NOT volrand"
 								}
 
@@ -2150,7 +2164,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 109.0, 292.467041, 137.0, 33.0 ],
+									"patching_rect" : [ 87.0, 223.467041, 137.0, 33.0 ],
 									"text" : "get vol for all instances of filt but NOT volrand"
 								}
 
@@ -2164,7 +2178,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 132.0, 249.967041, 114.0, 20.0 ],
+									"patching_rect" : [ 110.0, 180.967041, 114.0, 20.0 ],
 									"text" : "only get filt params"
 								}
 
@@ -2179,7 +2193,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 132.0, 212.934082, 114.0, 33.0 ],
+									"patching_rect" : [ 110.0, 143.934082, 114.0, 33.0 ],
 									"text" : "if sw=1 and if tags audio or control"
 								}
 
@@ -2194,7 +2208,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 104.5, 176.434082, 147.0, 33.0 ],
+									"patching_rect" : [ 82.5, 107.434082, 147.0, 33.0 ],
 									"text" : "only if value of sw for that node is 1, at time 100"
 								}
 
@@ -2209,7 +2223,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 153.0, 139.467041, 93.0, 33.0 ],
+									"patching_rect" : [ 131.0, 70.467041, 93.0, 33.0 ],
 									"text" : "create \"name\" with all params"
 								}
 
@@ -2224,7 +2238,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 153.0, 100.0, 93.0, 33.0 ],
+									"patching_rect" : [ 131.0, 31.0, 93.0, 33.0 ],
 									"text" : "create temp with all params"
 								}
 
@@ -2239,7 +2253,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 100.0, 139.0, 32.0 ],
+									"patching_rect" : [ 224.0, 31.0, 139.0, 32.0 ],
 									"text" : ";\r/span/event/create bang"
 								}
 
@@ -2254,7 +2268,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 690.032959, 471.0, 32.0 ],
+									"patching_rect" : [ 224.0, 621.032959, 471.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio ifvalue sw=1 except mtrx dac subb rev/1"
 								}
 
@@ -2269,7 +2283,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 519.467041, 429.0, 32.0 ],
+									"patching_rect" : [ 224.0, 450.467041, 429.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio control ifvalue sw=1 except rand"
 								}
 
@@ -2284,7 +2298,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 444.5, 293.0, 32.0 ],
+									"patching_rect" : [ 224.0, 375.5, 293.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio control"
 								}
 
@@ -2299,7 +2313,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 328.467041, 321.0, 32.0 ],
+									"patching_rect" : [ 224.0, 259.467041, 321.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 only vol except volrand"
 								}
 
@@ -2314,7 +2328,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 292.467041, 344.0, 32.0 ],
+									"patching_rect" : [ 224.0, 223.467041, 344.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 only filt/*/vol except volrand"
 								}
 
@@ -2329,7 +2343,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 249.967041, 236.0, 32.0 ],
+									"patching_rect" : [ 224.0, 180.967041, 236.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 only filt"
 								}
 
@@ -2344,7 +2358,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 407.967041, 261.0, 32.0 ],
+									"patching_rect" : [ 224.0, 338.967041, 261.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags control"
 								}
 
@@ -2359,7 +2373,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 368.967041, 221.0, 32.0 ],
+									"patching_rect" : [ 224.0, 299.967041, 221.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags"
 								}
 
@@ -2374,7 +2388,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 650.532959, 434.0, 32.0 ],
+									"patching_rect" : [ 224.0, 581.532959, 434.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio ifvalue sw=1 only vol except rand"
 								}
 
@@ -2389,7 +2403,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 602.0, 427.0, 32.0 ],
+									"patching_rect" : [ 224.0, 533.0, 427.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio control ifvalue sw=1 except filt/2"
 								}
 
@@ -2404,7 +2418,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 563.434082, 417.0, 32.0 ],
+									"patching_rect" : [ 224.0, 494.434082, 417.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio control ifvalue sw=1 except filt"
 								}
 
@@ -2419,7 +2433,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 481.967041, 363.0, 32.0 ],
+									"patching_rect" : [ 224.0, 412.967041, 363.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 tags audio control ifvalue sw=1"
 								}
 
@@ -2434,7 +2448,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 176.434082, 288.0, 32.0 ],
+									"patching_rect" : [ 224.0, 107.434082, 288.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 100 ifvalue sw=1"
 								}
 
@@ -2449,7 +2463,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 139.467041, 195.0, 32.0 ],
+									"patching_rect" : [ 224.0, 70.467041, 195.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1"
 								}
 
@@ -2464,7 +2478,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 246.0, 212.434082, 363.0, 32.0 ],
+									"patching_rect" : [ 224.0, 143.434082, 363.0, 32.0 ],
 									"text" : ";\r/span/event/create newsyntaxtest1 ifvalue sw=1 tags audio control"
 								}
 
