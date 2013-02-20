@@ -7,7 +7,7 @@
 			"revision" : 8
 		}
 ,
-		"rect" : [ 25.0, 69.0, 577.0, 531.0 ],
+		"rect" : [ 113.0, 44.0, 577.0, 531.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1275,7 +1275,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 709.0, 458.5, 130.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.0, 74.0, 130.0, 27.0 ],
+					"presentation_rect" : [ 282.166687, 74.0, 130.0, 27.0 ],
 					"text" : "enter quantity :"
 				}
 
@@ -1291,7 +1291,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1037.5, 392.5, 74.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 36.0, 74.0, 74.0, 27.0 ],
+					"presentation_rect" : [ 11.166687, 74.0, 74.0, 27.0 ],
 					"text" : "editing :"
 				}
 
@@ -1321,7 +1321,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1009.0, 419.0, 100.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 109.333313, 74.0, 100.0, 31.0 ]
+					"presentation_rect" : [ 85.166687, 70.5, 190.0, 31.0 ]
 				}
 
 			}
@@ -1356,7 +1356,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 838.0, 458.5, 54.0, 32.5 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 358.0, 71.5, 54.0, 32.5 ],
+					"presentation_rect" : [ 412.166687, 71.5, 54.0, 32.5 ],
 					"wordwrap" : 0
 				}
 
@@ -3088,8 +3088,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
-				"patcherrelativepath" : "../span/lib",
+				"bootpath" : "/there/projects1/Environments/didascalie-net/span/lib",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
