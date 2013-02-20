@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2012-11-01T08:03:12",
-		"lastsaved" : "2012-11-01T10:03:42",
+		"lastopened" : "2013-02-20T21:46:43",
+		"lastsaved" : "2013-02-20T22:01:46",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -18,21 +18,21 @@
 ,
 	"nodes" : 	{
 		"del" : 		{
-			"quantity" : 2,
+			"quantity" : 3,
 			"tags" : "audio",
 			"filename" : "t_del",
 			"description" : "standard delay"
 		}
 ,
 		"filt" : 		{
-			"quantity" : 11,
+			"quantity" : 4,
 			"tags" : "audio",
 			"filename" : "t_filt",
 			"description" : "standard filter"
 		}
 ,
 		"ctlmap" : 		{
-			"quantity" : 0,
+			"quantity" : 1,
 			"tags" : "control",
 			"filename" : "span_map",
 			"description" : "controller mapper"
@@ -45,11 +45,25 @@
 			"description" : "Events Manager"
 		}
 ,
+		"oscreceive" : 		{
+			"quantity" : 0,
+			"tags" : "osc",
+			"filename" : "tm_oscreceive",
+			"description" : "receive OSC messages"
+		}
+,
 		"oscsend" : 		{
 			"quantity" : 0,
 			"tags" : "osc",
 			"filename" : "tm_oscsend",
 			"description" : "send OSC messages"
+		}
+,
+		"modul8" : 		{
+			"quantity" : 0,
+			"tags" : [ "device", "osc" ],
+			"filename" : "tm_modul8",
+			"description" : "modul8 layer control"
 		}
 ,
 		"mouse" : 		{
@@ -620,6 +634,370 @@
 							"sw" : 1
 						}
 
+					}
+
+				}
+
+			}
+
+		}
+,
+		"130220-213448" : 		{
+			"0" : ""
+		}
+,
+		"130220-213517" : 		{
+			"0" : 			{
+				"del" : 				{
+					"1" : 					{
+						"sw" : 1,
+						"time" : 126.0,
+						"fb" : 0.29,
+						"vol" : 0.94,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+,
+					"2" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"1" : 					{
+						"sw" : 1,
+						"mode" : "lowpass",
+						"gainenable" : 1,
+						"freq" : 444.022644,
+						"gain" : 4.519254,
+						"q" : 1.752919,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"2" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"4" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"ctlmap" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"speedlim" : 0,
+						"rampup" : 0,
+						"rampdown" : 0,
+						"coef" : 1,
+						"in1" : 0,
+						"in2" : 1,
+						"out1" : 0,
+						"out2" : 1,
+						"type" : "norm",
+						"curve" : 0,
+						"fliph" : 0,
+						"flipv" : 0,
+						"offseth" : 0,
+						"offsetv" : 0,
+						"trigmess" : "none",
+						"dest" : "none"
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
+					}
+
+				}
+
+			}
+
+		}
+,
+		"130220-215149" : 		{
+			"0" : 			{
+				"del" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+,
+					"2" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"2" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"4" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"ctlmap" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"speedlim" : 0,
+						"rampup" : 0,
+						"rampdown" : 0,
+						"coef" : 1,
+						"in1" : 0,
+						"in2" : 1,
+						"out1" : 0,
+						"out2" : 1,
+						"type" : "norm",
+						"curve" : 0,
+						"fliph" : 0,
+						"flipv" : 0,
+						"offseth" : 0,
+						"offsetv" : 0,
+						"trigmess" : "none",
+						"dest" : "none"
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 0
+					}
+
+				}
+
+			}
+
+		}
+,
+		"2013-02-20T22:01:46" : 		{
+			"0" : 			{
+				"del" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+,
+					"2" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"2" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"4" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"ctlmap" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"speedlim" : 0,
+						"rampup" : 0,
+						"rampdown" : 0,
+						"coef" : 1,
+						"in1" : 0,
+						"in2" : 1,
+						"out1" : 0,
+						"out2" : 1,
+						"type" : "norm",
+						"curve" : 0,
+						"fliph" : 0,
+						"flipv" : 0,
+						"offseth" : 0,
+						"offsetv" : 0,
+						"trigmess" : "none",
+						"dest" : "none"
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 0
 					}
 
 				}
