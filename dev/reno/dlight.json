@@ -1,0 +1,19 @@
+{
+	"nodes" :  {
+		"circ"	: {
+			"address" : "circ",
+			"quantity" : 512,
+			"tags" : "channels",
+			"description" : "remote 512 DMX channels",
+			"class" : "parameter",
+			"type" : "integer",
+			"initval" : 0,
+			"unit" : "none",
+			"range" : [ 0, 255 ],
+			"repetition" : 0,
+			"clipmode" : "both",
+			"ramp" : 1,
+			"rampfunction" : "none"
+			}
+		}
+}
