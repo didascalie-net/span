@@ -4,7 +4,7 @@
 
 The SPAN project is designed around a JSON file, with :    
 *    namespace organisation and discovery    
-*    highly customisation    
+*    highly customisable    
 *    multi-maping with multi-modes    
 *    event/cues management    
 
@@ -22,7 +22,7 @@ Even if this first (alpha) version is designed to work with Max 6 from Cycling74
 ## Credits : 
 * *Written by Tom Mays & Renaud Rubiano - (2012-2013)*
 * *Produced by didascalie.net*
-* *Based on some part of tapemovie (2006-2012)*
+* *Based on some parts of tapemovie (2006-2012)*
 * Launch span.maxhelp
 
 ## Copying
