@@ -11,8 +11,8 @@ The SPAN project is designed around a JSON file, with :
 Even if this first (alpha) version is designed to work with Max 6 from Cycling74, this could/should/must be implemented in more environnements.
 
 ## Startup : 
-* Add library folder to your Max Search paths (Max 6 - Menu 'Options' item 'Files Preferences').
-* Add span somewhere in your patch. You could start to work with
+* Add this package to your Max copy.
+* Add the span abstraction somewhere in your patch. You could start to work with.
 
 ## Change Log : 
 
@@ -27,5 +27,4 @@ Even if this first (alpha) version is designed to work with Max 6 from Cycling74
 
 ## Copying
 
-		   GNU LESSER GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
+GNU LESSER GENERAL PUBLIC LICENSE
