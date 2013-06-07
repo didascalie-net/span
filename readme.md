@@ -16,7 +16,7 @@ Even if this first (alpha) version is designed to work with Max 6 from Cycling74
 
 ## Change Log : 
 
-* Version 0.0.1: 
+* Version 0.0.1: First release
 
 # Licence
 ## Credits : 
