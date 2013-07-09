@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 8
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 47.0, 53.0, 1225.0, 544.0 ],
+		"rect" : [ 96.0, 111.0, 1216.0, 574.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,14 +30,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-6",
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"color" : [ 0.0, 0.572549, 0.811765, 0.0 ],
+					"fontname" : "Helvetica Light Oblique",
+					"fontsize" : 24.0,
+					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 556.0, 357.568451, 46.0, 18.0 ],
-					"text" : "tm.span"
+					"patching_rect" : [ 490.75, 3.139709, 106.0, 30.0 ],
+					"text" : "tm.span",
+					"textcolor" : [ 0.07796, 0.485113, 0.796546, 1.0 ]
 				}
 
 			}
@@ -50,7 +54,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 172.0, 315.241028, 60.0, 20.0 ],
+					"patching_rect" : [ 297.25, 42.495209, 60.0, 20.0 ],
 					"text" : "span.init",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -65,7 +69,7 @@
 					"name" : "span.nodeseditor.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 628.0, 6.0, 571.0, 527.345215 ]
+					"patching_rect" : [ 613.0, 3.139709, 571.0, 527.345215 ]
 				}
 
 			}
@@ -78,7 +82,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 34.345154, 293.5, 112.345184 ]
+					"patching_rect" : [ 6.75, 66.028107, 293.5, 87.345184 ]
 				}
 
 			}
@@ -91,7 +95,7 @@
 					"name" : "span.init.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 306.568451, 153.5, 37.345184 ]
+					"patching_rect" : [ 6.75, 3.139709, 350.5, 38.0 ]
 				}
 
 			}
@@ -106,7 +110,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.25, 408.456848, 212.0, 61.0 ],
+					"patching_rect" : [ 365.0, 66.028107, 215.0, 60.0 ],
 					"text" : "• Works with a single JSON file.\n• Highly customzable database\n• Manage local or distant namespace\n• Manage all type of files",
 					"textcolor" : [ 0.190206, 0.467832, 0.518714, 1.0 ]
 				}
@@ -116,13 +120,13 @@
 				"box" : 				{
 					"fontface" : 2,
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
+					"fontsize" : 14.0,
 					"frgb" : 0.0,
 					"id" : "obj-26",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.25, 381.794525, 259.0, 27.0 ],
+					"patching_rect" : [ 366.0, 36.649994, 205.0, 22.0 ],
 					"text" : "Namespace & project manager",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -138,7 +142,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 366.776764, 132.0, 19.0 ],
+					"patching_rect" : [ 6.75, 407.926819, 132.0, 19.0 ],
 					"text" : "Manage your events",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -154,7 +158,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 366.776764, 80.0, 20.0 ],
+					"patching_rect" : [ 222.25, 407.926819, 80.0, 20.0 ],
 					"text" : "span.events",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -169,7 +173,7 @@
 					"name" : "span.events.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 386.794525, 293.5, 141.345184 ]
+					"patching_rect" : [ 6.75, 427.94458, 293.5, 141.345184 ]
 				}
 
 			}
@@ -183,7 +187,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 154.139709, 132.0, 19.0 ],
+					"patching_rect" : [ 310.25, 132.718475, 132.0, 19.0 ],
 					"text" : "Manage your paths",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -199,7 +203,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 536.5, 154.139709, 74.0, 20.0 ],
+					"patching_rect" : [ 529.75, 132.718475, 74.0, 20.0 ],
 					"text" : "span.paths",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -214,7 +218,7 @@
 					"name" : "span.paths.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 174.794525, 293.5, 116.345184 ]
+					"patching_rect" : [ 310.25, 153.373291, 293.5, 116.345184 ]
 				}
 
 			}
@@ -228,7 +232,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 154.139709, 135.0, 19.0 ],
+					"patching_rect" : [ 6.75, 266.289764, 135.0, 19.0 ],
 					"text" : "Manage your namespace",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -244,7 +248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 13.345154, 192.0, 19.0 ],
+					"patching_rect" : [ 108.25, 45.028107, 192.0, 19.0 ],
 					"text" : "Manage your project files on your HD",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -260,7 +264,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 12.878052, 173.0, 19.0 ],
+					"patching_rect" : [ 6.75, 153.373291, 173.0, 19.0 ],
 					"text" : "Manage your project preferences",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -276,7 +280,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 230.0, 13.345154, 82.0, 20.0 ],
+					"patching_rect" : [ 6.75, 45.028107, 82.0, 20.0 ],
 					"text" : "span.project",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -293,7 +297,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 500.5, 12.878052, 110.0, 20.0 ],
+					"patching_rect" : [ 190.25, 153.373291, 110.0, 20.0 ],
 					"text" : "span.preferences",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -309,7 +313,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 234.0, 154.139709, 78.0, 20.0 ],
+					"patching_rect" : [ 222.25, 266.289764, 78.0, 20.0 ],
 					"text" : "span.config",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -324,7 +328,7 @@
 					"name" : "span.preferences.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 317.0, 34.345154, 293.5, 112.345184 ]
+					"patching_rect" : [ 6.75, 174.840393, 293.5, 87.345184 ]
 				}
 
 			}
@@ -333,12 +337,12 @@
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 					"color" : [ 0.0, 0.572549, 0.811765, 0.0 ],
 					"fontname" : "Helvetica Light Oblique",
-					"fontsize" : 36.0,
+					"fontsize" : 24.0,
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.25, 345.568451, 94.0, 42.0 ],
+					"patching_rect" : [ 365.0, 3.139709, 69.0, 30.0 ],
 					"text" : "span",
 					"textcolor" : [ 0.07796, 0.485113, 0.796546, 1.0 ]
 				}
@@ -353,20 +357,7 @@
 					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.5, 175.139709, 293.5, 116.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"border" : 1,
-					"id" : "obj-2",
-					"maxclass" : "panel",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 9.0, 6.0, 609.0, 527.345215 ],
-					"rounded" : 0
+					"patching_rect" : [ 6.75, 287.289764, 293.5, 116.0 ]
 				}
 
 			}
@@ -378,7 +369,7 @@
 					"maxclass" : "panel",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 354.25, 344.568451, 264.75, 188.776764 ],
+					"patching_rect" : [ 366.0, 3.139709, 230.75, 122.888397 ],
 					"rounded" : 0
 				}
 
@@ -387,111 +378,104 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.config.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
-				"patcherrelativepath" : "../span/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
-				"patcherrelativepath" : "../span/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dict.dump.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
-				"patcherrelativepath" : "../span/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.eventplay.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib",
-				"patcherrelativepath" : "../span/lib",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "properties.js",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/js",
-				"patcherrelativepath" : "../span/lib/js",
+				"bootpath" : "/Users/reno/Documents/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.paths.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.events.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "changesymbol.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "datetimestamp.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
-				"patcherrelativepath" : "../tapemovie2/tapemovie-lib/common/common-lib/misc-lib",
+				"bootpath" : "/Users/reno/Documents/GITs/tapemovie2/patchers/old/common/common-lib/misc-lib",
+				"patcherrelativepath" : "../../tapemovie2/patchers/old/common/common-lib/misc-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.project.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.nodeseditor.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/span/lib/GUI",
-				"patcherrelativepath" : "../span/lib/GUI",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tm.span.maxpat",
-				"bootpath" : "/Users/renaudrubiano/Documents/GITs/tapemovie2/tapemovie-lib",
-				"patcherrelativepath" : "../tapemovie2/tapemovie-lib",
+				"bootpath" : "/Users/reno/Documents/GITs/tapemovie2/patchers",
+				"patcherrelativepath" : "../../tapemovie2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "createfolder.mxo",
+				"name" : "shell.mxo",
 				"type" : "iLaX"
 			}
  ]
