@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2013-07-09T16:05:21",
-		"lastsaved" : "2013-07-09T18:33:36",
+		"lastopened" : "2013-07-10T18:35:15",
+		"lastsaved" : "2013-07-10T19:10:08",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -301,83 +301,39 @@
 
 		}
 ,
-		"subfolder" : 		{
-			"test1" : 			{
-				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 126.0,
-							"fb" : 0.29,
-							"vol" : 0.94,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-,
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "lowpass",
-							"gainenable" : 1,
-							"freq" : 444.022644,
-							"gain" : 4.519254,
-							"q" : 1.752919,
-							"vol" : 1.0,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-,
-					"mouse" : 					{
-						"1" : 						{
-							"sw" : 1
-						}
-
+		"testactive0" : 		{
+			"0" : 			{
+				"del" : 				{
+					"3" : 					{
+						"sw" : 1,
+						"time" : 4.6,
+						"fb" : 0.0022,
+						"vol" : 0.993,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
 					}
 
 				}
-
-			}
 ,
-			"test2" : 			{
-				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 126.0,
-							"fb" : 0.29,
-							"vol" : 0.94,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
+				"filt" : 				{
+					"4" : 					{
+						"sw" : 1,
+						"mode" : "bandpass",
+						"gainenable" : 1,
+						"freq" : 562.209839,
+						"gain" : 9.26352,
+						"q" : 2.500773,
+						"vol" : 0.9963,
+						"volrand" : 0,
+						"freqrand" : 0
 					}
-,
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "lowpass",
-							"gainenable" : 1,
-							"freq" : 444.022644,
-							"gain" : 4.519254,
-							"q" : 1.752919,
-							"vol" : 1.0,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
 
-					}
+				}
 ,
-					"mouse" : 					{
-						"1" : 						{
-							"sw" : 1
-						}
-
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
 					}
 
 				}
@@ -386,83 +342,430 @@
 
 		}
 ,
-		"concert" : 		{
-			"test3" : 			{
-				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 126.0,
-							"fb" : 0.29,
-							"vol" : 0.94,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
+		"testagain" : 		{
+			"2000" : 			{
+				"del" : 				{
+					"3" : 					{
+						"sw" : 1,
+						"time" : 4.6,
+						"fb" : 0.002,
+						"vol" : 0.993,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
 					}
-,
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "lowpass",
-							"gainenable" : 1,
-							"freq" : 444.022644,
-							"gain" : 4.519254,
-							"q" : 1.752919,
-							"vol" : 1.0,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
 
-					}
+				}
 ,
-					"mouse" : 					{
-						"1" : 						{
-							"sw" : 1
-						}
-
+				"filt" : 				{
+					"4" : 					{
+						"sw" : 1,
+						"mode" : "bandpass",
+						"gainenable" : 1,
+						"freq" : 562.210022,
+						"gain" : 9.264,
+						"q" : 2.501,
+						"vol" : 0.996,
+						"volrand" : 0,
+						"freqrand" : 0
 					}
 
 				}
 
 			}
 ,
-			"test4" : 			{
-				"0" : 				{
-					"del" : 					{
-						"2" : 						{
-							"sw" : 1,
-							"time" : 126.0,
-							"fb" : 0.29,
-							"vol" : 0.94,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
+			"3000" : 			{
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
+					}
 
+				}
+
+			}
+
+		}
+,
+		"testactive" : 		{
+			"0" : 			{
+				"del" : 				{
+					"3" : 					{
+						"sw" : 1,
+						"time" : 4.6,
+						"fb" : 0.0022,
+						"vol" : 0.993,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"4" : 					{
+						"sw" : 1,
+						"mode" : "bandpass",
+						"gainenable" : 1,
+						"freq" : 562.209839,
+						"gain" : 9.26352,
+						"q" : 2.500773,
+						"vol" : 0.9963,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
+					}
+
+				}
+
+			}
+,
+			"tags" : [ "testeur", "control" ]
+		}
+,
+		"testactive118" : 		{
+			"118" : 			{
+				"del" : 				{
+					"3" : 					{
+						"sw" : 1,
+						"time" : 4.6,
+						"fb" : 0.0022,
+						"vol" : 0.993,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"4" : 					{
+						"sw" : 1,
+						"mode" : "bandpass",
+						"gainenable" : 1,
+						"freq" : 562.209839,
+						"gain" : 9.26352,
+						"q" : 2.500773,
+						"vol" : 0.9963,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
+					}
+
+				}
+
+			}
+,
+			"352" : 			{
+				"del" : 				{
+					"3" : 					{
+						"sw" : 1,
+						"time" : 4.6,
+						"fb" : 0.0022,
+						"vol" : 0.993,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"4" : 					{
+						"sw" : 1,
+						"mode" : "bandpass",
+						"gainenable" : 1,
+						"freq" : 562.209839,
+						"gain" : 9.26352,
+						"q" : 2.500773,
+						"vol" : 0.9963,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
+					}
+
+				}
+
+			}
+,
+			"560" : 			{
+				"del" : 				{
+					"3" : 					{
+						"sw" : 1,
+						"time" : 4.6,
+						"fb" : 0.0022,
+						"vol" : 0.993,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
+
+				}
+,
+				"filt" : 				{
+					"4" : 					{
+						"sw" : 1,
+						"mode" : "bandpass",
+						"gainenable" : 1,
+						"freq" : 562.209839,
+						"gain" : 9.26352,
+						"q" : 2.500773,
+						"vol" : 0.9963,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 1
+					}
+
+				}
+
+			}
+,
+			"tags" : [ "anotha", "taggg" ]
+		}
+
+	}
+,
+	"temp" : 	{
+		"temp" : 		{
+			"0" : 			{
+				"del" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
 					}
 ,
-					"filt" : 					{
-						"2" : 						{
-							"sw" : 1,
-							"mode" : "lowpass",
-							"gainenable" : 1,
-							"freq" : 444.02301,
-							"gain" : 4.519,
-							"q" : 1.753,
-							"vol" : 1.0,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
+					"2" : 					{
+						"sw" : 0,
+						"time" : 0,
+						"fb" : 0,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"delrand" : 0,
+						"fbrand" : 0
+					}
 
+				}
+,
+				"filt" : 				{
+					"1" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
 					}
 ,
-					"mouse" : 					{
-						"1" : 						{
-							"sw" : 1
-						}
+					"2" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"3" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"4" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"5" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"6" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"7" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"8" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"9" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"10" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+,
+					"11" : 					{
+						"sw" : 0,
+						"mode" : "lowpass",
+						"gainenable" : 0,
+						"freq" : 22050.0,
+						"gain" : 0,
+						"q" : 0.707,
+						"vol" : 1.0,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
 
+				}
+,
+				"mouse" : 				{
+					"1" : 					{
+						"sw" : 0
+					}
+
+				}
+
+			}
+
+		}
+,
+		"event-series2" : 		{
+			"0" : 			{
+				"filt" : 				{
+					"1" : 					{
+						"sw" : 1,
+						"mode" : "lowpass",
+						"gainenable" : 1,
+						"freq" : 129.298996,
+						"gain" : 1.553,
+						"q" : 1.732,
+						"vol" : 0.996,
+						"volrand" : 0,
+						"freqrand" : 0
+					}
+
+				}
+
+			}
+,
+			"1000" : 			{
+				"comment0" : "ramp freq",
+				"filt" : 				{
+					"1" : 					{
+						"freq" : [ 5000, 5000, 0.2 ]
+					}
+
+				}
+
+			}
+,
+			"6000" : 			{
+				"comment1" : "fade out",
+				"filt" : 				{
+					"1" : 					{
+						"vol" : [ 0, 2000 ]
+					}
+
+				}
+
+			}
+,
+			"9000" : 			{
+				"comment2" : "filt init",
+				"filt" : 				{
+					"1" : 					{
+						"init" : "bang"
 					}
 
 				}
@@ -510,10 +813,6 @@
 
 			}
 
-		}
-,
-		"testempty" : 		{
-			"0" : ""
 		}
 ,
 		"testactive0" : 		{
@@ -714,139 +1013,6 @@
 
 				}
 
-			}
-
-		}
-,
-		"2013-07-09T18:21:28" : 		{
-			"0" : 			{
-				"del" : 				{
-					"3" : 					{
-						"sw" : 1,
-						"time" : 4.6,
-						"fb" : 0.0022,
-						"vol" : 0.993,
-						"volrand" : 0,
-						"delrand" : 0,
-						"fbrand" : 0
-					}
-
-				}
-,
-				"filt" : 				{
-					"4" : 					{
-						"sw" : 1,
-						"mode" : "bandpass",
-						"gainenable" : 1,
-						"freq" : 562.209839,
-						"gain" : 9.26352,
-						"q" : 2.500773,
-						"vol" : 0.9963,
-						"volrand" : 0,
-						"freqrand" : 0
-					}
-
-				}
-,
-				"mouse" : 				{
-					"1" : 					{
-						"sw" : 1
-					}
-
-				}
-
-			}
-
-		}
-,
-		"subf" : 		{
-			"testactive" : 			{
-				"0" : 				{
-					"del" : 					{
-						"3" : 						{
-							"sw" : 1,
-							"time" : 4.6,
-							"fb" : 0.0022,
-							"vol" : 0.993,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-,
-					"filt" : 					{
-						"4" : 						{
-							"sw" : 1,
-							"mode" : "bandpass",
-							"gainenable" : 1,
-							"freq" : 562.209839,
-							"gain" : 9.26352,
-							"q" : 2.500773,
-							"vol" : 0.9963,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-,
-					"mouse" : 					{
-						"1" : 						{
-							"sw" : 1
-						}
-
-					}
-
-				}
-
-			}
-
-		}
-
-	}
-,
-	"temp" : 	{
-		"filt" : 		{
-			"1" : 			{
-				"sw" : 1,
-				"mode" : "highpass",
-				"gainenable" : 0,
-				"freq" : 721.506287,
-				"gain" : 0.0,
-				"q" : 0.64,
-				"vol" : 0.012,
-				"volrand" : 0,
-				"freqrand" : 0
-			}
-
-		}
-,
-		"del" : 		{
-			"1" : 			{
-				"sw" : 1,
-				"time" : 32.0,
-				"fb" : 0.197,
-				"vol" : 0.97,
-				"volrand" : 0,
-				"delrand" : 0,
-				"fbrand" : 0
-			}
-,
-			"2" : 			{
-				"sw" : 0,
-				"time" : 0,
-				"fb" : 0,
-				"vol" : 1.0,
-				"volrand" : 0,
-				"delrand" : 0,
-				"fbrand" : 0
-			}
-
-		}
-,
-		"mouse" : 		{
-			"1" : 			{
-				"sw" : 1
 			}
 
 		}
