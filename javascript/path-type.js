@@ -1,11 +1,10 @@
 function path(inpath)
 {
 f = new Folder(inpath);  
-f.typelist = [ "MOOV"]; 
+f.typelist = [ ]; 
 while (!f.end) {
-  post(f.filename);
-  post();
   f.next();
+	outlet(0,f.filetype,f.filename,inpath);
 }
 f.close ();
 
