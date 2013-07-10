@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 96.0, 111.0, 1216.0, 574.0 ],
+		"rect" : [ 80.0, 198.0, 611.0, 586.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -30,17 +30,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"color" : [ 0.0, 0.572549, 0.811765, 0.0 ],
-					"fontname" : "Helvetica Light Oblique",
-					"fontsize" : 24.0,
-					"id" : "obj-8",
-					"maxclass" : "newobj",
+					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
+					"border" : 1,
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "span.paths.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.75, 3.139709, 106.0, 30.0 ],
-					"text" : "tm.span",
-					"textcolor" : [ 0.07796, 0.485113, 0.796546, 1.0 ]
+					"patching_rect" : [ 310.25, 174.840393, 286.5, 161.345184 ],
+					"presentation_rect" : [ 309.75, 171.028107, 0.0, 0.0 ]
 				}
 
 			}
@@ -57,19 +55,6 @@
 					"patching_rect" : [ 297.25, 42.495209, 60.0, 20.0 ],
 					"text" : "span.init",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-5",
-					"maxclass" : "bpatcher",
-					"name" : "span.nodeseditor.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 613.0, 3.139709, 571.0, 527.345215 ]
 				}
 
 			}
@@ -110,7 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 365.0, 66.028107, 215.0, 60.0 ],
+					"patching_rect" : [ 365.0, 66.028107, 215.0, 61.0 ],
 					"text" : "• Works with a single JSON file.\n• Highly customzable database\n• Manage local or distant namespace\n• Manage all type of files",
 					"textcolor" : [ 0.190206, 0.467832, 0.518714, 1.0 ]
 				}
@@ -142,7 +127,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 407.926819, 132.0, 19.0 ],
+					"patching_rect" : [ 310.25, 372.272003, 132.0, 19.0 ],
 					"text" : "Manage your events",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -158,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.25, 407.926819, 80.0, 20.0 ],
+					"patching_rect" : [ 525.75, 372.272003, 80.0, 20.0 ],
 					"text" : "span.events",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -173,7 +158,7 @@
 					"name" : "span.events.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 427.94458, 293.5, 141.345184 ]
+					"patching_rect" : [ 310.25, 392.289764, 293.5, 141.345184 ]
 				}
 
 			}
@@ -187,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 132.718475, 132.0, 19.0 ],
+					"patching_rect" : [ 310.25, 153.373291, 132.0, 19.0 ],
 					"text" : "Manage your paths",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -203,22 +188,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.75, 132.718475, 74.0, 20.0 ],
+					"patching_rect" : [ 529.75, 153.373291, 74.0, 20.0 ],
 					"text" : "span.paths",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-7",
-					"maxclass" : "bpatcher",
-					"name" : "span.paths.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 153.373291, 293.5, 116.345184 ]
 				}
 
 			}
@@ -232,7 +204,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 266.289764, 135.0, 19.0 ],
+					"patching_rect" : [ 6.75, 371.289764, 135.0, 19.0 ],
 					"text" : "Manage your namespace",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -313,7 +285,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.25, 266.289764, 78.0, 20.0 ],
+					"patching_rect" : [ 222.25, 371.289764, 78.0, 20.0 ],
 					"text" : "span.config",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -357,7 +329,7 @@
 					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 287.289764, 293.5, 116.0 ]
+					"patching_rect" : [ 6.75, 392.289764, 293.5, 116.0 ]
 				}
 
 			}
@@ -378,99 +350,85 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.config.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dict.dump.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.eventplay.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "properties.js",
-				"bootpath" : "/Users/reno/Documents/GITs/span/javascript",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
-				"patcherrelativepath" : "../patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.paths.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.events.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "changesymbol.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/tapemovie2/patchers/old/common/common-lib/misc-lib",
+				"bootpath" : "/Users/reno/GITs/tapemovie2/patchers/old/common/common-lib/misc-lib",
 				"patcherrelativepath" : "../../tapemovie2/patchers/old/common/common-lib/misc-lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.project.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "span.nodeseditor.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/GUI",
+				"name" : "span.paths.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "tm.span.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/tapemovie2/patchers",
-				"patcherrelativepath" : "../../tapemovie2/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
