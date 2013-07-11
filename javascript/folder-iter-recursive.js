@@ -17,7 +17,7 @@ function iterfolders(v)
 				foldername = f.pathname + "/" + f.filename;
 			else
 				foldername =  f.pathname + f.filename
-		outlet(1,foldername);
+			outlet(1,foldername,"fold");
 	f.reset();
 	while (!f.end) {
 		if (f.filetype == "fold") {
