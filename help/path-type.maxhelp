@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 35.0, 103.0, 401.0, 326.0 ],
+		"rect" : [ 7.0, 50.0, 519.0, 275.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -31,7 +31,20 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
-					"id" : "obj-3",
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 216.0, 100.0, 123.0, 19.0 ],
+					"text" : "print FOLDER-MODE"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.595187,
+					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
@@ -43,97 +56,15 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.674364, 0.701361, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 11.595187,
-					"id" : "obj-23",
+					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 100.0, 215.0, 78.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "pathtype.js",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js pathtype.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-20",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 258.0, 149.0, 84.0, 18.0 ],
-					"text" : "FOLDER MODE"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-19",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 164.0, 50.0, 192.0, 16.0 ],
-					"text" : "system:/Users/reno/GITs/span/"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.674364, 0.701361, 0.0, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 11.595187,
-					"id" : "obj-17",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 186.0, 70.0, 19.0 ],
-					"saved_object_attributes" : 					{
-						"filename" : "file-iter.js",
-						"parameter_enable" : 0
-					}
-,
-					"text" : "js file-iter.js"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-15",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 234.0, 67.0, 18.0 ],
-					"text" : "FILE  MODE"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-14",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 186.0, 84.0, 18.0 ],
-					"text" : "FOLDER MODE"
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 243.0, 155.0, 107.0, 19.0 ],
+					"text" : "regexp .+/\\\\..+"
 				}
 
 			}
@@ -145,7 +76,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 280.0, 62.0, 19.0 ],
+					"patching_rect" : [ 15.0, 229.0, 62.0, 19.0 ],
 					"text" : "print FILE"
 				}
 
@@ -160,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 254.0, 70.0, 19.0 ],
+					"patching_rect" : [ 15.0, 126.0, 70.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "filetype.js",
 						"parameter_enable" : 0
@@ -223,8 +154,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 245.0, 167.0, 83.0, 19.0 ],
-					"text" : "print FOLDER"
+					"patching_rect" : [ 309.0, 186.0, 194.0, 19.0 ],
+					"text" : "print FOLDER-RECURSIVE-MODE"
 				}
 
 			}
@@ -236,9 +167,9 @@
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 126.0, 82.0, 19.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 100.0, 126.0, 162.0, 19.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "folder-iter.js",
 						"parameter_enable" : 0
@@ -251,24 +182,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-19", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -278,28 +191,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -323,16 +218,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 3 ]
+					"source" : [ "obj-24", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 3 ]
@@ -350,7 +245,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
@@ -374,13 +287,6 @@
 			}
 , 			{
 				"name" : "filetype.js",
-				"bootpath" : "/Users/reno/GITs/span/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "file-iter.js",
 				"bootpath" : "/Users/reno/GITs/span/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",

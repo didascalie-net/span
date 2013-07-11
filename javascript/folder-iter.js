@@ -31,7 +31,16 @@ function iterfolders(v)
 		}
 		f.next();
 		if (f.filetype !== "fold") {
-	outlet(0,f.pathname + "/" + f.filename);
+			var foldername;
+			// if path doesn't end with a slash add one 
+			if (f.pathname.charAt(f.pathname.length-1) != "/")
+				foldername = f.pathname + "/" + f.filename;
+			else
+				foldername =  f.pathname + f.filename
+		if (f.filetype !== "") 
+			{
+			outlet(0,foldername,f.filetype);
+				}
 		}
 	}
 	f.close();
