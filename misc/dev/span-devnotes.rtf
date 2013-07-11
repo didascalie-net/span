@@ -887,4 +887,27 @@ events\
 \
 	rebuild event editor to implement same-level events with tags\
 \
+--------------------------------------------------\
+11 july 2013\
+\
+added span requests fuction "empty"\
+\
+	span.requests : empty nodes\
+		puts empty dict at key nodes\
+\
+/span/events/tags\
+	if no tag specified, creates tag "none"\
+\
+added contains message to span requests\
+	outputs 1 or 0 from span.requests left outlet\
+\
+modify events structure so that all timestamp data is in ::data\
+\
+commas:\
+	can't figure out any way to regexp commas coming from text, so must use "then" instead of comma in an event.\
+	for importing old events, must replace commas with "then".\
+\
+basic functions seem to be working with ::data subkey.\
+\
+\
 }
