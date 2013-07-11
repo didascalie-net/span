@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
@@ -147,6 +147,7 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.866935, 0.84, 0.019815, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-28",
@@ -154,13 +155,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 51.049713, 86.0, 17.0 ],
+					"patching_rect" : [ 6.0, 51.049713, 69.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "loadproperties.js",
+						"filename" : "properties.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js loadproperties.js"
+					"text" : "js properties.js"
 				}
 
 			}
@@ -248,9 +249,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "loadproperties.js",
-				"bootpath" : "/Users/reno/Documents/GITs/span/lib/js",
-				"patcherrelativepath" : ".",
+				"name" : "properties.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
