@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2013-07-12T13:41:59",
-		"lastsaved" : "2013-07-12T13:46:45",
+		"lastopened" : "2013-07-12T14:24:42",
+		"lastsaved" : "2013-07-12T16:02:11",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -208,27 +208,8 @@
 
 		}
 ,
-		"2013-07-12T13:42:10" : 		{
-			"tags" : "none",
-			"description" : "Describe event here...",
-			"data" : 			{
-				"0" : ""
-			}
-
-		}
-,
-		"2013-07-12T13:42:24" : 		{
-			"tags" : "none",
-			"description" : "Describe event here...",
-			"data" : 			{
-				"0" : ""
-			}
-
-		}
-,
-		"2013-07-12T13:46:44" : 		{
-			"tags" : "none",
-			"description" : "Describe event here...",
+		"testevent3_copy" : 		{
+			"tags" : "audio",
 			"data" : 			{
 				"0" : 				{
 					"del" : 					{
@@ -252,9 +233,67 @@
 							"freq" : 617.828979,
 							"gain" : 4.519,
 							"q" : 1.754,
-							"vol" : 0.0,
+							"vol" : 0.998,
 							"volrand" : 0,
 							"freqrand" : 0
+						}
+
+					}
+
+				}
+,
+				"1000" : 				{
+					"filt" : 					{
+						"3" : 						{
+							"vol" : [ 1.0, "then", 0, 1000 ]
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"testevent3_copy2" : 		{
+			"tags" : "control",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"2" : 						{
+							"sw" : 1,
+							"time" : 54.0,
+							"fb" : 0.24,
+							"vol" : 0.94,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"3" : 						{
+							"sw" : 1,
+							"mode" : "bandpass",
+							"gainenable" : 1,
+							"freq" : 617.828979,
+							"gain" : 4.519,
+							"q" : 1.754,
+							"vol" : 0.998,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+,
+				"1000" : 				{
+					"filt" : 					{
+						"3" : 						{
+							"vol" : [ 1.0, "then", 0, 1000 ]
 						}
 
 					}
