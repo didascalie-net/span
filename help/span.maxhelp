@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 27.0, 89.0, 611.0, 586.0 ],
+		"rect" : [ 3.0, 44.0, 635.0, 502.0 ],
 		"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -54,7 +54,7 @@
 					"name" : "span.paths.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 174.840393, 286.5, 161.345184 ]
+					"patching_rect" : [ 6.75, 332.840393, 293.5, 161.345184 ]
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"name" : "span.project.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 85.028107, 293.5, 87.345184 ]
+					"patching_rect" : [ 6.75, 212.028107, 293.5, 87.345184 ]
 				}
 
 			}
@@ -143,7 +143,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 372.272003, 132.0, 19.0 ],
+					"patching_rect" : [ 305.0, 311.373291, 132.0, 19.0 ],
 					"text" : "Manage your events",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -159,22 +159,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 525.75, 372.272003, 80.0, 20.0 ],
+					"patching_rect" : [ 511.5, 311.373291, 80.0, 20.0 ],
 					"text" : "span.events",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-24",
-					"maxclass" : "bpatcher",
-					"name" : "span.events.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 392.289764, 293.5, 141.345184 ]
 				}
 
 			}
@@ -188,7 +175,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.25, 153.373291, 132.0, 19.0 ],
+					"patching_rect" : [ 6.75, 311.373291, 132.0, 19.0 ],
 					"text" : "Manage your paths",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -204,7 +191,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.75, 153.373291, 74.0, 20.0 ],
+					"patching_rect" : [ 226.25, 311.373291, 74.0, 20.0 ],
 					"text" : "span.paths",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -220,7 +207,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 371.289764, 135.0, 19.0 ],
+					"patching_rect" : [ 325.75, 162.373291, 135.0, 19.0 ],
 					"text" : "Manage your namespace",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -236,7 +223,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.25, 64.028107, 192.0, 19.0 ],
+					"patching_rect" : [ 108.25, 191.028107, 192.0, 19.0 ],
 					"text" : "Manage your project files on your HD",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
@@ -252,7 +239,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 127.25, 201.373291, 173.0, 19.0 ],
+					"patching_rect" : [ 127.25, 73.373291, 173.0, 19.0 ],
 					"text" : "Manage your project preferences",
 					"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
 				}
@@ -268,7 +255,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 64.028107, 82.0, 20.0 ],
+					"patching_rect" : [ 6.75, 191.028107, 82.0, 20.0 ],
 					"text" : "span.project",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -285,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 201.373291, 110.0, 20.0 ],
+					"patching_rect" : [ 6.75, 73.373291, 110.0, 20.0 ],
 					"text" : "span.preferences",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -301,7 +288,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 222.25, 371.289764, 78.0, 20.0 ],
+					"patching_rect" : [ 541.25, 162.373291, 78.0, 20.0 ],
 					"text" : "span.config",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -316,7 +303,7 @@
 					"name" : "span.preferences.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 222.840393, 293.5, 87.345184 ]
+					"patching_rect" : [ 6.75, 94.840393, 293.5, 88.345184 ]
 				}
 
 			}
@@ -345,7 +332,7 @@
 					"name" : "span.config.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 6.75, 392.289764, 293.5, 116.0 ]
+					"patching_rect" : [ 325.75, 183.373291, 293.5, 116.0 ]
 				}
 
 			}
@@ -362,10 +349,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
+					"border" : 1,
+					"id" : "obj-24",
+					"maxclass" : "bpatcher",
+					"name" : "span.events.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 305.0, 331.391052, 311.5, 147.345184 ]
+				}
+
+			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "span.config.maxpat",
+				"name" : "span.events.maxpat",
 				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
@@ -375,6 +375,13 @@
 				"name" : "span.requests.maxpat",
 				"bootpath" : "/Users/reno/GITs/span/patchers",
 				"patcherrelativepath" : "../patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.config.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -436,13 +443,6 @@
 			}
 , 			{
 				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
-				"patcherrelativepath" : "../patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.events.maxpat",
 				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
