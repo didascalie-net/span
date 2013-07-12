@@ -2596,8 +2596,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 220.0, 94.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 225.0, 137.0, 0.0, 0.0 ]
+									"patching_rect" : [ 220.0, 94.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2622,8 +2621,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 198.0, 94.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 201.0, 141.0, 0.0, 0.0 ]
+									"patching_rect" : [ 198.0, 94.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2634,8 +2632,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 389.395905, 85.0, 20.0, 20.0 ],
-									"presentation_rect" : [ 393.0, 129.0, 0.0, 0.0 ]
+									"patching_rect" : [ 389.395905, 85.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -2652,7 +2649,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 190.973389, 132.0, 55.0 ],
-									"presentation_rect" : [ 278.729248, 269.89325, 0.0, 0.0 ],
 									"text" : "this script will conform the path into an absolute path (Volume:/path/address)"
 								}
 
@@ -2669,7 +2665,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 427.729248, 28.946472, 127.0, 47.0 ],
-									"presentation_rect" : [ 337.5, 65.946472, 0.0, 0.0 ],
 									"text" : "if the file doesn't exist, path-type.js will says it is a folder"
 								}
 
@@ -4346,7 +4341,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 103.0, 174.0, 727.0, 580.0 ],
+						"rect" : [ 632.0, 86.0, 727.0, 580.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -4366,6 +4361,63 @@
 						"digest" : "",
 						"tags" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"color" : [ 0.6, 0.6, 1.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 396.416565, 434.823151, 111.0, 18.0 ],
+									"text" : "s /span/system/update"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-10",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "bang", "int" ],
+									"patching_rect" : [ 302.0, 369.55835, 32.5, 18.0 ],
+									"text" : "t b 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-9",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 315.5, 407.55835, 146.0, 16.0 ],
+									"text" : "setval system::projectloaded 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"color" : [ 0.6, 0.6, 1.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-7",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "clear", "bang" ],
+									"patching_rect" : [ 315.5, 434.823151, 73.0, 18.0 ],
+									"text" : "span.requests"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"color" : [ 0.6, 0.6, 1.0, 1.0 ],
 									"fontname" : "Arial",
@@ -5128,7 +5180,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.937439, 518.0, 554.479126, 18.0 ],
-									"text" : "no project"
+									"text" : "PR"
 								}
 
 							}
@@ -15033,7 +15085,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 44.937439, 407.55835, 22.0, 18.0 ],
+									"patching_rect" : [ 44.937439, 407.55835, 32.5, 18.0 ],
 									"text" : "t 0"
 								}
 
@@ -15152,6 +15204,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-39", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-76", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -15161,10 +15231,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 311.5, 383.940735, 54.437439, 383.940735 ],
+									"midpoints" : [ 311.5, 363.440735, 311.5, 363.440735 ],
 									"source" : [ "obj-140", 0 ]
 								}
 
@@ -15243,10 +15313,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-39", 0 ],
+									"destination" : [ "obj-10", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 529.729187, 399.440735, 54.437439, 399.440735 ],
+									"midpoints" : [ 529.729187, 363.940735, 311.5, 363.940735 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -15384,6 +15454,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-70", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -34798,6 +34877,7 @@
 ,
 											"hardkeys" : [ "system", "preferences", "projectinfo" ],
 											"softkeys" : [ "paths", "namespace", "nodes", "events" ],
+											"projectloaded" : 0,
 											"preferences" : 											{
 												"path" : "~/Library/Application Support/span/span.preferences.json",
 												"file" : "~/Library/preferences/com.didascalie-net.span.plist"
@@ -35176,7 +35256,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 115.953125, 118.5, 151.0, 38.0 ],
+									"patching_rect" : [ 115.953125, 118.5, 151.0, 39.0 ],
 									"text" : ";\rgetappname bang;\rmax sendapppath sendapppath"
 								}
 
@@ -35951,6 +36031,67 @@
 					"source" : [ "obj-71", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dict.dump.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.eventplay.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "properties.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "folder-iter-recursive.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pathtype.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filetype.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pathrequest.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
