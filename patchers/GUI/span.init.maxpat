@@ -90,8 +90,8 @@
 					"patching_rect" : [ 165.5, 76.845154, 152.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 156.5, 5.499985, 181.0, 27.690338 ],
-					"text" : "Reload Project",
-					"texton" : "LOADING PROJECT",
+					"text" : "Reload last Project",
+					"texton" : "LOADING  PROJECT",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
 					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
 				}
