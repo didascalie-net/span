@@ -2570,7 +2570,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 320.0, 96.0, 596.0, 346.0 ],
+						"rect" : [ 25.0, 389.0, 596.0, 346.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -2597,20 +2597,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 220.0, 94.0, 20.0, 20.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
-									"id" : "obj-33",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "int" ],
-									"patching_rect" : [ 313.395905, 261.688904, 148.0, 19.0 ],
-									"text" : "conformpath max absolute"
 								}
 
 							}
@@ -2827,7 +2813,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 52.0, 308.0, 353.0, 372.0 ],
+										"rect" : [ 52.0, 308.0, 641.0, 402.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -2850,12 +2836,53 @@
 												"box" : 												{
 													"fontname" : "Helvetica",
 													"fontsize" : 12.0,
+													"id" : "obj-9",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 66.25, 276.442017, 56.0, 18.0 ],
+													"text" : "deferlow"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Helvetica",
+													"fontsize" : 12.0,
+													"id" : "obj-7",
+													"maxclass" : "newobj",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "bang" ],
+													"patching_rect" : [ 66.25, 312.442017, 37.0, 18.0 ],
+													"text" : "del 1"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Helvetica",
+													"fontsize" : 12.0,
+													"id" : "obj-6",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 66.25, 372.442017, 123.0, 18.0 ],
+													"text" : "s /span/paths/update"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Helvetica",
+													"fontsize" : 12.0,
 													"id" : "obj-5",
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 9.25, 47.41864, 57.0, 18.0 ],
+													"patching_rect" : [ 121.25, 47.41864, 57.0, 18.0 ],
 													"text" : "zl slice 1"
 												}
 
@@ -2869,7 +2896,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 74.729187, 251.442017, 101.0, 18.0 ],
+													"patching_rect" : [ 186.729187, 251.442017, 101.0, 18.0 ],
 													"text" : "prepend replace"
 												}
 
@@ -2883,7 +2910,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 9.25, 312.442017, 58.0, 18.0 ],
+													"patching_rect" : [ 121.25, 312.442017, 58.0, 18.0 ],
 													"text" : "prepend"
 												}
 
@@ -2897,7 +2924,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 74.729187, 276.442017, 77.0, 18.0 ],
+													"patching_rect" : [ 186.729187, 276.442017, 77.0, 18.0 ],
 													"text" : "prepend set"
 												}
 
@@ -2912,7 +2939,7 @@
 													"numinlets" : 5,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 74.729187, 214.442017, 272.041626, 30.0 ],
+													"patching_rect" : [ 186.729187, 214.442017, 272.041626, 30.0 ],
 													"text" : "combine paths :: PATH :: PROPERTY @triggers 4"
 												}
 
@@ -2927,7 +2954,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "clear", "bang" ],
-													"patching_rect" : [ 9.25, 334.575806, 89.0, 18.0 ],
+													"patching_rect" : [ 121.25, 344.442017, 89.0, 18.0 ],
 													"text" : "span.requests"
 												}
 
@@ -2941,7 +2968,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 105.25, 142.108704, 61.0, 18.0 ],
+													"patching_rect" : [ 217.25, 142.108704, 61.0, 18.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -2955,7 +2982,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "name" ],
-													"patching_rect" : [ 105.25, 170.108704, 59.0, 18.0 ],
+													"patching_rect" : [ 217.25, 170.108704, 59.0, 18.0 ],
 													"text" : "t s name"
 												}
 
@@ -2969,7 +2996,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 105.25, 110.108704, 60.0, 18.0 ],
+													"patching_rect" : [ 217.25, 110.108704, 60.0, 18.0 ],
 													"text" : "strippath"
 												}
 
@@ -2983,7 +3010,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 201.25, 110.108704, 62.0, 18.0 ],
+													"patching_rect" : [ 313.25, 110.108704, 62.0, 18.0 ],
 													"text" : "tosymbol"
 												}
 
@@ -2997,7 +3024,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "type" ],
-													"patching_rect" : [ 9.25, 170.108704, 60.0, 18.0 ],
+													"patching_rect" : [ 121.25, 170.108704, 60.0, 18.0 ],
 													"text" : "t s type"
 												}
 
@@ -3011,7 +3038,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 9.25, 110.108704, 57.0, 18.0 ],
+													"patching_rect" : [ 121.25, 110.108704, 57.0, 18.0 ],
 													"text" : "zl reg"
 												}
 
@@ -3025,7 +3052,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "bang", "", "" ],
-													"patching_rect" : [ 9.25, 77.41864, 211.0, 18.0 ],
+													"patching_rect" : [ 121.25, 77.41864, 211.0, 18.0 ],
 													"text" : "t b s s"
 												}
 
@@ -3038,7 +3065,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 9.25, 5.0, 25.0, 25.0 ]
+													"patching_rect" : [ 121.25, 5.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -3103,7 +3130,7 @@
 													"destination" : [ "obj-1", 4 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 154.75, 202.5, 337.270813, 202.5 ],
+													"midpoints" : [ 266.75, 202.5, 449.270813, 202.5 ],
 													"source" : [ "obj-3", 1 ]
 												}
 
@@ -3141,7 +3168,7 @@
 													"destination" : [ "obj-1", 4 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 59.75, 202.5, 337.270813, 202.5 ],
+													"midpoints" : [ 171.75, 202.5, 449.270813, 202.5 ],
 													"source" : [ "obj-39", 1 ]
 												}
 
@@ -3184,6 +3211,15 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-6", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-7", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"color" : [ 0.0, 0.0, 0.0, 0.9 ],
 													"destination" : [ "obj-133", 0 ],
 													"disabled" : 0,
@@ -3208,6 +3244,24 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-9", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-9", 0 ]
 												}
 
 											}
@@ -3432,16 +3486,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 322.895905, 288.331146, 161.5, 288.331146 ],
-									"source" : [ "obj-33", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-18", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -3478,9 +3522,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-33", 0 ],
+									"destination" : [ "obj-40", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
+									"midpoints" : [ 322.895905, 274.331146, 161.5, 274.331146 ],
 									"source" : [ "obj-7", 3 ]
 								}
 
@@ -5180,7 +5225,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.937439, 518.0, 554.479126, 18.0 ],
-									"text" : "test1-proj"
+									"text" : "no project"
 								}
 
 							}
@@ -16646,7 +16691,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 67.0, 118.0, 326.666687, 16.0 ],
-									"text" : "\"~/Library/Application Support/tapemovie/tapemovie.preferences.json\""
+									"text" : "\"~/Library/Application Support/span/span.preferences.json\""
 								}
 
 							}
@@ -22301,7 +22346,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 183.0, 172.5, 179.0, 31.0 ],
-													"presentation_rect" : [ 184.0, 174.5, 0.0, 0.0 ],
 													"text" : ";\r/span/events/description event2"
 												}
 
@@ -22726,7 +22770,6 @@
 									}
 ,
 									"patching_rect" : [ 123.5, 165.0, 220.0, 27.0 ],
-									"presentation_rect" : [ 141.5, 214.5, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -26020,8 +26063,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ],
-													"text" : "testevent3"
+													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ]
 												}
 
 											}
@@ -36534,6 +36576,67 @@
 					"source" : [ "obj-71", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dict.dump.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.eventplay.maxpat",
+				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "properties.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "folder-iter-recursive.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pathtype.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filetype.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pathrequest.js",
+				"bootpath" : "/Users/reno/GITs/span/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "shell.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
