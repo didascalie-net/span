@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2013-07-12T12:04:17",
-		"lastsaved" : "2013-07-12T12:33:35",
+		"lastopened" : "2013-07-12T13:41:59",
+		"lastsaved" : "2013-07-12T13:46:45",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -196,6 +196,63 @@
 							"gain" : 4.519254,
 							"q" : 1.753867,
 							"vol" : 0.998,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"2013-07-12T13:42:10" : 		{
+			"tags" : "none",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : ""
+			}
+
+		}
+,
+		"2013-07-12T13:42:24" : 		{
+			"tags" : "none",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : ""
+			}
+
+		}
+,
+		"2013-07-12T13:46:44" : 		{
+			"tags" : "none",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"2" : 						{
+							"sw" : 1,
+							"time" : 54.0,
+							"fb" : 0.24,
+							"vol" : 0.94,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"3" : 						{
+							"sw" : 1,
+							"mode" : "bandpass",
+							"gainenable" : 1,
+							"freq" : 617.828979,
+							"gain" : 4.519,
+							"q" : 1.754,
+							"vol" : 0.0,
 							"volrand" : 0,
 							"freqrand" : 0
 						}
