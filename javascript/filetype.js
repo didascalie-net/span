@@ -10,7 +10,7 @@ function anything()
 		f = new File(messagename);
 		if (f.filetype !== "") 
 			{
-			outlet(0,f.foldername + "/" + f.filename,f.extension,f.filetype);
+			outlet(0,f.foldername + "/" + f.filename,f.filetype);
 			}
 		f.close();
 }
