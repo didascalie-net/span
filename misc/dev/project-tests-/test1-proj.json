@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2012-09-30T21:36:32",
-		"lastopened" : "2013-07-11T13:20:36",
-		"lastsaved" : "2013-07-11T18:46:02",
+		"lastopened" : "2013-07-12T12:04:17",
+		"lastsaved" : "2013-07-12T12:33:35",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -217,6 +217,16 @@
 				"time" : 54.0,
 				"fb" : 0.24,
 				"vol" : 0.94,
+				"volrand" : 0,
+				"delrand" : 0,
+				"fbrand" : 0
+			}
+,
+			"2" : 			{
+				"sw" : 1,
+				"time" : 213.0,
+				"fb" : 0.4,
+				"vol" : 1,
 				"volrand" : 0,
 				"delrand" : 0,
 				"fbrand" : 0
