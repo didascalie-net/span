@@ -4369,8 +4369,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 396.416565, 434.823151, 111.0, 18.0 ],
-									"text" : "s /span/system/update"
+									"patching_rect" : [ 340.364563, 459.823151, 139.0, 18.0 ],
+									"text" : "s /span/projectloaded/update"
 								}
 
 							}
@@ -4381,10 +4381,10 @@
 									"id" : "obj-10",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 302.0, 369.55835, 32.5, 18.0 ],
-									"text" : "t b 1"
+									"numoutlets" : 3,
+									"outlettype" : [ "bang", "bang", "int" ],
+									"patching_rect" : [ 302.0, 369.55835, 95.729156, 18.0 ],
+									"text" : "t b b 1"
 								}
 
 							}
@@ -4397,7 +4397,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 315.5, 407.55835, 146.0, 16.0 ],
+									"patching_rect" : [ 378.729156, 407.55835, 146.0, 16.0 ],
 									"text" : "setval system::projectloaded 1"
 								}
 
@@ -4412,7 +4412,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "clear", "bang" ],
-									"patching_rect" : [ 315.5, 434.823151, 73.0, 18.0 ],
+									"patching_rect" : [ 378.729156, 434.823151, 73.0, 18.0 ],
 									"text" : "span.requests"
 								}
 
@@ -15204,6 +15204,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-12", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-39", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -15216,7 +15225,7 @@
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-10", 1 ]
+									"source" : [ "obj-10", 2 ]
 								}
 
 							}
