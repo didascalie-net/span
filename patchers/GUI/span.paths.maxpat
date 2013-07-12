@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 476.0, 48.0, 415.0, 388.0 ],
+		"rect" : [ 832.0, 52.0, 415.0, 388.0 ],
 		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -38,7 +38,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 76.312561, 75.546753, 119.0, 19.0 ],
+					"patching_rect" : [ 76.312561, 75.546753, 111.0, 19.0 ],
 					"text" : "r /span/paths/update"
 				}
 
@@ -171,10 +171,10 @@
 					"id" : "obj-35",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 13.812561, 132.688904, 47.0, 19.0 ],
-					"text" : "t 0 b"
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "bang", "clear" ],
+					"patching_rect" : [ 13.812561, 132.688904, 75.0, 19.0 ],
+					"text" : "t 0 b clear"
 				}
 
 			}
@@ -462,6 +462,15 @@
 					"destination" : [ "obj-31", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"source" : [ "obj-35", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-31", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
 					"source" : [ "obj-35", 0 ]
 				}
 
@@ -472,6 +481,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-35", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-41", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-35", 2 ]
 				}
 
 			}
