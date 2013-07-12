@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "2013-07-12T16:50:33",
-		"lastopened" : "2013-07-12T16:50:33",
-		"lastsaved" : "2013-07-12T16:52:03",
+		"lastopened" : "2013-07-12T18:27:22",
+		"lastsaved" : "2013-07-12T18:32:20",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -257,92 +257,6 @@
 			"tags" : "temp"
 		}
 ,
-		"eventtest+descrip" : 		{
-			"tags" : "undefined",
-			"description" : "Describe event here...",
-			"data" : 			{
-				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 167.0,
-							"fb" : 0.3,
-							"vol" : 0.998,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-,
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "peaknotch",
-							"gainenable" : 0,
-							"freq" : 304.195435,
-							"gain" : -18.70273,
-							"q" : 1.576581,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-,
-						"3" : 						{
-							"sw" : 1,
-							"mode" : "bandpass",
-							"gainenable" : 1,
-							"freq" : 617.828979,
-							"gain" : 4.519,
-							"q" : 1.754,
-							"vol" : 0.0,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-
-				}
-
-			}
-
-		}
-,
-		"2013-07-12T16:11:48" : 		{
-			"tags" : "undefined",
-			"description" : "Describe event here...",
-			"data" : 			{
-				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 167.0,
-							"fb" : 0.3,
-							"vol" : 0.998,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-,
-						"2" : 						{
-							"sw" : 1,
-							"time" : 54.0,
-							"tags" : "undefined",
-							"fb" : 0.24,
-							"vol" : 0.24,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-
-				}
-
-			}
-
-		}
-,
 		"active2x2+1" : 		{
 			"tags" : "undefined",
 			"description" : "Describe event here...",
@@ -365,6 +279,381 @@
 							"fb" : 0.37,
 							"vol" : 0.6,
 							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "lowpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 4.519254,
+							"q" : 2.212717,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"mode" : "bandpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 6.29858,
+							"q" : 1.962926,
+							"vol" : 0.996,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+,
+					"mouse" : 					{
+						"1" : 						{
+							"sw" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test-empty" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : ""
+			}
+
+		}
+,
+		"test-all" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 294.0,
+							"fb" : 0.022,
+							"vol" : 0.995,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"time" : 697.0,
+							"fb" : 0.37,
+							"vol" : 0.6,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"3" : 						{
+							"sw" : 0,
+							"time" : 0,
+							"fb" : 0,
+							"vol" : 1,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"4" : 						{
+							"sw" : 0,
+							"time" : 0,
+							"fb" : 0,
+							"vol" : 1,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"5" : 						{
+							"sw" : 0,
+							"time" : 0,
+							"fb" : 0,
+							"vol" : 1,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "lowpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 4.519254,
+							"q" : 2.212717,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"mode" : "bandpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 6.29858,
+							"q" : 1.962926,
+							"vol" : 0.996,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"3" : 						{
+							"sw" : 0,
+							"mode" : "lowpass",
+							"gainenable" : 0,
+							"freq" : 22050,
+							"gain" : 0,
+							"q" : 0.707,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"4" : 						{
+							"sw" : 0,
+							"mode" : "lowpass",
+							"gainenable" : 0,
+							"freq" : 22050,
+							"gain" : 0,
+							"q" : 0.707,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"5" : 						{
+							"sw" : 0,
+							"mode" : "lowpass",
+							"gainenable" : 0,
+							"freq" : 22050,
+							"gain" : 0,
+							"q" : 0.707,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+,
+					"mouse" : 					{
+						"1" : 						{
+							"sw" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test-allactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 294.0,
+							"fb" : 0.022,
+							"vol" : 0.995,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"time" : 697.0,
+							"fb" : 0.37,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "lowpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 4.519254,
+							"q" : 2.212717,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"mode" : "bandpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 6.29858,
+							"q" : 1.962926,
+							"vol" : 0.996,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+,
+					"mouse" : 					{
+						"1" : 						{
+							"sw" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test-controlactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"mouse" : 					{
+						"1" : 						{
+							"sw" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test-audioactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 294.0,
+							"fb" : 0.022,
+							"vol" : 0.995,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"time" : 697.0,
+							"fb" : 0.37,
+							"vol" : 1,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "lowpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 4.519254,
+							"q" : 2.212717,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"mode" : "bandpass",
+							"gainenable" : 1,
+							"freq" : 290.130127,
+							"gain" : 6.29858,
+							"q" : 1.962926,
+							"vol" : 0.996,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test-diviceactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"mouse" : 					{
+						"1" : 						{
+							"sw" : 1
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test-tapemovie" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 294.0,
+							"fb" : 0.022,
+							"vol" : 0.995,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"time" : 697.0,
+							"fb" : 0.37,
+							"vol" : 1,
+							"volrand" : 1,
 							"delrand" : 0,
 							"fbrand" : 0
 						}

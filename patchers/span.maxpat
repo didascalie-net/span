@@ -22374,7 +22374,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 215.583359, 111.0, 332.0, 31.0 ],
-													"presentation_rect" : [ 242.0, 111.0, 0.0, 0.0 ],
 													"text" : ";\r/span/events/duplicate testevent3 audio/test/testevent3-copy"
 												}
 
@@ -23123,7 +23122,6 @@
 									}
 ,
 									"patching_rect" : [ 88.5, 98.0, 205.0, 27.0 ],
-									"presentation_rect" : [ 88.5, 98.0, 0.0, 0.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -23205,7 +23203,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 221.0, 461.0, 220.0, 31.0 ],
-													"text" : "events::event3::description \"description in quotes\""
+													"text" : "events::2013-07-12T18:24:17::description \"Describe event here...\""
 												}
 
 											}
@@ -26908,7 +26906,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ],
-													"text" : "testevent3"
+													"text" : "newsyntaxtest1"
 												}
 
 											}
@@ -29441,7 +29439,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 28.0, 162.0, 1234.0, 668.0 ],
+										"rect" : [ 282.0, 44.0, 1234.0, 668.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -36304,6 +36302,22 @@
 												}
 ,
 												"system" : "projectstructure"
+											}
+,
+											"data" : 											{
+												"events" : 												{
+													"criteria" : 													{
+														"empty" : "tags",
+														"all" : "",
+														"all-active" : [ "ifvalue", "sw=1" ],
+														"control-active" : [ "tags", "control", "ifvalue", "sw=1" ],
+														"audio-active" : [ "tags", "audio", "ifvalue", "sw=1" ],
+														"device-active" : [ "tags", "device", "ifvalue", "sw=1" ],
+														"tapemovie" : [ "ifvalue", "sw=1", "except", "mtrx", "dac", "subb", "rev/1" ]
+													}
+
+												}
+
 											}
 
 										}
