@@ -306,7 +306,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-49",
-					"items" : [ "temp", ",", "testevent3", ",", "testwithdata1", ",", "testwithdata2" ],
+					"items" : [ "temp", ",", "testevent3", ",", "testwithdata1", ",", "testwithdata2", ",", "testevent3_copy", ",", "testevent3_copy2", ",", "testeventwithcomm" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -620,7 +620,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
-					"items" : [ "all", ",", "temp", ",", "audio", ",", "none" ],
+					"items" : [ "all", ",", "temp", ",", "audio", ",", "none", ",", "control", ",", "undefined" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2031,7 +2031,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-90", 1 ],
+					"destination" : [ "obj-90", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-92", 3 ]
