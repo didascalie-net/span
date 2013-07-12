@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 141.0, 84.0, 410.0, 552.0 ],
+		"rect" : [ 15.0, 53.0, 410.0, 552.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -45,7 +45,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 56.0, 439.0, 531.0, 207.0 ],
+						"rect" : [ 301.0, 545.0, 531.0, 207.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -2570,7 +2570,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 495.0, 342.0 ],
+						"rect" : [ 320.0, 96.0, 596.0, 346.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -2591,6 +2591,102 @@
 						"tags" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 220.0, 94.0, 20.0, 20.0 ],
+									"presentation_rect" : [ 225.0, 137.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.595187,
+									"id" : "obj-33",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 313.395905, 261.688904, 148.0, 19.0 ],
+									"text" : "conformpath max absolute"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-30",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 198.0, 94.0, 20.0, 20.0 ],
+									"presentation_rect" : [ 201.0, 141.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-29",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 389.395905, 85.0, 20.0, 20.0 ],
+									"presentation_rect" : [ 393.0, 129.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"bubbleside" : 3,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-28",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 20.0, 190.973389, 132.0, 55.0 ],
+									"presentation_rect" : [ 278.729248, 269.89325, 0.0, 0.0 ],
+									"text" : "this script will conform the path into an absolute path (Volume:/path/address)"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
+									"frgb" : 0.0,
+									"id" : "obj-25",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 427.729248, 28.946472, 127.0, 47.0 ],
+									"presentation_rect" : [ 337.5, 65.946472, 0.0, 0.0 ],
+									"text" : "if the file doesn't exist, path-type.js will says it is a folder"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-11",
+									"maxclass" : "button",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 167.0, 94.0, 20.0, 20.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-19",
@@ -2598,7 +2694,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 140.395905, 180.973389, 181.0, 18.0 ],
+									"patching_rect" : [ 247.395905, 156.973389, 181.0, 18.0 ],
 									"text" : "gate 2 1"
 								}
 
@@ -2612,7 +2708,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 168.895905, 150.973389, 25.0, 19.0 ],
+									"patching_rect" : [ 275.895905, 126.973389, 25.0, 19.0 ],
 									"text" : "i 2"
 								}
 
@@ -2626,7 +2722,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 140.395905, 150.973389, 25.0, 19.0 ],
+									"patching_rect" : [ 247.395905, 126.973389, 25.0, 19.0 ],
 									"text" : "i 1"
 								}
 
@@ -2640,7 +2736,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 140.395905, 126.39325, 76.0, 19.0 ],
+									"patching_rect" : [ 247.395905, 102.39325, 76.0, 19.0 ],
 									"text" : "sel file folder"
 								}
 
@@ -2654,7 +2750,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 53.5, 85.946472, 95.0, 19.0 ],
+									"patching_rect" : [ 160.5, 61.946472, 95.0, 19.0 ],
 									"text" : "<- file or folder ->"
 								}
 
@@ -2669,7 +2765,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 315.729248, 115.89325, 163.0, 40.0 ],
+									"patching_rect" : [ 422.729248, 91.89325, 163.0, 40.0 ],
 									"text" : "if the path you send is a folder, do you want to had the folder path or the file paths the folder contains?"
 								}
 
@@ -2683,7 +2779,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 140.395905, 40.892944, 212.0, 18.0 ],
+									"patching_rect" : [ 247.395905, 16.892944, 212.0, 18.0 ],
 									"text" : "send a path to add itself or its content to span"
 								}
 
@@ -2698,7 +2794,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 140.395905, 101.419861, 126.0, 19.0 ],
+									"patching_rect" : [ 247.395905, 77.419861, 126.0, 19.0 ],
 									"text" : "r /span/paths/add/mode"
 								}
 
@@ -2713,7 +2809,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 40.892944, 96.0, 19.0 ],
+									"patching_rect" : [ 152.0, 16.892944, 96.0, 19.0 ],
 									"text" : "r /span/paths/add"
 								}
 
@@ -3123,7 +3219,7 @@
  ]
 									}
 ,
-									"patching_rect" : [ 45.0, 300.688904, 156.0, 22.0 ],
+									"patching_rect" : [ 152.0, 294.688904, 156.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
 										"default_fontname" : "Arial",
@@ -3145,26 +3241,12 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.595187,
-									"id" : "obj-17",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 302.395905, 204.973389, 71.0, 19.0 ],
-									"text" : "append fold"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 11.595187,
 									"id" : "obj-7",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 140.395905, 259.973389, 107.0, 19.0 ],
+									"patching_rect" : [ 247.395905, 235.973389, 107.0, 19.0 ],
 									"text" : "regexp .+/\\\\..+"
 								}
 
@@ -3179,7 +3261,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 232.973389, 70.0, 19.0 ],
+									"patching_rect" : [ 152.0, 208.973389, 70.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "filetype.js",
 										"parameter_enable" : 0
@@ -3198,7 +3280,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 140.395905, 204.973389, 107.0, 19.0 ],
+									"patching_rect" : [ 247.395905, 180.973389, 107.0, 19.0 ],
 									"text" : "prepend iterfolders"
 								}
 
@@ -3213,7 +3295,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 45.0, 66.946472, 276.395905, 19.0 ],
+									"patching_rect" : [ 152.0, 42.946472, 276.395905, 19.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "pathtype.js",
 										"parameter_enable" : 0
@@ -3233,7 +3315,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 140.395905, 232.973389, 162.0, 19.0 ],
+									"patching_rect" : [ 247.395905, 208.973389, 162.0, 19.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "folder-iter-recursive.js",
 										"parameter_enable" : 0
@@ -3273,29 +3355,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"midpoints" : [ 311.895905, 291.331146, 54.5, 291.331146 ],
-									"source" : [ "obj-17", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-18", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-17", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-19", 1 ]
 								}
 
 							}
@@ -3310,10 +3373,29 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-7", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 418.895905, 232.973389, 256.895905, 232.973389 ],
+									"source" : [ "obj-19", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-9", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 0 ]
 								}
 
 							}
@@ -3328,10 +3410,47 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-24", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-24", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-16", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-30", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-40", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 322.895905, 288.331146, 161.5, 288.331146 ],
+									"source" : [ "obj-33", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-34", 0 ]
 								}
 
 							}
@@ -3364,10 +3483,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-40", 0 ],
+									"destination" : [ "obj-33", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 215.895905, 285.331146, 54.5, 285.331146 ],
 									"source" : [ "obj-7", 3 ]
 								}
 
@@ -35833,67 +35951,6 @@
 					"source" : [ "obj-71", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dict.dump.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.eventplay.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "properties.js",
-				"bootpath" : "/Users/reno/GITs/span/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "folder-iter-recursive.js",
-				"bootpath" : "/Users/reno/GITs/span/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pathtype.js",
-				"bootpath" : "/Users/reno/GITs/span/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "filetype.js",
-				"bootpath" : "/Users/reno/GITs/span/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pathrequest.js",
-				"bootpath" : "/Users/reno/GITs/span/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
