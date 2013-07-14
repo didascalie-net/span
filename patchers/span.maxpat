@@ -2895,7 +2895,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 53.5, 133.173279, 25.0, 16.0 ],
-									"presentation_rect" : [ 103.0, 133.173279, 0.0, 0.0 ],
 									"text" : "2"
 								}
 
@@ -3193,8 +3192,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 66.25, 13.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 64.25, 13.0, 0.0, 0.0 ]
+													"patching_rect" : [ 66.25, 13.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -4665,13 +4663,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0625, 258.356903, 69.0, 17.0 ],
+					"patching_rect" : [ 15.0625, 258.356903, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "properties.js",
+						"filename" : "jsproperties.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js properties.js"
+					"text" : "js jsproperties.js"
 				}
 
 			}
@@ -36999,7 +36997,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 115.953125, 118.5, 151.0, 38.0 ],
+									"patching_rect" : [ 115.953125, 118.5, 151.0, 39.0 ],
 									"text" : ";\rgetappname bang;\rmax sendapppath sendapppath"
 								}
 
@@ -37805,7 +37803,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "properties.js",
+				"name" : "jsproperties.js",
 				"bootpath" : "/Users/reno/GITs/span/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",

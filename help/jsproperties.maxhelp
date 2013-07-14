@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 256.0, 25.049713, 178.0, 24.0 ],
-					"text" : "properties.js",
+					"text" : "jsproperties.js",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
 
@@ -200,13 +200,13 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 51.049713, 69.0, 17.0 ],
+					"patching_rect" : [ 6.0, 51.049713, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "properties.js",
+						"filename" : "jsproperties.js",
 						"parameter_enable" : 0
 					}
 ,
-					"text" : "js properties.js"
+					"text" : "js jsproperties.js"
 				}
 
 			}
@@ -294,7 +294,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "properties.js",
+				"name" : "jsproperties.js",
 				"bootpath" : "/Users/reno/GITs/span/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
