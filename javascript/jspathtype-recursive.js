@@ -33,13 +33,11 @@ function anything()
 						// this is a folder
 						var foldername;
 								// if path doesn't end with a slash add one 
-							if (f.pathname.charAt(f.pathname.length) != "/")
+							if (f.pathname.charAt(f.pathname.length-1) != "/")
 								foldername = f.pathname + "/";
 								// if path ends with a slash do northing
 							else 
-								{
-								foldername =  f.pathname;	
-								}	
+								foldername =  f.pathname;		
 						iterfolders(foldername);
 						f.close();
 						}
