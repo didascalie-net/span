@@ -15,77 +15,71 @@ function PathsAddMode() {
 	}
 function anything()
 {
-var PathsAddMode = "file";
-
+	var PathsAddMode = "file";
 	var f = new Folder(messagename);
-		//determine if the path exists
-		if (f.end == 0)
+	//determine if the path exists
+	if (f.end == 0)
+			// this path exists
  			{
 				f.reset;
 				f.close;
 				var f = new File(messagename);
-				if (f.isopen) {
-					outlet(1,f.filetype);
-					outlet(0,f.foldername + "/" + f.filename);
-					f.close();
-					}
- 				else {
-					if (PathsAddMode == "folder")
-						{
-						outlet(1,"fold");
-						outlet(0,messagename);
+					if (f.isopen) {
+						// this is a file
+						outlet(1,f.filetype);
+						outlet(0,f.foldername + "/" + f.filename);
+						f.close();
 						}
-					else {
-						iterfolders(messagename);
+ 					else {
+						// this is a folder
+						var f = new Folder(messagename);	
+						var foldername;
+							// if path doesn't end with a slash add one 
+							if (f.pathname.charAt(f.pathname.length-1) != "/")
+								foldername = f.pathname + "/";
+								// if path ends with a slash do northing
+							else
+								foldername =  f.pathname;
+								// if mode is folder, just add the folder
+							if (PathsAddMode == "folder")
+								{
+								outlet(1,"fold");
+								outlet(0,foldername);
+								}
+								// if mode is file, look for files inside
+							else {
+								iterfolders(foldername);
+								}
 						}
-				}
 			}			
-	else {
-		outlet(2,messagename);
-		f.reset;
-		f.close;
+		// this path doesn't exist	
+		else
+ 		{
+			outlet(2,messagename);
 		}
+	f.reset;
+	f.close();
 }
 
 
 function iterfolders(v) {
-
-
-				var f = new Folder(v);	
-			var foldername;
-			// if path doesn't end with a slash add one 
-			if (f.pathname.charAt(f.pathname.length-1) != "/")
-				foldername = f.pathname + "/" + f.filename;
-			else
-				foldername =  f.pathname + f.filename
 			outlet(1,"fold");
-			outlet(0,foldername);
+			outlet(0,v);
+	var f = new Folder(v);	
 	f.reset();
 	while (!f.end) {
 		if (f.filetype == "fold") {
-			var foldername;
-			// if path doesn't end with a slash add one 
-			if (f.pathname.charAt(f.pathname.length-1) != "/")
-				foldername = f.pathname + "/" + f.filename;
-			else
-				foldername =  f.pathname + f.filename
-			iterfolders(foldername);
+			iterfolders(v);
 		}
 		if (f.filetype !== "fold") 
 			{
-			var foldername;
-			// if path doesn't end with a slash add one 
-			if (f.pathname.charAt(f.pathname.length-1) != "/")
-				foldername = f.pathname + "/" + f.filename;
-			else
-				foldername =  f.pathname + f.filename
 			if (f.filetype !== "") 
 				{
 				outlet(1,f.filetype);
-				outlet(0,f.pathname + "/" + f.filename);
+				outlet(0,foldername + f.filename);					
 				}
 			}
-		f.next();
+//		f.next();
 	}
 	f.close();
 			}	
