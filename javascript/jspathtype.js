@@ -31,24 +31,26 @@ function anything()
 						f.close();
 						}
  					else {
+						var f = new Folder(messagename);
 						// this is a folder
-						var f = new Folder(messagename);	
 						var foldername;
-							// if path doesn't end with a slash add one 
+								// if path doesn't end with a slash add one 
 							if (f.pathname.charAt(f.pathname.length-1) != "/")
 								foldername = f.pathname + "/";
 								// if path ends with a slash do northing
 							else
-								foldername =  f.pathname;
-								// if mode is folder, just add the folder
+								foldername =  f.pathname;	
+							// if mode is folder, just add the folder
 							if (PathsAddMode == "folder")
 								{
 								outlet(1,"fold");
 								outlet(0,foldername);
+								f.close();
 								}
 								// if mode is file, look for files inside
 							else {
 								iterfolders(foldername);
+								f.close();
 								}
 						}
 			}			
@@ -56,30 +58,31 @@ function anything()
 		else
  		{
 			outlet(2,messagename);
+			f.reset;
+			f.close();
 		}
-	f.reset;
-	f.close();
 }
 
 
 function iterfolders(v) {
+			var f = new Folder(v);	
 			outlet(1,"fold");
-			outlet(0,v);
-	var f = new Folder(v);	
-	f.reset();
-	while (!f.end) {
-		if (f.filetype == "fold") {
-			iterfolders(v);
-		}
-		if (f.filetype !== "fold") 
-			{
-			if (f.filetype !== "") 
-				{
-				outlet(1,f.filetype);
-				outlet(0,foldername + f.filename);					
+			outlet(0,v);			
+			f.reset();		
+				while (!f.end) {
+					if (f.filetype == "fold") 
+						{
+							iterfolders(f.pathname + f.filename + "/");				
+						}
+					else 
+						{
+							if (f.filetype !== "") 
+								{
+									outlet(1,f.filetype);
+									outlet(0,f.pathname + f.filename);					
+								}
+						}
+				f.next();
 				}
-			}
-//		f.next();
-	}
 	f.close();
-			}	
+}	
