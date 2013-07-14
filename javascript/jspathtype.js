@@ -5,7 +5,8 @@ if the paths you provide doesn't exists, it will reacts as a folder.
 This is because of the javascript only try to open a file.
 */
 
-outlets = 3;
+outlets = 4;
+setoutletassist(3,"bang when done");
 setoutletassist(2,"path does not exists");
 setoutletassist(1,"folder path");
 setoutletassist(0,"file path");
@@ -40,6 +41,7 @@ function anything()
 						outlet(0,foldername);
 						f.close();
 						}
+		outlet(3,"bang");			
 			}			
 		// this path doesn't exist	
 		else
