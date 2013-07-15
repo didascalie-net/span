@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 183.0, 108.0, 556.0, 565.0 ],
+		"rect" : [ 780.0, 167.0, 556.0, 565.0 ],
 		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -59,7 +59,7 @@
 					"patching_rect" : [ 392.0, 519.75, 138.0, 20.0 ],
 					"prefix" : "namespace::m8:/::layer.1::",
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 72.71402, 226.0, 20.0 ],
+					"presentation_rect" : [ 61.0, 72.71402, 198.0, 20.0 ],
 					"varname" : "modules[2]"
 				}
 
@@ -75,7 +75,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 347.333344, 492.75, 86.0, 20.0 ],
-					"presentation_rect" : [ 363.5, 551.75, 0.0, 0.0 ],
 					"text" : "span.requests"
 				}
 
@@ -207,9 +206,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 287.833344, 440.75, 138.0, 20.0 ],
-					"prefix" : "namespace::m8:/::layer.2::",
+					"prefix" : "namespace::hap::quantity::",
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 49.71402, 226.0, 20.0 ],
+					"presentation_rect" : [ 61.0, 49.71402, 198.0, 20.0 ],
 					"varname" : "modules[1]"
 				}
 
@@ -267,7 +266,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 86.666664, 244.75, 169.0, 18.0 ],
-					"text" : "combine ROOT :: KEY @triggers 1"
+					"text" : "combine ROOT :: KEY @triggers 2"
 				}
 
 			}
@@ -302,16 +301,16 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.0, 29.5, 75.0, 20.0 ],
+					"patching_rect" : [ 98.0, 29.5, 108.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 4.368851, 44.0, 20.0 ],
-					"text" : "config",
+					"presentation_rect" : [ 154.0, 0.868851, 105.0, 27.0 ],
+					"text" : "namespace",
 					"textcolor" : [ 0.0, 0.40859, 0.581194, 1.0 ]
 				}
 
@@ -403,7 +402,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.666668, 237.75, 33.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 4.368851, 34.0, 20.0 ],
+					"presentation_rect" : [ 4.0, 4.368851, 34.0, 20.0 ],
 					"text" : "root",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -436,7 +435,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 47.666668, 217.75, 247.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 4.368851, 114.0, 20.0 ],
+					"presentation_rect" : [ 37.0, 4.368851, 86.0, 20.0 ],
 					"varname" : "categories"
 				}
 
@@ -453,9 +452,9 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 183.666672, 356.75, 138.0, 20.0 ],
-					"prefix" : "namespace::m8:/::",
+					"prefix" : "namespace::hap::",
 					"presentation" : 1,
-					"presentation_rect" : [ 61.0, 26.71402, 226.0, 20.0 ],
+					"presentation_rect" : [ 61.0, 26.71402, 198.0, 20.0 ],
 					"varname" : "modules"
 				}
 
@@ -563,7 +562,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 1 ],
+					"destination" : [ "obj-20", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-12", 1 ]

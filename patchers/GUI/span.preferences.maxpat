@@ -60,15 +60,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.25, 185.75, 76.0, 20.0 ],
+					"patching_rect" : [ 27.25, 185.75, 110.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 5.023682, 76.0, 20.0 ],
+					"presentation_rect" : [ 150.5, 4.023682, 110.0, 27.0 ],
 					"text" : "preferences",
 					"textcolor" : [ 0.0, 0.40859, 0.581194, 1.0 ]
 				}
@@ -87,7 +87,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.0, 185.75, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 29.023682, 258.5, 54.0 ]
+					"presentation_rect" : [ 2.0, 31.023682, 258.5, 54.0 ]
 				}
 
 			}
@@ -104,7 +104,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.0, 214.75, 225.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 70.0, 4.023682, 190.5, 22.0 ],
+					"presentation_rect" : [ 2.0, 6.523682, 140.5, 22.0 ],
 					"varname" : "categories[1]"
 				}
 
@@ -118,7 +118,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "" ],
+					"outlettype" : [ "clear", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
