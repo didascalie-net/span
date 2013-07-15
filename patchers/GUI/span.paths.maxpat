@@ -38,7 +38,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 127.312561, 119.026611, 54.0, 17.0 ],
-					"presentation_rect" : [ 127.312561, 119.026611, 0.0, 0.0 ],
 					"text" : "prefix"
 				}
 
@@ -62,7 +61,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 672.0, 265.0, 357.0, 313.0 ],
+						"rect" : [ 506.0, 297.0, 464.0, 321.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -85,6 +84,20 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 11.0,
+									"id" : "obj-12",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 157.416672, 171.886719, 83.0, 19.0 ],
+									"text" : "prepend getval"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 11.0,
 									"id" : "obj-8",
 									"linecount" : 2,
 									"maxclass" : "newobj",
@@ -103,7 +116,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 300.0, 270.78418, 25.0, 25.0 ]
+									"patching_rect" : [ 300.0, 280.78418, 25.0, 25.0 ]
 								}
 
 							}
@@ -114,10 +127,10 @@
 									"id" : "obj-44",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 50.833328, 43.860107, 268.166687, 19.0 ],
-									"text" : "t s s s"
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "set" ],
+									"patching_rect" : [ 50.833328, 43.860107, 392.750031, 19.0 ],
+									"text" : "t s s s set"
 								}
 
 							}
@@ -218,8 +231,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 157.416672, 125.733154, 86.0, 31.0 ],
-									"text" : "sprintf getval paths::%s::tags"
+									"patching_rect" : [ 157.416672, 118.886719, 89.0, 31.0 ],
+									"text" : "sprintf symout paths::%s::tags"
 								}
 
 							}
@@ -254,7 +267,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 13.0, 270.78418, 25.0, 25.0 ]
+									"patching_rect" : [ 13.0, 280.78418, 25.0, 25.0 ]
 								}
 
 							}
@@ -265,6 +278,16 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-1", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 166.916672, 200.296631, 22.5, 200.296631 ],
+									"source" : [ "obj-12", 0 ]
 								}
 
 							}
@@ -334,6 +357,17 @@
 							}
 , 							{
 								"patchline" : 								{
+									"color" : [ 0.118007, 0.0, 0.0, 0.9 ],
+									"destination" : [ "obj-47", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"midpoints" : [ 434.083374, 270.322144, 22.5, 270.322144 ],
+									"source" : [ "obj-44", 3 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -352,10 +386,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 166.916672, 200.296631, 22.5, 200.296631 ],
 									"source" : [ "obj-5", 0 ]
 								}
 
@@ -466,8 +499,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.645905, 455.139893, 69.0, 19.0 ],
-					"text" : "prepend set"
+					"patching_rect" : [ 235.645905, 455.139893, 99.0, 19.0 ],
+					"text" : "prepend set setval"
 				}
 
 			}
@@ -508,8 +541,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 235.645905, 428.139893, 151.0, 19.0 ],
-					"text" : "sprintf setval paths::%s::tags"
+					"patching_rect" : [ 235.645905, 428.139893, 190.0, 19.0 ],
+					"text" : "sprintf symout paths::%s::tags"
 				}
 
 			}
