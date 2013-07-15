@@ -282,7 +282,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.25, 44.5, 90.5, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 39.0, 285.0, 22.0 ],
+					"presentation_rect" : [ 5.0, 39.0, 250.0, 22.0 ],
 					"tabs" : [ "Create a new project", "Copy a project as", "Open a project" ]
 				}
 
@@ -326,7 +326,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.5, 354.666687, 139.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 3.0, 168.0, 17.0 ]
+					"presentation_rect" : [ 115.0, 3.0, 140.0, 17.0 ]
 				}
 
 			}
@@ -355,7 +355,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 253.5, 354.666687, 148.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 20.0, 286.0, 15.0 ],
+					"presentation_rect" : [ 4.0, 20.0, 251.0, 15.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.090196, 1.0 ]
 				}
 
@@ -459,7 +459,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 18.25, 257.0, 33.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ -1.0, 1.0, 293.0, 86.0 ]
+					"presentation_rect" : [ 3.0, 3.0, 256.0, 64.0 ]
 				}
 
 			}
