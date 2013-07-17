@@ -1,0 +1,95 @@
+{
+	"system" : 	{
+		"isruntime" : "",
+		"os" : "",
+		"osversion" : "",
+		"maxversion" : "",
+		"span" : 		{
+			"credits" : "produced by didascalie.net & developped by Tom Mays & Renaud Rubiano",
+			"license" : "GNU-LGPL",
+			"status" : "alpha",
+			"version" : 			{
+				"major" : 0,
+				"minor" : 0,
+				"revision" : 1
+			}
+,
+			"path" : ""
+		}
+,
+		"hardkeys" : [ "system", "preferences", "projectinfo" ],
+		"softkeys" : [ "paths", "namespace", "nodes", "events" ],
+		"projectloaded" : 0,
+		"preferences" : 		{
+			"path" : "~/Library/Application Support/span/span.preferences.json",
+			"file" : "~/Library/preferences/com.didascalie-net.span.plist"
+		}
+,
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+,
+			"nodes" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+,
+		"data" : 		{
+			"events" : 			{
+				"criteria" : 				{
+					"empty" : "tags",
+					"all" : "",
+					"all-active" : [ "ifvalue", "sw=1" ],
+					"control-active" : [ "tags", "control", "ifvalue", "sw=1" ],
+					"audio-active" : [ "tags", "audio", "ifvalue", "sw=1" ],
+					"device-active" : [ "tags", "device", "ifvalue", "sw=1" ],
+					"tapemovie" : [ "ifvalue", "sw=1", "except", "mtrx", "dac", "subb", "rev/1" ]
+				}
+,
+				"defaulttag" : "undefined"
+			}
+
+		}
+
+	}
+,
+	"preferences" : 	{
+		"verbose" : 1,
+		"autoload" : 0,
+		"dynamicvars" : 1,
+		"project" : 		{
+			"path" : "",
+			"name" : ""
+		}
+
+	}
+,
+	"projectinfo" : 	{
+		"created" : "",
+		"lastopened" : "",
+		"lastsaved" : "",
+		"appname" : "span",
+		"appversion" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+		}
+
+	}
+
+}
