@@ -22133,7 +22133,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 187.462524, 373.0, 307.0, 18.0 ],
-																	"text" : "\"way to tag\" \"this or dat_copy\""
+																	"text" : "audio \"test 1\""
 																}
 
 															}
@@ -22972,13 +22972,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 2,
+													"linecount" : 3,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 221.0, 461.0, 220.0, 45.0 ],
-													"text" : "\"events::test 2::description\" \"Describe event here...\""
+													"text" : "\"events::even more machin::description\" \"Describe event here...\""
 												}
 
 											}
@@ -25545,35 +25545,6 @@
 										"tags" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"frgb" : 0.0,
-													"id" : "obj-17",
-													"linecount" : 2,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 120.0, 110.5, 202.0, 33.0 ],
-													"text" : "so not allow events with slashes in names. take only after last slash"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-4",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 58.0, 117.0, 57.0, 20.0 ],
-													"text" : "strippath"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"comment" : "to /span/project/write",
 													"id" : "obj-5",
 													"maxclass" : "outlet",
@@ -25676,7 +25647,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 188.5, 42.0, 139.0, 20.0 ],
+													"patching_rect" : [ 138.5, 93.0, 139.0, 20.0 ],
 													"text" : "prepend deleting event :"
 												}
 
@@ -25690,7 +25661,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 188.5, 66.032959, 76.0, 20.0 ],
+													"patching_rect" : [ 138.5, 117.032959, 76.0, 20.0 ],
 													"text" : "s /span/print"
 												}
 
@@ -25872,15 +25843,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-4", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-3", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -25893,7 +25855,7 @@
 													"destination" : [ "obj-74", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-4", 0 ]
+													"source" : [ "obj-3", 1 ]
 												}
 
 											}
@@ -27032,7 +26994,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ],
-													"text" : "\"test with tag\""
+													"text" : "\"even more machin\""
 												}
 
 											}
@@ -27795,35 +27757,6 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"frgb" : 0.0,
-													"id" : "obj-17",
-													"linecount" : 2,
-													"maxclass" : "comment",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 95.0, 102.0, 202.0, 33.0 ],
-													"text" : "so not allow events with slashes in names. take only after last slash"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"fontname" : "Arial",
-													"fontsize" : 12.0,
-													"id" : "obj-14",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "", "int" ],
-													"patching_rect" : [ 35.0, 108.5, 57.0, 20.0 ],
-													"text" : "strippath"
-												}
-
-											}
-, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -28742,15 +28675,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-205", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-14", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-195", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -29185,7 +29109,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-14", 0 ],
+													"destination" : [ "obj-205", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-84", 0 ]
@@ -29759,7 +29683,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 187.462524, 373.0, 307.0, 18.0 ],
-																	"text" : "\"test 2\""
+																	"text" : "\"even more machin\""
 																}
 
 															}
