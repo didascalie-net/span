@@ -236,8 +236,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 461.074951, 396.5, 212.0, 18.0 ],
-					"text" : "dialog Change name to (opt. tag/eventname))"
+					"patching_rect" : [ 461.074951, 396.5, 221.0, 18.0 ],
+					"text" : "dialog Duplicate event as (opt. tag/eventname))"
 				}
 
 			}
@@ -421,7 +421,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
 					"id" : "obj-49",
-					"items" : [ "temp", ",", "active2x2+1", ",", "test-empty", ",", "test-all", ",", "test-allactive", ",", "test-controlactive", ",", "test-audioactive" ],
+					"items" : [ "temp", ",", "this or dat" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -735,7 +735,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-23",
-					"items" : [ "all", ",", "temp", ",", "undefined" ],
+					"items" : [ "all", ",", "temp", ",", "tag 4", ",", "tag 5" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
