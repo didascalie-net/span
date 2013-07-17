@@ -30,20 +30,6 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Helvetica Light Oblique",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-118",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 347.0, 91.049713, 87.0, 16.0 ],
-					"text" : "Renaud Rubiano"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Light Oblique",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-115",

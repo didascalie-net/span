@@ -45,20 +45,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica Light Oblique",
-					"fontsize" : 10.0,
-					"frgb" : 0.0,
-					"id" : "obj-118",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 551.0, 61.799713, 87.0, 16.0 ],
-					"text" : "Renaud Rubiano"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Light Oblique",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-115",
@@ -296,8 +282,8 @@
 					"id" : "obj-97",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 27.0, 92.099396, 152.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "jspathtype.js",
@@ -389,7 +375,7 @@
 					"destination" : [ "obj-101", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 169.5, 155.049698, 517.0, 155.049698 ],
+					"midpoints" : [ 125.166664, 155.049698, 517.0, 155.049698 ],
 					"source" : [ "obj-97", 2 ]
 				}
 
@@ -418,7 +404,7 @@
 					"destination" : [ "obj-94", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 103.0, 186.574539, 517.0, 186.574539 ],
+					"midpoints" : [ 80.833336, 186.574539, 517.0, 186.574539 ],
 					"source" : [ "obj-97", 1 ]
 				}
 
