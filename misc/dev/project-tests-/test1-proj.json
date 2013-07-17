@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-17T14:29:50",
-		"lastsaved" : "2013-07-17T17:52:07",
+		"lastopened" : "2013-07-17T20:33:48",
+		"lastsaved" : "2013-07-17T20:35:06",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -137,7 +137,7 @@
 		}
 ,
 		"this or dat_copy" : 		{
-			"tags" : "way to tag",
+			"tags" : [ "tag 4", "tag 5" ],
 			"data" : 			{
 				"0" : 				{
 					"del" : 					{
@@ -150,13 +150,7 @@
 							"delrand" : 0,
 							"fbrand" : 0
 						}
-
-					}
-
-				}
 ,
-				"2000" : 				{
-					"del" : 					{
 						"2" : 						{
 							"sw" : 1,
 							"time" : 462.0,
@@ -174,9 +168,9 @@
 							"sw" : 1,
 							"mode" : "lowpass",
 							"gainenable" : 1,
-							"freq" : 944.22998,
-							"gain" : 1.553,
-							"q" : 1.571,
+							"freq" : 944.229675,
+							"gain" : 1.5529,
+							"q" : 1.5709,
 							"vol" : 1,
 							"volrand" : 0,
 							"freqrand" : 0
@@ -235,6 +229,54 @@
 							"freq" : 944.22998,
 							"gain" : 1.553,
 							"q" : 1.571,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"test with tag" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 68.0,
+							"fb" : 0.08,
+							"vol" : 0.6,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+,
+						"2" : 						{
+							"sw" : 1,
+							"time" : 462.0,
+							"fb" : 0.204,
+							"volrand" : 0.993,
+							"delrand" : 0.993,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"4" : 						{
+							"sw" : 1,
+							"mode" : "lowpass",
+							"gainenable" : 1,
+							"freq" : 944.229675,
+							"gain" : 1.5529,
+							"q" : 1.5709,
 							"vol" : 1,
 							"volrand" : 0,
 							"freqrand" : 0

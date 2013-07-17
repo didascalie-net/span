@@ -22972,13 +22972,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 221.0, 461.0, 220.0, 45.0 ],
-													"text" : "\"events::dis or that with descrip::description\" \"Describe event here...\""
+													"text" : "\"events::test 2::description\" \"Describe event here...\""
 												}
 
 											}
@@ -24977,7 +24977,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 77.0, 258.5, 181.0, 16.0 ],
-													"presentation_rect" : [ 176.0, 329.5, 0.0, 0.0 ],
 													"text" : "getval system::data::events::defaulttag"
 												}
 
@@ -24993,7 +24992,6 @@
 													"numoutlets" : 4,
 													"outlettype" : [ "", "", "clear", "bang" ],
 													"patching_rect" : [ 77.0, 280.0, 73.0, 18.0 ],
-													"presentation_rect" : [ 175.833313, 376.631836, 0.0, 0.0 ],
 													"text" : "span.requests"
 												}
 
@@ -27033,7 +27031,8 @@
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ]
+													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ],
+													"text" : "\"test with tag\""
 												}
 
 											}
@@ -29760,7 +29759,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 187.462524, 373.0, 307.0, 18.0 ],
-																	"text" : "\"dis or that with descrip\""
+																	"text" : "\"test 2\""
 																}
 
 															}
