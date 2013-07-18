@@ -30,12 +30,15 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "button",
+					"color" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 114.0, 169.0, 20.0, 20.0 ]
+					"numoutlets" : 0,
+					"patching_rect" : [ 71.875, 197.285004, 106.0, 18.0 ],
+					"text" : "s /span/project/write"
 				}
 
 			}
@@ -48,7 +51,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 93.0, 192.5, 100.0, 18.0 ],
+					"patching_rect" : [ 54.875, 220.070007, 100.0, 18.0 ],
 					"text" : "opendialog JSON"
 				}
 
@@ -62,7 +65,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 58.75, 210.5, 106.0, 18.0 ],
+					"patching_rect" : [ 54.875, 242.854996, 106.0, 18.0 ],
 					"text" : "s /span/project/open"
 				}
 
@@ -176,7 +179,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.25, 318.333313, 100.0, 18.0 ],
+					"patching_rect" : [ 432.5, 95.5, 100.0, 18.0 ],
 					"text" : "s /span/project/open"
 				}
 
@@ -190,7 +193,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 18.25, 235.333359, 106.0, 18.0 ],
+					"patching_rect" : [ 18.25, 265.640015, 106.0, 18.0 ],
 					"text" : "s /span/project/create"
 				}
 
@@ -261,11 +264,11 @@
 					"fontsize" : 10.0,
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "bang", "" ],
-					"patching_rect" : [ 18.25, 174.5, 59.5, 18.0 ],
-					"text" : "sel 0 1 2"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "bang", "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 18.25, 174.5, 90.5, 18.0 ],
+					"text" : "sel 0 1 2 3"
 				}
 
 			}
@@ -283,7 +286,7 @@
 					"patching_rect" : [ 18.25, 44.5, 90.5, 120.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.0, 39.0, 250.0, 22.0 ],
-					"tabs" : [ "Create a new project", "Copy a project as", "Open a project" ]
+					"tabs" : [ "New", "Save As", "Open", "Save" ]
 				}
 
 			}
@@ -326,7 +329,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 415.5, 354.666687, 139.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.0, 3.0, 140.0, 17.0 ]
+					"presentation_rect" : [ 115.0, 3.0, 140.0, 17.0 ],
+					"text" : "PROJECT"
 				}
 
 			}
@@ -350,12 +354,14 @@
 					"fontsize" : 8.0,
 					"frgb" : 0.0,
 					"id" : "obj-22",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.5, 354.666687, 148.0, 15.0 ],
+					"patching_rect" : [ 253.5, 354.666687, 148.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 4.0, 20.0, 251.0, 15.0 ],
+					"text" : "work:/Users/reno/Documents/GITs/hap layer/PROJECT.json",
 					"textcolor" : [ 0.0, 0.0, 0.090196, 1.0 ]
 				}
 
@@ -457,7 +463,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 18.25, 257.0, 33.0, 42.0 ],
+					"patching_rect" : [ 432.5, 34.166687, 33.0, 42.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.0, 3.0, 256.0, 64.0 ]
 				}
@@ -525,6 +531,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 3 ]
 				}
 
 			}
@@ -748,7 +763,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
 				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
