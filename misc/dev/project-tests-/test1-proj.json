@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-18T09:37:37",
-		"lastsaved" : "2013-07-18T10:24:13",
+		"lastopened" : "2013-07-18T10:27:01",
+		"lastsaved" : "2013-07-18T12:22:42",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -224,10 +224,11 @@
 		}
 ,
 		"soundevent" : 		{
-			"tags" : "sound",
-			"description" : "Describe event here...",
+			"tags" : "sounds",
+			"description" : [ "This", "is", "a", "way", "cool", "event", "that", "doesn't", "do", "much", "of", "anything" ],
 			"data" : 			{
 				"0" : 				{
+					"comment0" : "this is where the fun begins",
 					"del" : 					{
 						"1" : 						{
 							"sw" : 1,
@@ -241,12 +242,13 @@
 
 					}
 ,
+					"comment3" : "watch out for this one",
 					"filt" : 					{
 						"1" : 						{
 							"sw" : 1,
 							"mode" : "peaknotch",
 							"gainenable" : 0,
-							"freq" : 334.388794,
+							"freq" : 334.389008,
 							"gain" : -24.0,
 							"q" : 0.9,
 							"vol" : 1,
@@ -262,9 +264,9 @@
 
 		}
 ,
-		"2013-07-18T10:24:12" : 		{
-			"tags" : "sound",
-			"description" : "Describe event here...",
+		"soundevent2" : 		{
+			"tags" : "sounds",
+			"description" : [ "This", "is", "a", "way", "cool", "event", "that", "doesn't", "do", "much", "of", "anything", "either" ],
 			"data" : 			{
 				"0" : 				{
 					"del" : 					{
@@ -285,7 +287,46 @@
 							"sw" : 1,
 							"mode" : "peaknotch",
 							"gainenable" : 0,
-							"freq" : 334.388794,
+							"freq" : 334.389008,
+							"gain" : -24.0,
+							"q" : 0.9,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"soundevent3" : 		{
+			"tags" : "sounds",
+			"description" : [ "This", "is", "a", "way", "cool", "event", "that", "doesn't", "do", "much", "of", "anything", "either" ],
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 325.0,
+							"fb" : 0.08,
+							"vol" : 0.95,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "peaknotch",
+							"gainenable" : 0,
+							"freq" : 334.389008,
 							"gain" : -24.0,
 							"q" : 0.9,
 							"vol" : 1,
