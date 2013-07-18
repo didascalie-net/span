@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 27.0, 87.0, 410.0, 552.0 ],
+		"rect" : [ 279.0, 71.0, 410.0, 552.0 ],
 		"bglocked" : 1,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -18369,7 +18369,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 476.0, 206.166672, 273.0, 52.0 ],
+									"patching_rect" : [ 476.0, 206.166672, 273.0, 51.0 ],
 									"text" : "project paths::\"type : files\" && \"tags : soundfile\"\nExemple 2 : You want to list all the parameter tagged OSC\n\n/span/request class : parameter && tags : osc"
 								}
 
@@ -21604,7 +21604,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 12.0, 280.0, 948.0, 399.0 ],
+						"rect" : [ 50.0, 97.0, 948.0, 399.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -22133,7 +22133,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 187.462524, 373.0, 307.0, 18.0 ],
-																	"text" : "audio \"test 1\""
+																	"text" : "\"test 1_copy2\""
 																}
 
 															}
@@ -22972,13 +22972,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-5",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 221.0, 461.0, 220.0, 45.0 ],
-													"text" : "\"events::even more machin::description\" \"Describe event here...\""
+													"text" : "events::2013-07-18T10:24:12::description \"Describe event here...\""
 												}
 
 											}
@@ -23898,7 +23898,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 187.462524, 373.0, 307.0, 18.0 ],
-																	"text" : "\"this or dat\""
+																	"text" : "sound \"test 1_copy2\""
 																}
 
 															}
@@ -24885,8 +24885,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 40.0, 309.0, 43.0, 20.0 ],
-									"text" : "del 10"
+									"patching_rect" : [ 40.0, 307.565918, 37.0, 20.0 ],
+									"text" : "del 1"
 								}
 
 							}
@@ -26994,7 +26994,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 23.0, 75.0, 189.916687, 18.0 ],
-													"text" : "\"even more machin\""
+													"text" : "2013-07-18T10:24:12"
 												}
 
 											}
@@ -29475,7 +29475,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 175.0, 62.0, 1234.0, 804.0 ],
+										"rect" : [ 175.0, 44.0, 1234.0, 804.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -29495,6 +29495,35 @@
 										"digest" : "",
 										"tags" : "",
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-8",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 2,
+													"outlettype" : [ "bang", "stop" ],
+													"patching_rect" : [ 94.099998, 109.967041, 50.0, 20.0 ],
+													"text" : "t b stop"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-6",
+													"linecount" : 3,
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 108.268738, 133.467041, 128.462524, 47.0 ],
+													"text" : "stop del for write so that waits until finished with create."
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"color" : [ 0.6, 0.6, 1.0, 1.0 ],
 													"fontname" : "Arial",
@@ -29683,7 +29712,7 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 187.462524, 373.0, 307.0, 18.0 ],
-																	"text" : "\"even more machin\""
+																	"text" : "2013-07-18T10:24:12"
 																}
 
 															}
@@ -34310,7 +34339,7 @@
 																	"maxclass" : "inlet",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "" ],
+																	"outlettype" : [ "clear" ],
 																	"patching_rect" : [ 353.962524, 16.0, 25.0, 25.0 ]
 																}
 
@@ -34958,7 +34987,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 54.5, 515.032959, 40.0, 20.0 ],
+													"patching_rect" : [ 54.5, 484.967041, 40.0, 20.0 ],
 													"text" : "zl reg"
 												}
 
@@ -35029,7 +35058,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 172.0, 23.032959, 249.0, 47.0 ],
+													"patching_rect" : [ 175.0, 4.5, 249.0, 47.0 ],
 													"text" : "name of event to create (if bang, store into events::temp) +  messages: clear, tags, only, except, ifvalue (with arguments)"
 												}
 
@@ -35043,7 +35072,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 5,
 													"outlettype" : [ "bang", "bang", "", "clear", "int" ],
-													"patching_rect" : [ 54.5, 71.5, 199.0, 20.0 ],
+													"patching_rect" : [ 54.5, 76.5, 177.399994, 20.0 ],
 													"text" : "t b b s clear 0"
 												}
 
@@ -35306,15 +35335,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-118", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-30", 1 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-3", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
@@ -35347,6 +35367,15 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-30", 4 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-8", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-30", 1 ]
 												}
 
 											}
@@ -35476,6 +35505,24 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-78", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-118", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-8", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-3", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-8", 1 ]
 												}
 
 											}
