@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-18T10:27:01",
-		"lastsaved" : "2013-07-18T12:22:42",
+		"lastopened" : "2013-07-18T14:19:33",
+		"lastsaved" : "2013-07-18T17:21:34",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -224,8 +224,8 @@
 		}
 ,
 		"soundevent" : 		{
-			"tags" : "sounds",
-			"description" : [ "This", "is", "a", "way", "cool", "event", "that", "doesn't", "do", "much", "of", "anything" ],
+			"tags" : "images",
+			"description" : [ "ok", "this", "is", "fun" ],
 			"data" : 			{
 				"0" : 				{
 					"comment0" : "this is where the fun begins",
@@ -242,6 +242,8 @@
 
 					}
 ,
+					"comment1" : "un comment",
+					"comment2" : "un autre comment",
 					"comment3" : "watch out for this one",
 					"filt" : 					{
 						"1" : 						{
@@ -261,7 +263,8 @@
 				}
 
 			}
-
+,
+			"truc" : [ "voila", "un", "truc" ]
 		}
 ,
 		"soundevent2" : 		{
@@ -340,6 +343,182 @@
 
 			}
 
+		}
+,
+		"imageevent22" : 		{
+			"tags" : "images",
+			"description" : [ "ok", "this", "is", "fun" ],
+			"data" : 			{
+				"0" : 				{
+					"comment0" : "this is where the fun begins",
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 325.0,
+							"fb" : 0.08,
+							"vol" : 0.95,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"comment1" : "un comment",
+					"comment2" : "un autre comment",
+					"comment3" : "watch out for this one",
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "peaknotch",
+							"gainenable" : 0,
+							"freq" : 334.389008,
+							"gain" : -24.0,
+							"q" : 0.9,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+,
+			"truc" : [ "voila", "un", "truc" ]
+		}
+,
+		"imageevent22 copy" : 		{
+			"tags" : "images",
+			"description" : [ "ok", "this", "is", "fun" ],
+			"data" : 			{
+				"0" : 				{
+					"comment0" : "this is where the fun begins",
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 325.0,
+							"fb" : 0.08,
+							"vol" : 0.95,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"comment1" : "un comment",
+					"comment2" : "un autre comment",
+					"comment3" : "watch out for this one",
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "peaknotch",
+							"gainenable" : 0,
+							"freq" : 334.389008,
+							"gain" : -24.0,
+							"q" : 0.9,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+,
+			"truc" : [ "voila", "un", "truc" ]
+		}
+,
+		"lalalalala la" : 		{
+			"tags" : "todo",
+			"description" : [ "ok", "this", "is", "fun" ],
+			"data" : 			{
+				"0" : 				{
+					"comment0" : "this is where the fun begins",
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 325.0,
+							"fb" : 0.08,
+							"vol" : 0.95,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"comment1" : "un comment",
+					"comment2" : "un autre comment",
+					"comment3" : "watch out for this one",
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "peaknotch",
+							"gainenable" : 0,
+							"freq" : 334.389008,
+							"gain" : -24.0,
+							"q" : 0.9,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+,
+			"truc" : [ "voila", "un", "truc" ]
+		}
+,
+		"heya a is d" : 		{
+			"tags" : "images",
+			"description" : [ "ok", "this", "is", "fun" ],
+			"data" : 			{
+				"0" : 				{
+					"comment0" : "this is where the fun begins",
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 325.0,
+							"fb" : 0.08,
+							"vol" : 0.95,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"comment1" : "un comment",
+					"comment2" : "un autre comment",
+					"comment3" : "watch out for this one",
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "peaknotch",
+							"gainenable" : 0,
+							"freq" : 334.389008,
+							"gain" : -24.0,
+							"q" : 0.9,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+,
+			"truc" : [ "voila", "un", "truc" ]
 		}
 
 	}
