@@ -5,10 +5,10 @@
 			"major" : 6,
 			"minor" : 1,
 			"revision" : 3,
-			"architecture" : "x64"
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 320.0, 44.0, 574.0, 750.0 ],
+		"rect" : [ 440.0, 44.0, 574.0, 750.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -203,7 +203,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "give instance nulber of the node",
 					"id" : "obj-41",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -215,7 +215,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "send value to param",
 					"id" : "obj-36",
 					"maxclass" : "inlet",
 					"numinlets" : 0,
@@ -235,7 +235,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 235.125, 650.0, 209.0, 33.0 ],
+					"patching_rect" : [ 235.125, 650.0, 209.0, 30.0 ],
 					"text" : "declaration of a parameter for span\n#1 : parameter name",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.58 ]
 				}
@@ -700,7 +700,7 @@
 					"destination" : [ "obj-24", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 260.875046, 574.0, 99.666626, 574.0 ],
+					"midpoints" : [ 260.875061, 574.0, 99.666626, 574.0 ],
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1203,7 +1203,7 @@
 					"destination" : [ "obj-50", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 536.0, 151.0, 385.0, 151.0, 385.0, 113.0, 257.116687, 113.0 ],
+					"midpoints" : [ 536.0, 151.0, 385.0, 151.0, 385.0, 113.0, 257.116699, 113.0 ],
 					"source" : [ "obj-62", 1 ]
 				}
 
