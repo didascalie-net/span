@@ -225,7 +225,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 274.5, 191.0, 107.5, 18.0 ],
-					"text" : "1586"
+					"text" : "1037"
 				}
 
 			}
@@ -345,8 +345,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 48.0, 264.0, 250.0, 20.0 ],
-					"text" : "combine /span/path/response/ ID @triggers 1"
+					"patching_rect" : [ 48.0, 264.0, 259.0, 20.0 ],
+					"text" : "combine /span/paths/response/ ID @triggers 1"
 				}
 
 			}
@@ -386,8 +386,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.0, 223.0, 117.0, 20.0 ],
-					"text" : "s /span/path/request"
+					"patching_rect" : [ 48.0, 223.0, 126.0, 20.0 ],
+					"text" : "s /span/paths/request"
 				}
 
 			}
