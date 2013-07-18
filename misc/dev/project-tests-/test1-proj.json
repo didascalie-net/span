@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-18T18:28:41",
-		"lastsaved" : "2013-07-18T18:30:38",
+		"lastopened" : "2013-07-18T18:35:08",
+		"lastsaved" : "2013-07-18T19:07:36",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -267,6 +267,7 @@
 ,
 		"soundevent_copy" : 		{
 			"tags" : "audio",
+			"description" : [ "just", "another", "test" ],
 			"data" : 			{
 				"0" : 				{
 					"comment0" : "this is where the fun begins",
@@ -308,6 +309,7 @@
 		}
 ,
 		"soundevent_copy_copy" : 		{
+			"tags" : [ "a", "tag", "another", "tag" ],
 			"data" : 			{
 				"0" : 				{
 					"comment0" : "this is where the fun begins",
