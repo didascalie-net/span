@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 404.0, 63.0, 1112.0, 257.0 ],
+		"rect" : [ 404.0, 63.0, 1124.0, 257.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -35,7 +35,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 877.5, 178.467285, 82.0, 18.0 ],
+					"patching_rect" : [ 897.5, 180.859955, 82.0, 18.0 ],
 					"text" : "print THERE"
 				}
 
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
-					"patching_rect" : [ 840.5, 152.633942, 142.0, 18.0 ],
+					"patching_rect" : [ 856.5, 155.026611, 142.0, 18.0 ],
 					"text" : "span.paths.requests"
 				}
 
@@ -64,7 +64,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 806.5, 21.467285, 72.0, 16.0 ],
+					"patching_rect" : [ 822.5, 23.859955, 72.0, 16.0 ],
 					"text" : "./examples"
 				}
 
@@ -78,7 +78,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.5, 39.694092, 113.0, 16.0 ],
+					"patching_rect" : [ 856.5, 42.086761, 113.0, 16.0 ],
 					"text" : "./examples/effects/"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 869.0, 60.276276, 151.0, 16.0 ],
+					"patching_rect" : [ 885.0, 62.668945, 151.0, 16.0 ],
 					"text" : "./examples/effects/reverb/"
 				}
 
@@ -106,7 +106,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 911.5, 101.440674, 188.0, 16.0 ],
+					"patching_rect" : [ 927.5, 103.833344, 188.0, 16.0 ],
 					"text" : "./examples/effects/kazoo.maxpat"
 				}
 
@@ -120,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 840.5, 127.940674, 99.0, 18.0 ],
+					"patching_rect" : [ 856.5, 130.333344, 99.0, 18.0 ],
 					"text" : "prepend getfiles"
 				}
 
@@ -134,7 +134,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 897.5, 80.858459, 166.0, 16.0 ],
+					"patching_rect" : [ 913.5, 83.251129, 166.0, 16.0 ],
 					"text" : "./examples/effects/reverb/lib/"
 				}
 
@@ -148,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 195.077454, 668.0, 18.0 ],
+					"patching_rect" : [ 194.0, 179.857117, 668.0, 18.0 ],
 					"text" : "consolidate PathOfAFolder : It will copy the project and all the related files and folders in the specified path (PathOfAFolder)"
 				}
 
@@ -162,7 +162,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 178.467285, 652.0, 18.0 ],
+					"patching_rect" : [ 194.0, 163.246948, 652.0, 18.0 ],
 					"text" : "checkpaths PathOfAFile/PathOfAFolder : It will check if this paths exists or not. valid = 0 for all paths which does not exist"
 				}
 
@@ -176,7 +176,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 161.857117, 622.0, 18.0 ],
+					"patching_rect" : [ 194.0, 146.63678, 622.0, 18.0 ],
 					"text" : "checkpaths : It will check if  all the paths registered in span exists or not. valid = 0 for all paths which does not exist"
 				}
 
@@ -204,7 +204,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 61.0, 155.026611, 52.0, 18.0 ],
+					"patching_rect" : [ 61.666668, 155.026611, 52.0, 18.0 ],
 					"text" : "print iter"
 				}
 
@@ -217,7 +217,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 155.026611, 54.0, 18.0 ],
+					"patching_rect" : [ 10.0, 155.026611, 51.666668, 18.0 ],
 					"text" : "print list"
 				}
 
@@ -233,22 +233,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 112.0, 222.026611, 755.0, 18.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 145.246948, 451.0, 18.0 ],
-					"text" : "getfiles PathOfAFile : It will give you back all the files inside this folder (recursively)",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.9 ]
+					"patching_rect" : [ 113.333336, 222.026611, 755.0, 18.0 ]
 				}
 
 			}
@@ -261,8 +246,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 128.63678, 467.0, 18.0 ],
-					"text" : "getfiles PathOfAFolder : It will give you back all the files inside this folder (recursively)",
+					"patching_rect" : [ 194.0, 128.63678, 532.0, 18.0 ],
+					"text" : "getfiles PathOfAFolder (type MooV) : It will give you back all the files inside this folder (recursively)",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.9 ]
 				}
 
@@ -291,7 +276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 194.0, 91.026611, 410.0, 18.0 ],
+					"patching_rect" : [ 194.0, 83.251129, 410.0, 18.0 ],
 					"text" : "curent messages accepted : getfolders - getfiles - checkpaths - consolidate"
 				}
 
@@ -394,7 +379,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 10.0, 125.0, 174.0, 18.0 ],
-					"text" : "span.path.requests"
+					"text" : "span.paths.requests"
 				}
 
 			}
@@ -536,16 +521,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "span.path.requests.maxpat",
+				"name" : "span.paths.requests.maxpat",
 				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
 				"patcherrelativepath" : "../patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.paths.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/help",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
