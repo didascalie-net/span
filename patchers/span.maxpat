@@ -64,6 +64,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -194,7 +195,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 73.0, 79.0, 1454.0, 581.0 ],
+										"rect" : [ 171.0, 74.0, 1480.0, 618.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -213,7 +214,66 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
+										"visible" : 1,
 										"boxes" : [ 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-89",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 990.583374, 543.0, 111.0, 20.0 ],
+													"text" : "print HOLAAAAAA"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"id" : "obj-88",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 216.0, 572.923096, 208.0, 18.0 ],
+													"presentation_rect" : [ 762.0, 555.0, 0.0, 0.0 ],
+													"text" : "work:/Users/reno/Desktop/PROJECT"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-58",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 1027.833252, 477.923096, 407.0, 20.0 ],
+													"presentation_rect" : [ 1027.833252, 476.080139, 0.0, 0.0 ],
+													"text" : "#5 : and copy them into a folder (name of the type) inside the folder project"
+												}
+
+											}
+, 											{
+												"box" : 												{
+													"fontname" : "Arial",
+													"fontsize" : 12.0,
+													"frgb" : 0.0,
+													"id" : "obj-49",
+													"maxclass" : "comment",
+													"numinlets" : 1,
+													"numoutlets" : 0,
+													"patching_rect" : [ 1027.833252, 395.080139, 183.0, 20.0 ],
+													"presentation_rect" : [ 1027.833252, 395.026611, 0.0, 0.0 ],
+													"text" : "#4 : create a folder for each type"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
@@ -221,7 +281,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 805.5, 558.923096, 171.0, 20.0 ],
+													"patching_rect" : [ 805.5, 585.923096, 171.0, 20.0 ],
 													"text" : "print #####"
 												}
 
@@ -235,7 +295,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 850.5, 455.036743, 74.0, 20.0 ],
+													"patching_rect" : [ 805.5, 455.036743, 74.0, 20.0 ],
 													"text" : "prepend set"
 												}
 
@@ -250,7 +310,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 805.5, 492.949707, 55.0, 20.0 ],
-													"text" : "prepend"
+													"text" : "append"
 												}
 
 											}
@@ -274,11 +334,11 @@
 													"fontsize" : 12.0,
 													"id" : "obj-53",
 													"maxclass" : "newobj",
-													"numinlets" : 2,
+													"numinlets" : 3,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 990.583374, 512.949707, 186.0, 20.0 ],
-													"text" : "combine Path Name @triggers 1"
+													"patching_rect" : [ 990.583374, 512.949707, 189.0, 20.0 ],
+													"text" : "combine Path / Name @triggers 2"
 												}
 
 											}
@@ -305,7 +365,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 1014.166626, 445.949707, 171.0, 20.0 ],
+													"patching_rect" : [ 931.166626, 445.949707, 197.0, 20.0 ],
 													"text" : "zl reg"
 												}
 
@@ -413,7 +473,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 75.0, 119.0, 197.0, 205.0 ],
+														"rect" : [ 75.0, 119.0, 440.0, 252.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -432,7 +492,48 @@
 														"description" : "",
 														"digest" : "",
 														"tags" : "",
+														"visible" : 1,
 														"boxes" : [ 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-3",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 17.0, 224.0, 301.0, 20.0 ],
+																	"text" : "s ##########################################"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-2",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 0,
+																	"patching_rect" : [ 191.0, 166.0, 76.0, 20.0 ],
+																	"text" : "s /span/print"
+																}
+
+															}
+, 															{
+																"box" : 																{
+																	"fontname" : "Arial",
+																	"fontsize" : 12.0,
+																	"id" : "obj-73",
+																	"maxclass" : "newobj",
+																	"numinlets" : 1,
+																	"numoutlets" : 1,
+																	"outlettype" : [ "" ],
+																	"patching_rect" : [ 191.0, 133.0, 141.0, 20.0 ],
+																	"text" : "prepend folder creation :"
+																}
+
+															}
+, 															{
 																"box" : 																{
 																	"comment" : "",
 																	"id" : "obj-1",
@@ -481,7 +582,7 @@
 																	"numinlets" : 1,
 																	"numoutlets" : 2,
 																	"outlettype" : [ "", "bang" ],
-																	"patching_rect" : [ 17.0, 160.0, 35.0, 20.0 ],
+																	"patching_rect" : [ 17.0, 166.0, 35.0, 20.0 ],
 																	"text" : "shell"
 																}
 
@@ -544,6 +645,24 @@
 															}
 , 															{
 																"patchline" : 																{
+																	"destination" : [ "obj-73", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-20", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-3", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-24", 0 ]
+																}
+
+															}
+, 															{
+																"patchline" : 																{
 																	"destination" : [ "obj-24", 0 ],
 																	"disabled" : 0,
 																	"hidden" : 0,
@@ -560,10 +679,19 @@
 																}
 
 															}
+, 															{
+																"patchline" : 																{
+																	"destination" : [ "obj-2", 0 ],
+																	"disabled" : 0,
+																	"hidden" : 0,
+																	"source" : [ "obj-73", 0 ]
+																}
+
+															}
  ]
 													}
 ,
-													"patching_rect" : [ 862.583374, 538.923096, 85.0, 20.0 ],
+													"patching_rect" : [ 862.583374, 557.923096, 85.0, 20.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
 														"default_fontname" : "Arial",
@@ -590,7 +718,7 @@
 													"numinlets" : 2,
 													"numoutlets" : 2,
 													"outlettype" : [ "", "" ],
-													"patching_rect" : [ 862.583374, 512.949707, 119.0, 20.0 ],
+													"patching_rect" : [ 862.583374, 481.123657, 119.0, 20.0 ],
 													"text" : "combine Path Name"
 												}
 
@@ -634,7 +762,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 449.0, 22.0, 204.0, 18.0 ],
-													"text" : "\"work:/Users/reno/Desktop/a folder/\""
+													"text" : "work:/Users/reno/Desktop/"
 												}
 
 											}
@@ -732,7 +860,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 169.0, 35.0, 59.0, 20.0 ],
-																	"presentation_rect" : [ 173.0, 35.0, 0.0, 0.0 ],
 																	"text" : "tosymbol"
 																}
 
@@ -747,7 +874,6 @@
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 16.0, 35.0, 59.0, 20.0 ],
-																	"presentation_rect" : [ 16.0, 35.0, 0.0, 0.0 ],
 																	"text" : "tosymbol"
 																}
 
@@ -1070,9 +1196,9 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 2,
-													"outlettype" : [ "", "bang" ],
-													"patching_rect" : [ 805.5, 223.0, 100.0, 20.0 ],
-													"text" : "t s b"
+													"outlettype" : [ "bang", "" ],
+													"patching_rect" : [ 805.5, 223.0, 46.0, 20.0 ],
+													"text" : "t b s"
 												}
 
 											}
@@ -1221,12 +1347,11 @@
 													"fontsize" : 12.0,
 													"frgb" : 0.0,
 													"id" : "obj-63",
-													"linecount" : 2,
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 1008.833252, 379.026611, 347.0, 33.0 ],
-													"text" : "#3 : ask paths for each type and copy them into a folder (name of the type) inside the folder project"
+													"patching_rect" : [ 1018.833313, 363.053528, 347.0, 20.0 ],
+													"text" : "#3 : ask paths for each type "
 												}
 
 											}
@@ -1239,7 +1364,7 @@
 													"maxclass" : "comment",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 955.583374, 538.923096, 261.0, 20.0 ],
+													"patching_rect" : [ 955.583374, 551.923096, 261.0, 20.0 ],
 													"text" : "#1 : create a folder and move the project inside"
 												}
 
@@ -1896,16 +2021,16 @@
 													"destination" : [ "obj-60", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-14", 1 ]
+													"source" : [ "obj-14", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-77", 0 ],
+													"destination" : [ "obj-82", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"source" : [ "obj-14", 0 ]
+													"source" : [ "obj-14", 1 ]
 												}
 
 											}
@@ -2349,7 +2474,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-82", 0 ],
+													"destination" : [ "obj-77", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-46", 0 ]
@@ -2361,7 +2486,7 @@
 													"destination" : [ "obj-46", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 939.333313, 325.211548, 1175.666626, 325.211548 ],
+													"midpoints" : [ 939.333313, 325.211548, 1118.666626, 325.211548 ],
 													"source" : [ "obj-47", 1 ]
 												}
 
@@ -2445,7 +2570,15 @@
 													"destination" : [ "obj-54", 0 ],
 													"disabled" : 0,
 													"hidden" : 0,
-													"midpoints" : [ 1000.083374, 535.436401, 872.083374, 535.436401 ],
+													"source" : [ "obj-53", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-89", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
 													"source" : [ "obj-53", 0 ]
 												}
 
@@ -2483,15 +2616,6 @@
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-59", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-53", 0 ],
-													"disabled" : 0,
-													"hidden" : 0,
-													"source" : [ "obj-59", 1 ]
 												}
 
 											}
@@ -2579,7 +2703,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-53", 1 ],
+													"destination" : [ "obj-53", 2 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-69", 1 ]
@@ -2615,7 +2739,25 @@
 											}
 , 											{
 												"patchline" : 												{
+													"destination" : [ "obj-53", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-74", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
 													"destination" : [ "obj-54", 0 ],
+													"disabled" : 0,
+													"hidden" : 0,
+													"source" : [ "obj-74", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-88", 1 ],
 													"disabled" : 0,
 													"hidden" : 0,
 													"source" : [ "obj-74", 0 ]
@@ -19909,13 +20051,13 @@
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-95",
-													"linecount" : 4,
+													"linecount" : 5,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 414.0, 265.0, 136.5, 45.0 ],
-													"text" : "contains \"paths::work:/Users/reno/Movies/photo jpeg/::tags\""
+													"patching_rect" : [ 414.0, 265.0, 136.5, 72.0 ],
+													"text" : "contains \"paths::work:/Users/reno/Movies/hap/pluie nette loop-HAP.mov::tags\""
 												}
 
 											}
