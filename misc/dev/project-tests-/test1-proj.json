@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-18T18:35:08",
-		"lastsaved" : "2013-07-18T19:07:36",
+		"lastopened" : "2013-07-22T11:28:19",
+		"lastsaved" : "2013-07-23T02:18:27",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -265,9 +265,8 @@
 
 		}
 ,
-		"soundevent_copy" : 		{
-			"tags" : "audio",
-			"description" : [ "just", "another", "test" ],
+		"soundevent_copy_copy" : 		{
+			"tags" : [ "a", "tag", "another", "tag" ],
 			"data" : 			{
 				"0" : 				{
 					"comment0" : "this is where the fun begins",
@@ -308,7 +307,49 @@
 
 		}
 ,
-		"soundevent_copy_copy" : 		{
+		"soundevent copy" : 		{
+			"tags" : [ "one", "more", "tag" ],
+			"description" : [ "this", "is", "where", "the", "fun", "begins" ],
+			"data" : 			{
+				"0" : 				{
+					"del" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"time" : 325.0,
+							"fb" : 0.08,
+							"vol" : 0.95,
+							"volrand" : 0,
+							"delrand" : 0,
+							"fbrand" : 0
+						}
+
+					}
+,
+					"comment0" : "un comment",
+					"comment1" : "un autre comment",
+					"comment2" : "watch out for this one",
+					"filt" : 					{
+						"1" : 						{
+							"sw" : 1,
+							"mode" : "peaknotch",
+							"gainenable" : 0,
+							"freq" : 334.389008,
+							"gain" : -24.0,
+							"q" : 0.9,
+							"vol" : 1,
+							"volrand" : 0,
+							"freqrand" : 0
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"soundevent_copy_copy_copy" : 		{
 			"tags" : [ "a", "tag", "another", "tag" ],
 			"data" : 			{
 				"0" : 				{
