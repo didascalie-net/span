@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-22T11:28:19",
-		"lastsaved" : "2013-07-23T02:18:27",
+		"lastopened" : "2013-07-23T19:26:27",
+		"lastsaved" : "2013-07-23T20:41:50",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -82,142 +82,7 @@
 	"events" : 	{
 		"temp" : 		{
 			"data" : 			{
-				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 325.0,
-							"fb" : 0.08,
-							"vol" : 0.95,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-,
-						"2" : 						{
-							"sw" : 0,
-							"time" : 0,
-							"fb" : 0,
-							"vol" : 1,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-,
-						"3" : 						{
-							"sw" : 0,
-							"time" : 0,
-							"fb" : 0,
-							"vol" : 1,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-,
-						"4" : 						{
-							"sw" : 0,
-							"time" : 0,
-							"fb" : 0,
-							"vol" : 1,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-,
-						"5" : 						{
-							"sw" : 0,
-							"time" : 0,
-							"fb" : 0,
-							"vol" : 1,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-,
-						"6" : 						{
-							"sw" : 0,
-							"time" : 0,
-							"fb" : 0,
-							"vol" : 1,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-,
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "peaknotch",
-							"gainenable" : 0,
-							"freq" : 334.388794,
-							"gain" : -24.0,
-							"q" : 0.9,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-,
-						"2" : 						{
-							"sw" : 0,
-							"mode" : "lowpass",
-							"gainenable" : 0,
-							"freq" : 22050.0,
-							"gain" : 0,
-							"q" : 0.707,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-,
-						"3" : 						{
-							"sw" : 0,
-							"mode" : "lowpass",
-							"gainenable" : 0,
-							"freq" : 22050.0,
-							"gain" : 0,
-							"q" : 0.707,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-,
-						"4" : 						{
-							"sw" : 0,
-							"mode" : "lowpass",
-							"gainenable" : 0,
-							"freq" : 22050.0,
-							"gain" : 0,
-							"q" : 0.707,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-,
-						"5" : 						{
-							"sw" : 0,
-							"mode" : "lowpass",
-							"gainenable" : 0,
-							"freq" : 22050.0,
-							"gain" : 0,
-							"q" : 0.707,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-,
-					"mouse" : 					{
-						"1" : 						{
-							"sw" : 0
-						}
-
-					}
-
-				}
-
+				"0" : ""
 			}
 ,
 			"tags" : "temp"
@@ -228,163 +93,113 @@
 			"description" : [ "this", "is", "where", "the", "fun", "begins" ],
 			"data" : 			{
 				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 325.0,
-							"fb" : 0.08,
-							"vol" : 0.95,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
+					"/del.1/sw" : 1,
+					"/del.1/time" : 325.0
+				}
 ,
-					"comment0" : "un comment",
-					"comment1" : "un autre comment",
-					"comment2" : "watch out for this one",
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "peaknotch",
-							"gainenable" : 0,
-							"freq" : 334.389008,
-							"gain" : -24.0,
-							"q" : 0.9,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-
+				"500" : 				{
+					"/del.1/fb" : 0.08,
+					"/del.1/vol" : 0.95,
+					"// 0" : "un comment",
+					"/del.1/volrand" : 0,
+					"/del.1/delrand" : 0,
+					"/del.1/fbrand" : 0
+				}
+,
+				"1000" : 				{
+					"// 1" : "watch out for this one",
+					"/filt.1/sw" : 1,
+					"/filt.1/mode" : "peaknotch",
+					"// 2" : "un autre comment",
+					"/filt.1/gainenable" : 0,
+					"/filt.1/freq" : 334.389008
+				}
+,
+				"2000" : 				{
+					"/filt.1/gain" : -24.0,
+					"/filt.1/q" : 0.9,
+					"/filt.1/vol" : 0
+				}
+,
+				"2001" : 				{
+					"/filt.1/vol" : [ 1, 1000 ]
+				}
+,
+				"2002" : 				{
+					"/filt.1/vol" : 0
+				}
+,
+				"2003" : 				{
+					"/filt.1/vol" : 1
+				}
+,
+				"3003" : 				{
+					"/filt.1/volrand" : 0,
+					"/filt.1/freqrand" : 0
+				}
+,
+				"3203" : 				{
+					"/filt.1/init" : "bang",
+					"/del.1/init" : "bang"
 				}
 
 			}
 
 		}
 ,
-		"soundevent_copy_copy" : 		{
-			"tags" : [ "a", "tag", "another", "tag" ],
-			"data" : 			{
-				"0" : 				{
-					"comment0" : "this is where the fun begins",
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 325.0,
-							"fb" : 0.08,
-							"vol" : 0.95,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-,
-					"comment1" : "un comment",
-					"comment2" : "un autre comment",
-					"comment3" : "watch out for this one",
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "peaknotch",
-							"gainenable" : 0,
-							"freq" : 334.389008,
-							"gain" : -24.0,
-							"q" : 0.9,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-
-				}
-
-			}
-
-		}
-,
-		"soundevent copy" : 		{
-			"tags" : [ "one", "more", "tag" ],
+		"soundevent_test" : 		{
+			"tags" : [ "audio", "audio munchies" ],
 			"description" : [ "this", "is", "where", "the", "fun", "begins" ],
 			"data" : 			{
 				"0" : 				{
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 325.0,
-							"fb" : 0.08,
-							"vol" : 0.95,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
-,
-					"comment0" : "un comment",
-					"comment1" : "un autre comment",
-					"comment2" : "watch out for this one",
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "peaknotch",
-							"gainenable" : 0,
-							"freq" : 334.389008,
-							"gain" : -24.0,
-							"q" : 0.9,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-
+					"/del.1/sw" : 1,
+					"/del.1/time" : 325.0
 				}
-
-			}
-
-		}
 ,
-		"soundevent_copy_copy_copy" : 		{
-			"tags" : [ "a", "tag", "another", "tag" ],
-			"data" : 			{
-				"0" : 				{
-					"comment0" : "this is where the fun begins",
-					"del" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"time" : 325.0,
-							"fb" : 0.08,
-							"vol" : 0.95,
-							"volrand" : 0,
-							"delrand" : 0,
-							"fbrand" : 0
-						}
-
-					}
+				"500" : 				{
+					"/del.1/fb" : 0.08,
+					"/del.1/vol" : 0.95,
+					"// 0" : "un comment",
+					"/del.1/volrand" : 0,
+					"/del.1/delrand" : 0,
+					"/del.1/fbrand" : 0
+				}
 ,
-					"comment1" : "un comment",
-					"comment2" : "un autre comment",
-					"comment3" : "watch out for this one",
-					"filt" : 					{
-						"1" : 						{
-							"sw" : 1,
-							"mode" : "peaknotch",
-							"gainenable" : 0,
-							"freq" : 334.389008,
-							"gain" : -24.0,
-							"q" : 0.9,
-							"vol" : 1,
-							"volrand" : 0,
-							"freqrand" : 0
-						}
-
-					}
-
+				"1000" : 				{
+					"// 1" : "watch out for this one",
+					"/filt.1/sw" : 1,
+					"/filt.1/mode" : "peaknotch",
+					"// 2" : "un autre comment",
+					"/filt.1/gainenable" : 0,
+					"/filt.1/freq" : 334.389008
+				}
+,
+				"2000" : 				{
+					"/filt.1/gain" : -24.0,
+					"/filt.1/q" : 0.9,
+					"/filt.1/vol" : 0
+				}
+,
+				"2001" : 				{
+					"/filt.1/vol" : [ 1, 1000 ]
+				}
+,
+				"2002" : 				{
+					"/filt.1/vol" : 0
+				}
+,
+				"2003" : 				{
+					"/filt.1/vol" : 1
+				}
+,
+				"3003" : 				{
+					"/filt.1/volrand" : 0,
+					"/filt.1/freqrand" : 0
+				}
+,
+				"3203" : 				{
+					"/filt.1/init" : "bang",
+					"/del.1/init" : "bang"
 				}
 
 			}
