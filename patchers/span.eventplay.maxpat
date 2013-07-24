@@ -65,7 +65,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 644.399963, 344.880005, 106.250061, 20.0 ],
-					"presentation_rect" : [ 640.899963, 343.880005, 0.0, 0.0 ],
 					"text" : "zl reg"
 				}
 
@@ -122,7 +121,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 67.21666, 583.880005, 38.0, 20.0 ],
-					"presentation_rect" : [ 66.300003, 590.480042, 0.0, 0.0 ],
 					"text" : "defer"
 				}
 
@@ -212,13 +210,12 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-204",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 165.791687, 52.0, 195.0, 31.0 ],
-									"text" : "getval preferences::paraminstanceformat"
+									"patching_rect" : [ 165.791687, 52.0, 197.0, 18.0 ],
+									"text" : "getval system::data::events::format"
 								}
 
 							}
@@ -718,6 +715,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 27.216658, 5.5, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1514,6 +1515,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.299999, 774.447083, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -1527,10 +1532,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 271.216644, 199.032959, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 

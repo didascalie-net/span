@@ -995,8 +995,23 @@ implemented new event format in /span/events/create\
 implemented auto comment with module/instance into /span/events/create\
 events: force description text into symbol\
 \
+---\
+remove paraminstanceformat preferences that was recently created and replaced with system::data::events::format. Included system::data::events::"format explanatoin" to describe use:\
+	"1=instances with dot (/module.1/param), 2=instances with slash (/module/1/param)"\
+\
+modified in all uses of patcher "dot2slash/slash2dot"\
+\
+create another system::data::events key called "hidetags". This will control whether tags will show in event edit (not done yet).\
+\
+put these values into span-base (dict)\
+\
+fixed  where comment numbers now appearing in event edit. Had to keep event edit from modifying instance format for module-instance names that are in comments.\
+\
+\
 \
 todo: need to make sure empty event works\
+todo: make appearance of tags optional in event edit.\
+\
 \
 \
 }
