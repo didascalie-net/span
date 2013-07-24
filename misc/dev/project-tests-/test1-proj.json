@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-24T13:00:01",
-		"lastsaved" : "2013-07-24T13:05:16",
+		"lastopened" : "2013-07-24T18:21:27",
+		"lastsaved" : "2013-07-24T18:24:04",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -83,13 +83,15 @@
 		"temp" : 		{
 			"data" : 			{
 				"0" : 				{
+					"// 0" : "---------- /del.1 ----------",
 					"/del.1/sw" : 1,
-					"/del.1/time" : 67.0,
-					"/del.1/fb" : 0.013,
-					"/del.1/vol" : 0.7,
+					"/del.1/time" : 217.0,
+					"/del.1/fb" : 0,
+					"/del.1/vol" : 1,
 					"/del.1/volrand" : 0,
 					"/del.1/delrand" : 0,
 					"/del.1/fbrand" : 0,
+					"// 1" : "---------- /del.2 ----------",
 					"/del.2/sw" : 0,
 					"/del.2/time" : 0,
 					"/del.2/fb" : 0,
@@ -97,6 +99,7 @@
 					"/del.2/volrand" : 0,
 					"/del.2/delrand" : 0,
 					"/del.2/fbrand" : 0,
+					"// 2" : "---------- /del.3 ----------",
 					"/del.3/sw" : 0,
 					"/del.3/time" : 0,
 					"/del.3/fb" : 0,
@@ -104,6 +107,7 @@
 					"/del.3/volrand" : 0,
 					"/del.3/delrand" : 0,
 					"/del.3/fbrand" : 0,
+					"// 3" : "---------- /del.4 ----------",
 					"/del.4/sw" : 0,
 					"/del.4/time" : 0,
 					"/del.4/fb" : 0,
@@ -111,6 +115,7 @@
 					"/del.4/volrand" : 0,
 					"/del.4/delrand" : 0,
 					"/del.4/fbrand" : 0,
+					"// 4" : "---------- /del.5 ----------",
 					"/del.5/sw" : 0,
 					"/del.5/time" : 0,
 					"/del.5/fb" : 0,
@@ -118,6 +123,7 @@
 					"/del.5/volrand" : 0,
 					"/del.5/delrand" : 0,
 					"/del.5/fbrand" : 0,
+					"// 5" : "---------- /del.6 ----------",
 					"/del.6/sw" : 0,
 					"/del.6/time" : 0,
 					"/del.6/fb" : 0,
@@ -125,57 +131,62 @@
 					"/del.6/volrand" : 0,
 					"/del.6/delrand" : 0,
 					"/del.6/fbrand" : 0,
+					"// 6" : "---------- /filt.1 ----------",
 					"/filt.1/sw" : 1,
 					"/filt.1/mode" : "highpass",
 					"/filt.1/gainenable" : 1,
-					"/filt.1/freq" : 276.709991,
-					"/filt.1/gain" : 0.959,
-					"/filt.1/q" : 1.571,
+					"/filt.1/freq" : 251.690979,
+					"/filt.1/gain" : 2.73958,
+					"/filt.1/q" : 1.42127,
 					"/filt.1/vol" : 1,
 					"/filt.1/volrand" : 0,
 					"/filt.1/freqrand" : 0,
+					"// 7" : "---------- /filt.2 ----------",
 					"/filt.2/sw" : 0,
 					"/filt.2/mode" : "lowpass",
 					"/filt.2/gainenable" : 0,
-					"/filt.2/freq" : 22050,
+					"/filt.2/freq" : 22050.0,
 					"/filt.2/gain" : 0,
 					"/filt.2/q" : 0.707,
 					"/filt.2/vol" : 1,
 					"/filt.2/volrand" : 0,
 					"/filt.2/freqrand" : 0,
+					"// 8" : "---------- /filt.3 ----------",
 					"/filt.3/sw" : 0,
 					"/filt.3/mode" : "lowpass",
 					"/filt.3/gainenable" : 0,
-					"/filt.3/freq" : 22050,
+					"/filt.3/freq" : 22050.0,
 					"/filt.3/gain" : 0,
 					"/filt.3/q" : 0.707,
 					"/filt.3/vol" : 1,
 					"/filt.3/volrand" : 0,
 					"/filt.3/freqrand" : 0,
+					"// 9" : "---------- /filt.4 ----------",
 					"/filt.4/sw" : 0,
 					"/filt.4/mode" : "lowpass",
 					"/filt.4/gainenable" : 0,
-					"/filt.4/freq" : 22050,
+					"/filt.4/freq" : 22050.0,
 					"/filt.4/gain" : 0,
 					"/filt.4/q" : 0.707,
 					"/filt.4/vol" : 1,
 					"/filt.4/volrand" : 0,
 					"/filt.4/freqrand" : 0,
+					"// 10" : "---------- /filt.5 ----------",
 					"/filt.5/sw" : 0,
 					"/filt.5/mode" : "lowpass",
 					"/filt.5/gainenable" : 0,
-					"/filt.5/freq" : 22050,
+					"/filt.5/freq" : 22050.0,
 					"/filt.5/gain" : 0,
 					"/filt.5/q" : 0.707,
 					"/filt.5/vol" : 1,
 					"/filt.5/volrand" : 0,
 					"/filt.5/freqrand" : 0,
-					"/mouse.1/sw" : 0
+					"// 11" : "---------- /mouse.1 ----------",
+					"/mouse.1/sw" : 1
 				}
 
 			}
-,
-			"tags" : "temp"
+
 		}
 ,
 		"soundevent" : 		{
@@ -184,7 +195,7 @@
 			"data" : 			{
 				"0" : 				{
 					"/del.1/sw" : 1,
-					"/del.1/time" : 325.0
+					"/del.4/sw" : 0
 				}
 ,
 				"500" : 				{
@@ -237,83 +248,73 @@
 
 		}
 ,
-		"soundevent_test" : 		{
-			"tags" : [ "audio", "audio munchies" ],
-			"description" : [ "this", "is", "where", "the", "fun", "begins" ],
+		"newformattest1" : 		{
+			"tags" : [ "audio", "midi" ],
+			"description" : "test an event a day",
 			"data" : 			{
 				"0" : 				{
+					"// 0" : "---------- /del.1 ----------",
 					"/del.1/sw" : 1,
-					"/del.1/time" : 325.0
-				}
-,
-				"500" : 				{
-					"/del.1/fb" : 0.08,
-					"/del.1/vol" : 0.95,
-					"// 0" : "un comment",
+					"/del.1/time" : 336.0,
+					"/del.1/fb" : 0.264,
+					"/del.1/vol" : 0.97,
 					"/del.1/volrand" : 0,
 					"/del.1/delrand" : 0,
-					"/del.1/fbrand" : 0
-				}
-,
-				"1000" : 				{
-					"// 1" : "watch out for this one",
+					"/del.1/fbrand" : 0,
+					"// 1" : "---------- /del.2 ----------",
+					"/del.2/sw" : 1,
+					"/del.2/time" : 436.0,
+					"/del.2/fb" : 0.364,
+					"/del.2/vol" : 0.87,
+					"/del.2/volrand" : 0,
+					"/del.2/delrand" : 0,
+					"/del.2/fbrand" : 0,
+					"// 2" : "---------- /filt.1 ----------",
 					"/filt.1/sw" : 1,
-					"/filt.1/mode" : "peaknotch",
-					"// 2" : "un autre comment",
-					"/filt.1/gainenable" : 0,
-					"/filt.1/freq" : 334.389008
-				}
-,
-				"2000" : 				{
-					"/filt.1/gain" : -24.0,
-					"/filt.1/q" : 0.9,
-					"/filt.1/vol" : 0
-				}
-,
-				"2001" : 				{
-					"/filt.1/vol" : [ 1, 1000 ]
-				}
-,
-				"2002" : 				{
-					"/filt.1/vol" : 0
-				}
-,
-				"2003" : 				{
-					"/filt.1/vol" : 1
-				}
-,
-				"3003" : 				{
+					"/filt.1/mode" : "highpass",
+					"/filt.1/gainenable" : 1,
+					"/filt.1/freq" : 318.937988,
+					"/filt.1/gain" : 0.959,
+					"/filt.1/q" : 1.307,
+					"/filt.1/vol" : 0.993,
 					"/filt.1/volrand" : 0,
-					"/filt.1/freqrand" : 0
-				}
-,
-				"3203" : 				{
-					"/filt.1/init" : "bang",
-					"/del.1/init" : "bang"
+					"/filt.1/freqrand" : 0,
+					"// 3" : "---------- /filt.3 ----------",
+					"/filt.3/sw" : 1,
+					"/filt.3/mode" : "bandpass",
+					"/filt.3/gainenable" : 1,
+					"/filt.3/freq" : 617.828979,
+					"/filt.3/gain" : 5.112,
+					"/filt.3/q" : 1.755,
+					"/filt.3/vol" : 1,
+					"/filt.3/volrand" : 0,
+					"/filt.3/freqrand" : 0,
+					"// 4" : "---------- /mouse.1 ----------",
+					"/mouse.1/sw" : 1
 				}
 
 			}
 
 		}
 ,
-		"newformattest1" : 		{
-			"tags" : [ "audio", "midi" ],
-			"description" : "good ol' fashioned test event",
+		"eventtest-all" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
 			"data" : 			{
 				"0" : 				{
 					"// 0" : "---------- /del.1 ----------",
 					"/del.1/sw" : 1,
-					"/del.1/time" : 0,
-					"/del.1/fb" : 0,
-					"/del.1/vol" : 1,
+					"/del.1/time" : 336.0,
+					"/del.1/fb" : 0.264,
+					"/del.1/vol" : 0.97,
 					"/del.1/volrand" : 0,
 					"/del.1/delrand" : 0,
 					"/del.1/fbrand" : 0,
 					"// 1" : "---------- /del.2 ----------",
-					"/del.2/sw" : 0,
-					"/del.2/time" : 0,
-					"/del.2/fb" : 0,
-					"/del.2/vol" : 1,
+					"/del.2/sw" : 1,
+					"/del.2/time" : 436.0,
+					"/del.2/fb" : 0.364,
+					"/del.2/vol" : 0.87,
 					"/del.2/volrand" : 0,
 					"/del.2/delrand" : 0,
 					"/del.2/fbrand" : 0,
@@ -350,13 +351,13 @@
 					"/del.6/delrand" : 0,
 					"/del.6/fbrand" : 0,
 					"// 6" : "---------- /filt.1 ----------",
-					"/filt.1/sw" : 0,
-					"/filt.1/mode" : "lowpass",
-					"/filt.1/gainenable" : 0,
-					"/filt.1/freq" : 22050,
-					"/filt.1/gain" : 0,
-					"/filt.1/q" : 0.707,
-					"/filt.1/vol" : 1,
+					"/filt.1/sw" : 1,
+					"/filt.1/mode" : "highpass",
+					"/filt.1/gainenable" : 1,
+					"/filt.1/freq" : 318.937988,
+					"/filt.1/gain" : 0.959,
+					"/filt.1/q" : 1.307,
+					"/filt.1/vol" : 0.993,
 					"/filt.1/volrand" : 0,
 					"/filt.1/freqrand" : 0,
 					"// 7" : "---------- /filt.2 ----------",
@@ -370,12 +371,12 @@
 					"/filt.2/volrand" : 0,
 					"/filt.2/freqrand" : 0,
 					"// 8" : "---------- /filt.3 ----------",
-					"/filt.3/sw" : 0,
-					"/filt.3/mode" : "lowpass",
-					"/filt.3/gainenable" : 0,
-					"/filt.3/freq" : 22050,
-					"/filt.3/gain" : 0,
-					"/filt.3/q" : 0.707,
+					"/filt.3/sw" : 1,
+					"/filt.3/mode" : "bandpass",
+					"/filt.3/gainenable" : 1,
+					"/filt.3/freq" : 617.828979,
+					"/filt.3/gain" : 5.112,
+					"/filt.3/q" : 1.755,
 					"/filt.3/vol" : 1,
 					"/filt.3/volrand" : 0,
 					"/filt.3/freqrand" : 0,
@@ -400,7 +401,129 @@
 					"/filt.5/volrand" : 0,
 					"/filt.5/freqrand" : 0,
 					"// 11" : "---------- /mouse.1 ----------",
-					"/mouse.1/sw" : 0
+					"/mouse.1/sw" : 1
+				}
+
+			}
+
+		}
+,
+		"eventtest-allactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /del.1 ----------",
+					"/del.1/sw" : 1,
+					"/del.1/time" : 336.0,
+					"/del.1/fb" : 0.264,
+					"/del.1/vol" : 0.97,
+					"/del.1/volrand" : 0,
+					"/del.1/delrand" : 0,
+					"/del.1/fbrand" : 0,
+					"// 1" : "---------- /del.2 ----------",
+					"/del.2/sw" : 1,
+					"/del.2/time" : 436.0,
+					"/del.2/fb" : 0.364,
+					"/del.2/vol" : 0.87,
+					"/del.2/volrand" : 0,
+					"/del.2/delrand" : 0,
+					"/del.2/fbrand" : 0,
+					"// 2" : "---------- /filt.1 ----------",
+					"/filt.1/sw" : 1,
+					"/filt.1/mode" : "highpass",
+					"/filt.1/gainenable" : 1,
+					"/filt.1/freq" : 318.937988,
+					"/filt.1/gain" : 0.959,
+					"/filt.1/q" : 1.307,
+					"/filt.1/vol" : 0.993,
+					"/filt.1/volrand" : 0,
+					"/filt.1/freqrand" : 0,
+					"// 3" : "---------- /filt.3 ----------",
+					"/filt.3/sw" : 1,
+					"/filt.3/mode" : "bandpass",
+					"/filt.3/gainenable" : 1,
+					"/filt.3/freq" : 617.828979,
+					"/filt.3/gain" : 5.112,
+					"/filt.3/q" : 1.755,
+					"/filt.3/vol" : 1,
+					"/filt.3/volrand" : 0,
+					"/filt.3/freqrand" : 0,
+					"// 4" : "---------- /mouse.1 ----------",
+					"/mouse.1/sw" : 1
+				}
+
+			}
+
+		}
+,
+		"testevent-controlactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /mouse.1 ----------",
+					"/mouse.1/sw" : 1
+				}
+
+			}
+
+		}
+,
+		"testevent-audioactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /del.1 ----------",
+					"/del.1/sw" : 1,
+					"/del.1/time" : 336.0,
+					"/del.1/fb" : 0.264,
+					"/del.1/vol" : 0.97,
+					"/del.1/volrand" : 0,
+					"/del.1/delrand" : 0,
+					"/del.1/fbrand" : 0,
+					"// 1" : "---------- /del.2 ----------",
+					"/del.2/sw" : 1,
+					"/del.2/time" : 436.0,
+					"/del.2/fb" : 0.364,
+					"/del.2/vol" : 0.87,
+					"/del.2/volrand" : 0,
+					"/del.2/delrand" : 0,
+					"/del.2/fbrand" : 0,
+					"// 2" : "---------- /filt.1 ----------",
+					"/filt.1/sw" : 1,
+					"/filt.1/mode" : "highpass",
+					"/filt.1/gainenable" : 1,
+					"/filt.1/freq" : 318.937988,
+					"/filt.1/gain" : 0.959,
+					"/filt.1/q" : 1.307,
+					"/filt.1/vol" : 0.993,
+					"/filt.1/volrand" : 0,
+					"/filt.1/freqrand" : 0,
+					"// 3" : "---------- /filt.3 ----------",
+					"/filt.3/sw" : 1,
+					"/filt.3/mode" : "bandpass",
+					"/filt.3/gainenable" : 1,
+					"/filt.3/freq" : 617.828979,
+					"/filt.3/gain" : 5.112,
+					"/filt.3/q" : 1.755,
+					"/filt.3/vol" : 1,
+					"/filt.3/volrand" : 0,
+					"/filt.3/freqrand" : 0
+				}
+
+			}
+
+		}
+,
+		"testevent-deviceactive" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /mouse.1 ----------",
+					"/mouse.1/sw" : 1
 				}
 
 			}
