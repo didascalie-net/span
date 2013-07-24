@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-24T18:21:27",
-		"lastsaved" : "2013-07-24T18:24:04",
+		"lastopened" : "2013-07-24T18:27:07",
+		"lastsaved" : "2013-07-24T19:13:29",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -76,6 +76,77 @@
 	}
 ,
 	"temp" : 	{
+		"del" : 		{
+			"1" : 			{
+				"sw" : 1,
+				"time" : 336.0,
+				"fb" : 0.264,
+				"vol" : 0.97,
+				"volrand" : 0,
+				"delrand" : 0,
+				"fbrand" : 0
+			}
+,
+			"2" : 			{
+				"sw" : 1,
+				"time" : 1096.0,
+				"fb" : 0.9927,
+				"vol" : 0.974,
+				"volrand" : 0,
+				"delrand" : 0,
+				"fbrand" : 0
+			}
+,
+			"3" : 			{
+				"sw" : 0,
+				"time" : 0,
+				"fb" : 0,
+				"vol" : 1,
+				"volrand" : 0,
+				"delrand" : 0,
+				"fbrand" : 0
+			}
+
+		}
+,
+		"filt" : 		{
+			"1" : 			{
+				"sw" : 1,
+				"mode" : "highpass",
+				"gainenable" : 1,
+				"freq" : 318.937988,
+				"gain" : 0.959,
+				"q" : 1.307,
+				"vol" : 0.993,
+				"volrand" : 0,
+				"freqrand" : 0
+			}
+,
+			"3" : 			{
+				"sw" : 1,
+				"mode" : "bandpass",
+				"gainenable" : 1,
+				"freq" : 617.828979,
+				"gain" : 5.112,
+				"q" : 1.755,
+				"vol" : 1,
+				"volrand" : 0,
+				"freqrand" : 0
+			}
+,
+			"2" : 			{
+				"sw" : 1,
+				"mode" : "lowpass",
+				"gainenable" : 1,
+				"freq" : 198.525742,
+				"gain" : -4.384469,
+				"q" : 2.902565,
+				"vol" : 0.9993,
+				"volrand" : 0,
+				"freqrand" : 0
+			}
+
+		}
 
 	}
 ,
@@ -85,17 +156,17 @@
 				"0" : 				{
 					"// 0" : "---------- /del.1 ----------",
 					"/del.1/sw" : 1,
-					"/del.1/time" : 217.0,
-					"/del.1/fb" : 0,
-					"/del.1/vol" : 1,
+					"/del.1/time" : 336.0,
+					"/del.1/fb" : 0.264,
+					"/del.1/vol" : 0.97,
 					"/del.1/volrand" : 0,
 					"/del.1/delrand" : 0,
 					"/del.1/fbrand" : 0,
 					"// 1" : "---------- /del.2 ----------",
-					"/del.2/sw" : 0,
-					"/del.2/time" : 0,
-					"/del.2/fb" : 0,
-					"/del.2/vol" : 1,
+					"/del.2/sw" : 1,
+					"/del.2/time" : 1096.0,
+					"/del.2/fb" : 0.9927,
+					"/del.2/vol" : 0.974,
 					"/del.2/volrand" : 0,
 					"/del.2/delrand" : 0,
 					"/del.2/fbrand" : 0,
@@ -135,29 +206,29 @@
 					"/filt.1/sw" : 1,
 					"/filt.1/mode" : "highpass",
 					"/filt.1/gainenable" : 1,
-					"/filt.1/freq" : 251.690979,
-					"/filt.1/gain" : 2.73958,
-					"/filt.1/q" : 1.42127,
-					"/filt.1/vol" : 1,
+					"/filt.1/freq" : 318.937988,
+					"/filt.1/gain" : 0.959,
+					"/filt.1/q" : 1.307,
+					"/filt.1/vol" : 0.993,
 					"/filt.1/volrand" : 0,
 					"/filt.1/freqrand" : 0,
 					"// 7" : "---------- /filt.2 ----------",
-					"/filt.2/sw" : 0,
+					"/filt.2/sw" : 1,
 					"/filt.2/mode" : "lowpass",
-					"/filt.2/gainenable" : 0,
-					"/filt.2/freq" : 22050.0,
-					"/filt.2/gain" : 0,
-					"/filt.2/q" : 0.707,
-					"/filt.2/vol" : 1,
+					"/filt.2/gainenable" : 1,
+					"/filt.2/freq" : 198.525742,
+					"/filt.2/gain" : -4.384469,
+					"/filt.2/q" : 2.902565,
+					"/filt.2/vol" : 0.9993,
 					"/filt.2/volrand" : 0,
 					"/filt.2/freqrand" : 0,
 					"// 8" : "---------- /filt.3 ----------",
-					"/filt.3/sw" : 0,
-					"/filt.3/mode" : "lowpass",
-					"/filt.3/gainenable" : 0,
-					"/filt.3/freq" : 22050.0,
-					"/filt.3/gain" : 0,
-					"/filt.3/q" : 0.707,
+					"/filt.3/sw" : 1,
+					"/filt.3/mode" : "bandpass",
+					"/filt.3/gainenable" : 1,
+					"/filt.3/freq" : 617.828979,
+					"/filt.3/gain" : 5.112,
+					"/filt.3/q" : 1.755,
 					"/filt.3/vol" : 1,
 					"/filt.3/volrand" : 0,
 					"/filt.3/freqrand" : 0,
@@ -182,7 +253,7 @@
 					"/filt.5/volrand" : 0,
 					"/filt.5/freqrand" : 0,
 					"// 11" : "---------- /mouse.1 ----------",
-					"/mouse.1/sw" : 1
+					"/mouse.1/sw" : 0
 				}
 
 			}
@@ -524,6 +595,63 @@
 				"0" : 				{
 					"// 0" : "---------- /mouse.1 ----------",
 					"/mouse.1/sw" : 1
+				}
+
+			}
+
+		}
+,
+		"2013-07-24T19:13:28" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "---------- /del.1 ----------",
+					"/del.1/sw" : 1,
+					"/del.1/time" : 336.0,
+					"/del.1/fb" : 0.264,
+					"/del.1/vol" : 0.97,
+					"/del.1/volrand" : 0,
+					"/del.1/delrand" : 0,
+					"/del.1/fbrand" : 0,
+					"// 1" : "---------- /del.2 ----------",
+					"/del.2/sw" : 1,
+					"/del.2/time" : 1096.0,
+					"/del.2/fb" : 0.9927,
+					"/del.2/vol" : 0.974,
+					"/del.2/volrand" : 0,
+					"/del.2/delrand" : 0,
+					"/del.2/fbrand" : 0,
+					"// 2" : "---------- /filt.1 ----------",
+					"/filt.1/sw" : 1,
+					"/filt.1/mode" : "highpass",
+					"/filt.1/gainenable" : 1,
+					"/filt.1/freq" : 318.937988,
+					"/filt.1/gain" : 0.959,
+					"/filt.1/q" : 1.307,
+					"/filt.1/vol" : 0.993,
+					"/filt.1/volrand" : 0,
+					"/filt.1/freqrand" : 0,
+					"// 3" : "---------- /filt.2 ----------",
+					"/filt.2/sw" : 1,
+					"/filt.2/mode" : "lowpass",
+					"/filt.2/gainenable" : 1,
+					"/filt.2/freq" : 198.525742,
+					"/filt.2/gain" : -4.384469,
+					"/filt.2/q" : 2.902565,
+					"/filt.2/vol" : 0.9993,
+					"/filt.2/volrand" : 0,
+					"/filt.2/freqrand" : 0,
+					"// 4" : "---------- /filt.3 ----------",
+					"/filt.3/sw" : 1,
+					"/filt.3/mode" : "bandpass",
+					"/filt.3/gainenable" : 1,
+					"/filt.3/freq" : 617.828979,
+					"/filt.3/gain" : 5.112,
+					"/filt.3/q" : 1.755,
+					"/filt.3/vol" : 1,
+					"/filt.3/volrand" : 0,
+					"/filt.3/freqrand" : 0
 				}
 
 			}
