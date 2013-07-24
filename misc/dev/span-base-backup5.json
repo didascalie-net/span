@@ -64,7 +64,8 @@
 				"defaulttag" : "undefined",
 				"format" : 1,
 				"format_explanation" : "1=instances with dot (/module.1/param), 2=instances with slash (/module/1/param)",
-				"hidetags" : 0
+				"hidetags" : 0,
+				"hidedescription" : 0
 			}
 
 		}
