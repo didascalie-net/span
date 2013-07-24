@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-23T19:26:27",
-		"lastsaved" : "2013-07-23T20:41:50",
+		"lastopened" : "2013-07-24T08:47:22",
+		"lastsaved" : "2013-07-24T10:14:56",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -89,7 +89,7 @@
 		}
 ,
 		"soundevent" : 		{
-			"tags" : "audio",
+			"tags" : [ "audio", "et al" ],
 			"description" : [ "this", "is", "where", "the", "fun", "begins" ],
 			"data" : 			{
 				"0" : 				{
@@ -109,24 +109,24 @@
 				"1000" : 				{
 					"// 1" : "watch out for this one",
 					"/filt.1/sw" : 1,
-					"/filt.1/mode" : "peaknotch",
+					"/filt.1/mode" : [ "peaknotch", "my asss", 1 ],
 					"// 2" : "un autre comment",
 					"/filt.1/gainenable" : 0,
 					"/filt.1/freq" : 334.389008
 				}
 ,
 				"2000" : 				{
-					"/filt.1/gain" : -24.0,
-					"/filt.1/q" : 0.9,
-					"/filt.1/vol" : 0
+					"/filt.1/vol" : 0,
+					"/filt.1/gain" : -24.0
 				}
 ,
 				"2001" : 				{
-					"/filt.1/vol" : [ 1, 1000 ]
+					"/filt.1/vol" : [ 1, 1000 ],
+					"/filt.1/q" : 0.9
 				}
 ,
 				"2002" : 				{
-					"/filt.1/vol" : 0
+					"/filt.1/vol" : [ 0, "then", 0.5, 200 ]
 				}
 ,
 				"2003" : 				{
