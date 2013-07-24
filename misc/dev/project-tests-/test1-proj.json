@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-24T08:47:22",
-		"lastsaved" : "2013-07-24T10:14:56",
+		"lastopened" : "2013-07-24T10:32:26",
+		"lastsaved" : "2013-07-24T10:45:18",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -90,7 +90,7 @@
 ,
 		"soundevent" : 		{
 			"tags" : [ "audio", "et al" ],
-			"description" : [ "this", "is", "where", "the", "fun", "begins" ],
+			"description" : "this is where the fun begins",
 			"data" : 			{
 				"0" : 				{
 					"/del.1/sw" : 1,
