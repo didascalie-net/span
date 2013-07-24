@@ -146,7 +146,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 356.28125, 259.399994, 140.0, 20.0 ],
-									"presentation_rect" : [ 330.78125, 282.700012, 0.0, 0.0 ],
 									"text" : "loading osc informaitons"
 								}
 
@@ -348,8 +347,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 195.0, 435.599976, 107.0, 20.0 ],
-									"text" : "udpreceive 11111"
+									"patching_rect" : [ 195.0, 435.599976, 155.0, 20.0 ],
+									"text" : "udpreceive 11111 @quiet 1"
 								}
 
 							}
