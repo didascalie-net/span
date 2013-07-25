@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 17.0, 106.0, 434.0, 343.0 ],
+		"rect" : [ 289.0, 55.0, 457.0, 328.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 282.0, 237.0, 40.0, 20.0 ],
-					"presentation_rect" : [ 278.0, 237.0, 0.0, 0.0 ],
 					"text" : "zl reg"
 				}
 
