@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
 		"created" : "",
-		"lastopened" : "2013-07-25T11:34:03",
-		"lastsaved" : "2013-07-25T11:37:39",
+		"lastopened" : "2013-07-25T12:15:46",
+		"lastsaved" : "2013-07-25T12:30:05",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -79,9 +79,9 @@
 		"del" : 		{
 			"1" : 			{
 				"sw" : 1,
-				"time" : 336.0,
-				"fb" : 0.264,
-				"vol" : 0.97,
+				"time" : 404.0,
+				"fb" : 0.621,
+				"vol" : 0.93,
 				"volrand" : 0,
 				"delrand" : 0,
 				"fbrand" : 0
@@ -559,6 +559,19 @@
 					"/filt.3/freqrand" : 0,
 					"// 9" : "---------- /mouse.1 ----------",
 					"/mouse.1/sw" : 1
+				}
+
+			}
+
+		}
+,
+		"test message with bang" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"test" : "bang",
+					"/del.1/init" : "bang"
 				}
 
 			}

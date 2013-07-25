@@ -1045,8 +1045,16 @@ created new span.requests.contains abs and clipping. This is part of a process t
 created new span.requests.getparam and span.requests.getval abs and clipping. Implemented into various parts of events.\
 added span.database folder to span clippings.\
 \
+---\
+debugged module init message in event crash (i.e. /del.1/init bang). added "defer" to node-init patcher in header abs.\
+added zl slice 1 to mode param for t_filt\
+\
+\
+\
 todo: \
-work on optimizing span.requests. make some specific span.request objects (i.e. span.requests.getval)\
+make "save edited event" more user friendly\
+make IGNORE message to "comment out" lines of events, while repecting all embedded paranthesis...  Or maybe just IGNOREON on a line in front of the lines to egnore and IGNOREOFF ?\
+\
 try and optimize dict.dump ?\
 fix "bug" param values slightly rounded when editied.\
 }
