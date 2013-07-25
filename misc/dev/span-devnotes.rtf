@@ -1035,14 +1035,15 @@ when creating new event, only erase specified timetamp. (this was done with last
 create clippig "delvect"\
 add delvect to span.param~ to that in "dynamicvars 1" snapshot~ still on until destination reached.\
 \
-\
-\
+---\
+can now correctly create timestamps within events. \
+debugged creating empty event and then saving edited.  creates data::0 empty automatically.\
+empty events now work correctly.\
+created new span.requests.contains abs and clipping. This is part of a process to implement other span.request functions into dedicated abs to speed things up when lots of span.requests are needed.\
 \
 \
 todo: \
 work on optimizing span.requests. make some specific span.request objects (i.e. span.requests.getval)\
 try and optimize dict.dump ?\
-work on adding other time stamps to events.\
-need to make sure empty event works\
 fix "bug" param values slightly rounded when editied.\
 }
