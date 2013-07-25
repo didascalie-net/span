@@ -1031,6 +1031,10 @@ fixed bug with "then" values by fromsymbol in /event/play\
 incuded /span/dynamicvars in editvar\
 \
 ---\
+when creating new event, only erase specified timetamp. (this was done with last commit but not noted)\
+create clippig "delvect"\
+add delvect to span.param~ to that in "dynamicvars 1" snapshot~ still on until destination reached.\
+\
 \
 \
 \
@@ -1038,7 +1042,6 @@ incuded /span/dynamicvars in editvar\
 todo: \
 work on optimizing span.requests. make some specific span.request objects (i.e. span.requests.getval)\
 try and optimize dict.dump ?\
-verify why vol params not receiving when "then"...\
 work on adding other time stamps to events.\
 need to make sure empty event works\
 fix "bug" param values slightly rounded when editied.\
