@@ -9,8 +9,8 @@ var Newtotal = 0;
 outlets = 4;
 setoutletassist(3,"bang when it's done");
 setoutletassist(2,"path does not exists");
-setoutletassist(1,"folder path");
-setoutletassist(0,"file path");
+setoutletassist(1,"path type");
+setoutletassist(0,"path");
 
 function anything()
 {
