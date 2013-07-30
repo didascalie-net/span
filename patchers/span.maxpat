@@ -74,7 +74,6 @@
 									"outlettype" : [ "" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 204.0, 33.399994, 218.0, 24.0 ],
-									"presentation_rect" : [ 202.0, 33.399994, 0.0, 0.0 ],
 									"size" : 1.0
 								}
 
@@ -89,7 +88,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 158.5, 79.0, 59.0, 16.0 ],
-									"presentation_rect" : [ 163.5, 78.0, 0.0, 0.0 ],
 									"text" : "/slider/1 $1"
 								}
 
@@ -6534,22 +6532,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.229156, 48.698578, 48.0, 18.0 ],
 					"text" : "deferlow"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 245.479126, 68.426697, 150.0, 33.0 ],
-					"text" : "working on new filters for events!!!",
-					"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
