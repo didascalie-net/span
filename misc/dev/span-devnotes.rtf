@@ -1092,5 +1092,9 @@ fix build so that keys without "filename" are not built\
 	"getkeys namespace filaname *"\
 \
 \
+--------------------------------------------------\
+30 july 2013\
 \
+fixed bug when saving events where project saved twice in rapid succession which caused key confusion and weird errors. Augmented del time in events subpatch to 10ms to block successive saves. Also, project/create and project/write to block successive creates and writes until done.\
+working on events doc.\
 }
