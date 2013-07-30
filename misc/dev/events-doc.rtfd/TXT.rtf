@@ -4,19 +4,17 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11660\viewh16300\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
 
-\f0\fs24 \cf0 # events\
+\f0\fs24 \cf0 # events system in span\
 30 July 2013\
 \
 The first useable version of events managemant in span has been completed enough to document it. Further testing is required, but it seems to be robust.\
 \
 ## General description\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 The span patch contains an "events" sub patcher that includes all basic events functions including low-level editing. There are no graphical interfaces to these functions within span, except a text window for editing the events.\
+The span patch contains an "events" sub patcher that includes all basic events functions including low-level editing. There are no graphical interfaces to these functions within span, except a text window for editing the events.\
 \
 There is a span.events bpatcher (GUI) that can be used to edit, manage and play events, but all of these functions are also accessible by messages to the span:events subpatch.\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 \
+\
 An "event" is a collection of namespace parameters as defined by "class=parameter" to the events key of span. The first level of keys in the events key is the name of the event. Within the event name key there are the attributes "tags" and "description". "Tags" are how events can be grouped together (replacing the old events subfolder concept of tapemovie) and description is, well, a text description of the event. There can be more than one tag, each one a symbol, and each tag separated by a space. Each tag can contain spaces as long as the entire tag name is in quotes. For example: \
 tags: audio "section 1"\
 defines two tags, "audio" and "section 1"\
@@ -38,147 +36,143 @@ Events can be edited in a normal text format, converted from and back to the spa
 ## Functions:\
 \
 ### create\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 /span/events/create\
+`/span/events/create`\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 To create and event, send an event name (which can include spaces if name is in quotes) to "/span/events/create":\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803
-\cf0 /span/events/create testevent\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 will create an event named "testevent" where all "values" of nodes with "class=parameter" will be wirtten to "events::testevent::data::0". "0" is, as described previously, timestamp "0" which means the messages contained in the event will be executed at the beginning of the event. The "tags" attribute will be "undefined" by default, and the default description will be "Describe event here..." (Sending a "bang" to /span/event/create will create an event with all parameters called "temp").\
+To create and event, send an event name (which can include spaces if name is in quotes) to "/span/events/create":\
+/span/events/create testevent\
+will create an event named "testevent" where all "values" of nodes with "class=parameter" will be wirtten to "events::testevent::data::0". "0" is, as described previously, timestamp "0" which means the messages contained in the event will be executed at the beginning of the event. The "tags" attribute will be "undefined" by default (defined by system::data::events::defaulttag), and the default description will be "Describe event here..." (Sending a "bang" to /span/event/create will create an event with all parameters called "temp").\
 \
 The "span::events::testevent" key might look something like:\
 \
-"testevent" : 	\{\
-	"tags" : "undefined",\
-	"description" : "Describe event here...",\
-	"data" : 		\{\
-		"0" : 			\{\
-			"// 0" : "---------- /del.1 ----------",\
-			"/del.1/sw" : 1,\
-			"/del.1/time" : 973.0,\
-			"/del.1/fb" : 0.87,\
-			"/del.1/vol" : 0.535,\
-			"/del.1/volrand" : 0,\
-			"/del.1/delrand" : 0,\
-			"/del.1/fbrand" : 0,\
-			"// 1" : "---------- /filt.1 ----------",\
-			"/filt.1/sw" : 1,\
-			"/filt.1/mode" : "lowpass",\
-			"/filt.1/gainenable" : 1,\
-			"/filt.1/freq" : 385.348206,\
-			"/filt.1/gain" : 0.366003,\
-			"/filt.1/q" : 0.94478,\
-			"/filt.1/vol" : 1.0,\
-			"/filt.1/volrand" : 0,\
-			"/filt.1/freqrand" : 0\
-		\}\
+```json\
+\{  \
+	"testevent" : 	\{  \
+		"tags" : "undefined",  \
+		"description" : "Describe event here...",  \
+		"data" : 		\{  \
+			"0" : 			\{  \
+				"// 0" : "---------- /del.1 ----------",  \
+				"/del.1/sw" : 1,  \
+				"/del.1/time" : 973.0,  \
+				"/del.1/fb" : 0.87,  \
+				"/del.1/vol" : 0.535,  \
+				"/del.1/volrand" : 0,  \
+				"/del.1/delrand" : 0,  \
+				"/del.1/fbrand" : 0,  \
+				"// 1" : "---------- /filt.1 ----------",  \
+				"/filt.1/sw" : 1,  \
+				"/filt.1/mode" : "lowpass",  \
+				"/filt.1/gainenable" : 1,  \
+				"/filt.1/freq" : 385.348206,  \
+				"/filt.1/gain" : 0.366003,  \
+				"/filt.1/q" : 0.94478,  \
+				"/filt.1/vol" : 1.0,  \
+				"/filt.1/volrand" : 0,  \
+				"/filt.1/freqrand" : 0  \
+			\}  \
+	\
+		\}  	\
 \
-	\}\
+	\}  \
 \
-\}\
-\
+\}  \
+```\
 \
 Notice that comments were automatically included which separate the different "nodes" or "modules" of the event. The comments are indicated by numbered keys with names such as "// 0", or "// 1", etc. When we will edit events in text format, the numbered parts will be removed and only "//" will remain, the normal character for comments. The numbers are necessary in the span::events dictionary format so that more than one comment can be created within a particular key (timestamp).\
 \
 You can indicate tags other than the default "undefined" when creating an event by including each tag at the beggining of the name in front of slashes. For example:\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 /span/events/create audio/testevent\
+/span/events/create audio/testevent\
 will create an event called "testevent" with a tag of audio.\
 \
 /span/events/create audio/midi/testevent\
 will create an event called "testevent" with tags audio and midi.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 \
+\
 \
 #### create : basic messages\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 basic messages to "/span/events/create"\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 \
-/span/events/create bang\
+basic messages to `/span/events/create`\
+\
+`/span/events/create bang`\
 This creates a full event containing all parameters at timestamp 0 of event "temp"\
 \
-/span/events/create eventname\
+`/span/events/create eventname`\
 This creates a full event containing all parameters at timestamp 0 of event "eventname"\
 \
-/span/events/create eventname timeinmillisecondes\
+`/span/events/create eventname timeinmillisecondes`\
 This creates a full event containing all parameters at timestamp "timeinmillisecondes of event "eventname"\
 ex. /span/events/create testevent 100\
 creates or modifies event testevent at timestamp 100 ms\
 \
 If we "create" an event that already exists, it will write over the timestamp of the existing event, unless we write to a timestamp not yet in the event. In that case it will simply be added.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 #### create : advanced messages\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 \
+#### create : advanced messages\
+\
 you can add the following messages with arguments after the name and or timestamp:\
 "tags", "only", "except", "ifvalue". They can be combined in any order.\
 \
--tags-\
-/span/events/create eventname tags audio\
+**tags**\
+\
+`/span/events/create eventname tags audio`\
 This creates an event containing only parameters nodes with tags "audio"\
 \
-/span/events/create eventname tags audio control\
+`/span/events/create eventname tags audio control`\
 This creates an event containing only parameters nodes with tags "audio" and "control"\
 \
--only-\
-/span/events/create eventname only filt\
+**only**\
+\
+`/span/events/create eventname only filt`\
 This creates an event containing only parameters of nodes containing "filt" in their name\
 (only filt parameters, but of all instances)\
 \
-/span/events/create eventname only vol\
+`/span/events/create eventname only vol`\
 This creates an event containing only parameters of nodes containing "vol" in their name\
 (i.e. only volumes of all nodes)\
 \
-/span/events/create eventname only filt/1\
+`/span/events/create eventname only filt/1`\
 This creates an event containing only parameters of nodes containing "filt/1" in their name\
 (only filt/1 parameters)\
 \
-/span/events/create eventname only filt/*/vol\
+`/span/events/create eventname only filt/*/vol`\
 This creates an event containing only vol parameters of nodes "filt"\
 (the instance is a wildcard. only filt/vol parameters, but of all instances)\
 \
-/span/events/create eventname only filt del\
+`/span/events/create eventname only filt del`\
 This creates an event containing only parameters of nodes containing "filt" or "del" in their name\
 (only filt and del parameters, but of all instances)\
 \
--except-\
-/span/events/create eventname except sw\
+**except**\
+\
+`/span/events/create eventname except sw`\
 This creates an event containing all parameters except those containing "sw" in the name.\
 (i.e. all params except /sw)\
 \
-/span/events/create eventname except filt\
+`/span/events/create eventname except filt`\
 This creates an event containing all parameters except those containing "filt" in the name.\
 (i.e. all params of all nodes except "filt")\
 \
-/span/event/create eventname except rand\
+`/span/event/create eventname except rand`\
 This creates an event containing all parameters except those containing "rand" in the name.\
 (i.e. all params of all nodes except those that contain "rand" in their name)\
 \
-/span/events/create eventname except sw rev/1\
+`/span/events/create eventname except sw rev/1`\
 This creates an event containing all parameters except those containing "sw" in the name or those having to do with rev/1.\
 \
--ifvalue-\
+**ifvalue**\
+\
 This saves all parameters of a node if a particular param of that node is set to a particular value.\
 \
-/span/events/create eventname ifvalue sw=1\
+`/span/events/create eventname ifvalue sw=1`\
 This is the famous "active" save from tapemovie. It saves all nodes which contain a sw param set to 1.\
 \
 This can be combined with all other messages in any order:\
-/span/events/create eventname ifvalue sw=1 except mtrx dac subb rev/1 tags audio\
+`/span/events/create eventname ifvalue sw=1 except mtrx dac subb rev/1 tags audio`\
 This saves all active nodes (modules) with tags audio, but NOT those that contain mtrx, dac, subb or rev/1\
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803
-\cf0 \
 \
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 ### play\
-/span/events/play\
+\
+### play\
+`/span/events/play`\
 \
 \
 Send a "bang" to  to play "temp" or an eventname to play that event. Event is executed timestamp by timestamp. \
@@ -186,7 +180,7 @@ Send a "bang" to  to play "temp" or an eventname to play that event. Event is ex
 \
 \
 ### edit\
-/span/events/edit\
+`/span/events/edit`\
 \
 send an event name to /span/events/edit to edit that event, or send a bang to edit the "temp" event.\
 \
@@ -200,51 +194,106 @@ You can add comments by just starting a line with:\
 The comments will be numbered automatically when converted to the events key dictionary format, so we do not have to worry about the numbering.\
 \
 ### saveedited\
-/span/events/saveedited\
+`/span/events/saveedited`\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803
-\cf0 Send a bang to save the current edit. If the text window is still open it will be closed automatically and then saved back to span. The project will automatically be resaved.\
+Send a bang to save the current edit. If the text window is still open it will be closed automatically and then saved back to span. The project will automatically be resaved.\
 \
 !!!\
 NB. If you forget to bang "saveedited" and then play the event, the event will revert back to what it was BEFORE you saved it, and you will lose your changes. Don't do that. If you DO play before doing a "saveedited" you can immediately do a "saveedited" WITHOUT re-editing the event, and the previous edit will still be saved to the event. If you re-edit the event, it will definitively erase the modifications.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
-\cf0 ### delete\
-/span/events/delete\
+### delete\
+`/span/events/delete`\
 \
 Send an event name to delete that event. If it is "temp", the temp event will just be emptied and not completely deleted so that "temp" will not lose its place as the first event.\
 \
 There is no "are you sure" type of confirmation. Use carefully.\
 \
 ### rename\
-/span/events/rename\
+`/span/events/rename`\
 \
 Change the name of an event. Can also change tags at the same time.\
 \
 send list of two symbols, [current name of event] [new name of event]\
 \
-Can use the tag/eventname syntaxe as with span/events/create.\
+Can use the tag/eventname syntax as with span/events/create.\
 \
 If rename to same name, does nothing. If rename to same name but with tag/name, just changes tags of event.\
 \
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803
+### duplicate\
+`/span/events/duplicate`\
+\
+Duplicate (create a copy) of an event. Can also change tags at the same time.\
+\
+Send list of two symbols, [name of event to duplicate] [name of new event]\
+\
+Can use the tag/eventname syntax as with span/events/create.\
+\
+If duplicate to same name, does nothing. If duplicate to same name but with tag/name, just changes tags of event.\
+\
+### tags\
+`/span/events/tags`\
+\
+Send eventname and list of tags to change tags of existing event or create empty event with expressed tags.\
+Tags with spaces need to be in quotes.\
+\
+/span/events/tags testevent section1 control "x y z"\
+replaces tags of testevent with new tags\
+	section1\
+	control\
+	"x y z"\
+\
+\
+### description\
+`/span/events/description`\
+\
+Send eventname and symbol or phrase with spaces in quotes to change description of existing event or create empty event with expressed description.\
+\
+/span/events/description testevent "this is a new description"\
+replaces description of testevent.\
+\
+\
+## The GUI (span.events.maxpat) :\
+\
+The events GUI, span.events.paxpat, contains several menus and buttons. It calls the low-level functions described in the avove sections.\
+\
+**view tags - menu**\
+\
+This menu is automatically filled with all of the different tags contained in the events of a project. We can then choose one of the tags to filter the events shown in the event menu.\
+\
+**event - menu**\
+\
+The event menu is automatically filled with the events containing the tag chosen in the *view tags* menu. \
+\
+**action - menu**\
+\
+The action menu allows us to select an action to be performed on the event chosen in the *event* menu\
+\
+	play\
+	edit\
+	duplicate\
+	rename\
+	delete\
+\
+**Save Edited Event - button**\
+\
+When we are done editing an event, we MUST click Save Edited Event or else lose everything...\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 \cf0 \
 \
+{{\NeXTGraphic events-doc1.png \width5200 \height4280
+}¬}\
 \
+{{\NeXTGraphic events-doc2.png \width3120 \height3260
+}¬}\
 \
+{{\NeXTGraphic events-doc3.png \width5200 \height3020
+}¬}\
 \
+{{\NeXTGraphic events-doc4.png \width3440 \height4280
+}¬}\
 \
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+{{\NeXTGraphic events-doc5.png \width2500 \height3280
+}¬}\
 \
 }
