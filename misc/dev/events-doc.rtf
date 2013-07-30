@@ -278,22 +278,46 @@ The action menu allows us to select an action to be performed on the event chose
 \
 When we are done editing an event, we MUST click Save Edited Event or else lose everything...\
 \
+**"create/store" criteria - menu**\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 \cf0 \
+Criteria used to select parameters for creating a new event. \
+	empty\
+	all\
+	all-active\
+	control-active\
+	audio-active\
+	device-active\
+	tapemovie\
 \
-{{\NeXTGraphic events-doc1.png \width5200 \height4280
-}¬}\
+These criteria are defined in system::data::events::criteria\
 \
-{{\NeXTGraphic events-doc2.png \width3120 \height3260
-}¬}\
 \
-{{\NeXTGraphic events-doc3.png \width5200 \height3020
-}¬}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 **"create/store" timestamp - number**\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+Determine time within event at which to create the parameter listing. Default is "0", and goes back to "0" after every create.\
 \
-{{\NeXTGraphic events-doc4.png \width3440 \height4280
-}¬}\
 \
-{{\NeXTGraphic events-doc5.png \width2500 \height3280
-}¬}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 **"create/store" tags - text editor**\
 \
+Tag or tags to insert into new event. This displays the tag chosen by the "view tags" menu, so that if you view a certain tag, the events we create will automatically be assigned the same tag. We can always change this value. \
+\
+If we create the event using the tag/name convention, the tag coming from the name will override the *"create/store" tags* value.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 **CREATE - button**\
+\
+Opens name dialog auto-filled with date-time event name. Can change name to something else, and also use the tag/name convention to assign a tag at the same moment (overrides *"create/store tags*).\
+\
+\
+**Store Temp - button**\
+Store all parameters to the temp event. This is usefull to save a state without creating an official event.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+\cf0 \
 }
