@@ -14,4 +14,5 @@ function bang()
 	outlet(0, "maxversion",max.version);
 	outlet(0, "name",patcher.name);	
 	outlet(0, "filepath",patcher.filepath)
+	outlet(0, "apppath",max.apppath + "/")
 }
