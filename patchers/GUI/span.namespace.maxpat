@@ -602,13 +602,14 @@
 					"fontsize" : 18.0,
 					"frgb" : 0.0,
 					"id" : "obj-2",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.0, 29.5, 108.0, 27.0 ],
+					"patching_rect" : [ 98.0, 29.5, 108.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.0, 0.868851, 105.0, 27.0 ],
-					"text" : "namespace",
+					"presentation_rect" : [ 154.0, 0.868851, 197.0, 27.0 ],
+					"text" : "namespace exploration",
 					"textcolor" : [ 0.0, 0.40859, 0.581194, 1.0 ]
 				}
 
@@ -711,7 +712,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-12",
-					"items" : "<empty>",
+					"items" : "hap",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1379,8 +1380,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
+				"patcherrelativepath" : "../../../bulle-musicale/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
