@@ -41,7 +41,6 @@ function anything()
 						iterfolders(foldername);
 						f.close();
 						}
-		outlet(3,"bang");			
 			}			
 		// this path doesn't exist	
 		else
@@ -50,6 +49,7 @@ function anything()
 			f.reset;
 			f.close();
 		}
+		outlet(3,"bang");			
 }
 					
 function iterfolders(v) {
