@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 70.0, 79.0, 864.0, 519.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -197,7 +197,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -860,7 +860,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1140,7 +1140,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1456,13 +1456,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-45",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 17.5, 261.0, 90.0, 27.0 ],
-					"text" : "vari /span/osc/send/sw"
+					"patching_rect" : [ 17.5, 261.0, 101.0, 17.0 ],
+					"text" : "var /span/osc/send/sw"
 				}
 
 			}
@@ -1565,6 +1564,7 @@
 					"patching_rect" : [ 333.5, 160.0, 70.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 266.5, 21.0, 120.0, 22.0 ],
+					"text" : "localhost",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"varname" : "ip[1]"
 				}
@@ -1993,7 +1993,7 @@
 					"destination" : [ "obj-42", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 98.0, 299.0, 114.0, 299.0, 114.0, 120.0, 137.0, 120.0 ],
+					"midpoints" : [ 109.0, 299.0, 114.0, 299.0, 114.0, 120.0, 137.0, 120.0 ],
 					"source" : [ "obj-45", 1 ]
 				}
 
