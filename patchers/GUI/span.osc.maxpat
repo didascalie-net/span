@@ -9,7 +9,6 @@
 		}
 ,
 		"rect" : [ 70.0, 79.0, 864.0, 519.0 ],
-		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -30,16 +29,40 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"id" : "obj-4",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 368.0, 211.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.5, 85.0, 447.0, 5.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 353.0, 196.0, 5.0, 100.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.5, 43.0, 447.0, 5.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-60",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 290.0, 70.0, 21.0 ],
+					"patching_rect" : [ 539.0, 290.0, 61.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.5, 101.0, 41.0, 21.0 ],
+					"presentation_rect" : [ 20.5, 101.0, 37.0, 20.0 ],
 					"text" : "/ctlin",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -47,16 +70,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-59",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 98.0, 70.0, 21.0 ],
+					"patching_rect" : [ 539.0, 98.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 61.0, 58.0, 21.0 ],
+					"presentation_rect" : [ 3.5, 59.0, 52.0, 20.0 ],
 					"text" : "/receive",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -64,16 +87,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-58",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 78.0, 70.0, 21.0 ],
+					"patching_rect" : [ 27.0, 78.0, 65.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.5, 21.0, 44.0, 21.0 ],
+					"presentation_rect" : [ 17.5, 19.0, 41.0, 20.0 ],
 					"text" : "/send",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -93,16 +116,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-13",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 757.0, 378.0, 57.0, 18.0 ],
+					"patching_rect" : [ 757.0, 378.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 83.0, 57.0, 18.0 ],
+					"presentation_rect" : [ 139.0, 83.0, 68.0, 20.0 ],
 					"text" : "receiving...",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -464,11 +487,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgoncolor" : [ 1.0, 0.541176, 0.541176, 1.0 ],
-					"bgoveroncolor" : [ 1.0, 0.537255, 0.537255, 1.0 ],
+					"bgcolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"bgovercolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoveroncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"border" : 1,
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"borderoncolor" : [ 0.0, 0.6, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"id" : "obj-21",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -479,6 +506,7 @@
 					"patching_rect" : [ 465.0, 320.0, 54.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 393.5, 101.0, 54.0, 21.0 ],
+					"rounded" : 0.0,
 					"text" : "print off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"texton" : "print on",
@@ -490,14 +518,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.811765, 0.572549, 0.2 ],
-					"bgoncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
-					"bgovercolor" : [ 0.0, 0.811765, 0.572549, 0.2 ],
-					"bgoveroncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
+					"bgcolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"bgovercolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoveroncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"border" : 1,
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"borderoncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"borderoncolor" : [ 0.0, 0.6, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"id" : "obj-22",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -508,6 +537,7 @@
 					"patching_rect" : [ 478.0, 387.5, 73.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.5, 101.0, 73.0, 20.0 ],
+					"rounded" : 0.0,
 					"text" : "ctlin off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"texton" : "ctlin on",
@@ -521,8 +551,8 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial Bold Italic",
-					"fontsize" : 14.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"hbgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-24",
@@ -534,9 +564,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 651.0, 408.5, 54.0, 22.0 ],
+					"patching_rect" : [ 651.0, 408.5, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.75, 101.0, 54.0, 22.0 ],
+					"presentation_rect" : [ 206.75, 101.0, 48.0, 18.0 ],
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
@@ -546,16 +576,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-25",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 651.0, 458.0, 76.0, 19.0 ],
+					"patching_rect" : [ 651.0, 458.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.75, 83.0, 76.0, 19.0 ],
+					"presentation_rect" : [ 195.75, 83.0, 75.0, 20.0 ],
 					"text" : "/ctlin/port",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -563,16 +593,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-10",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.5, 119.0, 52.0, 18.0 ],
+					"patching_rect" : [ 239.5, 119.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 141.5, 4.0, 52.0, 18.0 ],
+					"presentation_rect" : [ 141.5, 4.0, 63.0, 20.0 ],
 					"text" : "sending...",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -609,16 +639,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-9",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 757.0, 181.0, 57.0, 18.0 ],
+					"patching_rect" : [ 757.0, 181.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 43.0, 57.0, 18.0 ],
+					"presentation_rect" : [ 139.0, 43.0, 68.0, 20.0 ],
 					"text" : "receiving...",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -655,16 +685,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
+					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 530.0, 23.0, 70.0, 21.0 ],
+					"patching_rect" : [ 530.0, 23.0, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, -3.0, 70.0, 21.0 ],
+					"presentation_rect" : [ 0.5, -3.0, 64.0, 20.0 ],
 					"text" : "/span/osc",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -1135,6 +1165,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1394,14 +1425,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.811765, 0.572549, 0.2 ],
-					"bgoncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
-					"bgovercolor" : [ 0.0, 0.811765, 0.572549, 0.2 ],
-					"bgoveroncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
+					"bgcolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"bgovercolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoveroncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"border" : 1,
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"borderoncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"borderoncolor" : [ 0.0, 0.6, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"id" : "obj-44",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1411,7 +1443,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 25.5, 183.0, 73.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.5, 21.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 61.5, 19.0, 73.0, 20.0 ],
+					"rounded" : 0.0,
 					"text" : "Send off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"texton" : "Send on",
@@ -1439,11 +1472,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgoncolor" : [ 1.0, 0.541176, 0.541176, 1.0 ],
-					"bgoveroncolor" : [ 1.0, 0.537255, 0.537255, 1.0 ],
+					"bgcolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"bgovercolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoveroncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"border" : 1,
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"borderoncolor" : [ 0.0, 0.6, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"id" : "obj-47",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1453,7 +1490,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 123.0, 54.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.5, 61.0, 54.0, 21.0 ],
+					"presentation_rect" : [ 393.5, 59.0, 54.0, 21.0 ],
+					"rounded" : 0.0,
 					"text" : "print off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"texton" : "print on",
@@ -1465,14 +1503,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.0, 0.811765, 0.572549, 0.2 ],
-					"bgoncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
-					"bgovercolor" : [ 0.0, 0.811765, 0.572549, 0.2 ],
-					"bgoveroncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
+					"bgcolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"bgovercolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoveroncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"border" : 1,
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"borderoncolor" : [ 0.0, 0.811765, 0.572549, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"borderoncolor" : [ 0.0, 0.6, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"id" : "obj-48",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1482,7 +1521,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 478.0, 190.5, 73.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.5, 61.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 61.5, 59.0, 73.0, 20.0 ],
+					"rounded" : 0.0,
 					"text" : "Receive off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"texton" : "Receive on",
@@ -1495,11 +1535,15 @@
 			}
 , 			{
 				"box" : 				{
-					"bgoncolor" : [ 1.0, 0.541176, 0.541176, 1.0 ],
-					"bgoveroncolor" : [ 1.0, 0.541176, 0.541176, 1.0 ],
+					"bgcolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"bgovercolor" : [ 0.909804, 0.909804, 0.909804, 0.2 ],
+					"bgoveroncolor" : [ 0.909804, 0.909804, 0.909804, 0.5 ],
+					"border" : 1,
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
+					"borderoncolor" : [ 0.0, 0.6, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"id" : "obj-49",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1509,7 +1553,8 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 196.5, 181.0, 54.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.5, 21.0, 54.0, 21.0 ],
+					"presentation_rect" : [ 393.5, 19.0, 54.0, 21.0 ],
+					"rounded" : 0.0,
 					"text" : "print off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"texton" : "print on",
@@ -1522,8 +1567,8 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial",
-					"fontsize" : 14.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-50",
 					"keymode" : 1,
@@ -1533,9 +1578,9 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 333.5, 160.0, 70.0, 22.0 ],
+					"patching_rect" : [ 333.5, 160.0, 53.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 266.5, 21.0, 120.0, 22.0 ],
+					"presentation_rect" : [ 266.5, 21.0, 124.0, 18.0 ],
 					"text" : "localhost",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"varname" : "ip[1]"
@@ -1544,16 +1589,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-51",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.5, 275.5, 63.0, 19.0 ],
+					"patching_rect" : [ 333.5, 275.5, 64.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 295.0, 5.0, 63.0, 19.0 ],
+					"presentation_rect" : [ 295.0, 5.0, 64.0, 20.0 ],
 					"text" : "/send/host",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -1562,8 +1607,8 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial Bold Italic",
-					"fontsize" : 14.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"hbgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-52",
@@ -1575,9 +1620,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 127.5, 206.0, 53.0, 22.0 ],
+					"patching_rect" : [ 127.5, 206.0, 47.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.75, 21.0, 53.0, 22.0 ],
+					"presentation_rect" : [ 206.75, 21.0, 47.0, 18.0 ],
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
@@ -1587,16 +1632,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-53",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.5, 261.0, 64.0, 19.0 ],
+					"patching_rect" : [ 165.5, 261.0, 66.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.75, 4.0, 64.0, 19.0 ],
+					"presentation_rect" : [ 201.75, 4.0, 66.0, 20.0 ],
 					"text" : "/send/port",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -1605,8 +1650,8 @@
 , 			{
 				"box" : 				{
 					"bordercolor" : [ 0.6, 0.0, 0.0, 0.24 ],
-					"fontname" : "Arial Bold Italic",
-					"fontsize" : 14.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
 					"hbgcolor" : [ 0.258824, 0.258824, 0.258824, 1.0 ],
 					"htextcolor" : [ 0.870588, 0.870588, 0.870588, 1.0 ],
 					"id" : "obj-54",
@@ -1618,9 +1663,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 651.0, 211.5, 54.0, 22.0 ],
+					"patching_rect" : [ 651.0, 211.5, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.75, 61.0, 54.0, 22.0 ],
+					"presentation_rect" : [ 206.75, 61.0, 48.0, 18.0 ],
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
@@ -1630,16 +1675,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Geneva",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-55",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 651.0, 261.0, 76.0, 19.0 ],
+					"patching_rect" : [ 651.0, 261.0, 77.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.75, 43.0, 76.0, 19.0 ],
+					"presentation_rect" : [ 195.75, 43.0, 77.0, 20.0 ],
 					"text" : "/receive/port",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
