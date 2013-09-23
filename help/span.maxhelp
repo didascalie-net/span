@@ -157,19 +157,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-					"border" : 1,
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "span.init.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 7.75, 19.373291, 453.0, 67.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
@@ -344,6 +331,19 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
+					"border" : 1,
+					"id" : "obj-1",
+					"maxclass" : "bpatcher",
+					"name" : "span.init.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 7.75, 19.373291, 453.0, 67.0 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -356,7 +356,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "span.namespace.maxpat",
+				"name" : "span.init.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
@@ -364,8 +364,15 @@
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../patchers/requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.namespace.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/GUI",
+				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -385,8 +392,8 @@
 			}
 , 			{
 				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -399,15 +406,15 @@
 			}
 , 			{
 				"name" : "span.requests.contains.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.getparam.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -420,8 +427,8 @@
 			}
 , 			{
 				"name" : "span.path.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "../patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -448,8 +455,8 @@
 			}
 , 			{
 				"name" : "span.requests.replace.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/GUI",
-				"patcherrelativepath" : "../patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -469,13 +476,6 @@
 			}
 , 			{
 				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/GUI",
-				"patcherrelativepath" : "../patchers/GUI",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.init.maxpat",
 				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
