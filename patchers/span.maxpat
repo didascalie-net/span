@@ -44753,7 +44753,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.6, 0.6, 1.0, 1.0 ],
@@ -44763,7 +44762,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 1,
 													"numoutlets" : 0,
-													"patching_rect" : [ 45.5, 163.5, 142.0, 20.0 ],
+													"patching_rect" : [ 2.5, 268.5, 142.0, 20.0 ],
 													"text" : "s /span/events/done"
 												}
 
