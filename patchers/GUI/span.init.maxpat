@@ -292,15 +292,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
-					"fontsize" : 12.0,
+					"fontsize" : 9.0,
 					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.5, 511.666687, 190.0, 20.0 ],
+					"patching_rect" : [ 130.5, 511.666687, 190.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.048462, 78.845169, 307.875854, 20.0 ],
+					"presentation_rect" : [ 5.048462, 78.845169, 308.0, 17.0 ],
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 0.8 ]
 				}
 
@@ -989,8 +989,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
