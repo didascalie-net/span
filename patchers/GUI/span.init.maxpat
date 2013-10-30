@@ -29,6 +29,17 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 639.5, 123.0, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-10",
@@ -373,7 +384,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 639.5, 116.845154, 100.0, 18.0 ],
+					"patching_rect" : [ 639.5, 153.0, 100.0, 18.0 ],
 					"text" : "opendialog JSON"
 				}
 
@@ -387,7 +398,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 639.5, 139.630127, 106.0, 18.0 ],
+					"patching_rect" : [ 639.5, 175.784973, 106.0, 18.0 ],
 					"text" : "s /span/project/open"
 				}
 
@@ -762,7 +773,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-28", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
@@ -794,6 +805,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 266.0, 448.333313, 302.0, 448.333313 ],
 					"source" : [ "obj-27", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-28", 0 ]
 				}
 
 			}
@@ -989,7 +1009,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers/requests",
+				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/requests",
 				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
