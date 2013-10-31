@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 141.0, 71.0, 514.0, 307.0 ],
+		"rect" : [ 707.0, 44.0, 595.0, 304.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -33,11 +33,11 @@
 					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-22",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.984406, 211.697754, 92.0, 20.0 ],
-					"presentation_rect" : [ 84.797668, 211.565918, 0.0, 0.0 ],
+					"patching_rect" : [ 21.484406, 177.697754, 58.5, 33.0 ],
 					"text" : "controller value"
 				}
 
@@ -52,7 +52,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.047668, 145.565918, 181.0, 33.0 ],
+					"patching_rect" : [ 379.047668, 145.565918, 181.0, 33.0 ],
 					"text" : "all processing, clipping, filtering, sliding is done in mapping"
 				}
 
@@ -66,7 +66,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 183.797668, 117.565918, 91.5, 18.0 ],
+					"patching_rect" : [ 258.797668, 117.565918, 91.5, 18.0 ],
 					"text" : "#1"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 21.797668, 62.5, 33.0, 20.0 ],
+					"patching_rect" : [ 96.797668, 62.5, 33.0, 20.0 ],
 					"text" : "t s b"
 				}
 
@@ -94,7 +94,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.797668, 12.565918, 89.0, 20.0 ],
+					"patching_rect" : [ 121.797668, 20.565918, 89.0, 20.0 ],
 					"text" : "/node/instance"
 				}
 
@@ -107,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.797668, 12.565918, 25.0, 25.0 ]
+					"patching_rect" : [ 96.797668, 20.565918, 25.0, 25.0 ]
 				}
 
 			}
@@ -120,7 +120,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.047668, 29.967041, 141.0, 33.0 ],
+					"patching_rect" : [ 379.047668, 29.967041, 141.0, 33.0 ],
 					"text" : "span.control"
 				}
 
@@ -134,7 +134,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 304.047668, 92.467041, 150.0, 20.0 ],
+					"patching_rect" : [ 379.047668, 92.467041, 150.0, 20.0 ],
 					"text" : "arg 1 : param name"
 				}
 
@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 61.984406, 211.697754, 25.0, 25.0 ]
+					"patching_rect" : [ 28.984406, 208.697754, 25.0, 25.0 ]
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 21.797668, 177.697754, 84.0, 20.0 ],
+					"patching_rect" : [ 96.797668, 177.697754, 84.0, 20.0 ],
 					"text" : "prepend send"
 				}
 
@@ -174,7 +174,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.797668, 256.532959, 51.0, 20.0 ],
+					"patching_rect" : [ 96.797668, 256.532959, 51.0, 20.0 ],
 					"text" : "forward"
 				}
 
@@ -188,7 +188,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 21.797668, 145.565918, 181.0, 20.0 ],
+					"patching_rect" : [ 96.797668, 145.565918, 181.0, 20.0 ],
 					"text" : "combine /node/instance / param"
 				}
 
@@ -257,8 +257,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ]
+ ]
 	}
 
 }
