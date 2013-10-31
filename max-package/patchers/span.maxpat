@@ -20065,8 +20065,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 44.937439, 518.0, 554.479126, 18.0 ],
-									"text" : "SDM-2013"
+									"patching_rect" : [ 44.937439, 518.0, 554.479126, 18.0 ]
 								}
 
 							}
@@ -20291,7 +20290,7 @@
 															"architecture" : "x86"
 														}
 ,
-														"rect" : [ 495.0, 240.0, 450.0, 120.0 ],
+														"rect" : [ 615.0, 290.0, 450.0, 120.0 ],
 														"bgcolor" : [ 0.941176, 0.941176, 0.941176, 1.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 1,
@@ -25029,7 +25028,7 @@
 											"architecture" : "x86"
 										}
 ,
-										"rect" : [ 46.0, 193.0, 431.0, 595.0 ],
+										"rect" : [ 112.0, 88.0, 431.0, 595.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
