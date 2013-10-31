@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -30,6 +30,21 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 18.0,
+					"frgb" : 0.0,
+					"id" : "obj-9",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 507.0, 95.5, 185.0, 87.0 ],
+					"text" : "no more usefull… we will prefer to use span.param and fillin the namespace"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-14",
 					"maxclass" : "message",
@@ -37,7 +52,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 209.041687, 374.0, 65.0, 18.0 ],
-					"presentation_rect" : [ 207.5, 374.0, 0.0, 0.0 ],
 					"text" : "parameter"
 				}
 
@@ -52,7 +66,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 531.979187, 394.0, 74.0, 20.0 ],
-					"presentation_rect" : [ 539.979187, 394.0, 0.0, 0.0 ],
 					"text" : "prepend set"
 				}
 
@@ -67,7 +80,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 531.979187, 435.0, 55.0, 20.0 ],
-					"presentation_rect" : [ 581.895813, 435.0, 0.0, 0.0 ],
 					"text" : "prepend",
 					"varname" : "receive[4]"
 				}
