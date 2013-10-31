@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -51,7 +51,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.063782, 342.131836, 51.0, 20.0 ],
-					"presentation_rect" : [ 318.333588, 369.565918, 0.0, 0.0 ],
 					"text" : "forward"
 				}
 
@@ -66,7 +65,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.333588, 314.565918, 84.0, 20.0 ],
-					"presentation_rect" : [ 334.603394, 342.0, 0.0, 0.0 ],
 					"text" : "prepend send"
 				}
 
@@ -121,7 +119,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.103394, 251.532959, 263.0, 18.0 ],
-					"presentation_rect" : [ 204.491943, 230.565918, 0.0, 0.0 ],
 					"text" : "namespace::osc::wii::1::accel::pry::0::in2::initval"
 				}
 
@@ -150,7 +147,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 515.61084, 622.467041, 195.0, 18.0 ],
-					"presentation_rect" : [ 519.491943, 619.565918, 0.0, 0.0 ],
 					"text" : "getparam /osc/wii/1/accel/pry/0/in1"
 				}
 
@@ -166,7 +162,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 534.701904, 654.565918, 86.0, 20.0 ],
-					"presentation_rect" : [ 536.071533, 654.565918, 0.0, 0.0 ],
 					"text" : "span.requests"
 				}
 
@@ -420,7 +415,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -845,8 +840,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 852.047668, 208.065918, 227.0, 33.0 ],
-					"text" : "span.param.decimal"
+					"patching_rect" : [ 852.047668, 208.065918, 272.0, 33.0 ],
+					"text" : "span.param.dec.dyn"
 				}
 
 			}
@@ -1188,7 +1183,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -1487,7 +1482,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 3,
+											"revision" : 4,
 											"architecture" : "x86"
 										}
 ,
@@ -2403,7 +2398,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -2985,7 +2980,7 @@
 														"appversion" : 														{
 															"major" : 6,
 															"minor" : 1,
-															"revision" : 3,
+															"revision" : 4,
 															"architecture" : "x86"
 														}
 ,
@@ -5469,7 +5464,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -6485,7 +6480,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 3,
+							"revision" : 4,
 							"architecture" : "x86"
 						}
 ,
@@ -7924,6 +7919,28 @@
 					"source" : [ "obj-95", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers/requests",
+				"patcherrelativepath" : "./requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.getval.maxpat",
+				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers/requests",
+				"patcherrelativepath" : "./requests",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.contains.maxpat",
+				"bootpath" : "/there/projects/Environments/didascalie-net/span/max-package/patchers/requests",
+				"patcherrelativepath" : "./requests",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}
