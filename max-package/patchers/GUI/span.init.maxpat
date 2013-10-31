@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 92.0, 419.0, 986.0, 518.0 ],
+		"rect" : [ 594.0, 44.0, 986.0, 518.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -282,6 +282,7 @@
 					"patching_rect" : [ 292.5, 511.666687, 180.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 97.899063, 61.845169, 215.025253, 20.0 ],
+					"text" : "tt",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 0.8 ]
 				}
 
@@ -312,6 +313,7 @@
 					"patching_rect" : [ 130.5, 511.666687, 190.0, 17.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.048462, 78.845169, 308.0, 17.0 ],
+					"text" : "work:/Users/reno/Desktop/tt.json",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 0.8 ]
 				}
 
@@ -682,6 +684,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1009,7 +1038,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers/requests",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
