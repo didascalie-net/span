@@ -1,0 +1,763 @@
+{
+	"projectinfo" : 	{
+		"created" : "2013-09-19T18:24:29",
+		"lastopened" : "2013-10-24T10:54:52",
+		"lastsaved" : "2013-10-24T19:12:23",
+		"appname" : "span",
+		"appversion" : 		{
+			"major" : 0,
+			"minor" : 0,
+			"revision" : 1
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"namespace" : 	{
+
+	}
+,
+	"nodes" : 	{
+
+	}
+,
+	"events" : 	{
+		"temp" : 		{
+			"data" : 			{
+				"0" : ""
+			}
+,
+			"tags" : "temp"
+		}
+,
+		"osc" : 		{
+			"tags" : "init",
+			"description" : "Initialisation that needs to be done just after loading project",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "------------------- OSC IN -------------------",
+					"/span/osc/receive/sw" : 0,
+					"/span/osc/receive/port" : 10000,
+					"/span/osc/receive/print/sw" : 0,
+					"// 1" : "------------------- OSC OUT -------------------",
+					"/span/osc/send/sw" : 1,
+					"/span/osc/send/host" : "127.0.0.1",
+					"/span/osc/send/port" : 1234,
+					"/span/osc/send/print/sw" : 0,
+					"// 2" : "------------------- OSC LEARN -------------------",
+					"/span/osc/ctlin/sw" : 0,
+					"/span/osc/ctlin/port" : 11100,
+					"/span/osc/ctlin/print/sw" : 0
+				}
+
+			}
+
+		}
+,
+		"LOAD3" : 		{
+			"tags" : "undefined",
+			"description" : "A charger pendant solo guitare",
+			"data" : 			{
+				"0" : 				{
+					"/inittttt" : "bang"
+				}
+,
+				"1000" : 				{
+					"/layer.3/alpha" : 0
+				}
+,
+				"1001" : 				{
+					"/layer.1/alpha" : 0
+				}
+,
+				"1002" : 				{
+					"/layer.6/alpha" : 0
+				}
+,
+				"1003" : 				{
+					"/layer.7/alpha" : 0
+				}
+,
+				"1004" : 				{
+					"/layer.8/alpha" : 0
+				}
+,
+				"1006" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 10" ]
+				}
+,
+				"1016" : 				{
+					"/vdmx" : [ "/media", 1 ]
+				}
+,
+				"1116" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 3" ]
+				}
+,
+				"1126" : 				{
+					"/vdmx" : [ "/media", 25 ]
+				}
+,
+				"1226" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 9" ]
+				}
+,
+				"1236" : 				{
+					"/vdmx" : [ "/media", 1 ]
+				}
+,
+				"1336" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 1" ]
+				}
+,
+				"1346" : 				{
+					"/vdmx" : [ "/media", 0 ]
+				}
+,
+				"1446" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 2" ]
+				}
+,
+				"1456" : 				{
+					"/vdmx" : [ "/media", 18 ]
+				}
+,
+				"1556" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 6" ]
+				}
+,
+				"1566" : 				{
+					"/vdmx" : [ "/media", 0 ]
+				}
+,
+				"1666" : 				{
+					"/vdmx" : [ "/vapeur", 1 ]
+				}
+,
+				"1766" : 				{
+					"/vdmx" : [ "/smoke", 1 ]
+				}
+,
+				"1866" : 				{
+					"/vdmx" : [ "/final-circle", 1 ]
+				}
+,
+				"1867" : 				{
+					"/vdmx" : [ "/smoke/speed", 0 ]
+				}
+,
+				"1877" : 				{
+					"/vdmx" : [ "/lfo.1/play", 1 ]
+				}
+,
+				"1887" : 				{
+					"/vdmx" : [ "/lfo.2/play", 0 ]
+				}
+,
+				"1897" : 				{
+					"/vdmx" : [ "/lfo.3/rate", 0 ]
+				}
+,
+				"1907" : 				{
+					"/vdmx" : [ "/lfo.3/play", 1 ]
+				}
+,
+				"1917" : 				{
+					"/vdmx" : [ "/lfo.3/time", 0 ]
+				}
+,
+				"1927" : 				{
+					"/vdmx" : [ "/lfo.4/play", 0 ]
+				}
+
+			}
+
+		}
+,
+		"LOAD2" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/inittttt" : "bang"
+				}
+,
+				"1000" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 3" ]
+				}
+,
+				"1010" : 				{
+					"/vdmx" : [ "/media", 12 ]
+				}
+,
+				"1110" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 2" ]
+				}
+,
+				"1120" : 				{
+					"/vdmx" : [ "/media", 13 ]
+				}
+,
+				"1121" : 				{
+					"/vdmx" : [ "/melting", 1 ]
+				}
+,
+				"1131" : 				{
+					"/vdmx" : [ "/lfo.4/rate", 0 ]
+				}
+,
+				"1141" : 				{
+					"/vdmx" : [ "/lfo.4/play", 1 ]
+				}
+,
+				"1142" : 				{
+					"/vdmx" : [ "/lfo.4/time", 0 ]
+				}
+,
+				"1143" : 				{
+					"/layer.3/alpha" : 1.0
+				}
+,
+				"1153" : 				{
+					"/vdmx" : [ "/lfo.4/loopmode", "Once" ]
+				}
+
+			}
+
+		}
+,
+		"LOAD1" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/inittttt" : "bang"
+				}
+,
+				"1000" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 4" ]
+				}
+,
+				"1010" : 				{
+					"/vdmx" : [ "/media", 2 ]
+				}
+,
+				"1110" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 5" ]
+				}
+,
+				"1120" : 				{
+					"/vdmx" : [ "/media", 15 ]
+				}
+,
+				"1220" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 2" ]
+				}
+,
+				"1230" : 				{
+					"/vdmx" : [ "/media", 21 ]
+				}
+,
+				"1330" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 10" ]
+				}
+,
+				"1340" : 				{
+					"/vdmx" : [ "/media", 19 ]
+				}
+,
+				"1440" : 				{
+					"/vdmx" : [ "/camera", 1 ]
+				}
+,
+				"1540" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 1" ]
+				}
+,
+				"1550" : 				{
+					"/vdmx" : [ "/media", 17 ]
+				}
+,
+				"1650" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 8" ]
+				}
+,
+				"1660" : 				{
+					"/vdmx" : [ "/media", 20 ]
+				}
+,
+				"1760" : 				{
+					"/vdmx" : [ "/leaning", 1 ]
+				}
+,
+				"1761" : 				{
+					"/vdmx" : [ "/lfo.1/play", 0 ]
+				}
+,
+				"1762" : 				{
+					"/vdmx" : [ "/lfo.2/play", 0 ]
+				}
+,
+				"1763" : 				{
+					"/vdmx" : [ "/lfo.3/play", 1 ]
+				}
+,
+				"1764" : 				{
+					"/vdmx" : [ "/lfo.4/play", 0 ]
+				}
+,
+				"1765" : 				{
+					"/vdmx" : [ "/lfo.4/loopmode", "Loop" ]
+				}
+,
+				"1766" : 				{
+					"/vdmx" : [ "/lfo.4/time", 0.5 ]
+				}
+,
+				"1767" : 				{
+					"/vdmx" : [ "/lfo.4/rate", 1 ]
+				}
+,
+				"1867" : 				{
+					"/layer.1/alpha" : 0
+				}
+,
+				"1868" : 				{
+					"/layer.2/alpha" : 0
+				}
+,
+				"1869" : 				{
+					"/layer.4/alpha" : 0
+				}
+,
+				"1870" : 				{
+					"/layer.5/alpha" : 0
+				}
+,
+				"1970" : 				{
+					"/visca/play" : "debut"
+				}
+,
+				"2070" : 				{
+					"/vdmx" : [ "black-smoke", 1 ]
+				}
+,
+				"2071" : 				{
+					"/vdmx" : [ "/brightness", 0 ]
+				}
+,
+				"2072" : 				{
+					"/vdmx" : [ "/livecamsol", 1 ]
+				}
+
+			}
+
+		}
+,
+		"leaning-intro" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.1/alpha" : [ 1.0, 20000 ]
+				}
+,
+				"10" : 				{
+					"/layer.8/alpha" : [ 0.75, 20000 ]
+				}
+,
+				"20" : 				{
+					"/layer.4/alpha" : [ 0.0, 20000 ]
+				}
+,
+				"30" : 				{
+					"/layer.5/alpha" : [ 0.0, 20000 ]
+				}
+,
+				"40" : 				{
+					"/layer.10/alpha" : [ 0.0, 20000 ],
+					"// 0" : "Deplacement des lignes",
+					"/vdmx" : [ "/lfo.1/play", 1 ]
+				}
+,
+				"41" : 				{
+					"/vdmx" : [ "/lfo.3/play", 1 ]
+				}
+,
+				"42" : 				{
+					"/vdmx" : [ "/lfo.4/play", 0 ]
+				}
+,
+				"43" : 				{
+					"/vdmx" : [ "/lfo.3/rate", 1 ]
+				}
+
+			}
+
+		}
+,
+		"leaning-out" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.1/alpha" : [ 0.0, 35000 ],
+					"/layer.8/alpha" : [ 0.0, 35000 ]
+				}
+
+			}
+
+		}
+,
+		"leaning-move" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+
+				}
+
+			}
+
+		}
+,
+		"camera-noise" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "FadeIn scanner lointain",
+					"/layer.2/alpha" : [ 1.0, 10000 ]
+				}
+,
+				"10" : 				{
+					"// 1" : "disparition camera au sol et lointain",
+					"/vdmx" : [ "/livecamsol", 0 ]
+				}
+,
+				"11" : 				{
+					"// 2" : "montee de la luminosite au sol",
+					"/vdmx" : [ "/lfo.4/play", 1 ]
+				}
+,
+				"10011" : 				{
+					"// 3" : "FadeOut camera lointain",
+					"/layer.5/alpha" : [ 0.0, 10000 ]
+				}
+
+			}
+
+		}
+,
+		"###RESET###" : 		{
+			"tags" : "undefined",
+			"description" : "Mise a zero",
+			"data" : 			{
+				"0" : 				{
+					"/vdmx" : [ "/mise", 1 ]
+				}
+
+			}
+
+		}
+,
+		"camera-face" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "fade in camera face",
+					"/layer.5/alpha" : [ 1.0, 30000 ]
+				}
+
+			}
+
+		}
+,
+		"camera-sol" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"// 0" : "fade in camera sol",
+					"/layer.4/alpha" : [ 1.0, 40000 ],
+					"/layer.10/alpha" : [ 1.0, 90000 ]
+				}
+,
+				"1" : 				{
+					"/layer.10/alpha" : [ 1.0, 90000 ]
+				}
+
+			}
+
+		}
+,
+		"melting-intro" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.2/alpha" : [ 1.0, 15000 ]
+				}
+
+			}
+
+		}
+,
+		"melting-enlarge" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/vdmx" : [ "/lfo.4/play", 1 ]
+				}
+
+			}
+
+		}
+,
+		"quatuor-intro" : 		{
+			"tags" : "undefined",
+			"description" : "A charger pendant solo guitare",
+			"data" : 			{
+				"0" : 				{
+					"/inittttt" : "bang"
+				}
+,
+				"100" : 				{
+					"/vdmx" : [ "/lfo.1/play", 1 ]
+				}
+,
+				"101" : 				{
+					"/vdmx" : [ "/lfo.3/time", 0 ]
+				}
+,
+				"112" : 				{
+					"/vdmx" : [ "/lfo.3/play", 1 ]
+				}
+,
+				"122" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 8" ]
+				}
+,
+				"132" : 				{
+					"/vdmx" : [ "/media", 11 ]
+				}
+,
+				"232" : 				{
+					"/vdmx" : [ "/smoke/speed", 0 ]
+				}
+,
+				"242" : 				{
+					"/layer.9/alpha" : 1
+				}
+,
+				"342" : 				{
+					"/layer.10/alpha" : 1
+				}
+,
+				"542" : 				{
+					"/layer.8/alpha" : 1.0
+				}
+,
+				"642" : 				{
+					"/vdmx" : [ "/smoke/speed", 0 ]
+				}
+
+			}
+
+		}
+,
+		"fumee-intro" : 		{
+			"tags" : "undefined",
+			"description" : "Crossfade Nuages Fumée",
+			"data" : 			{
+				"0" : 				{
+					"/layer.1/alpha" : [ 1.0, 30000 ]
+				}
+,
+				"1" : 				{
+					"/layer.7/alpha" : [ 0.0, 30000 ]
+				}
+,
+				"2" : 				{
+					"/layer.8/alpha" : [ 0, 30000 ]
+				}
+,
+				"12002" : 				{
+					"/layer.2/alpha" : [ 1.0, 25000 ]
+				}
+,
+				"12003" : 				{
+					"/layer.6/alpha" : [ 1.0, 15000 ]
+				}
+
+			}
+
+		}
+,
+		"fumee-outro" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.3/alpha" : [ 0.0, 9000 ]
+				}
+
+			}
+
+		}
+,
+		"fumee-outro-sol" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.6/alpha" : [ 0.0, 10000 ],
+					"/layer.2/alpha" : [ 0.0, 10000 ]
+				}
+
+			}
+
+		}
+,
+		"camera-large" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"#1/play" : "large"
+				}
+
+			}
+
+		}
+,
+		"camera-out" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.2/alpha" : [ 0.0, 28000 ],
+					"/layer.4/alpha" : [ 0.0, 28000 ],
+					"/layer.5/alpha" : [ 0.0, 28000 ],
+					"/layer.10/alpha" : [ 0.0, 28000 ]
+				}
+
+			}
+
+		}
+,
+		"quatuor-fond-out" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.7/alpha" : [ 0.0, 20000 ]
+				}
+
+			}
+
+		}
+,
+		"camera-enlarge" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/visca/play" : "large"
+				}
+
+			}
+
+		}
+,
+		"quatuor-fond-in" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/vdmx" : [ "/media/dest", "Layer 7" ]
+				}
+,
+				"10" : 				{
+					"/vdmx" : [ "/media", 10 ]
+				}
+,
+				"110" : 				{
+					"/layer.7/alpha" : 0.45
+				}
+
+			}
+
+		}
+,
+		"quatuor-out" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.8/alpha" : [ 0.0, 20000 ]
+				}
+
+			}
+
+		}
+,
+		"fumee-final" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.3/alpha" : [ 1.0, 12000 ]
+				}
+
+			}
+
+		}
+,
+		"fumee-outro-face" : 		{
+			"tags" : "undefined",
+			"description" : "Describe event here...",
+			"data" : 			{
+				"0" : 				{
+					"/layer.1/alpha" : [ 0.0, 6500 ]
+				}
+
+			}
+
+		}
+
+	}
+,
+	"system" : 	{
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"namespace" : 			{
+
+			}
+,
+			"nodes" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+
+	}
+
+}
