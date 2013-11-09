@@ -37,7 +37,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 12.5, 130.77533, 113.25, 20.0 ],
-					"presentation_rect" : [ 9.5, 135.77533, 0.0, 0.0 ],
 					"text" : "t s s"
 				}
 
@@ -75,7 +74,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 87.0, 597.614136, 213.0, 20.0 ],
-					"presentation_rect" : [ 121.25, 561.581177, 0.0, 0.0 ],
 					"text" : "zl reg"
 				}
 
@@ -132,7 +130,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 29.5, 441.614136, 239.0, 20.0 ],
-					"text" : "combine namespace:: address @triggers 1"
+					"text" : "combine namespace address @triggers 1"
 				}
 
 			}
@@ -798,21 +796,6 @@
 					"source" : [ "obj-9", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "span.requests.replace.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../../patchers/requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.contains.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../../patchers/requests",
-				"type" : "JSON",
-				"implicit" : 1
 			}
  ]
 	}
