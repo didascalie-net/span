@@ -148,8 +148,9 @@
 						"unit" : "none",
 						"initval" : 0,
 						"repetition" : 1,
-						"clipmode" : "both",
-						"ramp" : 0,
+						"range" : [ 0, 0 ],
+						"clipmode" : "none",
+						"ramp" : 1,
 						"rampfunction" : "none",
 						"value" : 0
 					}
