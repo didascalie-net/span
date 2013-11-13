@@ -9,6 +9,7 @@ setoutletassist(0,"patcher filepath and more");
 function bang()
 {
 	outlet(0, "isruntime",max.isruntime);
+	outlet(0, "arch",max.arch);
 	outlet(0, "os",max.os);
 	outlet(0, "osversion",max.osversion);
 	outlet(0, "maxversion",max.version);
