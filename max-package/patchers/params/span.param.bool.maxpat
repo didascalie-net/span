@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86"
 		}
 ,
@@ -151,7 +151,7 @@
 						"clipmode" : "both",
 						"ramp" : 0,
 						"rampfunction" : "none",
-						"value" : "0"
+						"value" : 0
 					}
 ,
 					"fontname" : "Arial",
@@ -201,7 +201,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86"
 						}
 ,
