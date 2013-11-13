@@ -151,7 +151,7 @@
 						"clipmode" : "both",
 						"ramp" : 0,
 						"rampfunction" : "none",
-						"value" : "0"
+						"value" : 0
 					}
 ,
 					"fontname" : "Arial",
