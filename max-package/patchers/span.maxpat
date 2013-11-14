@@ -56510,7 +56510,7 @@
 ,
 										"preferences" : 										{
 											"verbose" : 1,
-											"autoload" : 0,
+											"autoload" : 1,
 											"dynamicvars" : 1,
 											"project" : 											{
 												"path" : "",
