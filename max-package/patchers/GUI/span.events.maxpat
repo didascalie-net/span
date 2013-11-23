@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 572.0, 358.0, 1055.0, 636.0 ],
+		"rect" : [ 514.0, 177.0, 1079.0, 691.0 ],
 		"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"hidden" : 1,
+					"id" : "obj-127",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 37.866821, 50.5, 32.5, 16.0 ],
+					"text" : "clear"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -808,8 +823,7 @@
 					"patching_rect" : [ 318.074951, 129.604004, 136.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 43.542709, 121.363037, 153.457291, 21.5 ],
-					"rounded" : 0.0,
-					"text" : "undefined"
+					"rounded" : 0.0
 				}
 
 			}
@@ -1413,7 +1427,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
 					"id" : "obj-23",
-					"items" : [ "all", ",", "undefined", ",", 0 ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1866,7 +1880,7 @@
 					"fontsize" : 14.0,
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"id" : "obj-43",
-					"items" : [ "empty", ",", "all", ",", "all-active", ",", "control-active", ",", "audio-active", ",", "device-active", ",", "tapemovie" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2056,6 +2070,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-124", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-127", 0 ]
 				}
 
 			}
@@ -2900,8 +2932,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../../bulle-musicale/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
