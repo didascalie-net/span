@@ -1,0 +1,113 @@
+{
+	"projectinfo" : 	{
+		"created" : "2013-11-24T18:48:48",
+		"lastopened" : "",
+		"lastsaved" : "2013-11-24T18:48:48",
+		"appname" : "tapemovie",
+		"appversion" : 		{
+			"major" : 2,
+			"minor" : 0,
+			"revision" : 0
+		}
+
+	}
+,
+	"paths" : 	{
+
+	}
+,
+	"nodes" : 	{
+		"del" : 		{
+			"quantity" : 2,
+			"tags" : "audio",
+			"filename" : "t_del",
+			"description" : "standard delay"
+		}
+,
+		"filt" : 		{
+			"quantity" : 2,
+			"tags" : "audio",
+			"filename" : "t_filt",
+			"description" : "standard filter"
+		}
+,
+		"ctlmap" : 		{
+			"quantity" : 0,
+			"tags" : "control",
+			"filename" : "span_map",
+			"description" : "controller mapper"
+		}
+,
+		"events" : 		{
+			"quantity" : 0,
+			"tags" : [ "control", "event" ],
+			"filename" : "tm_events",
+			"description" : "Events Manager"
+		}
+,
+		"oscreceive" : 		{
+			"quantity" : 0,
+			"tags" : "osc",
+			"filename" : "tm_oscreceive",
+			"description" : "receive OSC messages"
+		}
+,
+		"oscsend" : 		{
+			"quantity" : 0,
+			"tags" : "osc",
+			"filename" : "tm_oscsend",
+			"description" : "send OSC messages"
+		}
+,
+		"modul8" : 		{
+			"quantity" : 0,
+			"tags" : [ "device", "osc" ],
+			"filename" : "tm_modul8",
+			"description" : "modul8 layer control"
+		}
+,
+		"mouse" : 		{
+			"quantity" : 1,
+			"tags" : [ "device", "control" ],
+			"filename" : "tm_mouse",
+			"description" : "mouse as controller"
+		}
+
+	}
+,
+	"temp" : 	{
+
+	}
+,
+	"events" : 	{
+
+	}
+,
+	"system" : 	{
+		"projectstructure" : 		{
+			"projectinfo" : 			{
+
+			}
+,
+			"paths" : 			{
+
+			}
+,
+			"nodes" : 			{
+				"*" : [ "quantity", "tags", "filename", "description" ]
+			}
+,
+			"temp" : 			{
+
+			}
+,
+			"events" : 			{
+
+			}
+,
+			"system" : "projectstructure"
+		}
+
+	}
+
+}
