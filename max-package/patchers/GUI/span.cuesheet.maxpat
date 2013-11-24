@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 123.0, 327.0, 670.0, 540.0 ],
+		"rect" : [ 19.0, 66.0, 670.0, 540.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -70,7 +70,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -692,7 +692,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.062622, 185.330078, 61.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.891663, 180.604004, 48.36145, 23.0 ],
+					"presentation_rect" : [ 393.891663, 143.604004, 48.36145, 23.0 ],
 					"triangle" : 0
 				}
 
@@ -772,7 +772,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1095,7 +1095,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -1553,7 +1553,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 478.031494, 135.62207, 109.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 74.032959, 435.0, 55.0 ]
+					"presentation_rect" : [ 3.253113, 37.032959, 435.0, 55.0 ]
 				}
 
 			}
@@ -1573,7 +1573,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 317.616821, 62.62207, 339.829346, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.542725, 42.032959, 273.939575, 27.0 ],
+					"presentation_rect" : [ 116.542725, 5.032959, 273.939575, 27.0 ],
 					"rounded" : 0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1605,8 +1605,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 144.706604, 333.895996, 42.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 4.324951, 7.032959, 43.0, 19.0 ],
 					"text" : "events"
 				}
 
@@ -1640,7 +1638,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x86"
 						}
 ,
@@ -2044,8 +2042,6 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 257.787476, 476.240967, 61.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 393.891663, 5.032959, 48.36145, 23.0 ],
 					"triangle" : 0
 				}
 
@@ -2093,8 +2089,6 @@
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 100.645996, 406.934082, 333.282959, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 116.542725, 5.032959, 273.939575, 23.0 ],
 					"rounded" : 0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2162,8 +2156,6 @@
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 21.062622, 317.806885, 100.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 48.324951, 5.032959, 63.0, 23.0 ],
 					"rounded" : 0.0,
 					"text" : "refresh list",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2249,7 +2241,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 487.454163, 328.401123, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 48.324951, 43.032959, 63.0, 23.0 ],
+					"presentation_rect" : [ 48.324951, 6.032959, 63.0, 23.0 ],
 					"rounded" : 0.0,
 					"text" : "refresh list",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2270,7 +2262,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 466.031494, 14.038086, 43.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 41.032959, 43.0, 27.0 ],
+					"presentation_rect" : [ 3.253113, 4.032959, 43.0, 27.0 ],
 					"text" : "next",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -2287,7 +2279,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 299.616821, 250.538086, 65.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 178.604004, 65.0, 27.0 ],
+					"presentation_rect" : [ 3.253113, 141.604004, 65.0, 27.0 ],
 					"text" : "current",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -2307,7 +2299,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 393.031494, 246.830078, 61.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.891663, 42.032959, 48.36145, 23.0 ],
+					"presentation_rect" : [ 393.891663, 5.032959, 48.36145, 23.0 ],
 					"triangle" : 0
 				}
 
@@ -2344,7 +2336,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 13.324951, 70.071045, 171.737671, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 133.032959, 443.518799, 41.0 ],
+					"presentation_rect" : [ 3.253113, 96.032959, 443.518799, 41.0 ],
 					"rounded" : 0.0,
 					"text" : "GO",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -2376,8 +2368,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 134.706604, 321.895996, 69.5, 36.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 3.324951, 3.032959, 443.518799, 33.0 ],
 					"rounded" : 0
 				}
 
@@ -2398,7 +2388,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 154.787476, 217.830078, 202.829346, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.542725, 178.604004, 273.939575, 27.0 ],
+					"presentation_rect" : [ 116.542725, 141.604004, 273.939575, 27.0 ],
 					"rounded" : 0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -2711,14 +2701,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
