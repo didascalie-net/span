@@ -1,8 +1,8 @@
 {
 	"projectinfo" : 	{
-		"created" : "2013-11-24T16:41:17",
+		"created" : "2013-11-24T20:10:15",
 		"lastopened" : "2013-07-30T10:50:56",
-		"lastsaved" : "2013-11-24T16:41:17",
+		"lastsaved" : "2013-11-24T20:10:29",
 		"appname" : "tapemovie",
 		"appversion" : 		{
 			"major" : 2,
@@ -792,7 +792,43 @@
 
 			}
 ,
-			"system" : "projectstructure"
+			"system" : 			{
+				"projectstructure" : 				{
+
+				}
+,
+				"data" : 				{
+					"osc" : 					{
+
+					}
+
+				}
+
+			}
+
+		}
+,
+		"data" : 		{
+			"osc" : 			{
+				"send" : 				{
+					"host" : "localhost",
+					"port" : 10000,
+					"maxqueuesize" : 2048,
+					"maxpacketsize" : 4096
+				}
+,
+				"receive" : 				{
+					"port" : 11000,
+					"maxqueuesize" : 2048
+				}
+,
+				"ctlin" : 				{
+					"port" : 11100,
+					"maxqueuesize" : 2048
+				}
+
+			}
+
 		}
 
 	}

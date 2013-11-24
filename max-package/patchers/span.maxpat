@@ -20360,7 +20360,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 44.937439, 518.0, 554.479126, 18.0 ],
-									"text" : "newproj"
+									"text" : "test1-proj"
 								}
 
 							}
@@ -20642,7 +20642,7 @@
 													"patching_rect" : [ 139.0, 41.845154, 328.0, 27.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 19.5, 14.845154, 264.25, 27.0 ],
-													"text" : "Current project is: newproj",
+													"text" : "Current project is: test1-proj",
 													"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 												}
 
@@ -56884,7 +56884,7 @@
 
 												}
 ,
-												"system" : "projectstructure"
+												"system" : [ "projectstructure", "data" ]
 											}
 ,
 											"data" : 											{
