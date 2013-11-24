@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 937.0, 493.0 ],
+		"rect" : [ 4.0, 44.0, 937.0, 493.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -93,8 +93,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 167.75, 2.373291, 286.0, 20.0 ],
-					"text" : "Reset Span and manage your project files last project",
+					"patching_rect" : [ 236.25, 2.373291, 226.0, 20.0 ],
+					"text" : "Reset Span and manage your project files",
 					"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
 				}
 
