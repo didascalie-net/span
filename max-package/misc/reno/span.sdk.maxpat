@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
@@ -38,8 +38,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 413.25, 10.139709, 499.0, 33.0 ],
-					"presentation_rect" : [ 411.75, 15.139709, 0.0, 0.0 ],
+					"patching_rect" : [ 386.25, 13.139709, 499.0, 30.0 ],
 					"text" : "You can reload (reset span) or reload only the project.\nThe button will reflect the loading stats (it will come back to 0 when project loading is done.",
 					"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
 				}
@@ -70,7 +69,7 @@
 					"name" : "span.init.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 62.75, 4.139709, 350.5, 38.0 ]
+					"patching_rect" : [ 62.75, 4.139709, 317.5, 87.0 ]
 				}
 
 			}
@@ -78,8 +77,15 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/reno/GITs/span/patchers/GUI",
-				"patcherrelativepath" : "../patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
+				"patcherrelativepath" : "../../patchers/GUI",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "span.requests.maxpat",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}

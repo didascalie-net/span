@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 4,
 			"architecture" : "x86"
 		}
 ,
 		"rect" : [ 13.0, 44.0, 509.0, 789.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -51,7 +51,6 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 103.0, 148.0, 104.0, 20.0 ],
-					"presentation_rect" : [ 649.0, 134.0, 0.0, 0.0 ],
 					"text" : "span.requests"
 				}
 
@@ -252,8 +251,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/patchers",
-				"patcherrelativepath" : "../../patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
