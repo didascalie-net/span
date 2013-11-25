@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 453.0, 452.0, 671.0, 528.0 ],
+		"rect" : [ 453.0, 452.0, 680.0, 437.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,35 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.531494, 331.192932, 48.0, 18.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.074129, 0.486744, 0.790227, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.531494, 304.038086, 131.0, 18.0 ],
+					"text" : "r /span/insert3/load/working"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -285,7 +314,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 361.0, 16.0, 174.0, 20.0 ],
+					"patching_rect" : [ 361.0, 16.0, 46.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 378.891663, 3.532959, 47.0, 20.0 ],
 					"text" : "events"
@@ -358,7 +387,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 854.0, 636.0 ],
+						"rect" : [ 25.0, 69.0, 415.0, 157.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -564,7 +593,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 28.0, 51.859985, 50.0, 18.0 ],
-													"presentation_rect" : [ 28.0, 52.543335, 0.0, 0.0 ],
 													"text" : "bang"
 												}
 
@@ -579,7 +607,6 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 75.0, 159.543335, 50.0, 18.0 ],
-													"presentation_rect" : [ 79.0, 160.0, 0.0, 0.0 ],
 													"text" : "briquet"
 												}
 
@@ -606,8 +633,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 146.0, 9.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 165.0, 11.0, 0.0, 0.0 ]
+													"patching_rect" : [ 146.0, 9.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -1102,7 +1128,7 @@
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 									"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 									"id" : "obj-25",
-									"items" : [ "pluie", ",", "water glass" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1288,7 +1314,7 @@
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 									"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 									"id" : "obj-49",
-									"items" : [ "pluie", ",", "vase", ",", "briquet", ",", "sablier", ",", "water glass", ",", "2013-11-24T11:16:18", ",", "aboth" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1665,7 +1691,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 212.702148, 328.401123, 190.0, 20.0 ],
+					"patching_rect" : [ 234.616821, 323.26416, 190.0, 20.0 ],
 					"text" : "r /span/cuesheet/tocuesheetmenu"
 				}
 
@@ -1679,7 +1705,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.202148, 387.401123, 205.0, 20.0 ],
+					"patching_rect" : [ 312.531494, 381.797119, 205.0, 20.0 ],
 					"text" : "s /span/cuesheet/fromcuesheetmenu"
 				}
 
@@ -1692,13 +1718,13 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-7",
-					"items" : "cuesheet.1",
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 212.702148, 357.401123, 174.829346, 23.0 ],
+					"patching_rect" : [ 234.616821, 352.26416, 174.829346, 23.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 79.662476, 2.032959, 243.939575, 23.0 ],
 					"rounded" : 0,
@@ -1716,7 +1742,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.202148, 453.401123, 174.0, 18.0 ],
+					"patching_rect" : [ 146.193787, 411.330078, 174.0, 18.0 ],
 					"text" : "add an option for triggering with a key"
 				}
 
@@ -1783,7 +1809,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 259.0, 469.604004, 50.0, 45.0 ],
-									"presentation_rect" : [ 259.0, 469.0, 0.0, 0.0 ],
 									"text" : "pluie \"water glass\""
 								}
 
@@ -1799,7 +1824,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 290.0, 278.0, 50.0, 31.0 ],
-									"presentation_rect" : [ 290.0, 277.0, 0.0, 0.0 ],
 									"text" : "cuesheet.1"
 								}
 
@@ -2363,7 +2387,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 479.454163, 450.901123, 147.0, 23.0 ],
+					"patching_rect" : [ 32.193787, 281.901123, 147.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2604,7 +2628,7 @@
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 									"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 									"id" : "obj-18",
-									"items" : [ "pluie", ",", "water glass" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3314,7 +3338,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 253.202148, 417.934082, 153.0, 30.0 ],
+					"patching_rect" : [ 146.193787, 375.863037, 153.0, 30.0 ],
 					"text" : "put an init on the first item as an option [item0isinit 0/1]"
 				}
 
@@ -3359,7 +3383,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-18",
-					"items" : [ "pluie", ",", "water glass" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3454,7 +3478,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.454163, 366.934082, 155.0, 20.0 ],
+					"patching_rect" : [ 510.531494, 403.934082, 155.0, 20.0 ],
 					"text" : "s /span/cuesheet/reflreshlist"
 				}
 
@@ -3475,7 +3499,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 487.454163, 328.401123, 100.0, 20.0 ],
+					"patching_rect" : [ 510.531494, 365.401123, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 5.253113, 2.032959, 63.0, 23.0 ],
 					"rounded" : 0.0,
@@ -3605,7 +3629,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-5",
-					"items" : [ "pluie", ",", "water glass" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3659,6 +3683,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-28", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -3672,6 +3705,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -3915,8 +3957,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
+				"patcherrelativepath" : "../../../../bulle musicale/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
