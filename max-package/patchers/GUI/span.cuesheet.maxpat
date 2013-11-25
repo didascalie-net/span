@@ -358,7 +358,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 554.0, 318.0 ],
+						"rect" : [ 25.0, 69.0, 429.0, 116.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -368,11 +368,11 @@
 						"gridsize" : [ 15.0, 15.0 ],
 						"gridsnaponopen" : 0,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"boxanimatetime" : 200,
 						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
+						"enablehscroll" : 0,
+						"enablevscroll" : 0,
 						"devicewidth" : 0.0,
 						"description" : "",
 						"digest" : "",
@@ -912,7 +912,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 195.866333, 215.697754, 150.0, 48.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 52.892822, 51.291992, 303.0, 20.0 ],
+									"presentation_rect" : [ 53.892822, 47.291992, 303.0, 20.0 ],
 									"text" : "you will insert this event before that event in the cuesheet"
 								}
 
@@ -954,7 +954,7 @@
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 									"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 									"id" : "obj-25",
-									"items" : [ "aboth", ",", "pluie", ",", "2013-11-24T11:16:18", ",", "sablier", ",", "vase", ",", "water glass" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -962,7 +962,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 210.143982, 73.848145, 84.383179, 27.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 88.686981, 79.202881, 246.676788, 27.0 ],
+									"presentation_rect" : [ 89.686981, 75.202881, 246.676788, 27.0 ],
 									"rounded" : 0,
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1053,7 +1053,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 210.143982, 140.697754, 63.0, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 340.891663, 15.291992, 51.0, 23.0 ],
+									"presentation_rect" : [ 363.523071, 21.791992, 51.0, 23.0 ],
 									"triangle" : 0
 								}
 
@@ -1099,7 +1099,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 129.866333, 73.848145, 44.0, 19.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 14.643982, 15.291992, 44.0, 19.0 ],
+									"presentation_rect" : [ 19.555588, 5.791992, 44.0, 19.0 ],
 									"text" : "events"
 								}
 
@@ -1148,7 +1148,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 76.224854, 140.697754, 88.282959, 23.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 61.424194, 15.291992, 273.939575, 23.0 ],
+									"presentation_rect" : [ 82.953247, 21.791992, 273.939575, 23.0 ],
 									"rounded" : 0,
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -1217,7 +1217,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 5.974831, 29.967041, 100.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 14.643982, 82.702881, 69.0, 20.0 ],
+									"presentation_rect" : [ 7.055588, 21.791992, 69.0, 20.0 ],
 									"rounded" : 0.0,
 									"text" : "refresh list",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1236,7 +1236,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 119.866333, 61.848145, 69.5, 36.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 1.893982, 6.791992, 404.997681, 109.0 ],
+									"presentation_rect" : [ 3.055588, 1.791992, 418.997681, 109.0 ],
 									"rounded" : 0
 								}
 
@@ -1508,7 +1508,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-7",
-					"items" : [ "ma cue sheet", ",", "ma cue sheet 2" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2122,7 +2122,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 455.454163, 237.830078, 63.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.891663, 142.604004, 51.0, 23.0 ],
+					"presentation_rect" : [ 393.891663, 107.032959, 51.0, 23.0 ],
 					"triangle" : 0
 				}
 
@@ -2315,7 +2315,7 @@
 									"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 									"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 									"id" : "obj-18",
-									"items" : [ "aboth", ",", "pluie", ",", "2013-11-24T11:16:18", ",", "sablier", ",", "vase", ",", "water glass" ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3058,8 +3058,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 432.031494, 154.330078, 109.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 60.032959, 443.518799, 36.0 ],
-					"text" : "Describe event here..."
+					"presentation_rect" : [ 116.542725, 60.032959, 330.229187, 36.0 ]
 				}
 
 			}
@@ -3071,7 +3070,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-18",
-					"items" : [ "aboth", ",", "pluie", ",", "2013-11-24T11:16:18", ",", "sablier", ",", "vase", ",", "water glass" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3228,7 +3227,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 351.116821, 267.038086, 67.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 140.604004, 67.0, 27.0 ],
+					"presentation_rect" : [ 56.542725, 105.032959, 67.0, 27.0 ],
 					"text" : "current",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -3286,7 +3285,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 13.324951, 70.071045, 171.737671, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.253113, 98.032959, 443.518799, 41.0 ],
+					"presentation_rect" : [ 5.253113, 60.032959, 105.289612, 36.0 ],
 					"rounded" : 0.0,
 					"text" : "GO",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -3318,7 +3317,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-5",
-					"items" : [ "aboth", ",", "pluie", ",", "2013-11-24T11:16:18", ",", "sablier", ",", "vase", ",", "water glass" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3326,7 +3325,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 206.287476, 234.330078, 202.829346, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 116.542725, 140.604004, 273.939575, 27.0 ],
+					"presentation_rect" : [ 116.542725, 105.032959, 273.939575, 27.0 ],
 					"rounded" : 0,
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 0.0, 0.0, 0.0, 1.0 ]
