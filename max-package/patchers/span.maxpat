@@ -22202,8 +22202,8 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 107.645752, 586.987793, 152.0, 18.0 ],
-													"text" : "prepend set projectinfo::opened"
+													"patching_rect" : [ 107.645752, 586.987793, 165.0, 18.0 ],
+													"text" : "prepend set projectinfo::lastopened"
 												}
 
 											}
