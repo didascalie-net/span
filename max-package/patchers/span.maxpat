@@ -9929,7 +9929,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -10079,7 +10078,6 @@
 										"description" : "",
 										"digest" : "",
 										"tags" : "",
-										"visible" : 1,
 										"boxes" : [ 											{
 												"box" : 												{
 													"color" : [ 0.8, 0.244469, 0.528855, 0.72 ],
@@ -58742,109 +58740,6 @@
 					"source" : [ "obj-8", 0 ]
 				}
 
-			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../bulle-musicale/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../bulle-musicale/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dict.dump.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.contains.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "./requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.getparam.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "./requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.eventplay.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.path.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "./requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jsproperties.js",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../bulle-musicale/patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jspathtype.js",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "jspathtype-recursive.js",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../bulle-musicale/patchers",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bangbasedqueue.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/misc/reno",
-				"patcherrelativepath" : "../misc/reno",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.requests.replace.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "./requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "mappolytest2.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.param.dec.dyn.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
-				"patcherrelativepath" : "./params",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "shell.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
