@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 455.0, 167.0, 433.0, 288.0 ],
+		"rect" : [ 455.0, 167.0, 469.0, 288.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -28,6 +28,17 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 57.0, 51.5, 20.0, 20.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -74,23 +85,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 18.0,
-					"frgb" : 0.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 27.25, 185.75, 110.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 150.5, 4.023682, 110.0, 27.0 ],
-					"text" : "preferences",
-					"textcolor" : [ 0.0, 0.40859, 0.581194, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : 0.0,
 					"id" : "obj-22",
@@ -102,7 +96,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 102.0, 185.75, 120.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 31.023682, 258.5, 39.0 ]
+					"presentation_rect" : [ 2.0, 31.023682, 444.5, 39.0 ]
 				}
 
 			}
@@ -119,7 +113,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 18.0, 214.75, 225.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 6.523682, 140.5, 22.0 ],
+					"presentation_rect" : [ 150.0, 6.023682, 296.5, 22.0 ],
 					"varname" : "categories[1]"
 				}
 
@@ -139,7 +133,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -782,14 +776,14 @@
 , 			{
 				"box" : 				{
 					"color" : [ 0.074129, 0.486744, 0.790227, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"id" : "obj-39",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 18.0, 27.5, 98.0, 18.0 ],
+					"patching_rect" : [ 18.0, 22.5, 156.0, 20.0 ],
 					"text" : "r /span/load/working"
 				}
 
@@ -916,11 +910,20 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/span-package/patchers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
