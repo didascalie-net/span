@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 638.0, 52.0, 467.0, 294.0 ],
+		"rect" : [ 638.0, 52.0, 468.0, 294.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -119,7 +119,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 467.0, 268.0 ],
+						"rect" : [ 638.0, 78.0, 468.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -140,6 +140,53 @@
 						"tags" : "",
 						"showontab" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue Light Italic",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 314.5, 131.086349, 145.0, 20.0 ],
+									"presentation_rect" : [ 236.5, 139.0, 0.0, 0.0 ],
+									"text" : "Manage span preferences",
+									"textcolor" : [ 0.173966, 0.175966, 0.175966, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue Bold Italic",
+									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 7.0, 131.086349, 110.0, 21.0 ],
+									"presentation_rect" : [ 7.0, 143.0, 0.0, 0.0 ],
+									"text" : "span.preferences",
+									"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
+									"border" : 1,
+									"id" : "obj-11",
+									"maxclass" : "bpatcher",
+									"name" : "span.preferences.maxpat",
+									"numinlets" : 0,
+									"numoutlets" : 0,
+									"patching_rect" : [ 7.0, 152.086349, 452.5, 78.345184 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 18.0, 19.908829, 261.5, 82.345184 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue Light Italic",
 									"fontsize" : 12.0,
@@ -221,7 +268,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 467.0, 268.0 ],
+						"rect" : [ 0.0, 26.0, 468.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -324,7 +371,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 467.0, 268.0 ],
+						"rect" : [ 0.0, 26.0, 468.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -426,7 +473,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 467.0, 268.0 ],
+						"rect" : [ 0.0, 26.0, 468.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -528,7 +575,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 467.0, 268.0 ],
+						"rect" : [ 0.0, 26.0, 468.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -630,7 +677,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 26.0, 467.0, 268.0 ],
+						"rect" : [ 0.0, 26.0, 468.0, 268.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -689,7 +736,7 @@
 									"name" : "span.cuesheet.maxpat",
 									"numinlets" : 0,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 20.0, 448.125, 248.345184 ]
+									"patching_rect" : [ 9.0, 20.0, 448.125, 242.345184 ]
 								}
 
 							}
