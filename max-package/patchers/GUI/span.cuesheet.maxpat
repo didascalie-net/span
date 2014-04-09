@@ -3505,8 +3505,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 784.983643, 671.401123, 211.032715, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.253113, 162.032959, 434.590637, 23.0 ],
-					"text" : "sad"
+					"presentation_rect" : [ 4.253113, 162.032959, 434.590637, 23.0 ]
 				}
 
 			}
@@ -3535,7 +3534,7 @@
 					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"hltcolor" : [ 0.901961, 0.909804, 0.909804, 1.0 ],
 					"id" : "obj-129",
-					"items" : [ "all", ",", "sad", ",", "undefined", ",", "pouett poete" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3921,6 +3920,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-129", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 1,
@@ -3952,6 +3960,15 @@
 					"disabled" : 0,
 					"hidden" : 1,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -4217,7 +4234,7 @@
 					"destination" : [ "obj-55", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-49", 0 ]
+					"source" : [ "obj-49", 1 ]
 				}
 
 			}
@@ -4226,7 +4243,7 @@
 					"destination" : [ "obj-59", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-49", 1 ]
+					"source" : [ "obj-49", 0 ]
 				}
 
 			}
