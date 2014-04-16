@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -28,177 +28,6 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-47",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 791.5, 235.0, 33.0, 16.0 ],
-					"text" : "open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-39",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 791.5, 259.0, 46.0, 18.0 ],
-					"text" : "pcontrol"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 6,
-							"minor" : 1,
-							"revision" : 4,
-							"architecture" : "x86"
-						}
-,
-						"rect" : [ 24.0, 69.0, 272.0, 104.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 12.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue Light Italic",
-						"gridonopen" : 0,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 0,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 0,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 0,
-						"enablevscroll" : 0,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"boxes" : [ 							{
-								"box" : 								{
-									"comment" : "",
-									"hidden" : 1,
-									"id" : "obj-1",
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 113.0, 34.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Helvetica Neue Light Italic",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-40",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 114.75, 1.373291, 145.0, 20.0 ],
-									"text" : "Manage your  preferences",
-									"textcolor" : [ 0.0, 0.117385, 0.166972, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bubbleside" : 0,
-									"fontname" : "Helvetica Neue Bold Italic",
-									"fontsize" : 12.0,
-									"frgb" : 0.0,
-									"id" : "obj-14",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ -0.25, 1.373291, 112.0, 21.0 ],
-									"text" : "span.preferences",
-									"textcolor" : [ 0.0, 0.090161, 0.128249, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"bgcolor" : [ 0.937255, 0.937255, 0.937255, 0.0 ],
-									"border" : 1,
-									"id" : "obj-11",
-									"maxclass" : "bpatcher",
-									"name" : "span.preferences.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"patching_rect" : [ -0.25, 22.840393, 265.0, 72.895844 ]
-								}
-
-							}
- ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 791.5, 282.784973, 106.0, 18.0 ],
-					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue Light Italic",
-						"default_fontsize" : 12.0,
-						"description" : "",
-						"digest" : "",
-						"fontface" : 0,
-						"fontname" : "Helvetica Neue Light Italic",
-						"fontsize" : 12.0,
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
-					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 14.0,
-					"id" : "obj-21",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 791.5, 191.784973, 152.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 106.5, 2.999985, 53.424316, 27.690338 ],
-					"rounded" : 0.0,
-					"text" : "Prefs",
-					"texton" : "",
-					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
-					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
-				}
-
-			}
-, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -227,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 4,
+							"revision" : 7,
 							"architecture" : "x86"
 						}
 ,
@@ -788,7 +617,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.5, 530.666687, 181.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 61.845169, 101.0, 20.0 ],
+					"presentation_rect" : [ 2.5, 30.690323, 101.0, 20.0 ],
 					"text" : "Current Project :"
 				}
 
@@ -876,7 +705,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 292.5, 511.666687, 180.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.899063, 61.845169, 215.025253, 20.0 ],
+					"presentation_rect" : [ 97.899063, 30.690323, 215.025253, 20.0 ],
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 0.8 ]
 				}
 
@@ -897,17 +726,16 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Helvetica Neue",
-					"fontsize" : 9.0,
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
 					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.5, 511.666687, 190.0, 17.0 ],
+					"patching_rect" : [ 130.5, 511.666687, 190.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.048462, 78.845169, 308.0, 17.0 ],
-					"textcolor" : [ 0.0, 0.572549, 0.811765, 0.8 ]
+					"presentation_rect" : [ 5.048462, 47.690323, 441.0, 20.0 ]
 				}
 
 			}
@@ -1014,61 +842,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
-					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 14.0,
-					"id" : "obj-24",
-					"maxclass" : "textbutton",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 797.5, 76.845154, 152.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 257.924316, 34.154831, 55.0, 27.690338 ],
-					"rounded" : 0.0,
-					"text" : "Save ",
-					"texton" : "",
-					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
-					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
-					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 14.0,
-					"id" : "obj-20",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 639.5, 76.845154, 152.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 201.048462, 34.154831, 55.0, 27.690338 ],
-					"rounded" : 0.0,
-					"text" : "Open ",
-					"texton" : "OPENING  PROJECT",
-					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
-					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -1091,34 +864,6 @@
 					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
 					"fontname" : "Helvetica Neue Light Italic",
 					"fontsize" : 14.0,
-					"id" : "obj-16",
-					"maxclass" : "textbutton",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 481.5, 76.845154, 152.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 90.399063, 34.154831, 107.0, 27.690338 ],
-					"rounded" : 0.0,
-					"text" : "Copy / Save As",
-					"texton" : "COPYING  PROJECT",
-					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
-					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
-					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
-					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
-					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 14.0,
 					"id" : "obj-12",
 					"maxclass" : "textbutton",
 					"mode" : 1,
@@ -1128,9 +873,9 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 323.5, 76.845154, 152.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 34.154831, 85.0, 27.690338 ],
+					"presentation_rect" : [ 2.5, 2.999985, 150.0, 27.690338 ],
 					"rounded" : 0.0,
-					"text" : "Create New",
+					"text" : "Create New Project",
 					"texton" : "LOADING  PROJECT",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
 					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
@@ -1170,7 +915,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 165.5, 76.845154, 152.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 162.924316, 2.999985, 150.0, 27.690338 ],
+					"presentation_rect" : [ 159.5, 68.690323, 150.0, 27.690338 ],
 					"rounded" : 0.0,
 					"text" : "Reload Current Project",
 					"texton" : "LOADING  PROJECT",
@@ -1241,10 +986,93 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 9.5, 76.845154, 152.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.5, 2.999985, 101.0, 27.690338 ],
+					"presentation_rect" : [ 290.075684, 2.999985, 101.0, 27.690338 ],
 					"rounded" : 0.0,
 					"text" : "Reload span",
 					"texton" : "LOADING span",
+					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
+					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 14.0,
+					"id" : "obj-24",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 797.5, 76.845154, 152.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 391.048462, 68.690323, 55.0, 27.690338 ],
+					"rounded" : 0.0,
+					"text" : "Save ",
+					"texton" : "",
+					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
+					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 14.0,
+					"id" : "obj-20",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 639.5, 76.845154, 152.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 159.5, 2.999985, 120.0, 27.690338 ],
+					"rounded" : 0.0,
+					"text" : "Open a Project",
+					"texton" : "OPENING  PROJECT",
+					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
+					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgoncolor" : [ 0.54902, 0.54902, 0.54902, 0.0 ],
+					"bgovercolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+					"bgoveroncolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 14.0,
+					"id" : "obj-16",
+					"maxclass" : "textbutton",
+					"mode" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 481.5, 76.845154, 152.0, 31.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 5.048462, 68.690323, 107.0, 27.690338 ],
+					"rounded" : 0.0,
+					"text" : "Copy / Save As",
+					"texton" : "COPYING  PROJECT",
 					"textoncolor" : [ 0.861884, 0.107892, 0.110116, 1.0 ],
 					"textoveroncolor" : [ 0.898039, 0.113725, 0.113725, 1.0 ]
 				}
@@ -1384,15 +1212,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -1594,15 +1413,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-39", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1664,15 +1474,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 445.0, 488.166687, 302.0, 488.166687 ],
 					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-47", 0 ]
 				}
 
 			}
@@ -1742,15 +1543,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../requests",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
-				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

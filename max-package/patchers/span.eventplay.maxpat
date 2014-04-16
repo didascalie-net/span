@@ -46,7 +46,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 69.0, 274.0, 339.0 ],
+						"rect" : [ 25.0, 69.0, 280.0, 341.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -88,7 +88,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 37.500061, 81.227417, 24.0, 20.0 ],
+									"patching_rect" : [ 59.500061, 81.227417, 24.0, 20.0 ],
 									"text" : "t 2"
 								}
 
@@ -116,8 +116,8 @@
 									"numinlets" : 3,
 									"numoutlets" : 3,
 									"outlettype" : [ "bang", "bang", "" ],
-									"patching_rect" : [ 10.000061, 48.227417, 74.0, 20.0 ],
-									"text" : "sel max osc"
+									"patching_rect" : [ 10.000061, 48.227417, 118.0, 20.0 ],
+									"text" : "sel max directoutput"
 								}
 
 							}
@@ -183,7 +183,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 85.250061, 9.0, 25.0, 25.0 ]
+									"patching_rect" : [ 118.250061, 9.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -402,8 +402,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 646.899963, 564.780029, 127.0, 20.0 ],
-					"text" : "s /span/osc/send/data"
+					"patching_rect" : [ 646.899963, 564.780029, 146.0, 20.0 ],
+					"text" : "s /span/event/directoutput"
 				}
 
 			}
@@ -1110,6 +1110,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.216658, 11.5, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -1892,6 +1896,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 38.299999, 780.447083, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -1905,10 +1913,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 269.216644, 205.032959, 37.0, 20.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
 					"text" : "out 2"
 				}
 

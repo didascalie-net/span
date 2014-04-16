@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 743.0, 55.0, 864.0, 519.0 ],
+		"rect" : [ 676.0, 264.0, 864.0, 519.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -63,7 +63,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 368.0, 211.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 85.0, 447.0, 5.0 ]
+					"presentation_rect" : [ 3.5, 105.0, 447.0, 5.0 ]
 				}
 
 			}
@@ -75,7 +75,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 353.0, 196.0, 5.0, 100.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.5, 43.0, 447.0, 5.0 ]
+					"presentation_rect" : [ 0.5, 55.0, 447.0, 5.0 ]
 				}
 
 			}
@@ -90,7 +90,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 539.0, 290.0, 61.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.5, 101.0, 37.0, 20.0 ],
+					"presentation_rect" : [ 20.5, 121.0, 37.0, 20.0 ],
 					"text" : "/ctlin",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -107,7 +107,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 539.0, 98.0, 63.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.5, 59.0, 52.0, 20.0 ],
+					"presentation_rect" : [ 3.5, 70.0, 52.0, 20.0 ],
 					"text" : "/receive",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -153,7 +153,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 757.0, 378.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 83.0, 68.0, 20.0 ],
+					"presentation_rect" : [ 139.0, 103.0, 68.0, 20.0 ],
 					"text" : "receiving...",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -169,7 +169,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 727.0, 378.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.5, 101.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 157.5, 121.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -556,7 +556,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 320.0, 54.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.5, 101.0, 54.0, 21.0 ],
+					"presentation_rect" : [ 393.5, 121.0, 54.0, 21.0 ],
 					"rounded" : 0.0,
 					"text" : "print off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
@@ -587,7 +587,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 478.0, 387.5, 73.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.5, 101.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 61.5, 121.0, 73.0, 20.0 ],
 					"rounded" : 0.0,
 					"text" : "ctlin off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
@@ -617,7 +617,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 651.0, 408.5, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.75, 101.0, 48.0, 18.0 ],
+					"presentation_rect" : [ 206.75, 121.0, 48.0, 18.0 ],
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
@@ -636,7 +636,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 651.0, 458.0, 75.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.75, 83.0, 75.0, 20.0 ],
+					"presentation_rect" : [ 203.75, 103.0, 60.0, 20.0 ],
 					"text" : "/ctlin/port",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -699,7 +699,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 757.0, 181.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 139.0, 43.0, 68.0, 20.0 ],
+					"presentation_rect" : [ 139.0, 53.5, 68.0, 20.0 ],
 					"text" : "receiving...",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -715,7 +715,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 727.0, 181.0, 20.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 157.5, 61.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 157.5, 71.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -1586,7 +1586,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 465.0, 123.0, 54.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 393.5, 59.0, 54.0, 21.0 ],
+					"presentation_rect" : [ 393.5, 70.0, 54.0, 21.0 ],
 					"rounded" : 0.0,
 					"text" : "print off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
@@ -1617,7 +1617,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 478.0, 190.5, 73.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.5, 59.0, 73.0, 20.0 ],
+					"presentation_rect" : [ 61.5, 70.0, 73.0, 20.0 ],
 					"rounded" : 0.0,
 					"text" : "Receive off",
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
@@ -1737,7 +1737,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 165.5, 261.0, 66.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.75, 4.0, 66.0, 20.0 ],
+					"presentation_rect" : [ 201.25, 4.0, 65.0, 20.0 ],
 					"text" : "/send/port",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -1761,7 +1761,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 651.0, 211.5, 48.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 206.75, 61.0, 48.0, 18.0 ],
+					"presentation_rect" : [ 206.75, 71.0, 48.0, 18.0 ],
 					"textcolor" : [ 0.2, 0.0, 0.0, 0.24 ],
 					"triangle" : 0,
 					"triscale" : 0.9,
@@ -1780,7 +1780,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 651.0, 261.0, 77.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 195.75, 43.0, 77.0, 20.0 ],
+					"presentation_rect" : [ 195.75, 53.5, 76.0, 20.0 ],
 					"text" : "/receive/port",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}

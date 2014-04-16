@@ -510,7 +510,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 905.542725, 354.867676, 124.0, 23.0 ],
+					"patching_rect" : [ 921.542725, 366.768799, 124.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -541,9 +541,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 905.542725, 402.23584, 136.0, 18.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 7.277069, 146.363037, 432.903076, 59.5 ],
+					"patching_rect" : [ 921.542725, 414.136963, 136.0, 18.0 ],
 					"rounded" : 0.0
 				}
 
@@ -3834,15 +3832,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../../bulle-musicale/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/bulle-musicale/patchers",
-				"patcherrelativepath" : "../../../../bulle-musicale/patchers",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
