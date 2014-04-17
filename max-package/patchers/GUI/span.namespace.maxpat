@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,34 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgoncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgovercolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bgoveroncolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"bordercolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"borderoncolor" : [ 0.83767, 0.0, 0.0, 1.0 ],
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 3.0, 73.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 1.868851, 63.0, 23.0 ],
+					"rounded" : 0.0,
+					"text" : "refresh list",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoncolor" : [ 0.0, 0.572549, 0.811765, 1.0 ],
+					"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textoveroncolor" : [ 0.839216, 0.0, 0.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-43",
@@ -36,7 +64,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 72.5, 48.0, 18.0 ],
+					"patching_rect" : [ 3.0, 48.5, 48.0, 18.0 ],
 					"text" : "deferlow"
 				}
 
@@ -583,7 +611,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 3.0, 29.5, 32.0, 18.0 ],
+					"patching_rect" : [ 3.0, 27.5, 32.0, 18.0 ],
 					"text" : "sel 0"
 				}
 
@@ -614,7 +642,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 98.0, 29.5, 93.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 154.0, 0.868851, 172.0, 23.0 ],
+					"presentation_rect" : [ 202.0, 0.868851, 172.0, 23.0 ],
 					"text" : "namespace exploration",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -677,7 +705,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 47.666668, 237.75, 36.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.0, 4.368851, 37.0, 20.0 ],
+					"presentation_rect" : [ 73.0, 2.868851, 37.0, 20.0 ],
 					"text" : "root"
 				}
 
@@ -693,26 +721,6 @@
 					"outlettype" : [ "bang", "clear" ],
 					"patching_rect" : [ 3.0, 98.0, 199.666672, 18.0 ],
 					"text" : "t b clear"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 12.0,
-					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
-					"id" : "obj-12",
-					"items" : "<empty>",
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 47.666668, 217.75, 247.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 37.0, 4.368851, 86.0, 20.0 ],
-					"rounded" : 0,
-					"varname" : "categories"
 				}
 
 			}
@@ -777,6 +785,26 @@
 					"outlettype" : [ "", "", "clear", "bang" ],
 					"patching_rect" : [ 86.666664, 323.0, 86.0, 20.0 ],
 					"text" : "span.requests"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue Light Italic",
+					"fontsize" : 12.0,
+					"framecolor" : [ 0.0, 0.572549, 0.811765, 0.5 ],
+					"id" : "obj-12",
+					"items" : "<empty>",
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 47.666668, 217.75, 247.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 106.0, 2.868851, 86.0, 20.0 ],
+					"rounded" : 0,
+					"varname" : "categories"
 				}
 
 			}
@@ -992,6 +1020,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1163,7 +1200,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-43", 0 ]
@@ -1364,8 +1401,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Volumes/data/RENAUD/GITs/now/span/patchers",
-				"patcherrelativepath" : "..",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"patcherrelativepath" : "../requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
