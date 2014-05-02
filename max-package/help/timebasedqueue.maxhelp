@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 4,
+			"revision" : 7,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 565.0, 44.0, 475.0, 139.0 ],
+		"rect" : [ 562.0, 93.0, 393.0, 142.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -36,7 +36,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 200.0, 22.642212, 37.0, 18.0 ],
+					"patching_rect" : [ 145.0, 10.799713, 37.0, 18.0 ],
 					"text" : "clear"
 				}
 
@@ -51,7 +51,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 34.799713, 170.0, 42.0 ],
+					"patching_rect" : [ 222.0, 34.799713, 170.0, 42.0 ],
 					"text" : "simple abstraction to make a time based queue and limit your dataflow speed.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.58 ]
 				}
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 297.0, 10.799713, 147.0, 24.0 ],
+					"patching_rect" : [ 222.0, 10.799713, 147.0, 24.0 ],
 					"text" : "timebasedqueue",
 					"textcolor" : [ 0.0, 0.572549, 0.811765, 1.0 ]
 				}
@@ -79,20 +79,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 237.0, 22.642212, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-130",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 237.0, 101.0, 61.0, 20.0 ],
-					"text" : "print size"
+					"patching_rect" : [ 182.0, 10.799713, 20.0, 20.0 ]
 				}
 
 			}
@@ -104,8 +91,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 27.0, 101.0, 61.0, 20.0 ],
-					"text" : "print data"
+					"patching_rect" : [ 27.0, 101.0, 107.0, 20.0 ],
+					"text" : "print data delayed"
 				}
 
 			}
@@ -117,10 +104,10 @@
 					"id" : "obj-128",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 27.0, 65.0, 229.0, 22.0 ],
-					"text" : "timebasedqueue 1000"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 27.0, 65.0, 158.0, 22.0 ],
+					"text" : "timebasedqueue 2222"
 				}
 
 			}
@@ -173,15 +160,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-130", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-128", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-128", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -210,7 +188,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "timebasedqueue.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/span-package/clippings/span.misc",
+				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/clippings/span.misc",
 				"patcherrelativepath" : "../clippings/span.misc",
 				"type" : "JSON",
 				"implicit" : 1
