@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 532.0, 105.0, 458.0, 183.0 ],
+		"rect" : [ 3.0, 44.0, 458.0, 183.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -1022,133 +1022,133 @@
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
 				"name" : "span.preferences.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
+				"patcherrelativepath" : "../../../bulle musicale/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.init.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.getval.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
-				"patcherrelativepath" : "../patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
+				"patcherrelativepath" : "../../../bulle musicale/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "dict.dump.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.contains.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.getparam.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.eventplay.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.path.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jsproperties.js",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
+				"patcherrelativepath" : "../../../bulle musicale/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jspathtype.js",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/javascript",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jspathtype-recursive.js",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/javascript",
-				"patcherrelativepath" : "../javascript",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/bulle musicale/patchers",
+				"patcherrelativepath" : "../../../bulle musicale/patchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bangbasedqueue.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/misc/reno",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/misc/reno",
 				"patcherrelativepath" : "../misc/reno",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.requests.replace.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mappolytest2.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.param.dec.dyn.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/params",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/params",
 				"patcherrelativepath" : "../patchers/params",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.cuesheet.requests.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/requests",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/requests",
 				"patcherrelativepath" : "../patchers/requests",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.cuesheet.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
@@ -1162,28 +1162,28 @@
 			}
 , 			{
 				"name" : "span.events.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.paths.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.namespace.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "span.osc.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/span/max-package/patchers/GUI",
+				"bootpath" : "/Volumes/data/RENAUD/GITs/span/max-package/patchers/GUI",
 				"patcherrelativepath" : "../patchers/GUI",
 				"type" : "JSON",
 				"implicit" : 1
