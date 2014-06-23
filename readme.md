@@ -23,3 +23,4 @@ Even if this first (alpha) version is designed to work with Max 6 from Cycling74
 * *Written by Tom Mays & Renaud Rubiano - (2012-2013)*
 * *Produced by didascalie.net*
 * *Based on some parts of tapemovie (2006-2012)*
+* *span uses [shell] max external, made by Jeremy Bernstein*
