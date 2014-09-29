@@ -9,7 +9,7 @@ setoutletassist(0,"patcher filepath and more");
 function bang()
 {
 	if (max.isruntime == 1) 
-		outlet(0, max.apppath + "/")
+		outlet(0, max.apppath + "/Contents/")
 else
 	outlet(0, patcher.filepath)
 }
