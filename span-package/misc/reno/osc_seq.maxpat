@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 6,
-			"architecture" : "x86"
+			"revision" : 10,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -41,8 +41,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -362,8 +362,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
@@ -1017,8 +1017,8 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 6,
-							"architecture" : "x86"
+							"revision" : 10,
+							"architecture" : "x64"
 						}
 ,
 						"rect" : [ 248.0, 616.0, 1310.0, 285.0 ],
@@ -1263,7 +1263,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 469.0, 130.0, 143.0, 17.0 ],
-									"text" : "vari /cuesheet.1/step/next"
+									"text" : "var /cuesheet.1/step/next"
 								}
 
 							}
@@ -1557,7 +1557,7 @@
 									"destination" : [ "obj-28", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"midpoints" : [ 75.166664, 149.0, 18.0, 149.0 ],
+									"midpoints" : [ 75.166667, 149.0, 18.0, 149.0 ],
 									"source" : [ "obj-18", 1 ]
 								}
 
@@ -2017,16 +2017,9 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "vari.maxpat",
-				"bootpath" : "/Users/reno/Documents/GITs/video control/max package/patchers/old-lib",
-				"patcherrelativepath" : "../../../../video control/max package/patchers/old-lib",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "var.maxpat",
 				"bootpath" : "/Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
-				"patcherrelativepath" : "../../../../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
+				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/examples/max-tricks/send-receive-tricks/lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
