@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -56,7 +56,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 7,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -727,15 +727,15 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue Light Italic",
-					"fontsize" : 12.0,
+					"fontsize" : 9.0,
 					"frgb" : 0.0,
 					"id" : "obj-22",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.5, 511.666687, 190.0, 20.0 ],
+					"patching_rect" : [ 130.5, 511.666687, 190.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.048462, 47.690323, 441.0, 20.0 ]
+					"presentation_rect" : [ 5.048462, 47.690323, 441.0, 17.0 ]
 				}
 
 			}
